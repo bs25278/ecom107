@@ -1,0 +1,1014 @@
+Queen Mary University of London
+School of Economics & Finance
+Master’s Dissertation
+Investment and Finance
+Volatility in Financial Markets:
+Investigation of short-term volatility pattern in stock indices based on GARCH
+family models
+Supervisor: Dr Panagiotis Koutroumpis
+Submission date: 27 August 2019
+Submitted by: Sandro Emmanuel Gauch
+Student ID: 180165810
+s.e.gauch@hss18.qmul.ac.uk
+MSc. Investment and Finance
+Word count: 7,193
+Abstract
+Last year’s disproportional increase in financial markets’ volatility has emphasised once again
+the significance of risk management and asset allocation. Thus, modelling and detecting
+short-term volatility patterns have become indispensable for informed decision-making. The
+aim of this research is to obtain an adequate return series model with superior data fit and
+modelling capabilities to forecast short-term conditional volatility in stock markets. After
+identifying stationarity and ARCH effects in all three return series, further examinations have
+been conducted, assessing ARCH(1), GARCH(1,1), GARCH-M, and PARCH models with three
+criteria. Although the PARCH model demonstrated the highest data fit ability for all indices,
+with no contradictions of the underlying assessment criteria, it represented the weakest
+performance for heteroscedasticity removal. In opposition, the GARCH(1,1) model removed
+heteroscedasticity most effectively in two out of three indices. The most accurate one-month
+forecasting results have been obtained for the PARCH model with an exception for the Swiss
+Market Index. Further, all indices exhibited similarities in their volatility patterns, indicating
+volatility clustering and leverage effects through the attainment of ARCH, GARCH and
+leverage parameters, in line with economic developments.
+I
+Table of Contents
+1 Introduction ................................................................................................................... 1
+2 Literature review ............................................................................................................ 3
+3 Data ............................................................................................................................... 7
+3.1 Data description ............................................................................................................. 7
+3.2 Characteristics of the return series ................................................................................ 8
+3.2.1 Detecting stationarity ............................................................................................. 8
+3.2.2 Investigating structural breaks using Bai-Perron .................................................. 10
+3.2.3 Examining ARCH effects ........................................................................................ 12
+4 Methodology ................................................................................................................ 14
+4.1 GARCH model introduction .......................................................................................... 14
+4.2 The GARCH (p,q) and GARCH(1,1) model ..................................................................... 15
+4.3 The GARCH-M model ................................................................................................... 16
+4.4 The PARCH model ........................................................................................................ 17
+4.5 Model evaluation criteria ............................................................................................. 18
+5 Empirical results ........................................................................................................... 20
+5.1 Data fit comparison ...................................................................................................... 20
+5.2 ARCH effect removal .................................................................................................... 27
+5.3 Forecasting ................................................................................................................... 28
+6 Conclusion .................................................................................................................... 30
+7 References ................................................................................................................... 31
+8 Appendix ...................................................................................................................... 34
+II
+List of Tables
+Table 1: Stationarity detection with unit root tests ............................................................... 10
+Table 2: Bai-Perron multiple breakpoint test applying the global l method .......................... 12
+Table 3: ARCH effects with the Breusch-Pagan ARCH test ..................................................... 13
+Table 4: Data fit comparison for the SMI ............................................................................... 21
+Table 5: Data fit comparison for the SP100 ........................................................................... 23
+Table 6: Data fit comparison for the IBOV ............................................................................. 25
+Table 7: ARCH-LM test for heteroscedasticity removal ......................................................... 27
+Table 8: One-month forecasting error comparison ............................................................... 28
+III
+List of Figures
+Figure 1: Daily returns of the three indices from 2006 to the end of 2018 ............................. 8
+Figure 2: Comparison of SMI conditional variance graphs from 2006 to the end of 2018 .... 22
+Figure 3: Comparison of SP100 conditional variance graphs from 2006 to the end of 2018 . 24
+Figure 4: Comparison of IBOV conditional variance graphs from 2006 to the end of 2018 .. 26
+Figure 5: Volatility forecasts for the three indices for December 2018 ................................. 29
+IV
+1 Introduction
+The ability to model and predict volatility in financial markets has become an indispensable
+condition for practitioners, researchers and policymakers, since volatility implies both,
+opportunities and risks. Over the last year, excessively high volatility among all asset classes
+has been observed within financial markets. This occurrence can mainly be linked to political
+and economic incidents such as the long-lasting tariff negotiations between the US and China,
+Brexit and the forthcoming recession. The subsequent uncertainty among investors has
+triggered heavy fluctuations not only in equity markets but also in real estate, commodities
+and fixed income.
+Thus, especially under these market conditions, asset allocation, derivative pricing and the
+ability to model and forecast volatility have become crucial tasks in daily risk management.
+Since superior forecasting results into more adequate pricings of financial asset, it can
+significantly improve financial risk management. Consequently, it is important to not only
+understand the underlying investment risk but also produce accurate forecasts of the asset
+returns variance.
+Since short-run volatility can wipe out a substantial amount of an investor’s profits, it plays
+a crucial function for not only investment and risk managers but also other market
+participants, such as private individuals and policymakers. Hence, the anticipation of market
+fluctuations is necessary to determine effective investment strategies and therefore limit the
+potential risk exposure. This aim can mainly be achieved by accurate predictions of short-term
+volatility patterns, allowing investors to adjust their portfolios and shift their investments
+towards more defensive asset classes.
+Subsequently, a vast amount of literature from the last decades has described the ability
+to model and forecast conditional variances for numerous financial applications. The
+underlying development has paved the way for various modifications of well-established time
+series models, leading to consistent improvements in the models’ data fit and forecasting
+accuracy. Nonetheless, there is still no current consensus among researchers on the most
+appropriate model best suited to forecast volatility in stock markets.
+This paper contributes to the already existing literature in the field of time-series models
+by investigating three stock market indices differing in terms of geographic exposure. Since
+1
+the application of autoregressive conditional heteroscedasticity (ARCH) models usually
+requires higher-order lags to estimate conditional heteroscedasticity in time series more
+accurately, this research paper mainly focusses on the application of generalised ARCH
+(GARCH) family models in assessing data fit and forecasting accuracy. As the models consider
+two important specifications in stock markets – namely, volatility clustering and excess
+kurtosis – they are particularly advantageous for this research.
+The remainder of this paper is structured as follows. Section 2 offers a comprehensive
+review of the literature and its development. Subsequently, in Section 3, the underlying data
+set is analysed and investigated according to stationarity, structural breakpoints and ARCH
+effects. Section 4 provides a holistic picture of the methodology applied throughout this paper
+and outlines the assessment criteria used for model evaluation. Section 5 discusses the
+empirical results for the underlying models, and a conclusion is drawn in the last section of
+this research paper.
+2
+2 Literature review
+This section aims to aims to outline the most relevant past-to-present literature and its
+contribution to this paper. During the last decades, a vast amount of literature has explored
+different modelling approaches for financial return series.
+Mandelbrot (1963) introduced revolutionary statistical procedures to understand stock
+market behaviour, such as volatility clustering. Mandelbrot stressed the significance of
+including random variables to create a comprehensive picture of volatility patterns. Another
+economic phenomenon called the ‘leverage effect’ was discovered by Black (1976). It
+describes the non-symmetric reaction of uncertainty to both positive and negative disruptions
+in financial markets. These two key findings about the characteristics of return series have
+created a basis for future statistical models, allowing for the estimation and prediction of
+volatility.
+The above stated detection of volatility clustering has been incorporated by Engle (1982)
+for the first time. Engle suggested modelling conditional variance fluctuations over certain
+time periods and, to that end, introduced the ARCH process. The ARCH model permits the
+variance to rely on lagged periods of squared disturbance terms. Engle’s seminal paper has
+represented a cornerstone for countless further research papers and model alterations.
+Although the ARCH model is advantageous if volatility in stock return series varies less fast,
+it experiences difficulties in modelling higher-order ARCH. Bollerslev (1986) successfully
+solved these issues by introducing the GARCH model. It includes extra autoregressive terms
+and therefore allows for a more flexible lag structure. Numerous research papers have applied
+Bollerslev’s GARCH model and its different model specifications for further studies.
+For instance, Akgiray (1989) was a pioneer in applying GARCH models to compare
+forecasting accuracy and data fit ability among different models. That study analysed daily US
+stock market returns. Akgiray concluded that the most precise forecasting results and data fit
+were achieved by the GARCH(1,1) model, which delivered slightly better results compared to
+more simplistic volatility forecasting models.
+Further studies to examine the forecasting ability of random walk and GARCH models in
+stock indices have been conducted by McMillan et al. (2000), examining different volatility
+3
+frequencies for the FTSE100. The results indicate a slight but consistently superior
+performance by GARCH models. Additional evidence for the superior performance of
+GARCH(1,1) models has been provided by Brooks and Burke (1998) and Hansen and Lunde
+(2005), who predicted volatility in daily exchange rate returns for different currency pairs.
+Further research examining the estimation results of GARCH models during stock market
+crises has been conducted by Lim and Sek (2013). Their paper profoundly analyses volatility
+patterns in the Malaysian stock market during a 20-year period. To assess the accuracy of the
+forecasts three different error measurements have been applied, for instance the mean
+absolute error. Lim and Sek (2013) clearly stated that conventional GARCH and threshold
+GARCH (TGARCH) capture volatility best during pre-crises and GARCH works particularly well
+during the crises. A more recent investigation of different volatility patterns in stock markets
+has been conducted by Kambouroudis et al. (2016). In the contrary to Lim and Sek (2013),
+Kambouroudis et al. stated that it is not sufficient to solely use a simplistic GARCH model to
+obtain accurate estimation outputs. The study, including US and European indices over a
+twelve-year period, provides evidence that more precise forecasting results are obtained if an
+asymmetric GARCH model is applied, using both realized and implied volatility.
+As can be seen, there is no current consensus among researchers with respect to the
+consistent superior performance of GARCH models. For instance, Harry and Heynen (1994)
+conducted an in-depth analysis to predict volatility in financial markets, analysing returns of
+seven stocks and five currency pairs over a twelve-year period. Their paper states that superior
+model performance is strongly linked to the examined asset class, concluding that the
+GARCH(1,1) model only outperformed the other models for currencies. Thus, the authors
+confirmed the results of Hansen and Lunde (2005). A more recent study conducted by
+McMillan and Speight (2012) provides additional evidence for the more accurate forecasting
+capability of GARCH(1,1) models by analysing intra-daily EUR-USD, EUR-GDP and EUR-JPY
+exchange rates over a three-year period.
+However, GARCH models are applicable to measuring a model’s data fit and forecasting
+ability for not only stock markets and foreign exchange but also options and commodities. For
+instance, Kanniainen et al. (2014) analysed options on the S&P 500 Index to enhance the
+empirical performance of GARCH models. The study managed to reduce the error of the
+estimation results significantly and reconfirmed earlier results from Engle and Mustafa (1992).
+4
+Another model specification sharing almost the same properties as the GARCH(1,1) is the
+GARCH-in-mean (GARCH-M) model introduced by Engle et al. (1987). The augmented model
+incorporates an advantage in that the risk premium is no longer assumed to be constant, as
+in conventional GARCH models, but is directly connected to the risk in question. Chen et al.
+(2001) conducted a profound analysis of returns for four stock exchanges in China to
+investigate the predictability of volatility and the relationship between expected returns and
+risk. While the researchers stated a high predictability for uncertainty using GARCH models,
+they provided no evidence for a connection between expected returns and risk when applying
+the GARCH-M. These findings have been strongly supported by Lundblad (2007), who analysed
+over 100 years of US equity market data for relationship detection. In opposition to the
+previous two papers, the GARCH-M application of Abdalla and Winker (2012) provided
+evidence of a positive risk premium for the investigated stock markets in Egypt and Sudan,
+indicating a positive relationship between volatility and expected returns.
+Nevertheless, it is worth mentioning that the application of GARCH family models is not
+always the most appropriate approach for modelling high-frequency data. Pagan and Schwert
+(1990) applied alternative econometric models to the conventional GARCH family since they
+are not able to measure nonlinear returns in financial markets. To tackle this issue, Nelson
+(1991) extended the GARCH model to an exponential GARCH (EGARCH) model, which allows
+one to quantify the variance in asymmetric returns. The model has proven its enhanced data
+fit and forecasting capabilities according to numerous researchers. For instance, Alberg et al.
+(2008) investigated the model’s estimation results in the Tel Aviv Stock Exchange and provided
+evidence for the superior performance of EGARCH models as compared to GARCH models.
+Similar results comprising stock indices, have been found by the more recent researches of
+Dritsaki (2017) and Lin (2018), confirming the achievement of more accurate results for
+EGARCH(1,1) compared to GARCH(1,1) models.
+In fact, GARCH models are able to take volatility clustering and leptokurtosis into account
+but do not have the capability to capture leverage effects. To solve this issue, nonlinear
+amplifications of GARCH models have not only been introduced by the priory mentioned
+Nelson (1991) but also by Ding et al. (1993), who introduced the asymmetric Power ARCH
+(PARCH). A comprehensive study measuring the data fit and forecasting capabilities of PARCH
+models was conducted by Brooks (2007), who analysed a vast amount of different stock
+5
+markets around the globe over a 10-year period. Brooks’ results provide evidence that PARCH
+models generally perform well in emerging markets by examining asymmetric effects. An
+additional study by Degiannakis (2004) assessed the estimation results of PARCH models,
+among other models, by comparing the daily returns of three European indices. The analysis
+of Degiannakis identified that extended PARCH models provide the most accurate one-day-
+ahead results and therefore supported the findings of Giot and Laurent (2004), who applied
+the PARCH model for value-at-risk estimations of two US stock indices and two currency pairs.
+A more recent review of the literature on this topic was conducted by Thorlie et al. (2015),
+who investigated daily stock index returns of the S&P 500 from 2002 to 2012. The study
+provides additional evidence for the superior data fit and forecasting capabilities of PARCH
+models in comparison to the GARCH model and its different model specifications. Moreover,
+Thorlie et al. (2015) concluded that the most accurate results are obtained when a skewed
+student’s t-distribution is applied.
+This paper aims to contribute to the broad literature in the field of modelling and
+forecasting volatility in stock markets by analysing the volatility patterns of three stock indices
+with different model specifications of the ARCH and GARCH family.
+6
+3 Data
+This section describes the data set used in this research paper to analyse and forecast
+volatility. Moreover, the main characteristics of the return series are investigated to build a
+solid basis for the later model selections.
+3.1 Data description
+To increase the scope and accuracy of this study, three stock market indices from different
+regions around the globe are analysed, namely, the Swiss Market Index (SMI), the Standard &
+Poor 100 (SP100) and the Ibovspa Brasil Sao Paolo Stock Exchange Index (IBOV). The sample
+size for each index is based on daily closing prices between 1 January 2006 and 31 December
+2018 and have been gathered from Bloomberg.
+During the above time period, 3,263 observations for the SMI; 3,271 observations for the
+SP100; and 3,211 observations for the IBOV were collected. As the majority of the test
+procedures are conducted using log returns rather than prices, the data set is transformed as
+follows:
+𝑟 " = log(𝑝" ) − log (𝑝",-) (3.1)
+where 𝑝" represents the closing price of an index at time t and 𝑟 " signifies the return of an
+index. The return series of the three indices are depicted in Figure 1 (below).
+Switzerland’s blue-chip companies are represented by the SMI, the most important index
+in the country, which includes the 20 largest and most liquid stocks. Since the SMI represents
+a price index, it is not corrected for dividends. To capture the performance of large-cap
+companies in the US, the SP100 is applied. The SP100 is a subset of the well-known S&P 500
+index, consisting of 100 large-cap companies from a broad range of industries, representing a
+capitalisation-weighted index. Approximately 70% of the activity in Brazilian stock markets is
+captured by the major IBOV index, incorporating the 50 most liquid stocks from a wide range
+of industries. Moreover, it represents a weighted total return index and therefore dividends
+are treated as reinvestments.
+7
+The Swiss Market Index
+Figure 1: Daily returns of the three indices from 2006 to the end of 2018
+3.2 Characteristics of the return series
+This section investigates the return series characteristics of the three sample indices to create
+a framework for the development of volatility forecasting models.
+3.2.1 Detecting stationarity
+First, different unit root tests are conducted to check the series for stationarity. If a series is
+stationary in the long run, a mean-reverting process with constant variance can be observed,
+as shown in Figure 1. Moreover, stationarity in a return series reflects shocks inevitably
+8
+impermanent, due to the mean-reverting process in the long term. Additional evidence for
+stationarity can be provided by analysing a correlogram; the autocorrelation decreases to zero
+as the length of the lags is augmented (Asteriou and Hall, 2016). Nonetheless, the application
+of this technique can be misleading since an almost-stationary process can present nearly the
+same patterns (Asteriou and Hall, 2016).
+Subsequently, further unit root tests are required to provide definite evidence for the order
+of integration. The latter refers to the number of stages a nonstationary series requires to be
+differentiated into a stationary series. Thus, stationarity is present if the number of stages is
+zero. To enhance the test procedure, this paper uses the augmented Dickey-Fuller (ADF) test
+to remove autocorrelation between the error terms (Floros, 2004). The ADF test demands
+homoscedasticity and independent disturbance terms (Asteriou and Hall, 2016).
+Thus, a Phillips-Perron (PP) test is conducted to enhance the power of the results by using
+the Akaike information criterion (AIC) and correcting for t-statistics. Unlike the ADF test, the
+PP permits marginal changes in variance. The prior results can be approved by conducting a
+Kwiatkowski–Phillips–Schmidt–Shin (KPSS) test of the reverse hypothesis (Asteriou and Hall,
+2016). Typically, conventional models suggest that time series are stationary in the long run.
+However, in the short run, heteroscedasticity and, therefore, non-stationarity are expected.
+Simple statistical least-squared models demand the disturbance term to be constant over
+time. The latter, also known as homoscedasticity, is a condition of the classic linear regression
+model (CLRM), making standard financial models inappropriate for modelling volatility (Engle,
+2001).
+Therefore, models which are able to deal with changing volatility, such as ARCH family
+models, are required. As depicted in Figure 1, financial markets are often disrupted by periods
+of high uncertainty, and therefore their time series depict remarkably high volatility followed
+by calmer periods. Not only does the magnitude of volatility change but also intervals of
+excessive volatility are more likely to be concentrated and followed by intervals of higher
+volatility. This occurrence is called ‘volatility clustering’. The unconditional variance of the
+return series is used to forecast volatility in long term, whereas conditional variance facilitates
+the forecasting of the riskiness of an index (Gokbulut and Pekkaya, 2014, Asteriou and Hall,
+2016).
+9
+Unit root test results
+As mentioned above, different unit root tests are conducted to investigate the series for
+stationarity. All correlograms for the different return series show decreasing autocorrelation,
+indicating stationarity. Nevertheless, to provide definite evidence for the order of integration,
+additional tests are conducted. While the null hypothesis of the ADF and PP tests states a
+present unit root and therefore indicate non-stationarity, the reverse hypothesis of the KPSS
+test states no presence of a unit root and should support the prior findings.
+As depicted in Table 1 (below), it can clearly be stated that stationarity in the three series
+is detected. Since the t-statistic for the ADF and PP tests (without trend) is absolutely higher
+than the critical value of the 5% significance level, both tests reject the null hypothesis.
+Additionally, the KPSS test fails to reject that the series is stationary, due to a lower t-statistic
+in comparison to the corresponding critical values.
+Table 1: Stationarity detection with unit root tests
+As all conducted tests support the evidence for stationarity the data series shows a mean-
+reverting process with constant variance in the long run, implying that financial disruptions do
+not have any effect on the long run returns. These results support a further investigation for
+multiple breakpoint test, since the Bai-Perron test performs extraordinary well, with
+stationary time series with no trend.
+3.2.2 Investigating structural breaks using Bai-Perron
+To develop a more accurate data fit and to avoid modelling inaccuracies, Bai and Perron (1998)
+introduced a new method for the detection of multiple structural breaks. The method
+indicates unexpected fluctuations in the determined regression model parameter over the
+10
+entire time series. These structural breaks can be triggered by sudden changes in technology,
+politics or unexpected macroeconomic disruptions such as the financial crisis (Pesaran et al.,
+2006, Karanasos et al., 2018).
+The Bai-Perron process is mainly applied to linear-regression models, which are estimated
+by least squares and include no significant trend in their stationary time-series. (Papell et al.,
+2000) Moreover, the consistent model does not only capture pure structural changes but also
+investigates partial breaks, where a subset of parameters does not alter. Thus, increasing the
+degree of freedom (Bai and Perron, 1998).
+While, tests deliver a consistent estimate of the latest structural changes the model is
+particularly advantageous, since it permits for heteroscedasticity and autocorrelation in
+disturbance terms (Antoshin et al., 2008, Pesaran and Timmermann, 2002).
+Moreover, Bai-Perron conducted a sup-Wald test to investigate structural changes by
+restricting the distributions of it, and by computing the rate of convergence. While the testing
+procedure can be hinged on sequential testing or information criteria, this paper will focus on
+sequential testing. The process, examines the significance of the null hypothesis with 𝑙 breaks
+(e. g. zero breaks), against the alternative hypothesis of 𝑙+1 breaks (for instance one break)
+(Bai and Perron, 2003). This paper relies on the strong Global L breaks method with sequential
+estimation to detect further breakpoints (Pesaran and Timmermann, 2002).
+Hence, if significant structural breakpoints are detected, the time series should be split
+according to the explicit stated date to prevent forecasting errors and increase the accuracy
+of the testing procedures.
+Testing for structural breakpoints
+The Bai-Perron test using the global l method is conducted to investigate the return series of
+the different indices for structural breaks. As Table 2 (below) illustrates, the f-statistics are not
+statistically significant at the 5% level, as the corresponding critical values are lower for all
+tested breaks. Thus, failing to reject the null hypothesis implying that no breaks are
+significantly detected in the return series.
+11
+Table 2: Bai-Perron multiple breakpoint test applying the global l method
+Based on these results, the return series of the indices do not need to be split at a particular
+date. Hence, further statistical tests can be conducted without splitting the return series. For
+completeness, the closest potential breakpoints with the highest f-statistics are included in
+the above table.
+Together, the previous findings indicate a stationary time series which can be consistently
+modelled without splitting the data. Due to stationarity and the presence of constant variance
+in the long run, together with volatility clustering (discussed in the stationarity section), short-
+run conditional variance with heteroscedasticity is indicated.
+3.2.3 Examining ARCH effects
+Before ARCH models can be implemented, one must test the series for conditional
+heteroscedasticity by either investigating the scatterplot or, more precisely, conducting a
+Breusch-Pagan Lagrange multiplier (LM) test. To provide definite evidence for the presence of
+ARCH effects, this paper uses the ARCH-LM test (Asteriou and Hall, 2016). To detect changes
+in variance, an auxiliary regression (with a constant) on the residuals of the ordinary least-
+squared (OLS) mean equation can be run.
+To increase the robustness of the ARCH-LM test, a White test must be conducted. If
+autoregressive heteroscedasticity is detected, normal CLRMs, such as OLS, should not be
+employed. This is mainly due to the biased results of the coefficient matrix, resulting in invalid
+t-statistics. To solve this issue, one can apply ARCH models (Asteriou and Hall, 2016).
+12
+ARCH effects results
+Since previous findings strongly indicate the presence of ARCH effects, a Breusch-Pagan ARCH
+test is employed, using different lag lengths from 15 to 1. For simplicity reasons, not every lag
+between 15 and 1 is illustrated in Table 3. The results for the three indices are all statistically
+significant at the 1% level. Thus, the null hypothesis of no ARCH effects is rejected, as the f-
+statistics are significantly higher than the corresponding critical values.
+Table 3: ARCH effects with the Breusch-Pagan ARCH test
+Notably, the SMI represents a continuous increase in its f-statistics as the lag length
+decreases, indicating a strong dependency between the error terms. On the contrary, the
+Brazilian IBOV shows an increase in the f-statistics as the lags decrease before significantly
+dropping at one lag, representing the weakest ARCH effect. A similar pattern can be observed
+for the SP100, with the difference of a slight decrease from four lags to one lag.
+Hence, ARCH effects are present in every return series, although the degree differs
+between the lags. The latter is important since the detection of ARCH effects requires ARCH
+family models to model return series, rather than CLRMs, such as OLS.
+13
+4 Methodology
+The underlying section aims to describe appropriate statistical models with adequate
+forecasting abilities and a high data fit, based on the return-series characteristics detected in
+the previous section.
+4.1 GARCH model introduction
+One of the first developed models allowing for the presence of ARCH effects is Engle’s ARCH
+model. The model introduced in 1982, builds the basis for further GARCH model developments
+described throughout this paper. It proposes that the present variances at time t are affected
+by historical squared disturbance terms. Additionally, Engle recommended to compute the
+mean and variance of a series synchronously rather than separately, if there is uncertainty
+about the conditional variance being non-constant (Asteriou and Hall, 2016). A simple ARCH(1)
+model can be constructed by permitting the variance to rely on a single lag period of squared
+disturbance terms, and can be constructed as follows:
+𝜎"
+0 = 𝛾2 + 𝛾-𝑢",-
+0 (4.1)
+An ARCH(1) model states that if there was a large disruption in period (t-1), there is a great
+possibility for another disruption in time t, leading to a high disturbance term 𝑢" (since 𝑢" is
+squared, it needs to be a positive absolute number). Thus, implying that if 𝑢",-
+0 is high/low the
+following variance of 𝑢" will also be high/low. Therefore, a positive variance is necessarily
+connected with positive coefficient for 𝛾’s (Asteriou and Hall, 2016).
+However, the model does not necessarily need to rely only on a single lagged parameter
+and can therefore simply be augmented to an ARCH(q) model. This model is particularly
+advantageous if fluctuations in the series are expected to vary less fast in comparison to an
+ARCH(1) model (Asteriou and Hall, 2016). To retain the suitable model, ARCH models with
+different orders of integrations must be conducted and compared. This comparison can be
+reflected by simultaneously plotting the divergent conditional variance grids (Asteriou and
+Hall, 2016).
+Despite the advantage of the ARCH(q) model stated above, complications often occur when
+it is modelled. This is mainly due to the regular attainment of non-positive estimates for 𝛾5
+14
+(4.2)
+coefficients when a higher order of integration is applied. Furthermore, a major weakness of
+the ARCH process regarding Engle was that the pattern is more similar to a moving average
+than to an autoregression (Asteriou and Hall, 2016).
+4.2 The GARCH (p,q) and GARCH(1,1) model
+In 1986, Bollerslev addressed the above stated issues by introducing GARCH model. The
+augmented ARCH model permits especially a higher flexibility for the lag construction without
+the attainment of non-positive estimates for 𝛾5s. In addition to the more dynamic lag
+structure, Bollerslev integrated to the ARCH(q) process higher order conditional variance
+terms as autoregressive terms. This is particularly advantageous, allowing for a kind of
+adaptive learning mechanism (Asteriou and Hall, 2016, Bollerslev, 1986). The elemental
+GARCH(𝑝,𝑞) model can be represented as follows:
+𝑌 " = 𝛼 + 𝛽′𝑋" + 𝑢" 𝑢" |Ω" ~ 𝑖𝑖𝑑 𝑁(0, 𝜎"
+0)
+G
+0
+𝜎"
+0 = 𝛾2 + D 𝛿F 𝜎",-
+FH-
+J
+0
++ D 𝛾 I 𝑢",I
+IH-
+where 𝑌 " represents the mean and 𝜎"
+0 the variance equation. The variance scaling parameter
+(𝜎"
+0) does not only rely on the historical value of disruptions (as in ARCH), but also on the
+previous values of itself. The latter is expressed by lagged terms (𝜎",-
+0 ) with the GARCH
+parameter 𝛿F , whereas the historical value of the disruptions is represented by the lagged
+squared residuals (𝑢",I
+0 ), with ARCH the parameter 𝛾 I. Hence, a GARCH model can
+uncomplicatedly be abbreviated to a classic ARCH(q) model if 𝑝 is set equal zero. By
+additionally setting 𝑞 to 𝑝 equal zero, white noise of the disturbance term is achieved
+(Asteriou and Hall, 2016, Bollerslev, 1986).
+The most uncomplicated form of GARCH(𝑝, 𝑞) is the GARCH(1,1) model with 𝑝=1 and 𝑞=1.
+The model’s variance equation has the following form:
+𝜎"
+0 = 𝛾2 + 𝛿-𝜎",-
+0 + 𝛾-𝑢",-
+0 (4.4)
+this particular form of GARCH(1,1) performs exceptionally well and is additionally
+uncomplicated to estimate, since there is only a limited number of unspecified parameters,
+(4.3)
+15
+namely 𝛾2, 𝛾-,𝛿-. Therefore, the loss of degree of freedom can be limited (Asteriou and Hall,
+2016).
+To provide evidence that the GARCH(1,1) model is an equivalent to the infinite ARCH(𝑞)
+process, with geometrically diminishing coefficients the equation (4.4) is modified using a
+uncomplicated substitution procedure, stated as follows:
+𝜎"
+0 = 𝛾2 + 𝛿-𝜎",-
+0
+0 + 𝛾-𝑢",-
+= 𝛾2 + 𝛿(𝛾2 + 𝛿𝜎",0
+0 + 𝛾-𝑢",0
+0
+0 ) + 𝛾-𝑢",-
+…
+=
+M
+𝛾2
+0
+1 − 𝛿 + 𝛾- D 𝛿I,-𝑢",I
+NH-
+(4.5)
+therefore, solving the issue of higher order ARCH(q) by preventing the estimated 𝛾5
+coefficients of becoming negative (Asteriou and Hall, 2016). Thus, enhancing the performance
+of the model. It might be true that according to literature the GARCH(1,1) is the best
+performing model, however, to obtain robust results it is still strongly recommended
+conducting comparisons between different order GARCH(𝑝, 𝑞) models and the ARCH model
+(Asteriou and Hall, 2016).
+4.3 The GARCH-M model
+Another alteration to the basic GARCH(𝑝, 𝑞) model discussed in this paper is the GARCH-M.
+This model is taken into consideration because of two main benefits in comparison to the
+classic GARCH family. Firstly, traditional GARCH models require a stable average premium for
+the risk taken into account, whereas the modified GARCH-M model loosens this restriction.
+Moreover, the GARCH-M is a generalisation of the conventional models and therefore permits
+to test their validity rather than assuming their correctness (Elyasiani and Mansur, 1998).
+The adjusted model incorporates the advantage that it permits the conditional mean to
+rely on its individual conditional variance. Therefore, the risk premium is not assumed
+constant anymore, as in the conventional GARCH models, but is directly connected to the risk
+in question. The augmented model measures uncertainty within financial markets with
+16
+volatility (Asteriou and Hall, 2016). Thus, it can be described in the conditional mean function,
+as follows:
+(4.7)
+𝑌 " = 𝛼 + 𝛽O𝑋" + θ𝜎"
+0 + 𝑢" (4.6)
+𝑢" |Ω" ~ 𝑖𝑖𝑑 𝑁(0, 𝜎"
+0)
+G
+0
+𝜎"
+0 = 𝛾2 + D 𝛿F 𝜎",F
+FH-
+J
+0
++ D 𝛾 I 𝑢",I
+IH-
+The GARCH-M model allows different specifications. In the following equation risk is
+captured by standard deviation instead of variance.1 Since both equations share the same
+properties only the mean equation is expressed below:
+𝑌 " = 𝛼 + 𝛽O𝑋" + θQ𝜎"
+0 + 𝑢" (4.8)
+The persistence in disruptions to risk and therefore to volatility is a highly important
+determinant for the connection between returns and risk. Just long-lasting shocks have an
+influence on the returns. Thus, in comparison to the classis models, the GARCH-M model is
+the most appropriate model encompassing the relationship between risk and return. Hence,
+it is typically used for asset-pricing models like the Capital Asset Pricing Models (CAPM)
+(Asteriou and Hall, 2016, Elyasiani and Mansur, 1998).
+4.4 The PARCH model
+A new model has been introduced in 1993 by Ding. at all. to resolve two insufficient
+assumption made by conventional models discussed earlier in this paper. The Monte Carlo
+study has provided evidence that ARCH family is able to encompass specific moments of
+autocorrelation in financial market returns. The latter property is also captured by the GARCH
+model invented by Bollerslev and its specification introduced by Taylor and Schwert (Ding et
+al., 1993).
+The GARCH model by Bollerslev relies on the hypothesis that there is a direct linear
+connection between conditional variance and higher order squared returns, whereas the
+model by Taylor and Schwert addresses an equivalent assumption but with the difference of
+1 For completeness, both variants of the GARCH-M model are discussed, however testes are conducted using the standard
+deviation approach.
+17
+absolute lagged returns instead of squared ones. Ding et al. (1993) scrutinized these two
+assumptions and therefore introduced the PARCH model to loosen the mentioned
+restrictions.
+(4.9)
+However, the model does not only resolve these issues. While conventional models assume
+normally distribution of the data set – which can be examined studying the Histogram with
+the Jarque-Berra probability – the PARCH model does not require a normal distributed data
+series to efficiently model and forecast returns. For instance, high frequency data is often non-
+normally distributed (Brooks et al., 2000). Thus, the PARCH model tackles this issue by using a
+broader variety of power transformations, expressed with 𝜋 in the equation below:
+𝑢" = 𝜎"𝑒", 𝑤ℎ𝑒𝑟𝑒 𝑒" ~ 𝑁(0,1) ,
+G
+J
+V
+𝜎"
+V = 𝛾2 + D 𝛾 I (W𝑢",IW − 𝜆I 𝑢",I )V + D 𝛿F 𝜎",F
+IH-
+FH-
+,
+𝛾2 > 0, 𝜋 ≥ 0, 𝛾 I ≥ 0, 𝑗 = 1, … , 𝑝,
+−1 < 𝜆I < 1, 𝑗 = 1, … , 𝑝,
+𝛿F ≥ 0, 𝑖 = 1, … , 𝑞.
+where 𝛾 I represents the ARCH and 𝛿F the GARCH term. The leverage effect is expressed by the
+variable 𝜆I while PARCH’s power term is indicated by 𝜋 (Brooks et al., 2000).
+Literature strongly underlines the advantages of using PARCH in specific situations where
+the presence of a leverage effects in return series is discovered (Brooks et al., 2000). The
+leverage effect describes the non-symmetric reaction of uncertainty to both, positive as well
+as negative disruptions in financial markets. Thus, implying a negative correlation between
+fluctuations in volatility and stock market returns. In fact, augmented the PARCH models are
+the most precise models to forecast volatility one-day ahead (Degiannakis, 2004, Ding et al.,
+1993).
+4.5 Model evaluation criteria
+To assess the data fit ability for the ARCH, GARCH and PARCH models, this paper applies the
+AIC and the logarithm-likelihood (log-likelihood) criterion. For the AIC criterion, an absolute
+higher value indicates a more accurate data fit, while the log-likelihood criterion is applied to
+18
+compare coefficients’ fit among different models. Further, the underlying models are assessed
+according to their ARCH effect removal abilities, with an absolute smaller f-statistic indicating
+increased ability to remove heteroscedasticity.
+An additional evaluation method used in this paper is measuring the preciseness of a
+model’s forecast. To assess a model’s forecasting ability, the Mean-Absolute Error (MAE) is
+applied. The underlying criterion simply measures the difference between the actual observed
+and the forecasted variance in absolute terms. For simplicity’s sake, the conditional variance
+is replicated using squared returns as a proxy (Yu, 2002). The underlying formula is expressed
+as follows:
+"
+1
+`
+𝑇 D[|𝜎
+0
+"
+− 𝑟 "
+0|]
+"H-
+(4.10)
+`
+where 𝜎
+"
+0 represents the forecasted variance and 𝑟 "
+0 the squared returns. Applying the MAE
+criterion provides an unambiguous picture and does not give relatively high emphasis to large
+errors such as the root-mean-squared error (RMSE). Since errors are not squared, outliers
+have less of an effect on the estimation outputs (Willmott and Matsuura, 2005). Moreover, to
+the MAE criterion a visual comparison is conducted, by evaluating the different volatility
+patterns.
+19
+5 Empirical results
+This section endeavours to identify an adequate return series model for modelling and
+forecasting conditional volatility in stock markets. Furthermore, the three models fitting the
+data best are further investigated according to their forecasting ability and ARCH effect
+removal potential.
+5.1 Data fit comparison
+A model comparison is conducted using data fit criteria such as the AIC and log-likelihood
+criterion. The highest absolute value of the AIC indicates the strongest data fit. To provide
+additional evidence, the log-likelihood criterion is applied to compare the coefficients’ fit for
+the different models. The criterion should not be employed in isolation.
+The following three tables (4, 5 and 6) compare four models applied to an index. The tables
+used for the comparison include not only data fit criteria but also the models’ coefficients and
+the corresponding z-statistics.
+The Swiss Market Index
+First, the SMI is analysed. It is important to state that all coefficients in Table 4 are statistically
+significant at the 1% level. The table strongly indicates that the PARCH model fits the data
+best, since the AIC represents the absolute highest value. This finding is supported by the
+greatest log-likelihood criterion. According to these two criteria the best performing model is
+followed by the GARCH-M model, which is just slightly better fitting the data as the
+GARCH(1,1) model.
+The ARCH model clearly showed the weakest data fit ability with respect to the AIC and log-
+likelihood criterion compared to the others. This outcome aligns with the literature since ARCH
+models often experience difficulties in delivering negative coefficients for 𝛾s as the order of
+integration increases. In contrast, GARCH models do not suffer from this issue. This has priory
+been demonstrated in Section 3, using the ARCH effect test. Thus, the three most
+advantageous models for the SMI are the PARCH, GARCH-M and GARCH(1,1) models.
+20
+Table 4: Data fit comparison for the SMI
+For clarification, the depicted coefficients for the best-fitting PARCH model are stated in
+the formula below, as previously discussed in the methodology:
+(4.9)
+G
+J
+V
+𝜎"
+V = 𝛾2 + D 𝛾 I (W𝑢",IW − 𝜆I 𝑢",I )V + D 𝛿F 𝜎",F
+IH-
+FH-
+where 𝛾 I represents the ARCH and 𝛿F the GARCH term. The leverage effect is expressed by the
+variable 𝜆I , while the PARCH’s power term is indicated by 𝜋. Focusing on the coefficients, the
+GARCH(1,1) and GARCH-M models not only perform similarly in terms of the AIC and log-
+likelihood criterion but also feature highly similar coefficients. This occurrence is linked to the
+almost identical estimation process applied by these two models.
+Taking the PARCH model into consideration, it becomes evident that the number of
+coefficients exceeds that of the other models, as the PARCH model also considers leverage
+effects and creates an additional ‘power-term’ coefficient.
+21
+Thus, the presence of leverage effects might be a reason for the PARCH model’s superior
+data fit ability compared to other models. The literature strongly underlines the advantages
+of using the PARCH model in specific situations in which leverage effects in return series are
+discovered and taken into account.
+These findings are captured in the conditional variance graphs depicted in Figure 2 (below).
+Since the GARCH(1,1) and GARCH(M) models display almost identical patterns, the model
+fitting the data best (PARCH) is described. After a short period of fluctuations, extensive
+volatility is detected from mid-2008 to early 2009 and can be directly linked to the financial
+crisis. Thereafter, the sovereign debt crisis caused uncertainty in financial markets and
+triggered extensive volatility during 2011, leading to the second-highest peak in volatility. The
+SMI experienced a shock at the beginning of 2015, mainly due to regulatory actions of the
+Swiss National Bank, which discontinued the policy of pegging the Swiss franc to the euro.
+Figure 2: Comparison of SMI conditional variance graphs from 2006 to the end of 2018
+22
+Further fluctuations occurred around 2016 and can mainly be linked to the Brexit vote and
+the unexpected election of President Trump. Moreover, the PARCH model clearly indicates
+less volatility than the GARCH(1,1) and GARCH-M models.
+The American SP100
+Considering the American SP100 index in Table 5, a similar pattern can be observed. As before,
+the PARCH model fits the data series best, since the AIC and log-likelihood criteria state the
+absolute highest values. The GARCH-M model’s data fit capability is slightly higher again than
+that of the GARCH(1,1), according to the two criteria.
+Table 5: Data fit comparison for the SP100
+A possible reason for this consistent result might be that the model permits the conditional
+mean to rely on its individual conditional variance. Therefore, the risk premium is not assumed
+to be constant anymore, as in the conventional GARCH models, but is directly connected to
+the risk in question. Additionally, the literature suggests that it is the most appropriate model
+encompassing the relationship between risk and return. Moreover, positive and significate
+ARCH and GARCH parameters can be observed at 1% level, indicating the presence of volatility
+23
+clustering while the significant leverage term strongly points towards prevailing leverage
+effects.
+Figure 3: Comparison of SP100 conditional variance graphs from 2006 to the end of 2018
+The SP100 also indicates a certain similarity to the SMI in terms of the constant
+underperformance of the ARCH(1) model according to the AIC and log-likelihood criterion.
+This outcome is in line with the literature previously discussed in the methodology.
+The same findings are represented in the conditional variance graphs in Figure 3. As
+compared to the SMI, the SP100 experienced visibly higher volatility during the financial crisis.
+A similar pattern for the sovereign debt crises can be observed; these events caused almost
+the same level of uncertainty seen in the SMI. The unexpected election of President Trump
+triggered slightly higher volatility than that seen in the SMI due to the different geographical
+exposure. The slightly lower volatility spikes in 2018 can mainly be explained by tariff
+negotiations between the US and China.
+24
+The Brazilian IBOV
+Continuing the analysis with the IBOV index (Table 6) reveals that the PARCH clearly shows
+superior data fit abilities compared to the other models yet again. However, the PARCH
+model’s 𝛾2 coefficient is not statistically significant for the first time. Nevertheless, a familiar
+pattern can be observed in the marginally superior performance of the GARCH-M model
+relative to the GARCH(1,1), as both the log-likelihood criterion and AIC are higher in absolute
+terms and do not contradict each other.
+Parallel to the results for the other two indices, the AIC suggests that the ARCH(1) model is
+the weakest in terms of data fit ability. These results are additionally supported by the fact
+that the log-likelihood criterion values are the lowest for this model.
+Table 6: Data fit comparison for the IBOV
+Hence, the main findings elaborated in this section strongly align with the literature. The
+PARCH model consistently outperforms the other models for all indices. A potential reason for
+this outcome is the presence of leverage effects since that model takes these into
+consideration. As the evaluation criteria do not contradict each other at any point, the GARCH-
+25
+M model fits the data slightly better than the GARCH(1,1) model, although the margins
+between the applied criteria are extremely narrow. As suggested by the literature, the ARCH
+models consistently underperform. This outcome can be directly linked to the lower
+performance of higher-order ARCH moments.
+Figure 4: Comparison of IBOV conditional variance graphs from 2006 to the end of 2018
+The previous findings are supported by the conditional variance graphs in Figure 4. In
+comparison to the priory described indices, the Brazilian IBOV indicates higher level of
+uncertainty for the financial crises. Additionally, the Brazilian index is the only index that
+suffered excess volatility during 2017. This strong disruption mainly derived from corruption
+accusations against the Brazilian President Temer, which led to great uncertainty among
+investors. A volatility pattern similar to that of the other indices can be observed for the
+sovereign debt crisis in 2011.
+26
+5.2 ARCH effect removal
+After identifying the three models best fitting the data, an ARCH LM test is conducted. This
+test is especially important since these models, unlike CLRMs, allow heteroscedasticity. The
+following test procedure provides an additional criterion for identifying a favourable model
+for forecasting.
+Table 7: ARCH-LM test for heteroscedasticity removal
+Table 8: One-month forecasting error comparisonTable 9: ARCH-LM test for
+heteroscedasticity removal
+Table 7 indicates that the f-statistics are all not statistically significant since the
+corresponding p-values are higher 5%. Therefore, the null hypothesis stating that no ARCH
+effects are present in the indices’ return series is not rejected. Hence, prevailing ARCH effects
+are successfully removed by all models.
+At first glance, one notes that in contrast to the previous results, the PARCH model has the
+highest f-statistics for all indices and is therefore less effective in removing the ARCH effects
+than the GARCH(1,1) and GARCH-M models. The latter model most successfully removes
+heteroscedasticity for the SP100, while the GARCH(1,1) model performs extraordinarily well
+for the SMI and the IBOV indices, delivering the lowest f-statistics. Hence, the GARCH(1,1)
+model removes heteroscedasticity most efficiently and represents the best model, in
+opposition to the previous findings.
+27
+5.3 Forecasting
+After identifying the models best fitting the data and removing heteroscedasticity most
+efficiently, the paper now investigates the models’ forecasting performance. To assess the
+results obtained from the underlying testing procedure, the paper uses the MAE criterion.
+Since the criterion implies an error, the lowest output is preferred. For the variance
+forecasting procedure, the volatility of the last month in 2018 is estimated with the underlying
+models and compared to the real variance outputs.
+Table 8: One-month forecasting error comparison
+Table 10: One-month forecasting error comparison
+Analysing Table 8 illustrates that the PARCH model delivers the most accurate forecasting
+results for the SP100 and the Brazilian IBOV, as it yields the lowest MAE. This finding is
+completely in line with the results obtained from the data fit analysis, although the model was
+the least efficient in the ARCH removal comparison.
+However, the GARCH (1,1) consistently underperformed the other two models in the data
+fit comparison but delivers more precise forecasting outputs for the SMI. The SMI is the only
+index for which the GARCH(1,1) model’s forecasting abilities exceed those of the GARCH-M
+model. Moreover, the GARCH(1,1) demonstrates a strong ability to remove heteroscedasticity
+for not only the SMI but also the IBOV. Overall, all three models produce respectable
+forecasting results, as a relatively small MAE is obtained. Additionally, the best performing
+model for each index is visualised in Figure 5.
+28
+GARCH(1,1) forecast Swiss Market Index
+0.0012
+Conditional Variance
+0.0008
+0.0004
+0.0000
+03.12 05.12 07.12 09.12 11.12 13.12 15.12 17.12 19.12 21.12 23.12 25.12 27.12
+Realised Volatility Forecasted Volatility Linear (Realised Volatility)
+PARCH forecast Brazilian IBOV
+0.0009
+Conditional Variance
+0.0006
+0.0003
+0.0000
+03.12 05.12 07.12 09.12 11.12 13.12 15.12 17.12 19.12 21.12 23.12 25.12 27.12
+Realised Volatility Forecasted Volatility Linear (Realised Volatility)
+PARCH forecast American SP100
+Conditional Variance
+0.0024
+0.0016
+0.0008
+0.0000
+03.12 05.12 07.12 09.12 11.12 13.12 15.12 17.12 19.12 21.12 23.12 25.12 27.12 29.12 31.12
+Realised Volatility Forecasted Volatility Linear (Realised Volatility)
+Figure 5: Volatility forecasts for the three indices for December 2018
+29
+6 Conclusion
+This paper has sought to identify an adequate return series model for modelling and
+forecasting conditional volatility in stock markets. Since stationarity and ARCH effects have
+been detected in the three stock return series, conventional CLRMs cannot deliver accurate
+results. Thus, this research focussed on the more appropriate ARCH and GARCH family models,
+namely, the ARCH(1), GARCH(1,1), GARCH-M and PARCH models.
+Consequently, these models were closely examined according to their data fit ability, with
+the best three models further investigated in terms of their heteroscedasticity removal and
+one-month forecasting capabilities. For all indices, the PARCH model fit the data best
+according to the AIC and log-likelihood criterion. Notably, these two criteria did not once
+contradict each other, therefore increasing the collective robustness of the findings. As
+suggested by the literature, the ARCH(1) model clearly underperformed all other models in its
+data fit. Further ARCH-LM tests demonstrated the successful removal of heteroscedasticity in
+the return series for all models. However, in opposition to the previous results, the PARCH
+model clearly produced the weakest results, while the GARCH(1,1) model removed
+heteroscedasticity most effectively in two of the three indices. Considering these results, the
+evaluation of the models’ forecasting ability yielded findings similar to those of the data fit
+analysis, as illustrated by the PARCH model’s superior forecasting results for all indices, except
+for the SMI; for that index, the GARCH(1,1) model delivered more accurate results. Moreover,
+significant leverage parameters implied prevailing leverage effects in all indices, while the
+presence of volatility clustering was indicated through ARCH and GARCH parameters. Based
+on the modelled volatility pattern, the SMI exhibited the smallest fluctuations, while the
+Brazilian IBOV displayed the greatest magnitude, in line with major economic developments.
+This research contributes to the literature on time series modelling and forecasting.
+Although a potential pattern has been detected, the robustness of the results should be
+further enhanced by applying the underlying test procedures to a broader variety of indices.
+30
+7 References
+Abdalla, S. Z. S. & Winker, P. 2012. Modelling stock market volatility using univariate GARCH
+models: Evidence from Sudan and Egypt. International Journal of Economics and
+Finance, 4.
+Akgiray, V. 1989. Conditional heteroscedasticity in time series of stock returns: Evidence and
+forecasts. The Journal of Business, 62, 55-80.
+Alberg, D., Shalit, H. & Yosef, R. 2008. Estimating stock market volatility using asymmetric
+GARCH models. Applied Financial Economics, 18, 1201-1208.
+Antoshin, S., Berg, A. & Souto, M. 2008. Testing for structural breaks in small samples. Working
+Paper, International Monetary Fund, 75.
+Asteriou, D. & Hall, S. G. 2016. Applied Econometrics, Palgrave.
+Bai, J. & Perron, P. 1998. Estimating and testing linear models with multiple structural changes.
+Econometrica, 66, 47-78.
+Bai, J. & Perron, P. 2003. Computation and analysis of multiple structural change models.
+Journal of Applied Econometrics, 18, 1-22.
+Black, F. 1976. Studies of stock market volatility changes. Proceedings of the American
+Statistical Association, Business and Economics Statistics Section, 177-181.
+Bollerslev, T. 1986. Generalized autoregressive conditional heteroskedasticity. Journal of
+Econometrics, 31, 307-327.
+Brooks, C. & Burke, S. P. 1998. Forecasting exchange rate volatility using conditional variance
+models selected by information criteria. Economics Letters, 61, 273-278.
+Brooks, R. 2007. Power arch modelling of the volatility of emerging equity markets. Emerging
+Markets Review, 8, 124-133.
+Brooks, R. D., Faff, R. W., Mckenzie, M. D. & Heather, M. 2000. A multi-country study of power
+ARCH models and national stock market returns. Journal of International Money and
+Finance, 19, 377–397.
+Chen, G.-M., Lee, C. F. & Rui, O. M. 2001. Stock returns and volatility on China’s stock market.
+The Joumal of Financial Research, 24, 523-543.
+Degiannakis, S. 2004. Volatility forecasting: Evidence from a fractional integrated asymmetric
+power ARCH skewed-t model. Applied Financial Economics, 14, 1333-1342.
+Ding, Z., Granger, C. W. J. & Engle, R. F. 1993. A long memory property of stock market returns
+and a new model. Journal of Empirical Finance, 1, 83-106.
+Dritsaki, C. 2017. An empirical evaluation in GARCH volatility modeling: Evidence from the
+Stockholm Stock Exchange. Journal of Mathematical Finance, 07, 366-390.
+31
+Elyasiani, E. & Mansur, I. 1998. Sensitivity of the bank stock returns distribution to changes in
+the level and volatility of interest rate: A GARCH-M model. Journal of Banking &
+Finance, 22, 535-563.
+Engle, R. F. 1982. Autoregressive conditional heteroscedasticity with estimates of the variance
+of United Kingdom inflation. Econometrica, 50, 987-1007.
+Engle, R. F. 2001. GARCH 101: The use of ARCH/GARCH models in applied econometrics.
+Journal of Economic Perspectives, 15, 157-168.
+Engle, R. F., Lilien, D. M. & Robins, R. P. 1987. Estimating time varying risk premia in the term
+structure: The Arch-M model. Econometrica, 55, pp. 391-407.
+Engle, R. F. & Mustafa, C. 1992. Implied ARCH models from options prices. Journal of
+Econometrics 52, 289-311.
+Floros, C. 2004. Stock returns and inflation in Greece. Euro-American Association of Economic
+Development, 4.
+Giot, P. & Laurent, S. 2004. Modelling daily Value-at-Risk using realized volatility and ARCH
+type models. Journal of Empirical Finance, 11, 379-398.
+Gokbulut, R. I. & Pekkaya, M. 2014. Estimating and forecasting volatility of financial markets
+using asymmetric GARCH models: An application on Turkish financial markets.
+International Journal of Economics and Finance, 6.
+Hansen, P. R. & Lunde, A. 2005. A forecast comparison of volatility models: Does anything beat
+a GARCH(1,1)? Journal of Applied Econometrics, 20, 873-889.
+Harry, K. M. & Heynen, R. C. 1994. Volatility prediction: A comparison of the stochastic
+volatility, GARCH(1,1) and Egarch(1,1) models. Journal of Derivatives, 2.
+Kambouroudis, D. S., Mcmillan, D. G. & Tsakou, K. 2016. Forecasting stock return volatility: A
+comparison of GARCH, implied volatility, and realized volatility models. Journal of
+Futures Markets, 36, 1127-1163.
+Kanniainen, J., Lin, B. & Yang, H. 2014. Estimating and using GARCH models with VIX data for
+option valuation. Journal of Banking & Finance, 43, 200-211.
+Karanasos, M., Menla Ali, F., Margaronis, Z. & Nath, R. 2018. Modelling time varying volatility
+spillovers and conditional correlations across commodity metal futures. International
+Review of Financial Analysis, 57, 246-256.
+Lim, C. M. & Sek, S. K. 2013. Comparing the performances of GARCH-type models in capturing
+the stock market volatility in Malaysia. Procedia Economics and Finance, 5, 478-487.
+Lin, Z. 2018. Modelling and forecasting the stock market volatility of SSE Composite Index
+using GARCH models. Future Generation Computer Systems, 79, 960-972.
+32
+Lundblad, C. 2007. The risk return tradeoff in the long-run: 1836-2003. Journal of Financial
+Economics, 85, 123-150.
+Mandelbrot, B. 1963. New methods in statistical economics. Journal of Political Economy, 71,
+421-440.
+Mcmillan, D., Speight, A. & Apgwilym, O. 2000. Forecasting UK stock market volatility. Applied
+Financial Economics, 10, 435-448.
+Mcmillan, D. G. & Speight, A. E. H. 2012. Daily FX volatility forecasts: Can the GARCH(1,1)
+model be beaten using high-frequency data? Journal of Forecasting, 31, 330-343.
+Nelson, B. D. 1991. Conditional heteroskedasticity in asset returns: A new approach.
+Econometrica, 59, 347-370.
+Pagan, A. R. & Schwert, G. W. 1990. Alternative models for conditional stock volatility. Journal
+of Econometrics, 45, 267-290.
+Papell, D. H., Murray, C. J. & Ghiblawi, H. 2000. The structure of unemplyment. The Review of
+Economics and Statistics, 82, 309–315.
+Pesaran, H. M., Pettenuzzo, D. & Timmermann, A. 2006. Forecasting time series subject to
+multiple structural breaks. Review of Economic Studies, 73, 1057-1084.
+Pesaran, M. H. & Timmermann, A. 2002. Market timing and return prediction under model
+instability. Journal of Empirical Finance, 9, 495–510.
+Thorlie, M. A., Song, L., Amin, M. & Wang, X. 2015. Modeling and forecasting of stock index
+volatility with APARCH models under ordered restriction. Statistica Neerlandica, 69,
+329-356.
+Willmott, C. J. & Matsuura, K. 2005. Advantages of the mean absolute error (MAE) over the
+root mean square error (RMSE) in assessing average model performance. Climate
+Research, 30, 79-82.
+Yu, J. 2002. Forecasting volatility in the New Zealand stock market. Applied Financial
+Economics, 12, 193-202.
+33
+8 Appendix
+Histogram SMI
+400
+350
+300
+250
+200
+150
+100
+50
+0
+4500 5000 5500 6000 6500 7000 7500 8000 8500 9000 9500
+Histogram SP100
+500
+400
+300
+200
+100
+0
+300 400 500 600 700 800 900 1000 1100 1200 1300
+Histogram IBOV
+350
+300
+250
+200
+150
+100
+50
+0
+30000 40000 50000 60000 70000 80000 90000
+34
+Series: PRICE
+Sample 1/02/2006 12/28/2018
+Observations 3263
+Mean 7666.802
+Median 7978.960
+Maximum 9611.610
+Minimum 4307.670
+Std. Dev. 1241.540
+Skewness -0.454689
+Kurtosis 1.990193
+Jarque-Bera 251.0713
+Probability 0.000000
+Series: PRICE
+Sample 1/03/2006 12/31/2018
+Observations 3271
+Mean 749.0350
+Median 679.6800
+Maximum 1302.800
+Minimum 322.1300
+Std. Dev. 227.2748
+Skewness 0.582715
+Kurtosis 2.416348
+Jarque-Bera 231.5430
+Probability 0.000000
+Series: PRICE
+Sample 1/02/2006 12/28/2018
+Observations 3211
+Mean 57399.29
+Median 56852.84
+Maximum 89820.09
+Minimum 29435.11
+Std. Dev. 11866.02
+Skewness 0.270145
+Kurtosis 2.891720
+Jarque-Bera 40.62412
+Probability 0.000000
+Bai-Perron SMI – Global l Method
+Bai-Perron SP100 – Global l Method
+Bai-Perron SMI – Global l Method
+Bai-Perron SP100 – Global l Method
+Bai-Perron IBOV – Global l Method
+Bai-Perron IBOV – Global l Method
+35
+GARCH(1,1) SMI
+GARCH(1,1) SMI
+GARCH(1,1) SP100
+GARCH(1,1) SP100
+36
+GARCH(1,1) IBOV
+GARCH(1,1) IBOV
+37
+GARCH-M SMI
+GARCH-M SMI
+GARCH-M SP100
+GARCH-M SP100
+38
+GARCH-M IBOV
+GARCH-M IBOV
+39
+PARCH SMI
+PARCH SMI
+PARCH SP100
+PARCH SP100
+40
+PARCH IBOV
+PARCH IBOV
+41
