@@ -1,0 +1,409 @@
+Finance Research Letters 90 (2026) 109337
+Contents lists available at ScienceDirect
+Finance Research Letters
+journal homepage: www.elsevier.com/locate/frl
+The nexus between artificial intelligence and financial resilience: a
+time-varying correlation
+Zhilong Qina
+, Wei Ren b
+, Qingqing Peng*
+,c
+a Institute of Western China Economic Research, Southwestern University of Finance and Economics, Chengdu 611130, China
+b School of Accounting, Southwestern University of Finance and Economics, Chengdu 611130, China
+c School of Economics, Chongqing Technology and Business University, Chongqing 400067, China
+A R T I C L E I N F O
+Keywords:
+Artificial intelligence
+Financial resilience
+Time-varying
+Bidirectional causality
+A B S T R A C T
+Amid the accelerating digital transformation of global industries and the increasing frequency of
+cross-domain uncertainty shocks, this paper investigates the time-varying nexus between artificial
+intelligence (AI) and financial resilience across the energy, economic, and industrial domains. AI
+is operationalized by the S&P’s Kensho New Economy RAIC Index, while financial resilience is
+measured via three key indicators: the Global Energy-Related Uncertainty Index (ERU), Global
+Economic Condition Index (GECON), and Worldwide Industrial Production Index (WIP). Using
+monthly data spanning January 2014 to November 2023, the time-varying Granger causality test
+is adopted to capture dynamic causal linkages that may evolve over time. The results reveal that
+AI has statistically significant positive or negative time-varying effects on all three indicators,
+with more pronounced impacts after 2020 amid heightened global volatility. Energy-related
+resilience does not significantly influence the other two indicators; GECON affects ERU and
+WIP but has a transient effect on AI; and industrial production resilience does not affect AI but
+does affect ERU and GECON. These findings offer valuable insights for policy-makers formulating
+targeted financial stability strategies and market participants optimizing risk management
+practices.
+1. Introduction
+Over the past decade, artificial intelligence (AI) has evolved from a niche technological concept to a core driver of global economic
+transformation, with its rapid iteration spanning machine learning, natural language processing, and predictive analytics, reshaping
+industries across the board (Lu and Zhou 2021; Zhang et al., 2025). As the cornerstone of the new economy, AI has assumed unprecedented
+strategic importance. This technological wave has exerted an even more profound, dimension-specific impact on the
+financial sector—where AI applications have moved beyond incremental efficiency gains to reshape core functions. For instance,
+intelligent risk management systems leverage real-time transaction data and alternative credit indicators to reduce nonperforming
+loan rates (Peng 2024). These innovations not only optimize market resource allocation and reduce information asymmetry but also
+intersect with the critical concept of financial resilience (Gupta et al. 2023; Anwer et al. 2024). The BIS defines financial resilience as
+the financial system’s capacity to “absorb exogenous shocks and recover quickly1”
+. Complementing this, the IMF emphasizes that
+* Corresponding author.
+E-mail addresses: qinzl@swufe.edu.cn (Z. Qin), pengqq@ctbu.edu.cn (Q. Peng).
+1 https://www.bis.org/publ/othp27.htm
+https://doi.org/10.1016/j.frl.2025.109337
+Received 30 October 2025; Received in revised form 2 December 2025; Accepted 5 December 2025
+Available online 6 December 2025
+1544-6123/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+resilience is inherently tied to macroeconomic fundamentals, as systemic stability cannot exist in isolation from real-economy dynamics.2
+Thus, AI may reshape the multiple dimensions of financial resilience, which may directly affect the stability of both the real
+economy and the financial system (Zhong et al. 2024).
+Energy, the lifeblood of economic activity, connects to financial resilience through its implications for pricing mechanisms, global
+supply chains, and asset valuation (Guo et al. 2025). Geopolitical tensions, transition risks inherent in the shift from fossil fuels to
+renewables, and extreme weather events frequently induce sharp volatility in energy prices. This volatility disrupts the cash flow of
+energy-intensive enterprises, elevates nonperforming loans in energy sector financing, and amplifies fluctuations in energy derivatives
+markets (Zhang et al. 2023; Qin et al. 2025). Global economic conditions, meanwhile, provide the macroeconomic backdrop for
+financial activities as key indicators, including global GDP growth, inflation rates, and cross-border capital flows, directly influencing
+corporate profitability, household solvency, and financial asset pricing (Hong et al. 2024; Liang et al. 2025). For instance, global
+economic recessions typically trigger a surge in corporate defaults, a sharp decline in asset prices, and liquidity tightening, thereby
+testing the financial system’s shock absorption capacity; conversely, robust economic expansion improves the credit quality of market
+participants and reinforces the resilience of financial institutions (Dees 2016). Worldwide industrial production, the core of the real
+economy, serves as a transmission channel between the real economy and financial resilience (Duan et al. 2022). Fluctuations in
+industrial output driven by supply chain disruptions, shifts in global demand, and other factors directly affect the revenue and
+debt-servicing capacity of manufacturing enterprises, which are key borrowers in the financial system.
+To empirically examine the dynamic interplay between AI and the three dimensions of financial resilience outlined above, this
+study applies widely used indices, paired with an approach tailored to capturing time-varying relationships. The development of AI is
+proxied by the S&P’s Kensho New Economy RAIC Index, a benchmark specifically designed to track the performance of companies at
+the forefront of AI, robotics, automation, and connected car technologies. This index is favoured for its comprehensive coverage of
+firms driving AI innovation across sectors, making it a robust indicator of AI development trends (Zhong et al. 2024; Yu et al. 2025).
+For the three dimensions of financial resilience, we adopt the following indicators. The Global Energy-Related Uncertainty Index (ERU)
+quantifies uncertainty stemming from energy markets, including price volatility, supply disruptions, and policy shifts, directly
+reflecting energy-related resilience (Dang et al. 2023; Li et al. 2025). The Global Economic Condition Index (GECON), a composite
+measure that integrates global GDP growth, inflation, and capital flow dynamics to gauge macroeconomic stability, serving as a proxy
+for economic condition-related resilience (Baumeister and Hamilton 2019). The Worldwide Industrial Production Index (WIP) tracks
+output trends in manufacturing, mining, and utilities worldwide, capturing industrial production-related resilience (Baumeister et al.
+2022). To elucidate the time-varying causal links between AI and these resilience indicators, this study employs the time-varying
+Granger causality test. Unlike the traditional Granger causality test, which assumes that the causal relationship is constant over
+time, this method estimates the parameters of different subsamples by implementing window changes in the window algorithm,
+thereby constructing a time-varying test statistic that can detect the evolution direction of the causal relationship within the sample
+period (Shi et al. 2020). This flexibility is critical given the rapidly evolving nature of AI technology and the dynamic shocks (such as
+geopolitical events and economic crises) that characterize energy, economic, and industrial systems, aligning precisely with the study’s
+focus on time-varying correlations.
+2. Bidirectional static and dynamic Granger test
+In time series analysis, the determination of causal relationships often relies on predictability, an idea proposed by the Granger
+causality test (Granger 1969). This test applies the Vector Autoregression (VAR) model to a set of related variables to determine causal
+relationships, but it has significant limitations—causal relationships may be inconsistent across different time periods, and it cannot
+capture the dynamic change characteristics of time series (Ren et al. 2024; Hong et al. 2025). To address the static limitations of
+traditional methods, Shi et al. (2020) reexamined the concept of Granger causality, introduced the time-varying characteristic and
+proposed a time-varying Granger causality test framework. In this study, the causality test process proposed by Shi et al. (2020) is
+adopted.
+The core of the time-varying Granger test is based on the following two VAR equations, which are used to analyse the causal
+relationship between y1 and y2:
+y1t =ϕ(1)
+0 +∑m
+k=1
+ϕ(1)
+1k y1(t− k)+∑m
+k=1
+ϕ(1)
+2k y2(t− k)+ε1t (1)
+y2t =ϕ(2)
+0 +∑m
+k=1
+ϕ(2)
+1k y1(t− k)+∑m
+k=1
+ϕ(2)
+2k y2(t− k)+ε2t (2)
+where y1t and y2t represent the selected indices, and the joint significance of ϕ(2)
+1k (k=1,…,m)is determined through the Wald test to
+verify the null hypothesis that y1t has no Granger causality for y2t. On the basis of the above, an additional test based on the supremum
+of the recursive evolutionary Wald statistic can more accurately capture the dynamic changes in causal relationships, with specific
+definitions as follows.
+2 International Monetary Fund. 2022. World Economic Outlook: Countering the Cost-of-Living Crisis. Washington, DC. October.
+2
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Let f1 be the starting point of the regression, f2 be the regression end point, and f0 be the minimum starting point; the sample size is
+fw =f2− f1 ≥f0 (3)
+Thus, [f1,f2] is the regression sample, and its corresponding size is δf. If f1 =f0, δ0 denotes the minimum estimated sample size.
+Afterwards, the Wald statistic within the interval [f1,f2] is denoted as Wf2 (f1). The formula for the supremum Wald statistic is as
+follows:
+SWf (f0)=
+sup
+(f1,f2)∈̂
+0,f2 =f {wf2 (f1)} (4)
+where ̂
+0={(f1,f2)|0 <f0 +f1 ≤f2 ≤1 and 0 ≤f1 ≤1 − f0}. This setting allows the constraint on f1 to be relaxed and each subsample
+to be flexibly reinitialized. The start/end points of the causal relationship correspond to the observations where the test statistic first
+exceeds/falls below the critical value.
+It needs to satisfy the following statistical sequence, which analyses the long-term evolution of causal relationships on the basis of a
+controlled recursively expanding window size τ:
+̂
+inf
+fe =
+f ∈[f0,1]{f : SWf (f0)>SCV}for each τ (5)
+̂
+inf
+ff=
+f ∈[̂
+fe ,1]{f : SWf (f0)<SCV}for each τ (6)
+where SCV is the critical value corresponding to the SWf statistic, ̂
+fe represents the onset (start point) of the causal relationship, and ̂
+ff
+represents the breakdown (end point) of the causal relationship.
+3. Data and sources
+3.1. Data information
+The core variables selected for this study are all sourced from authoritative platforms to ensure the reliability and traceability of the
+indicators. The specific sources of each variable are as follows.
+The S&P Kensho New Economy RAIC Index is an equity index compiled by the S&P Dow Jones Indices. Its core objective is to
+provide a comprehensive representation of the nine front-line industry boards that balance weight, equipment, people, artificial intelligence,
+and accounting. This is an indirect selection of the index, which explains why the new Kensho index series consists of nine
+subindexes in the middle, including the RAIC and previous technology areas. To comprehensively cover artificial intelligence across
+various industries, many studies have used this index to capture the development of AI (Zhong et al. 2024; Yu et al. 2025). This index is
+sourced from the S&P Dow Jones Indices website.
+The financial resilience referred to in this paper is not simply the soundness of financial institutions but rather a systemic capability
+arising from the interaction of the macroeconomic environment, the real economy, and the financial system.
+(1) The Energy-related Uncertainty Indicator (ERU). Energy price fluctuations are transmitted across the entire industrial chain
+through production costs, triggering macroeconomic fluctuations (Punzi 2019). In addition, the increase in energy-related
+uncertainty directly leads to an increase in the volatility of financial asset prices and the accumulation of credit risk (Zhang
+2018). The ERU is not simply macroeconomic pressure, and its correlation with financial resilience has been confirmed by many
+studies (Szczygielski et al. 2025; Yang and Fu 2025). This index is sourced from the official Economic Policy Uncertainty
+website.
+(2) The Global Economic Conditions Indicator (GECON). The stability of the financial system cannot exist independently of
+macroeconomic fundamentals (Mishkin 2000). The sustainable growth and low volatility of the global economy support
+financial resilience. The GECON measures the overall stability and sustainability of the macroeconomy (Baumeister et al. 2022)
+and therefore can be used as a proxy indicator for financial resilience.
+(3) World Industrial Production Indicators (WIP). Industrial production is a key link between the real economy and the financial
+system, and its resilience directly affects the asset quality and functional maintenance capacity of the financial system (Duan
+et al. 2022). The GECON and WIP are directly obtained from Christiane Baumeister’s personal website.
+Since the original data for AI and ERU are daily, whereas the GECON and WIP data are monthly, the daily data of the first two
+variables are processed into monthly mean values to ensure consistency in variable frequency. Using the calendar month as the time
+unit, we calculate the arithmetic mean of the daily AI and ERU data within each month and convert these means into monthly data.
+This ensures that all the variables are measured on a monthly basis for subsequent analysis. The research sample period is ultimately
+set from January 2014 to November 2023, primarily on the basis of data availability.
+3
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Table 1
+Unit root test results.
+ADF test KPSS test
+Statistic p-value Statistic p-value
+AI− 8.327 0.001 0.169 0.031
+ERU− 13.860 0.001 0.015 0.100
+GECON− 10.863 0.001 0.009 0.100
+WIP− 9.713 0.001 0.038 0.100
+Notes: This table shows the unit root test results.
+Table 2
+Descriptive statistics of the variables.
+Max. Min. Mean Std. Skew. Kurt.
+AI 48.896− 50.462 1.181 13.647− 0.203 5.936
+ERU 1.249− 1.018− 0.002 0.376 0.393 3.988
+GECON 4.240− 3.092− 0.001 0.563 2.273 35.718
+WIP 5.493− 10.816 0.189 1.494− 3.635 30.535
+Notes: This table shows the descriptive statistics for the data used in this study.
+Table 3
+Results of the Wald test for Granger causality.
+Wald 99 %CV 95 %CV 90 %CV
+AI ERU 11.658*** 9.282 5.847 4.247
+GECON 63.810*** 15.219 9.571 7.629
+WIP 71.000*** 10.833 5.031 3.544
+ERU AI 3.012 11.284 5.585 4.009
+GECON 4.839 14.779 9.468 6.523
+WIP 0.733 10.377 6.455 4.561
+GECON AI 18.959*** 12.213 8.539 6.561
+ERU 28.482*** 14.011 9.412 6.326
+WIP 128.000*** 30.848 16.815 13.192
+WIP AI 4.157 12.136 6.672 4.543
+ERU 6.699** 10.339 6.158 4.658
+GECON 344.160*** 34.122 17.717 13.105
+Notes: This table shows the static Granger causality test results.
+3.2. Stationarity test
+To test the stationarity of the time series, this paper uses two unit-root tests, namely, the ADF and KPSS. In Table 1, the ADF
+statistics for the variables AI, ERU, GECON, and WIP have p-values of 0.001. The null hypothesis of a unit root is rejected, indicating a
+stationary series. In the KPSS test, the KPSS statistics for AI, ERU, GECON, and WIP have p values greater than 0.01. Therefore, the null
+hypothesis of stationarity cannot be rejected. On the basis of both tests, all four variables are stationary time series and can be directly
+used in subsequent econometric analysis.
+3.3. Descriptive statistics
+Table 2 reports the descriptive statistics of the variables, which can be summarized from the perspectives of central tendency,
+dispersion, and distribution pattern. First, the mean value of the AI is 1.181, and that of the WIP is 0.189, both showing slightly positive
+trends. The mean values of ERU and GECON are − 0.002 and − 0.001, respectively, which are close to zero, indicating that the values of
+these four variables generally fluctuate around zero. Second, the standard deviation of the AI is 13.647, which is significantly greater
+than those of ERU, GECON, and WIP, indicating that the AI is significantly more dispersed, whereas ERU and GECON are relatively less
+dispersed. Third, the skewness of the AI is − 0.203, which is nearly symmetrical, whereas that of the ERU is 0.393, which is slightly
+right skewed. The skewness of GECON is 2.273, which is significantly right skewed, and the skewness of WIP is − 3.635, which is left
+skewed. In terms of kurtosis, AI and ERU exhibit peak distributions, whereas GECON and WIP exhibit extremely peaked distributions.
+These findings indicate that the distributions of GECON and WIP deviate significantly from a normal distribution and exhibit distinct
+asymmetric peak characteristics. In summary, each variable has different characteristics in terms of central tendency, dispersion, and
+distribution morphology.
+The monthly time series fluctuation characteristics of the four indicators are shown in Fig. 1. The ERU generally exhibits high-
+frequency, small-range fluctuations, with high series stability during the entire sample period. The AI has no significant periodicity
+4
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Fig. 1. AI, ERU, GECON and WIP indicators.
+Notes: Our sample includes monthly data from January 2014 to November 2023.
+or trend but experienced extreme peaks and troughs that deviated significantly from the norm from 2020 to 2021. The GECON indicator
+is characterized by low volatility, with only a single abnormal peak in 2020–2021, which was a sudden extreme fluctuation.
+The WIP indicator maintained stable fluctuations for most periods and experienced sudden abnormal fluctuations from 2020 to 2021.
+Therefore, the characteristics of each indicator’s fluctuations over time are different but also similar. These analyses indicate that
+subsequent dynamic causal analysis is necessary to help us further analyse the transmission direction of fluctuations or risks.
+4. Bidirectional causality analyses
+In our testing methodology, we refer to the study by Shi et al. (2020) and Ren et al. (2023), who assumed a minimum subsample
+size of δ0 =72 and controlled the recursively expanding window size τ =12.
+4.1. Static analyses
+To analyse Granger causality between variables, Wald test statistics are compared with critical values (CVs) at the 90 %, 95 %, and
+99 % significance levels. We present the results in Table 3. The results showed that AI can Granger-cause ERU, GECON and WIP at the 1
+% significance level. ERU does not Granger-cause AI, GECON, or WIP. GECON can significantly Granger-cause AI, ERU, and WIP at the
+1 % significance level. WIP does not Granger-cause AI but does Granger-cause ERU at the 5 % significance level and GECON at the 1 %
+significance level. Overall, AI, GECON, and WIP exhibit significant Granger causality in multiple directions, whereas the influences of
+ERU on the other variables are nonsignificant. Furthermore, AI and GECON and GECON and WIP form bidirectional causal loops,
+demonstrating mutual influence and feedback mechanisms. However, AI and ERU/WIP exhibit unidirectional causal relationships,
+indicating unidirectional transmission of the impact of AI on ERU or WIP. Furthermore, GECON and WIP also have unidirectional
+effects on ERU, implying that the EUR is a risk receiver. Therefore, we further explore the time-varying transmission of these risks.
+4.2. Dynamic analyses
+The results of the time-varying Granger causality test for the effects of AI on ERU, GECON, and WIP are presented in Fig. 2.
+Specifically, for AI→ERU, the test statistic exceeds the critical value during June 2020–December 2021 and March–April 2022,
+indicating a time-varying Granger causality relationship between AI and ERU during these periods. This reflects the deepening
+application of AI technology in financial market analysis and cross-border economic activities during these periods and its significant
+5
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Fig. 2. Time-varying analysis for AI.
+explanatory power for energy-related uncertainty risk. For AI→GECON, the test statistic exceeds the critical value during December
+2019–January 2021, December 2021–February 2022, and August 2022, indicating a time-varying Granger causality relationship
+between AI and GECON during these periods. This demonstrates that the phased development of AI has driven improvements in
+economic conditions. For the AI→WIP test statistic, the test statistic significantly exceeded the critical value between April 2020 and
+November 2023, indicating a time-varying Granger causality relationship between AI and WIP during this period. Since the pandemic,
+AI has effectively driven increases in production input or efficiency. Overall, the impact of AI on economic variables exhibits time-
+varying characteristics, and its manifestation is likely highly correlated with the technology application scenarios and economic
+environment of a given period. Unlike the study by Zhong et al. (2024), who reported that the relationship between AI and ERU is
+short-lived, this study identifies temporal variations in these two-way effects. These periods of variation correspond to the increasing
+application of AI in financial market risk pricing and cross-border economic activity analysis amid the COVID-19 pandemic and
+geopolitical tensions. The impact of AI development on GECON and WIP is undeniable. Abbas Khan et al. (2024) reported that AI has
+the potential to significantly improve labour productivity, leading to a more efficient allocation of time and resources. This optimization
+is expected to reshape industries, drive economic expansion, and ultimately improve the global economy. In this paper, the
+relationships among these factors are phased rather than continuous. These periods of change coincide with key phases in the
+application of AI. From a policy perspective, these results suggest that governments should increase its investment in AI infrastructure
+during these key phases to amplify its driving effect on the economy.
+The results of a time-varying Granger causality test of ERU on AI, GECON, and WIP are presented in Fig. 3. The test statistics for the
+directions from ERU to AI, GECON, and WIP all fall below the critical value, indicating that during the sample period (2020–2023),
+ERU does not exhibit a time-varying effect on AI, GECON, or WIP. This finding indicates that ERU does not have a statistically significant
+time-varying causal effect on the evolution of AI technology, changes in global economic conditions, or the operation of world
+industrial production. ERU does not have a statistically significant time-varying causal effect on the evolution of AI, GECON, or WIP.
+Practically, these findings are meaningful for decision-making. For tech enterprises investing in AI, short-term fluctuations in energy-
+related uncertainty need not be considered a direct constraint on technological R&D; for policy-makers, stabilizing the global economy
+or industrial production does not require overemphasizing the direct mitigation of ERU’s impact, as its influence (if any) is likely
+transmitted through indirect channels rather than direct causal links.
+The results of the time-varying Granger causality test of the effects of GECON on AI, ERU, and WIP are presented in Fig. 4. Specifically,
+for GECON→AI, the test statistic exceeds the critical value during March–April and July 2020, indicating that global economic
+conditions have a time-varying Granger causal effect on the development of AI technology during these periods. For
+GECON→ERU, the test statistic consistently exceeds the critical value during April 2020–November 2023, indicating that global
+economic conditions have a time-varying Granger causal effect on energy-related uncertainty during this period. For GECON→WIP,
+6
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Fig. 3. Time-varying analysis for ERU.
+Fig. 4. Time-varying analysis for GECON.
+7
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Fig. 5. Time-varying analysis for WIP.
+the test statistic consistently exceeds the critical value during June 2020–November 2023, indicating that global economic conditions
+have a time-varying Granger causal effect on world industrial production during this period. From an economic perspective, the
+dramatic global economic fluctuations at the start of the 2020 pandemic briefly increased the application of AI in areas such as
+economic monitoring and intelligent decision-making, resulting in a temporary causal impact on AI. However, after April 2020, the
+long-term evolution of global economic conditions continued to influence ERU and WIP, forming a long-term and significant time-
+varying causal relationship between them. This reflects that global economic conditions have different effects on technological
+development, energy uncertainty, and industrial production, both in terms of the path and duration of their impact at different stages.
+These results are similar to the findings of Lv and Wu (2022) and Cai (2025).
+The results of time-varying Granger causality tests for WIP on AI, ERU, and GECON are presented in Fig. 5. Specifically, for
+WIP→AI, the test statistics are nonsignificant throughout the sample period. This may be because AI technology development is driven
+more by endogenous factors such as the technological innovation cycle and digital transformation policies and has a weaker direct
+correlation with short-term fluctuations in industrial production. For WIP→ERU, the test statistic exceeded the critical value during
+April–October 2021. During this period, WIP was in a critical postpandemic recovery phase. The expansion of energy-intensive industries
+drove up energy demand, exacerbating the imbalance between supply and demand in the energy market and significantly
+increasing energy-related uncertainty. For WIP→GECON, the test statistic significantly exceeded the critical value between March
+2020 and November 2023. As core components of the real sector of the global economy, the scale of world industrial production and
+the performance of industrial chains directly reflect the level of global economic prosperity (Baumeister et al. 2022). The initial
+production shutdowns during the pandemic, followed by subsequent recovery and structural adjustments, had a sustained and significant
+effect on global economic conditions, thus forming a long-term, time-varying causal relationship. These findings demonstrate
+that the impact of world industrial production on technology adoption, energy market expectations, and the global economic landscape
+exhibits distinct phased and correlated characteristics.
+To further verify the robustness of the results, this paper replaces the minimum estimated window size for robustness testing. The
+results of the time-varying Granger causality tests are presented in Fig. 6. A comparison of the data in Figs. 2–5 clearly reveals that the
+detection results in Fig. 6 are robust. Therefore, the above test results are reliable.
+5. Conclusions
+This paper explores the time-varying nexus between AI and financial resilience across the energy, economic, and industrial domains.
+Economically, AI’s impact on financial resilience is scenario dependent and time bound. GECON, as a macro hub, drives energy
+uncertainty and industrial production in the long term, while industrial production’s influence on the energy market evolves
+8
+Z. Qin et al. Finance Research Letters 90 (2026) 109337
+Fig. 6. Robustness check with alternative minimum estimated window sizes.
+dynamically with the industrial cycle. These findings provide insights for policy-makers to formulate financial stability strategies and
+for market participants to conduct risk management. Overall, this study contributes empirical evidence for understanding the dynamic
+interaction mechanism between technological innovation and financial resilience.
+Thus, policy-makers should first establish a stage-specific AI-related policy adjustment mechanism on the basis of the time-varying
+characteristics of AI’s impact on financial resilience. Since AI had more significant effects on ERU, GECON, and WIP after 2020, policy-
+makers should prioritize the allocation of policy resources to AI application scenarios that increase macroeconomic stability and industrial
+production efficiency in the post-2020 context. Second, it can introduce targeted policy buffers for energy markets. As ERU has
+no significant effect on the other indicators but is affected by AI, GECON, and WIP, policies such as energy price stabilization funds or
+flexible energy supply adjustment mechanisms can be launched to mitigate the spillover effects of AI-driven technological changes and
+industrial cycle fluctuations on the energy market. On the other hand, market participants should first adopt AI-driven dynamic asset
+allocation strategies on the basis of the time-bound nature of AI’s impact. Since AI’s influence on financial resilience indicators
+strengthened after 2020, investors can increase allocations to AI-related assets in periods when AI’s positive effects on GECON and WIP
+are prominent and reduce exposures when AI’s driving role weakens. Second, they could design industrial cycle-linked risk hedging
+tools while considering WIP’s dynamic impact. Given WIP’s significant influence on ERU from April to October 2021 and persistent
+impact on GECON since March 2020, investors can develop futures or options products linked to WIP to hedge against energy market
+uncertainty during peak industrial cycle periods and macroeconomic volatility in the long term.
+CRediT authorship contribution statement
+Zhilong Qin: Writing – review & editing, Supervision, Software, Project administration, Methodology. Wei Ren: Writing – review
+& editing, Writing – original draft, Resources, Project administration, Methodology. Qingqing Peng: Writing – review & editing,
+Writing – original draft, Software, Resources, Methodology.
+9
+Z. Qin et al. Conflict of interest
+Finance Research Letters 90 (2026) 109337
+We declare that there is not conflict of interest.
+Data availability
+Data will be made available on request.
+References
+Abbas Khan, M., Khan, H., Omer, M.F., Ullah, I., Yasir, M., 2024. Impact of artificial intelligence on the global economy and technology advancements. Artificial
+General Intelligence (AGI) Security: Smart Applications and Sustainable Technologies. Springer, pp. 147–180.
+Anwer, S., Hosen, M.S., Khan, D.S., Oluwabusayo, E., Folorunso, M., Khan, H., 2024. Revolutionizing the global market: an inclusion of ai the game changer in
+international dynamics. Migrat. Lett. 21, 54–73.
+Baumeister, C., Hamilton, J.D., 2019. Structural interpretation of vector autoregressions with incomplete identification: revisiting the role of oil supply and demand
+shocks. Am. Econ. Rev. 109, 1873–1910.
+Baumeister, C., Korobilis, D., Lee, T.K., 2022. Energy markets and global economic conditions. Rev. Econ. Statist. 104, 828–844.
+Cai, Y., 2025. US-China tensions, global supply chains pressure, and global economy. Econ. Lett. 250, 112283.
+Dang, T.H.-N., Nguyen, C.P., Lee, G.S., Nguyen, B.Q., Le, T.T., 2023. Measuring the energy-related uncertainty index. Energy Econ. 124, 106817.
+Dees, S., 2016. Credit, asset prices and business cycles at the global level. Econ. Model. 54, 139–152.
+Duan, W., Madasi, J.D., Khurshid, A., Ma, D., 2022. Industrial structure conditions economic resilience. Technol. Forecast. Soc. Change 183, 121944.
+Granger, C.W., 1969. Investigating causal relations by econometric models and cross-spectral methods. Econometr.: J. Econometr. Soc. 424–438.
+Guo, X., Hong, Y., Yao, S., Hao, Y., 2025. Oil supply and US-China tensions: a multinational perspective. Int. Rev. Financ. Anal., 104278
+Gupta, S., Modgil, S., Choi, T.-M., Kumar, A., Antony, J., 2023. Influences of artificial intelligence and blockchain technology on financial resilience of supply chains.
+Int. J. Prod. Econ. 261, 108868.
+Hong, Y., Cao, S., Xu, P., Pan, Z., 2024. Interpreting the effect of global economic risks on crude oil market: a supply-demand perspective. Int. Rev. Financ. Anal. 91,
+103008.
+Hong, Y., Guo, X., Zhao, C., 2025. New paths of the time-varying Granger-causality test under extreme shocks: an analysis of geopolitical risk and crude oil markets.
+Res. Int. Bus. Finance, 102994.
+Li, X., Liang, C., Ma, F., 2025. Forecasting stock market volatility with a large number of predictors: new evidence from the MS-MIDAS-LASSO model. Ann. Oper. Res.
+352, 613–652.
+Liang, C., Yang, J., Shen, L., Huynh, L.D.T., 2025. Bonds for a Bluer tomorrow: corporate climate concern and its impact on corporate bond maturities. J. Int. Money
+Finance, 103296.
+Lu, Y., Zhou, Y., 2021. A review on the economics of artificial intelligence. J. Econ. Surv. 35, 1045–1072.
+Lv, W., Wu, Q., 2022. Global economic conditions index and oil price predictability. Financ. Res. Lett. 48, 102919.
+Mishkin, F.S., 2000. Financial stability and the macroeconomy. Economics.
+Peng, Y., 2024. Construction and evaluation of credit risk early warning indicator system of internet financial enterprises based on AI and knowledge graph theory.
+Proced. Comput. Sci. 243, 918–927.
+Punzi, M.T., 2019. The impact of energy price uncertainty on macroeconomic variables. Energy policy 129, 1306–1319.
+Qin, J., Liu, D., Liang, C., 2025. The oil industry chain under climate risk: evidence from China’s listed oil companies. J. Commod. Mark., 100519
+Ren, X., Fu, C., Jin, C., Li, Y., 2024. Dynamic causality between global supply chain pressures and China’s resource industries: a time-varying Granger analysis. Int.
+Rev. Financ. Anal. 95, 103377.
+Ren, X., Li, J., He, F., Lucey, B., 2023. Impact of climate policy uncertainty on traditional energy and green markets: evidence from time-varying granger tests. Renew.
+Sustain. Energy Rev. 173, 113058.
+Shi, S., Hurn, S., Phillips, P.C., 2020. Causal change detection in possibly integrated systems: revisiting the money–income relationship. J. Financ. Econometr. 18,
+158–180.
+Szczygielski, J.J., Charteris, A., Obojska, L., Brzeszczy´ nski, J., 2025. Energy in turmoil: industry resilience to uncertainty during the global energy crisis. Appl. Energy
+389, 125351.
+Yang, S., Fu, Y., 2025. Interconnectedness among supply chain disruptions, energy crisis, and oil market volatility on economic resilience. Energy Econ. 143, 108290.
+Yu, J., Lai, X., Sun, T., Lin, C.-T., 2025. Could AI and sustainable finance drive energy sustainability? A wavelet quantile correlation analysis. Emerg. Market. Finance
+Trade 1–15.
+Zhang, D., 2018. Energy finance: background, concept, and Recent Developments. Taylor & Francis, pp. 1687–1692.
+Zhang, X., Li, G., Wu, R., Zeng, H., Ma, S., 2025. Impact of carbon emissions. Green Energy, Artificial Intelligence and High-Tech Policy Uncertainty on China’s
+Financial Market. Finance Research Letters, 107599.
+Zhang, Y., He, M., Wang, Y., Liang, C., 2023. Global economic policy uncertainty aligned: an informative predictor for crude oil market volatility. Int. J. Forecast. 39,
+1318–1332.
+Zhong, Y., Chen, X., Wang, Z., Lin, R.F.-Y., 2024. The nexus among artificial intelligence, supply chain and energy sustainability: a time-varying analysis. Energy Econ.
+132, 107479.
+10
