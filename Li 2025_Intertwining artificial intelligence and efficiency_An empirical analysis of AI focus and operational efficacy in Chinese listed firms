@@ -1,0 +1,319 @@
+Finance Research Letters 80 (2025) 107451
+Contents lists available at ScienceDirect
+Finance Research Letters
+journal homepage: www.elsevier.com/locate/frl
+Intertwining artificial intelligence and efficiency: An empirical
+analysis of AI focus and operational efficacy in Chinese listed firms
+Qianru Li , Yuhao Zhang*
+, Geumchul Um*
+College of Business, Gachon University, South Korea
+A R T I C L E I N F O
+Keywords:
+Artificial intelligence
+Operational efficiency
+Three-stage least squares (3SLS)
+Emerging market
+Firm disclosure
+AI focus
+Firm performance
+Marketing metrics
+A B S T R A C T
+This study contributes to the literature on the relationship between artificial intelligence (AI)
+focus and operational efficiency in three key ways: by emphasizing firms’ disclosure of their focus
+on AI, by providing new evidence from an emerging market context distinct from developed
+economies and evaluating the practical implications of AI focus through operational efficiency.
+Using data on Chinese-listed firms from 2010 to 2023, we proposed simultaneous equation
+models and estimated them using three-stage least squares (3SLS). The results revealed that AI
+focus is not associated with improvements in gross operational efficiency but is negatively related
+to net operational efficiency.
+1. Introduction
+Artificial intelligence (AI) is a key driver of economic transformation and innovation. As the world’s largest developing economy,
+China has rapidly positioned AI as a central component of its national development strategy. Chinese firms are increasingly emphasizing
+AI as part of their competitive positioning. However, the actual economic benefits and productivity gains from AI adoption
+remain subject to debate (Damioli et al., 2021). Owing to a lack of expertise, technological complexity(Makarius et al., 2020), and
+uncertainty regarding its realized value(Fountaine et al., 2019), the extent of actual AI usage in firms remains limited(Makarius et al.,
+2020). In the face of these challenges, many firms disclose their focus on AI to gain market recognition. As operational efficiency is
+fundamental to firm survival and financial performance(Mishra et al., 2022), it remains unclear whether an AI focus has been
+translated effectively into improved operational outcomes, especially in emerging markets such as China.
+This study investigates the dynamic relationship between firms’ focus on AI and operational efficiency in China. This study defines
+AI focus as the degree to which firms devote attention to AI. Gross operational efficiency is firms’ ability to convert input resources into
+sales. Net operational efficiency is the ability to translate sales into profit, evaluated across three dimensions: labor, sales, and marketing
+inputs. Adopting the theoretical framework and empirical approach of Mishra et al. (2022), we employ a system of simultaneous
+equations estimated using three-stage least squares (3SLS) while controlling for market structure and firm-level characteristics.
+The results of this study reveal no significant evidence that AI focus is positively associated with gross operational efficiency.
+However, AI focus is negatively related to net operational efficiency. These findings suggest that firms do not enhance productivity
+through AI focus; instead, they may incur additional costs. This supports the view that AI-related disclosures in annual reports function
+more as symbolic signaling mechanisms aimed at aligning with investor expectations rather than reflecting the actual implementation
+of AI in business operations—consistent with prior findings that actual AI adoption remains limited(Makarius et al., 2020).
+* Corresponding authors.
+E-mail addresses: haoru@gachon.ac.kr (Q. Li), sdlczyh990@gachon.ac.kr (Y. Zhang), yanjz@gachon.ac.kr (G. Um).
+https://doi.org/10.1016/j.frl.2025.107451
+Received 21 January 2025; Received in revised form 14 April 2025; Accepted 17 April 2025
+Available online 18 April 2025
+1544-6123/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+This study contributes to the literature in three ways: (1) emphasizes firms’ disclosure of their focus on AI; (2) offers new empirical
+evidence from an emerging market context distinct from that of developed economies; and (3) evaluates the practical value of AI focus
+through the lens of operational efficiency. These findings offer meaningful insights for both corporate decision-makers and
+policymakers.
+2. Theoretical background and research questions
+Artificial Intelligence has been shown to enhance customer experience(Huang and Rust, 2018), create business value
+(Wamba-Taguimdje et al., 2020), and improve ESG performance(Chen et al., 2024). Based on AI-related disclosures in annual reports,
+some studies have found positive effects on financial performance(Shiyyab et al., 2023) and green innovation efficiency in energy firms
+(Wang et al., 2024b). However, some evidence suggests that such outcomes are not guaranteed(Canhoto and Clear, 2020). Many firms
+invest considerably in AI but fail to realize the expected benefits(Fountaine et al., 2019; Makarius et al., 2020).
+We adopt the economic and marketing framework proposed by Mishra et al. (2022) and first examine how AI affects firm inputs,
+especially advertising expenditure and labor. Artificial Intelligence can enhance the precision of advertising targeting(Shan, 2024) and
+increase the demand for skilled labor(Wang and Jiao, 2025; Wang et al., 2024a). As Mishra et al. (2022) noted, the relationship
+between AI focus and asset utilization efficiency(ratio of sales to total assets) is theoretically ambiguous and depends on the relative
+strength of AI in advertising and the number of employees. Since input alone does not guarantee efficiency and asset utilization efficiency
+is only one part of the equation, this relationship is not treated as a core hypothesis but incorporated into the structural model
+as part of our empirical estimation.
+To systematically evaluate whether AI focus enhances operational outcomes, we further distinguish between gross and net operational
+efficiency. Gross operational efficiency reflects firms’ ability to convert input resources into output. Given the complementarity
+between AI and human capital(Wang and Jiao, 2025), we use sales per employee as the core indicator of productivity(Mishra et al.,
+2022; Morbey and Reithner, 1990; Sartal et al., 2020; Zhu et al., 2024). In contrast, net operational efficiency captures a firm’s ability
+to convert output into profitability. We assess this across three dimensions—labor, sales, and marketing inputs—drawing on Mishra
+et al. (2022). In particular, we include net income per employee, return on sales, and return on marketing investments. Fig. 1 illustrates
+the conceptual framework underpinning this study. Accordingly, we propose the following research questions:
+RQ1: How does AI focus affect gross operational efficiency (sales per employee)?
+RQ2: How does AI focus affect net operational efficiency (net income per employee, return on sales, and return on marketing
+investments)?
+3. Research design
+3.1. Data collection
+This study used panel data on listed Chinese firms covering all industries from 2010 to 2023. Following common practices in
+corporate finance research(Huang and Luan, 2024; Li et al., 2024; Zhang et al., 2024), we excluded firms with ST, *ST, and PT statuses1
+Financial and employment data were obtained from the CSMAR and WIND databases, respectively. The measure of AI focus is constructed
+using a textual analysis of annual reports. A total of 73 AI-related keywords were scaled using the following formula (Yao
+et al., 2024):
+(Number of Keywords related to AIit)
+AIFocusit =
+(Total number of wordsit) × 1000
+The final sample comprised 28,006 firm-year observations from 4841 listed companies. Following prior literature(Li et al., 2024;
+Shiyyab et al., 2023; Wang et al., 2024b), we control for firm-specific characteristics that may influence the relationship between AI
+focus and operational efficiency. These control variables include firm age and size, leverage, tangible and intangible asset ratios,
+liquidity, cash flow, and the market-to-book ratio. In addition, to account for industry structure effects, we incorporate the
+Herfindahl-Hirschman Index (HHI)(Lijesen, 2004), which helps distinguish whether the observed outcomes are driven by
+industry-level concentration or firm-level behavior. Table 1 presents the measurements of all variables. Appendix 1 summarizes the
+descriptive statistics for the industry, year, and variables.
+3.2. Modeling
+Following the framework of Mishra et al. (2022), we constructed a system of simultaneous equations and estimated it using the
+three-stage least squares (3SLS) method(Adewuyi and Awodumi, 2017; Mishra et al., 2022; Zou et al., 2023) while mitigating potential
+endogeneity concerns(Rutz and Watson, 2019).
+1 ST refers to companies that have incurred losses for two consecutive years and are subject to special treatment. ST* refers to companies that have
+incurred losses for three consecutive years and are at risk of delisting. PT refers to companies that have been suspended from trading and are on the
+verge of delisting. The financial data of these companies are not representative and may introduce bias in the research findings.
+2
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+Fig. 1. Conceptual framework.
+Table 1
+Measurements of variables.
+Variable Variable measurement
+AIFocus Number of AI words after scaling
+Employee Natural logarithm of number of employees
+AdvAsset Advertising expenses/ total assets
+SalesAsset Sales/ total assets
+SalesEmp Ratio of sales to the total number of employees after scaling
+NIEmp Ratio of net profit to the total number of employees after scaling
+NISales Net profit/sales
+NISGA Net profit/30 % of SG&A2
+Age Year - listing year +1
+Size Natural logarithm of total annual assets
+Leverage Total liabilities/ total assets
+Tangible (Total assets - net intangible assets - net goodwill)/ total assets
+Intangible Net intangible assets/ total assets
+Liquidity Current assets/ current liabilities
+Cashflow Net cash flows from operating activities/ total assets
+MBratio Market value of equity/ book value of equity
+HHI Square accumulation of the ratio of the main business income to the total main business income of the industry
+2 Peters and Taylor (2017) treated 30 % of SG&A expenses as investments in organizational capital. Ewens et al. (2025) estimated that
+approximately 28 % of SG&A represents investment-related spending, consistent with the 30 % assumption in earlier studies. Mishra et al.
+(2022) used 30 % of SG&A as a proxy for marketing expenditure.
+AdvAssetit =β0 +β1AIFocusit +β2Controlsit +ϵ1it (1)
+Employeeit =β0 +β1AIFocusit +β2Controlsit +ϵ2it (2)
+SalesAssetit =β0 +β1AdvAssetit +β2Employeeit +β3AIFocusit +β4Controlsit +ϵ3it (3)
+SalesEmpit =β0 +β1SalesAssetit +β2AIFocusit +β3Controlsit +ϵ4it (4)
+NIEmpit =β0 +β1SalesEmpit +β2AIFocusit +β3Controlsit +ϵ5it (5)
+NISalesit =β0 +β1SalesEmpit +β2AIFocusit +β3Controlsit +ϵ6it (6)
+NISGAit =β0 +β1SalesEmpit +β2AIFocusit +β3Controlsit +ϵ7it (7)
+AIFocusit =β0 +β1NIEmpit +β2Controlsit +ϵ8it (8)
+AIFocusit =β0 +β1NISalesit +β2Controlsit +ϵ9it (9)
+AIFocusit =β0 +β1NISGAit +β2Controlsit +ϵ10it (10)
+4. Results
+4.1. Validation of AI focus variable
+Before conducting the main empirical analysis, we validated the construction of the AI focus variable. Prior studies suggest that
+effective AI adoption typically requires substantial investment in data infrastructure and model development, including complementary
+adjustments in organizational capabilities and business processes(Cockburn et al., 2019; Wamba-Taguimdje et al., 2020).
+These studies emphasize that AI initiatives are generally accompanied by increased spending on R&D and SG&A functions(Mishra
+3
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+et al., 2022). As shown in Table 2, firms with higher levels of AI focus exhibit significantly higher expenditures in these areas,
+consistent with theoretical expectations.
+4.2. Regression results
+Table 3 reports the estimation results based on Equations (1) through (10). We find that AI focus has no significant effect on gross
+operational efficiency (β =–10.988, p>0.1), but it exerts a significant negative effect on all three measures of net operational efficiency
+(β =–54.701, p< 0.01; β =–0.272, p< 0.01; β =–11.248, p< 0.01). These results suggest that while firms increasingly
+emphasize AI focus, this emphasis may not reflect actual implementation at the operational level. Importantly, our model controls for a
+comprehensive set of firm-level characteristics and market concentration (HHI). Even after accounting for these factors, the negative
+association between AI focus and net operational efficiency persists, suggesting that firms’ focus on AI may primarily serve as a market
+signaling strategy, resulting in increased costs rather than enhanced profitability.
+4.3. Robustness tests
+To ensure the robustness of our findings, we employ two approaches.
+First, we conducted a propensity score matching (PSM) analysis to mitigate potential self-selection bias. The firms were classified
+into treatment and control groups based on whether their AI focus was above or below the median sample size. A 1-to-1 nearest-
+neighbor matching method was applied using a caliper to match firms with similar characteristics.
+Second, we constructed an industry-weighted measure of AI focus. First, we calculated the sum of all keywords p by industry j and
+year: ∑73
+p=1 wjtp. Then, the relative weights: Wjtp=
+wjtp
+were calculated. The number of each keyword p for a fixed year t:AItp, is
+∑73
+p=1wjtp
+multiplied by the weight Wjtp and summed to obtain the industry-weighted measure of AI focus:
+WAItj=∑73
+p=1
+Wjtp ∗AItp
+The findings remain consistent and statistically significant for all robustness tests, as reported in Appendix 2.
+5. Conclusion
+This study investigates the impact of firms’ focus on AI, as reflected in their annual reports, on the operational efficiency of listed
+Chinese firms. The results reveal that although discussions on AI have increased significantly in corporate reports, insufficient evidence
+exists to support the relationship between AI focus and gross operational efficiency. In contrast, AI focus is negatively associated with
+key performance indicators such as employee profitability, return on sales, and return on marketing investment. These findings suggest
+that corporate emphasis on AI may function more as a market-signaling strategy than a reflection of substantive technological
+implementation.
+This study provides the first systematic evidence of the relationship between AI focus and operational efficiency among Chinese-
+listed firms and contributes novel insights to the existing literature. These findings highlight the potential challenges Chinese firms
+may face when AI focus into actual performance gains. Although the focus is on China, the implications extend beyond national
+Table 2
+Validation of AI focus.
+Group R&D/Asset P SGA/Asset P
+1 0.019 0.084
+2 0.023 0.075
+3 0.024 0.083
+4 0.029 0.082
+5 0.046 0.089
+t-test for differences in means across quintile groups
+1&2− 6.277 0.000 4.733 0.000
+1&3− 13.038 0.000 0.417 0.677
+1&4− 27.207 0.000 1.197 0.231
+1&5− 50.902 0.000− 4.044 0.000
+2&3− 1.226 0.220− 4.181 0.000
+2&4− 9.579 0.000− 3.767 0.000
+2&5− 29.954 0.000− 7.163 0.000
+3&4− 12.855 0.000 0.673 0.501
+3&5− 38.795 0.000− 3.939 0.000
+4&5− 28.356 0.000− 4.814 0.000
+Note: This table reports the mean values of R&D intensity(R&D/Asset) and SGA intensity(SGA/Asset) across quintile groups sorted by AI focus.
+Groups 1 through 5 represent increasing levels of AI focus. T-tests are conducted to assess differences in means between each pair of groups. P-values
+are reported alongside t-statistics, with statistical significance indicated at the 1 % level.
+4
+5
+Table 3
+The regression results of AI Focus affect gross operational efficiency and net operational efficiency (2010–2023).
+Variable AdvAsset Employee SalesAsset SalesEmp NIEmp NISales NISGA AIFocus AIFocus AIFocus
+AIFocus− 0.016*** 0.125***− 0.080***− 10.988− 54.701***− 0.272***− 11.248***
+(− 8.30) (2.64) (− 2.78) (− 0.55) (− 19.27) (− 9.64) (− 26.62)
+AdvAsset 0.612***
+(4.78)
+Employee 0.112***
+(24.67)
+SalesAsset 381.725***
+(77.72)
+SalesEmp 0.015*** 0.000** 0.002***
+(15.44) (2.17) (11.62)
+NIEmp − 0.001***
+(− 14.07)
+NISales − 0.032***
+(− 8.28)
+NISGA − 0.006***
+(− 21.68)
+Constant− 0.001− 9.842*** 0.971***− 1006.965***− 166.971***− 0.858***− 31.172***− 0.190***− 0.093***− 0.263***
+(− 0.16) (− 66.78) (9.71) (− 16.36) (− 18.67) (− 9.70) (− 23.28) (− 7.03) (− 3.62) (− 9.70)
+Controls YES YES YES YES YES YES YES YES YES YES
+Observations 17,987 17,987 17,987 17,987 17,987 17,987 17,987 17,987 17,987 17,987
+R-squared 0.038 0.708 0.251 0.335 0.118 0.076 0.155 0.155 0.189 0.131
+Year FE YES YES YES YES YES YES YES YES YES YES
+Industry FE YES YES YES YES YES YES YES YES YES YES
+Cragg-Donald F-test 3003.584 3003.584 1712.754 2456.601 282.790 282.790 282.790 163.840 254.527 280.019
+(0.000) (0.000) (0.000) (0.000) (0.000) (0.000) (0.000) (0.000) (0.000) (0.000)
+Note: This table reports the 3SLS regression results based on the data from 2010 to 2023. Columns (1)–(10) report the results of each structural equation. All models include control variables (not reported
+for brevity), as well as year and industry-fixed effects. Z-statistics in parentheses. Cragg-Donald F-statistics are reported, with p-values in parentheses, to assess instrument relevance. ***, **, and * denote
+statistical significance at the 1 %, 5 %, and 10 % levels, respectively.
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+boundaries and offer a broader perspective of the common difficulties that global firms may encounter when adopting AI. The results
+point to a critical issue for corporate leaders—how to shift from merely “talking about AI” to actually “using AI” meaningfully. For
+managers, this means reducing dependence on AI as a promotional tool and strengthening technical capabilities and resource
+alignment. For policymakers, these findings underscore the importance of promoting greater transparency in AI implementation and
+designing incentives to support genuine adoption.
+This study has several limitations. Owing to data constraints, we do not account for organizational readiness or digital maturity
+levels, which may affect the link between AI focus and efficiency. Furthermore, the institutional and developmental differences between
+countries and industries can lead to heterogeneous outcomes. Future research could distinguish between types of AI-related
+disclosures—such as strategic vision versus technical implementation, explore cross-country contexts, quantify digital transformation
+indicators, and uncover underlying mechanisms or contextual contingencies. These efforts will help advance a more
+nuanced understanding of AI’s symbolic and substantive roles in corporate strategies and performance.
+CRediT authorship contribution statement
+Qianru Li: Writing – original draft, Visualization, Software, Project administration, Methodology, Formal analysis, Data curation,
+Conceptualization. Yuhao Zhang: Writing – original draft, Resources, Methodology, Formal analysis, Conceptualization. Geumchul
+Um: Writing – review & editing, Writing – original draft, Supervision, Resources, Project administration, Data curation,
+Conceptualization.
+Acknowledgements
+This work was supported by the Gachon University research fund of 2023 (202304820001).
+Supplementary materials
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.frl.2025.107451.
+Data availability
+The authors do not have permission to share data.
+References
+Adewuyi, A.O., Awodumi, O.B., 2017. Biomass energy consumption, economic growth and carbon emissions: fresh evidence from West Africa using a simultaneous
+equation model. Energy 119, 453–471. https://doi.org/10.1016/j.energy.2016.12.059.
+Canhoto, A.I., Clear, F., 2020. Artificial intelligence and machine learning as business tools: a framework for diagnosing value destruction potential. Bus. Horiz. 63 (2),
+183–193. https://doi.org/10.1016/j.bushor.2019.11.003.
+Chen, J., Wang, N., Lin, T., Liu, B., Hu, J., 2024. Shock or empowerment? Artificial intelligence technology and corporate ESG performance. Econ. Anal. Policy. 83,
+1080–1096. https://doi.org/10.1016/j.eap.2024.08.004.
+Cockburn, I.M., Henderson, R., Stern, S., 2019. The impact of artificial intelligence on innovation: an exploratory analysis. In: Agrawal, A., Gans, J., Goldfarb, A.
+(Eds.), The Economics of Artificial Intelligence: An Agenda. University of Chicago Press, pp. 115–148. https://doi.org/10.7208/9780226613475-006.
+Damioli, G., Van Roy, V., Vertesy, D., 2021. The impact of artificial intelligence on labor productivity. Eurasian Bus. Rev. 11 (1), 1–25. https://doi.org/10.1007/
+s40821-020-00172-8.
+Ewens, M., Peters, R.H., Wang, S., 2025. Measuring intangible capital with market prices. Manag. Sci. 71 (1), 407–427. https://doi.org/10.1287/mnsc.2021.02058.
+Fountaine, T., McCarthy, B., Saleh, T., 2019. Building the AI-powered organization. Harv. Bus. Rev. 97 (4), 62–73.
+Huang, M.H., Rust, R.T., 2018. Artificial intelligence in service. J. Serv. Res. 21 (2), 155–172. https://doi.org/10.1177/1094670517752459.
+Huang, S., Luan, Z., 2024. Can green finance supports improve environmental firm performance? Evidence from listed environmental firms in China. Fin. Res. Lett. 70,
+106321. https://doi.org/10.1016/j.frl.2024.106321.
+Li, Q., Zhang, Y., Yan, J., 2024. Exploring the role of top management team diversity and absorptive capacity in the relationship between corporate environmental,
+social, and governance performance and firm value. Systems 12 (11), 448. https://doi.org/10.3390/systems12110448.
+Lijesen, M.G., 2004. Adjusting the Herfindahl index for close substitutes: an application to pricing in civil aviation. Transp. Res. Part E Logist. Transp. Rev. 40 (2),
+123–134. https://doi.org/10.1016/S1366-5545(03)00045-0.
+Makarius, E.E., Mukherjee, D., Fox, J.D., Fox, A.K., 2020. Rising with the machines: a sociotechnical framework for bringing artificial intelligence into the
+organization. J. Bus. Res. 120, 262–273. https://doi.org/10.1016/j.jbusres.2020.07.045.
+Mishra, S., Ewing, M.T., Cooper, H.B., 2022. Artificial intelligence focus and firm performance. J. Acad. Mark. Sci. 50 (6), 1176–1197. https://doi.org/10.1007/
+s11747-022-00876-5.
+Morbey, G.K., Reithner, R.M., 1990. How R&D affects sales growth, productivity and profitability. Res.Technol. Manag. 33 (3), 11–14.
+Peters, R.H., Taylor, L.A., 2017. Intangible capital and the investment-q relation. J. Financ. Econ. 123 (2), 251–272. https://doi.org/10.1016/j.jfineco.2016.03.011.
+Rutz, O.J., Watson, G.F., 2019. Endogeneity and marketing strategy research: an overview. J. Acad. Mark. Sci. 47 (3), 479–498. https://doi.org/10.1007/s11747-019-
+00630-4.
+Sartal, A., Rodríguez, M., V´
+azquez, X.H., 2020. From efficiency-driven to low-carbon operations management: implications for labor productivity. J. Oper. Manag. 66
+(3), 310–325. https://doi.org/10.1002/joom.1060.
+Shan, L., 2024. Computing advertising intelligent computing and push based on artificial intelligence in the big data era. Heliyon 10 (17). https://doi.org/10.1016/j.
+heliyon.2024.e37252.
+Shiyyab, F.S., Alzoubi, A.B., Obidat, Q.M., Alshurafat, H., 2023. The impact of artificial intelligence disclosure on financial performance. Int. J. Financ. Stud. 11 (3),
+115. https://doi.org/10.3390/ijfs11030115.
+6
+Q. Li et al. Finance Research Letters 80 (2025) 107451
+Wamba-Taguimdje, S.L., Fosso Wamba, S., Kala Kamdjoug, J.R., Tchatchouang Wanko, C.E., 2020. Influence of artificial intelligence (AI) on firm performance: the
+business value of AI-based transformation projects. Bus. Process Manag. J. 26 (7), 1893–1924. https://doi.org/10.1108/BPMJ-10-2019-0411.
+Wang, C., Jiao, D., 2025. Impact of artificial intelligence on the labor income distribution: labor substitution or production upgrading? Fin. Res. Lett. 73, 106674.
+https://doi.org/10.1016/j.frl.2024.106674.
+Wang, S., Wang, Y., Li, C., 2024a. AI-driven capital-skill complementarity: implications for skill premiums and labor mobility. Fin. Res. Lett. 68, 106044. https://doi.
+org/10.1016/j.frl.2024.106044.
+Wang, Z., Zhang, T., Ren, X., Shi, Y., 2024b. AI adoption rate and corporate green innovation efficiency: evidence from Chinese energy companies. Energy Econ. 132,
+107499. https://doi.org/10.1016/j.eneco.2024.107499.
+Yao, J., Zhang, K., Guo, L., Feng, X., 2024. How does artificial intelligence improve firm productivity? Based on the perspective of labor skill structure adjustment.
+J. Manag. World 40 (2), 101–122. https://doi.org/10.19744/j.cnki.11-1235/f.2024.0018.
+Zhang, C., He, P., Zhou, Z., 2024. Environmental regulation, digital transformation, and corporate ESG performance: evidence from the implementation of China’s
+NEPL. Fin. Res. Lett. 69, 106090. https://doi.org/10.1016/j.frl.2024.106090.
+Zhu, M., Liang, C., Yeung, A.C.L., Zhou, H., 2024. The impact of intelligent manufacturing on labor productivity: an empirical analysis of Chinese listed manufacturing
+companies. Int. J. Prod. Econ. 267, 109070. https://doi.org/10.1016/j.ijpe.2023.109070.
+Zou, R., Yang, J., Feng, C., 2023. Does informatization alleviate energy poverty? A global perspective. Energy Econ. 126, 106971. https://doi.org/10.1016/j.
+eneco.2023.106971.
+7
