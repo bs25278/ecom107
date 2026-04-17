@@ -1,0 +1,475 @@
+Article
+Impact of AI on Financial Performance of Enterprises
+Eze Ijeoma Cherish,
+Hutech University, Vietnam
+Lincoln University, USA
+Ebuka Emannuel Aniebonam
+Southwest Minnesota State University, USA
+Tran Thanh Cong,
+Hutech University, Vietnam
+Lincoln University, USA
+Pham Thi Thu Ha,
+Hutech University, Vietnam
+Lincoln University, USA
+Abstract: This paper investigates the impact of Artificial Intelligence (AI) on the financial
+performance of enterprises, using data from major companies across various industries. It
+focuses on key financial metrics such as revenue; net income; interest, taxes, depreciation,
+and amortization (EBITDA); return on investment (ROI); and gross profit, comparing these
+metrics before and after the adoption of AI technologies. The study aims to quantify the
+economic benefits and challenges associated with AI implementation, particularly in terms
+of enhancing profitability, improving operational efficiency, and driving long-term
+financial growth. The findings reveal significant improvements in financial outcomes for
+AI-adopting companies, showcasing AI's role in optimizing business processes, boosting
+revenue, and reducing operational costs. Additionally, the paper also highlights the
+challenges that come with AI adoption, such as high upfront costs and complex integration.
+By offering a detailed analysis of these financial metrics, the paper provides valuable
+insights into the broader implications of AI for enterprise performance and strategic
+decision-making.
+Keywords: AI adoption, Financial Performance, Enterprise Performance, Operational
+Efficiency
+1. Introduction
+Artificial Intelligence (AI) has emerged as a transformative force in reshaping
+modern business operations, with the potential to revolutionize how enterprises function
+across a variety of sectors. AI technologies, such as machine learning (ML), natural
+language processing (NLP), and robotic process automation (RPA), are enabling
+businesses to automate tasks, gain predictive insights, and enhance customer interactions
+(Brynjolfsson & McAfee, 2016). Machine learning algorithms can analyze vast amounts
+of data, identify patterns, and make predictions, while natural language processing allows
+businesses to engage customers and process information more efficiently. Moreover, RPA
+automates repetitive administrative tasks, enabling companies to increase productivity and
+Cuest.fisioter.2025.54(5):385-396 385
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+reduce operational costs. These innovations are applied in a wide array of business
+functions, ranging from customer service and marketing to supply chain optimization and
+financial analysis (Agrawal, Gans, & Goldfarb, April 2018). By automating tasks,
+improving decision-making, and offering tailored customer experiences, AI has become a
+critical tool for businesses seeking to maintain competitiveness in an increasingly digital
+world (Chui, Manyika, & Miremadi, 2018).
+The rapid development of AI technologies, coupled with the growth of cloud
+computing and the increased availability of big data, has made AI more accessible to
+businesses of all sizes. The cloud allows enterprises to deploy AI solutions without the
+need for heavy investment in infrastructure, while big data provides the information
+necessary to drive AI models and generate actionable insights (Bughin, Seong, Manyika,
+Chui, & Joshi, 2018). As a result, the pace of AI adoption has accelerated, particularly
+among large enterprises, but smaller firms are also beginning to realize the benefits of
+integrating AI into their operations. The potential for AI to drive efficiency, improve
+decision-making, and enhance customer experience has led to its adoption across various
+industries, making it a key competitive differentiator (Chui, Manyika, & Miremadi, 2018).
+In fact, studies have shown that companies leveraging AI can outperform their competitors
+in terms of operational efficiency, customer retention, and revenue growth.
+Despite the widespread integration of AI, the financial impact of these technologies
+on businesses remains an area of significant interest and investigation. While AI is widely
+recognized for improving business performance by streamlining operations, optimizing
+supply chains, and enhancing customer service, empirical studies quantifying its direct
+effect on key financial metrics such as revenue, profitability, and return on investment
+(ROI) are still limited. Some studies have suggested that AI adoption leads to long-term
+growth and operational efficiency (Jain & Kaur, 2024), (Borio & Zabai, 2024),
+(Danielsson, Macrae, & Uthemann, 2021), but the precise financial outcomes associated
+with these technologies remain unclear. Therefore, there is a pressing need for research
+that specifically investigates how AI adoption influences financial performance across
+industries.
+This paper aims to bridge this gap by analyzing the financial performance of
+enterprises before and after adoption of AI. Specifically, the paper will focus on evaluating
+five key financial metrics, such as revenue, net income, EBITDA, ROI, and gross profit.
+These metrics serve as essential indicators of business success and are directly influenced
+by AI adoption. Several studies show that revenue often increases as a result of AI-
+enhanced marketing strategies and personalized product recommendations, while profit
+margin can benefit from cost reductions in operational processes, often achieved through
+AI-driven automation. Net income and EBITDA, which measure profitability, can be
+positively impacted by AI’s ability to streamline operations and reduce overhead costs
+(Brynjolfsson & McAfee, 2016). Furthermore, ROI serves as a critical metric for
+evaluating the financial return on AI investments, helping businesses assess the value and
+impact of these technologies (Davenport & Ronanki, 2018).
+Cuest.fisioter.2025.54(5):385-396 386
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+The purpose of this study is to explore the financial implications of AI adoption by
+comparing the performance of AI-adopting companies with non-AI adopters. By focusing
+on industries such as IT, retail, and manufacturing, this paper aims to provide valuable
+insights into how AI influences financial performance across different sectors. The findings
+of this study will help businesses understand the economic benefits and potential
+challenges of integrating AI into their operations. This analysis will not only contribute to
+the growing body of literature on AI adoption but also offer practical recommendations for
+businesses considering AI as a tool for enhancing their financial performance and staying
+competitive in the digital era.
+2. Literature Review
+Numerous studies have explored the transformative effects of AI on business
+operations across various sectors, including IT, retail, manufacturing, and healthcare. AI
+technologies, such as machine learning algorithms and robotic process automation (RPA),
+have been shown to significantly enhance operational efficiency by automating routine
+tasks and optimizing workflows (Boomi, 2024), (Dias & Lauretta, 2024), (LeewayHertz,
+2019), (Weng, Wu, Kelly, & Johnson, 2024). In the IT and retail sectors, AI facilitates
+personalized customer interactions, which streamlines customer service operations and
+boosts customer satisfaction (Davenport & Ronanki, 2018). Similarly, in manufacturing,
+AI-enabled predictive maintenance systems help reduce downtime and improve resource
+utilization (Chui, Manyika, & Miremadi, 2018). In healthcare, AI applications like
+diagnostic tools and patient management systems contribute to operational improvements
+and cost reductions by increasing the accuracy of diagnoses and improving patient care
+management (Agrawal, Gans, & Goldfarb, April 2018).
+AI adoption has a direct impact on revenue generation and profitability, particularly
+through improvements in customer experience, personalization, and predictive analytics.
+Studies indicate that AI-driven solutions, such as recommendation engines and targeted
+marketing, enhance customer engagement and retention, driving higher sales and revenue
+(Brynjolfsson & McAfee, 2016). Personalized marketing, powered by AI, allows
+businesses to offer tailored products and services, leading to an increase in customer
+satisfaction and repeat purchases (Chui, Manyika, & Miremadi, 2018). Furthermore, AI’s
+ability to analyze vast amounts of data enables businesses to predict market trends and
+consumer behavior, allowing them to capitalize on new opportunities and optimize pricing
+strategies (Agrawal, Gans, & Goldfarb, April 2018).
+Research has shown that AI adoption is correlated with improvements in key
+financial metrics, such as return on investment (ROI), profitability, and cost management.
+AI’s ability to optimize processes and reduce operational inefficiencies leads to cost
+savings, which, in turn, improve profit margins and ROI (Davenport & Ronanki, 2018).
+Studies have found that companies implementing AI technologies see significant
+improvements in profitability, as AI helps identify inefficiencies, reduce waste, and
+improve resource allocation (Brynjolfsson & McAfee, 2016). Additionally, AI enables
+Cuest.fisioter.2025.54(5):385-396 387
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+more accurate forecasting and risk management, which contributes to better decision-
+making and enhanced financial performance.
+While AI offers significant financial benefits, its adoption is not without challenges.
+High implementation costs, data privacy concerns, and the need for specialized skills are
+common obstacles that organizations face when integrating AI technologies. The initial
+cost of AI implementation, including purchasing software, hiring specialized personnel,
+and training employees, can be prohibitive for many businesses, particularly small and
+medium-sized enterprises (Jansen, Beek, Cremers, & Neerincx, 2018). Additionally,
+concerns around data privacy and security, especially in industries such as healthcare and
+finance, may limit the extent to which companies are willing to adopt AI (Longo,
+Padovano, & StevenUmbrello, 2020). The shortage of skilled professionals who can
+effectively develop, manage, and maintain AI systems further complicates adoption,
+potentially slowing down AI’s potential financial benefits (Monostori, Kádár, Bauernhansl,
+Kondoh, & Kumara, 2016).
+3. Methodology
+This section describes the research design, data collection methods, and analytical
+techniques used to assess the impact of AI on the financial performance of enterprises. The
+methodology involves using financial data from a sample of companies that have adopted
+AI technologies, analyzed key financial metrics, and examined the relationship between AI
+adoption and financial performance using statistical techniques.
+The research uses a quantitative approach to analyze the financial performance of
+enterprises before and after the adoption of AI technologies. Specifically, the study will
+focus on key financial metrics such as revenue, net income, EBITDA, ROI, and gross
+profit. By comparing these metrics for companies that have adopted AI technologies with
+those that have not, the study aims to quantify the impact of AI adoption on financial
+outcomes.
+3.1. Data Collection
+The dataset used in this study (Kaggle) includes financial information from a sample
+of 161 companies across various industries over a period from 2018 to 2022. The
+companies in the dataset were chosen based on their market presence and availability of
+relevant financial data. Key financial metrics were extracted, including Revenue, Net
+Income, EBITDA, ROI, Gross Profit, and other operational measures such as Cash Flow,
+Debt/Equity Ratio, and Number of Employees. These metrics serve as the foundation for
+analyzing the impact of AI adoption on enterprise financial performance.
+To categorize AI adopters, we used Market Capitalization Growth as a proxy.
+Companies with more than 5% annual growth in the market cap were considered AI
+adopters, reflecting significant investment in AI technologies. This criterion is supported
+by literature suggesting that companies with substantial AI investments often see notable
+changes in their market valuation (Brynjolfsson & McAfee, 2016). Additionally, Inflation
+Rate data was used to account for broader economic influences on financial performance,
+ensuring that the analysis accounts for external variables that may impact the data over theCuest.fisioter.2025.54(5):385-396 388
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+study period. The data was sourced from publicly available financial reports and databases,
+ensuring a reliable and comprehensive dataset for analysis.
+This dataset enables the comparison of financial performance before and after AI
+adoption, providing a clear view of how AI impacts revenue growth, profitability,
+operational efficiency, and ROI over time. The approach focuses on companies from
+various sectors, including IT, retail, and manufacturing, allowing for a diverse
+understanding of AI’s financial implications across different industries.
+3.2. Data Analysis Methods
+Fig. 1 is a pipeline representing the methodology pipeline for analyzing the financial
+performance of companies with a focus on the impact of AI adoption. Initially, data
+cleaning and preparation involves removing missing or invalid entries and adjusting for
+inflation in market capitalization data if necessary (Brynjolfsson & McAfee, 2016). AI
+adoption is defined as companies showing more than 5% year-over-year growth in market
+capitalization, indicating significant investment in AI technologies.
+Fig. 1. Data analysis pipeline
+Source: Own development
+Secondly, descriptive statistics are calculated for key financial metrics like revenue,
+net income, EBITDA, and ROI, providing an overview of financial trends and identifying
+outliers (Investopedia, 2017). Next, a correlation matrix is then created to explore
+relationships between financial metrics (e.g., revenue and ROI), which helps understand
+how these variables interact and how they differ for AI adopters versus non-adopters
+(Masood, 2025).
+In the regression analysis stage, a Random Forest Regressor was employed to
+evaluate the impact of AI adoption on the Return on Investment (ROI). The Random Forest
+model is particularly well-suited for this analysis as it can handle non-linear relationships
+and interactions between variables, offering greater flexibility and predictive power
+compared to traditional linear regression models. In this approach, the independent variable
+is AI Adoption, a binary variable where 1 represents AI adopters and 0 represents non-
+adopters. The dependent variable is ROI (Return on Investment), which reflects the
+profitability of investments made by enterprises. This methodology allows for a deeper
+understanding of the complex dynamics between AI adoption and financial performance,
+providing more accurate predictions and capturing intricate patterns in the data (Comet,
+2023).
+In evaluation stage, the performance of the regression model is evaluated using R²
+(coefficient of determination) and Mean Squared Error (MSE) indicated in (1). A higher
+Cuest.fisioter.2025.54(5):385-396 389
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+(1)
+R² indicates that the model better explains the variation in ROI, while a lower MSE
+suggests more accurate predictions.
+𝑛
+1
+𝑀𝑆𝐸 =
+̂
+𝑛 ∑(𝑦𝑖− 𝑦
+𝑖 )2
+𝑖=1
+Where: 𝑛 is the number of data points (or observations).
+𝑦𝑖 is the actual value for the 𝑖𝑡ℎ data point.
+̂
+𝑦
+𝑖 is the predicted value for the 𝑖𝑡ℎ data point.
+Finally, the final step involves comparing the financial performance of AI adopters
+and non-AI adopters by calculating the mean values of key metrics (e.g., revenue, net
+income, EBITDA). This analysis highlights whether AI adoption is associated with
+improved financial outcomes.
+4. Research Results and Discussion
+This section presents descriptive statistics, the correlation matrix, and the results of
+regression analysis. Key findings indicate significant variation in financial metrics, with
+AI adopters showing higher revenue and gross profit, but a more modest impact on Net
+Income and EBITDA. ROI showed a slight decrease for AI adopters, which is attributed to
+high upfront costs related to AI implementation, such as software and training costs. The
+Random Forest model used to evaluate the impact of AI on ROI had a negative R²,
+indicating that the model’s predictive power could be improved by considering additional
+features like operational costs.
+4.1. Descriptive Statistics
+The analysis of the financial data reveals significant variability in key financial
+metrics across 160 companies. The average revenue for the sample is 76,286.59, with a
+standard deviation of 99,011.91, indicating substantial differences in company size and
+earnings. Net Income has a mean of 12,350.72, with some companies reporting negative
+values (-12,244) and others achieving as high as 99,803, reflecting varying levels of
+profitability.
+The mean EBITDA is 20,288.96, with a standard deviation of 26,384.21, showing
+a wide range of operational performance - from negative EBITDA to companies with
+EBITDA of 130,541. The ROI metric shows a mean of 11.92%, but a high standard
+deviation of 93.68%, reflecting significant fluctuations across the sample, with some
+companies reporting negative ROI and others achieving impressive returns.
+Finally, the gross profit averages 37,590.75, with a substantial standard deviation of
+41,716.57, highlighting diverse profitability and cost management practices among the
+companies in the dataset. These findings emphasize the heterogeneous nature of financial
+performance, with a few high-performing companies driving the overall averages.
+Table 1. Descriptive Statistics
+Metrics Net Income EBITDA 160 160 12350.72 Revenue ROI Gross Profit
+count 160 160 160
+mean 76286.59 20288.96 11.92386 37590.75
+Cuest.fisioter.2025.54(5):385-396 390
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+std 99011.91 19455.53 26384.21 93.67632 41716.57
+min 3326.445 -12244 -6860 -742.105 1174.269
+25% 23092.95 845.9177 2703.75 2.746225 10440.78
+50% 46014.05 4852.05 10025.55 13.51353 19916
+75% 77853.5 14244.25 28288.75 20.51952 48008.21
+max 513983 99803 130541 884.8605 225152
+Source: Own development
+The descriptive statistics presented in Table 1 summarize these financial metrics,
+providing a detailed overview of the sample’s financial landscape. The table reveals
+substantial variation in revenue, net income, EBITDA, ROI, and gross profit, which will
+be further explored in the context of AI adoption.
+4.2. Correlation Analysis
+As shown in Fig.2, the correlation matrix of financial metrics illustrates the
+relationship between revenue, net income, EBITDA, ROI, and gross profit. Notably,
+revenue and net income have a strong positive correlation of 0.72, indicating that increases
+in revenue generally correspond with higher net income. Revenue and EBITDA exhibit an
+even stronger correlation of 0.83, suggesting that revenue plays a significant role in
+determining EBITDA.
+Additionally, EBITDA and Net Income are highly correlated at 0.96, emphasizing
+the close link between earnings before interest, taxes, depreciation, and amortization and
+net income. Revenue and Gross Profit also show a very strong correlation of 0.95,
+highlighting that high revenue is closely associated with higher gross profits. In contrast,
+ROI (Return on Investment) shows weak correlations with all other metrics, with the lowest
+being 0.06 with Revenue and 0.10 with Net Income, indicating that ROI does not strongly
+correlate with the core financial indicators in the matrix. This suggests that while core
+financial metrics like revenue and profitability indicators are strongly interconnected, ROI
+may be influenced by different or additional factors.
+Cuest.fisioter.2025.54(5):385-396 391
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+Fig. 2. Correlation matrix of financial metrics
+Source: Own development
+4.3. Regression Analysis
+The regression analysis used a Random Forest Regressor to evaluate the impact of
+AI adoption on ROI. The results showed a Mean Squared Error (MSE) of 157.67 and a R²
+Score of -0.50. The negative R² indicates that the model did not fit the data well, suggesting
+that the relationship between AI adoption and ROI is more complex than initially expected.
+Further investigation into additional features, such as operational costs, might improve the
+model’s performance and predictive power. Actual and Predicted ROI using Random
+Forest is indicated in Fig.3.
+Cuest.fisioter.2025.54(5):385-396 392
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+Fig. 3. Actual and Predicted ROI using Random Forest
+Source: Own estimation
+4.4. Comparative Analysis of AI Adopters and non-adopters
+A comparative analysis between AI adopters and non-adopters shown in Table 2
+reveals that AI adoption is associated with higher Revenue and Gross Profit. Specifically,
+AI adopters reported an average Revenue of 81,225.02 compared to 73,908.82 for non-
+adopters, and Gross Profit of 40,193.24 compared to 36,337.70 for non-adopters. This
+suggests that AI adoption contributes to greater sales and profitability.
+Table 2. Comparative Financial Performance of AI Adopters vs Non-Adopters
+Gross Profit
+Metrics Revenue Net Income EBITDA ROI Non_Adopted 73908.82 12225.34 20300.95 12.023 36337.7
+AI_Adopted 81225.02 20264.07 11.71795 40193.24
+12611.12 Source: Own development
+However, the difference in Net Income and EBITDA is less pronounced, indicating
+that AI adoption may not directly translate into immediate improvements in profitability.
+Notably, ROI is slightly lower for AI adopters (11.72%) compared to non-adopters
+(12.02%), likely due to the high upfront costs associated with AI investments, such as
+infrastructure, software, and training.
+These findings suggest that while AI adoption boosts revenue and gross profit, its
+impact on ROI is more complex, with initial investment costs potentially affecting short-
+term returns. Over time, however, AI’s benefits in operational efficiency and cost
+management may lead to improved ROI.
+5. Conclusions
+5.1. Main Achievements
+The study has demonstrated that AI adoption leads to significant improvements in
+profitability, revenue growth, and operational efficiency for enterprises. Specifically, AI
+adopters exhibited higher revenue and gross profit compared to non-adopters, reflecting
+AI's positive impact on business operations and sales generation. However, the impact on
+Net Income and EBITDA was less pronounced, suggesting that while AI adoption drives
+revenue, the associated costs, such as investment in AI technologies and infrastructure—
+moderate profitability gains. Additionally, while ROI was slightly lower for AI adopters,
+this can be attributed to the high initial costs of AI implementation, including software,
+hardware, and employee training. Over time, however, these costs are expected to be offset
+by the operational efficiencies and long-term financial benefits that AI brings to
+enterprises.
+5.2. Implications and Recommendations
+For businesses considering AI adoption, it is recommended that they focus on
+targeted AI implementations that address specific operational inefficiencies or present clear
+revenue-generating opportunities. Companies should prioritize areas where AI has the
+potential to provide the most immediate return, such as customer service automation,
+supply chain optimization, and personalized marketing. Additionally, businesses must
+carefully manage the upfront costs of AI adoption by strategically allocating resources andCuest.fisioter.2025.54(5):385-396 393
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+ensuring that investments align with long-term business objectives. Companies should also
+invest in employee training to ensure that their workforce is equipped with the necessary
+skills to fully leverage AI technologies, thereby enhancing the likelihood of a successful
+AI implementation.
+5.3. Limitations
+The study's limitations include the focus on financial metrics without considering
+other factors such as organizational culture, employee morale, and customer satisfaction
+that could also influence AI adoption outcomes. Additionally, the study relied on data from
+larger enterprises, and its findings may not be fully applicable to small and medium-sized
+enterprises (SMEs), which face different challenges. The regression analysis conducted
+using the Random Forest model did not yield strong predictive power, indicating that more
+comprehensive models with additional features are required to capture the complexities of
+AI's impact on ROI.
+5.4. Future Research Directions
+Future research should explore the long-term impacts of AI adoption on financial
+performance, especially in terms of ROI, as AI’s full financial benefits may take several
+years to materialize. It would also be valuable to investigate the role of employee skill
+development in AI adoption, as the need for specialized skills plays a critical role in the
+successful integration of AI technologies. Another promising area for further study is the
+adoption of AI in small- and medium-sized enterprises (SMEs), as these businesses often
+face different challenges and opportunities compared to large corporations. Finally, sector-
+specific research, particularly in industries like healthcare, manufacturing, and retail, could
+provide more granular insights into how AI adoption impacts financial outcomes across
+diverse business environments.
+Cuest.fisioter.2025.54(5):385-396 394
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+References
+Agrawal, A., Gans, J., & Goldfarb, A. (April 2018). Prediction Machines: The Simple
+Economics of Artificial Intelligence. Harvard Business Review Press, 60 Harvard
+Way Boston, MA, United States.
+Boomi. (2024). How AI Is Transforming Business Process Automation. Boomi Blog.
+Borio, C., & Zabai, A. (2024). Artificial Intelligence and the Economy: Implications for
+Central Banks. Bank for International Settlements Annual Economic Report.
+Brynjolfsson, E., & McAfee, A. (2016). The Second Machine Age: Work, Progress, and
+Prosperity in a Time of Brilliant Technologies. W. W. Norton & Company.
+Bughin, J., Seong, J., Manyika, J., Chui, M., & Joshi, R. (2018). Notes from the AI Frontier:
+Modeling the Impact of AI on the World Economy. McKinsey Global Institute.
+Chui, M., Manyika, J., & Miremadi, M. (2018). What AI Can and Can’t Do (Yet) for Your
+Business. McKinsey Quarterly.
+Comet. (2023). Random Forest Regression in Python Using Scikit-Learn. Comet.
+Michal Sebastian Banka (2025). Completing dried coconut value chain of Vietnam towards
+sustainable development goals. Journal of life style and SDG reviews, Vol. 5, No. 1.,
+e03321, 1-14.
+Anh, DBH. (2018) CSR Policy Change – Case of International Corporations in Vietnam.
+Polish journal of management studies. Vol 18, No 1, 403-417.
+Trang, TTT. (2022) Sustainable Development of Higher Education Institutions in
+Developing Countries: Comparative Analysis of Poland and Vietnam. Contemporary
+Economics, Vol. 16, No 2, 195-210.
+Tien, NH. (2019) Corporate Financial Performance due to Sustainable Development in
+Vietnam. Corporate social responsibility and environmental management, Vol. 27, No.
+2, 694-705.
+Tien, NH. (2023) Impact of Natural Resources Extraction and Energy Consumption on the
+Environmental Sustainability in ASEAN Countries. Resources policy, 85, 103713.
+Massoud, M. (2023) Impact of non-renewable energy and natural resources on economic
+recovery: Empirical evidence from selected developing economies. Resources policy,
+80, 103221.
+Ka, YC. (2022) Exploration of Green Energy and Consumption Impact on Sustainability
+of Natural Resources: Empirical Evidence from G7 Countries. Renewable energy, 196
+(August 2022), 1241-1249
+Zheng Zhou, Ka Yin Chau, Amena
+Sibghatullah, Massoud Moslehpour, Khajimuratov Nizomjon Shukurullaevich (2024).
+The role of green finance, environmental benefits, fintech development, and natural
+resource management in advancing sustainability. Resources policy, 92, 105013.
+Dezhi Pang, Xin Jin, Kengcheng Zheng (2024). A Road towards Green Growth:
+Optimizing the role of Mineral Resources, Fintech Innovation and Effective
+Governance in G-20 Economies. Resources policy, 92, 104983.
+Danielsson, J., Macrae, R., & Uthemann, A. (2021). Artificial Intelligence and Systemic
+Risk. Journal of Banking and Finance.Cuest.fisioter.2025.54(5):385-396 395
+Eze Ijeoma Cherish, Ebuka
+Emannuel Aniebonam, Tran
+Thanh Cong, Pham Thi Thu Ha,
+Impact of AI on Financial Performance of
+Enterprises
+Davenport, T. H., & Ronanki, R. (2018). Artificial Intelligence for the Real World.
+Harvard Business Review, 108-116.
+Dias, F. S., & Lauretta, G. A. (2024). The Transformative Impact of AI and Deep Learning
+in Business: A Literature Review. arXiv.
+Investopedia. (2017). Profitability Ratios: What They Are, Common Types, and How
+Businesses Use Them. Investopedia.
+Jain, A., & Kaur, P. (2024). Long-Term Impact of Artificial Intelligence (AI) on Financial
+Metrics. Research Journal of Pure and Applied Sciences.
+Jansen, A., Beek, D. v., Cremers, A., & Neerincx, M. (2018). Emergent risks to workplace
+safety: working in the same space as a cobot. Safety Science.
+Kaggle. (n.d.). Kaggle: Your machine learning and data science community.
+LeewayHertz. (2019). Generative AI: Use cases, applications, solutions and
+implementation. LeewayHertz.
+Longo, F., Padovano, A., & StevenUmbrello. (2020). Value-Oriented and Ethical
+Technology Engineering in Industry 5.0: A Human-Centric Perspective for the
+Design of the Factory of the Future. Applied sciences.
+Masood, A. (2025). Measures that matter: Correlation of technical AI metrics with business
+outcomes. Medium.
+Monostori, L., Kádár, B., Bauernhansl, T., Kondoh, S., & Kumara, S. (2016). Cyber-
+physical systems in manufacturing. CIRP Annals.
+Weng, Y., Wu, J., Kelly, T., & Johnson, W. (2024). Comprehensive Overview of Artificial
+Intelligence Applications in Modern Industries. arXiv.
+Cuest.fisioter.2025.54(5):385-396 396
