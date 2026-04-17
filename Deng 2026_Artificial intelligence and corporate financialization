@@ -1,0 +1,2467 @@
+International Review of Financial Analysis 110 (2026) 104906
+Contents lists available at ScienceDirect
+International Review of Financial Analysis
+journal homepage: www.elsevier.com/locate/irfa
+Artificial intelligence and corporate financialization
+Xiaomeng Denga
+, Chuan Qin b,
+*
+a School of Economics and Management, University of Science and Technology Beijing, China
+b Rutgers, The State University of New Jersey, NJ, United States
+A R T I C L E I N F O
+Keywords:
+Artificial intelligence
+Corporate financialization
+Profitability
+Financing constraints
+Digital transformation
+A B S T R A C T
+Against the backdrop of deep integration of artificial intelligence (AI) into corporate operations, this study examines
+how AI adoption influences firms’ financial asset allocation decisions using panel data of Chinese listed
+firms with 30,070 observations covering 2010–2023. Drawing on resource-based theory and corporate finance
+perspectives, we find that AI adoption significantly increases firms’ financial asset ratios. This effect operates
+through two competing mechanisms: AI enhances profitability, generating surplus funds allocated to financial
+assets, while simultaneously alleviating financing constraints, with the profitability channel dominating.
+Importantly, this relationship is significantly moderated by three contextual factors: firms’ digital transformation
+foundations, top management teams’ technological expertise, and regional digital infrastructure quality. Heterogeneity
+analyses reveal that AI’s financial impact is substantially stronger in large firms, digital economy
+industries, and competitive markets. These findings contribute theoretically by extending resource-based and
+corporate finance perspectives to emerging technologies, demonstrating how AI reshapes corporate resource
+allocation through dual pathways contingent on organizational capabilities and environmental conditions.
+Practically, firms should strengthen digital capabilities and technological leadership to maximize AI returns,
+while policymakers should prioritize digital infrastructure development to amplify AI’s economic benefits.
+Future research should examine these relationships across institutional contexts and employ quasi-experimental
+designs to strengthen causal inference.
+1. Introduction
+Artificial intelligence (AI) has emerged as a transformative force
+reshaping corporate strategies and resource allocation decisions (Li,
+Zhong, & Tong, 2024; Zhang & Yang, 2024; Zhou, Li, Wang, Li, & Zhou,
+2025). Companies across industries are increasingly integrating AI
+technologies to enhance operational efficiency, strategic decision-
+making, and innovation capabilities (Li, Wu, Hu, Pan, & Zhou, 2025).
+Recent firm-level evidence demonstrates that investments in AI are
+associated with higher growth in sales, employment, and market value,
+driven primarily by improved product innovation and operational performance
+(Babina, Fedyk, He, & Hodson, 2024; Dong, Xin, Liu, & Yu,
+2024). These advancements suggest that AI adoption can strengthen
+firms’ competitive advantages and financial outcomes (Qu & Jing, 2025;
+Zhang & Piao, 2025). However, an important yet underexplored question
+remains: how does AI adoption influence firms’ financial asset
+allocation behavior? As firms generate efficiency gains and cost savings
+from AI implementation, they face critical strategic decisions about
+deploying these benefits, reinvesting in core operations, distributing to
+shareholders, or accumulating financial assets. Understanding this
+allocation decision has significant implications for firm growth trajectories,
+innovation capacity, and broader economic development (Bahoo
+et al., 2023; Dai et al., 2025; Zhou et al., 2024; Dai, 2025).
+In many economies, firms have exhibited a rising propensity to
+allocate resources from core productive activities toward financial investments,
+a phenomenon often referred to as “corporate financialization”
+(Orhangazi, 2008; Xu & Xuan, 2021). This trend has sparked
+considerable debate regarding whether such reallocation supports
+corporate stability and flexibility or undermines long-term productive
+investment and innovation. Understanding how technological change,
+particularly AI adoption, influences this trend carries both theoretical
+and practical significance. Existing literature on corporate financialization
+identifies multiple drivers explaining why non-financial firms
+accumulate financial assets. One perspective suggests that when returns
+on real sector investments are low or uncertain, firms seek alternative
+revenue streams through financial investments (Demir, 2009). In China,
+* Corresponding author.
+E-mail addresses: dengxiaomeng@ustb.edu.cn (X. Deng), chuanqin5@outlook.com (C. Qin).
+https://doi.org/10.1016/j.irfa.2025.104906
+Received 7 July 2025; Received in revised form 11 November 2025; Accepted 4 December 2025
+Available online 5 December 2025
+1057-5219/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+X. Deng and C. Qin this shift from “real” to “virtual” economy activities has been observed
+as firms increasingly allocate surplus capital into financial assets amid
+industrial overcapacity and economic transitions (Xu & Xuan, 2021).
+Another explanation highlights that holding financial assets serves as a
+strategic response to financing frictions: firms facing external financing
+constraints tend to retain liquidity and short-term investments as precautionary
+reserves (Bates, Kahle, & Stulz, 2009). By maintaining
+buffers of financial assets, companies ensure funding availability for
+future opportunities or economic downturns, thereby alleviating potential
+financing constraints (Zhong & Song, 2025). While these motivations
+for financialization are well-documented, little is known about
+how emerging technologies like AI might fundamentally alter these
+dynamics.
+From a theoretical standpoint, AI adoption can influence corporate
+financialization through two principal mechanisms with potentially
+opposing effects. First, AI adoption may substantially improve a firm’s
+core profitability and cash flow generation. According to the resource-
+based view, technology capabilities serve as valuable firm resources
+that enhance productivity and cost efficiency, ultimately boosting
+financial performance (Xin, 2025; Durongkadej, Hu, & Wang, 2024).
+Empirical studies support this perspective: firms implementing AI report
+higher net profit margins and greater operational efficiency (Chen,
+Esperança, & Wang, 2022). Improved profitability generates excess cash
+or liquid resources, which managers might channel into financial investments
+if attractive opportunities in core business operations are
+limited. In this sense, AI-driven profit gains might facilitate financialization
+by increasing funds available for purchasing financial assets.
+Second, AI adoption may significantly affect a firm’s external financing
+environment (Wang and Liu, 2025). Innovative adopters of AI could
+enjoy better access to financing due to enhanced firm value and investor
+confidence, or through policy support favoring technology leaders.
+Recent evidence by Zhong and Song (2025) finds that AI adoption in
+Chinese firms significantly relieves financing constraints, as measured
+by reductions in firms’ reliance on internal funds. When external capital
+becomes more accessible or internal cash flows more stable, firms have
+less need to hoard precautionary liquid assets. Consequently, easing
+financing constraints via AI might mitigate financialization, as companies
+can confidently deploy funds in long-term projects rather than
+stockpiling financial assets for safety. These two channels suggest a
+complex relationship: AI adoption could simultaneously increase
+financialization through profitability improvements and decrease it by
+relaxing financing constraints.
+Given these potentially offsetting effects, the net impact of AI on
+corporate financialization becomes a critical empirical question. However,
+we propose a positive net relationship based on three considerations
+specific to the Chinese economic context. First, during our study
+period (2010− 2023), many Chinese industries experienced overcapacity
+and declining returns on physical investment (Xu & Xuan,
+2021), making firms more likely to retain efficiency gains as financial
+assets rather than immediately reinvesting in capacity expansion. Second,
+institutional factors including capital market underdevelopment
+and property rights concerns create incentives for Chinese firms to hold
+liquid, easily-deployable financial assets as strategic flexibility. Third,
+while AI may ease financing constraints, this likely unfolds gradually as
+firms build track records and reputation, whereas profitability improvements
+materialize more quickly, creating a temporal asymmetry
+favoring financial asset accumulation in the short-to-medium term
+captured by our panel data.
+This study aims to fill this research gap by examining whether and
+how AI adoption influences the financialization of non-financial firms.
+Using a comprehensive panel of Chinese listed companies from 2010 to
+2023 with 30,070 observations, we investigate the direct effect of firms’
+AI adoption on their financial asset holdings, as well as the mediating
+roles of profitability enhancement and financing constraint alleviation
+in this relationship. We further consider heterogeneity in this effect by
+exploring several moderators related to firms’ digital context: the degree
+International Review of Financial Analysis 110 (2026) 104906
+of digital transformation foundation, the top management team’s technology
+expertise, and the regional digital infrastructure. These factors
+may condition how effectively AI translates into financial outcomes for
+firms.
+Our research contributes to the literature in several important ways.
+First, we bridge the gap between the technology adoption literature and
+corporate finance by revealing how AI implementation shapes corporate
+asset allocation decisions. While prior studies have linked technology
+investments to firm growth and performance (Babina et al., 2024), we
+extend this line of inquiry to the domain of financial asset management,
+offering evidence on a novel determinant of corporate financialization.
+Besides,we employ a longer time series capturing the recent AI boom,
+explicitly test dual mediating mechanisms with formal mediation analysis
+rather than inferring channels, examine three-level moderating
+factors providing a comprehensive contingency framework, and employ
+system GMM to address endogeneity concerns more rigorously. Second,
+we unpack the mechanisms through which AI influences financialization.
+By identifying profitability improvements and reduced financing
+constraints as competing mediating pathways, our study sheds light on
+why AI-adopting firms might hold different levels of financial assets
+compared to non-adopters. This dual-path analysis provides deeper
+theoretical understanding of the AI-finance nexus within firms. Third, by
+analyzing moderating variables related to digital readiness at firm,
+managerial, and regional levels, we highlight the contingent nature of
+AI’s impact. This helps pinpoint the conditions under which AI’s influence
+on financialization is amplified or dampened, which has practical
+implications for managers and policymakers interested in leveraging
+digital transformation while maintaining healthy real-financial asset
+balances.
+The remainder of the paper is organized as follows. Section 2 reviews
+relevant literature and theoretical background, culminating in our hypotheses.
+Section 3 describes the data, variables, and empirical methodology,
+including model specification and diagnostic tests. Section 4
+presents the empirical results and robustness checks. Finally, Section 5
+discusses the implications, limitations, and future research directions.
+2. Literature review and theoretical background
+2.1. Corporate Financialization: Concept and drivers
+Corporate financialization refers to the increasing allocation of
+corporate resources into financial assets or activities by non-financial
+firms. It is commonly quantified by the proportion of financial assets
+(such as cash, marketable securities, and equity investments) to total
+assets on the balance sheet. A growing body of research documents a
+rising trend of financialization among non-financial enterprises in both
+advanced and emerging economies (Demir, 2009; Orhangazi, 2008).
+This trend reflects a strategic shift where firms prioritize financial asset
+accumulation and short-term returns, sometimes at the expense of
+capital expenditure in their core business operations. Several theoretical
+explanations have been proposed for this phenomenon.
+One explanation is grounded in the decline of productive investment
+opportunities. As returns on traditional industrial projects diminish due
+to market saturation or economic slowdown, firms may seek higher
+yields or more stable returns in financial markets. Empirical evidence
+supports this “substitution” motive: for example, Chinese firms have
+increased financial investments in periods of industrial overcapacity and
+shrinking profitability of core businesses, effectively shifting from “real”
+to “virtual” investments (Xu & Xuan, 2021). In this view, corporate
+financialization is a rational response to macroeconomic conditions and
+diminishing marginal returns in the real economy.
+Another important driver is the presence of financing frictions and
+uncertainty. Firms with higher external financing costs or facing credit
+constraints often retain liquid assets as a precaution. Holding a buffer of
+cash and liquid financial instruments provides insurance against future
+shocks and funding needs, consistent with the pecking-order theory that
+2
+X. Deng and C. Qin firms prefer internal funds for investment. Research shows that companies
+with tighter financing constraints exhibit a greater propensity to
+accumulate cash and short-term investments (Bates et al., 2009). These
+financial assets serve as liquidity reserves that can be tapped when
+external capital is costly or unavailable, thereby smoothing investment
+and operations. In this light, financialization can be seen as a liquidity
+management strategy: it provides firms flexibility and security, albeit
+potentially at the cost of forgoing some long-term investment in physical
+assets. Recent studies indeed find that alleviating financing constraints
+can temper firms’ incentives to hold excess financial assets. For instance,
+improved access to bank credit or capital markets is associated with a
+reduction in corporate cash holdings and other financial asset ratios.
+Thus, the extent of corporate financialization is influenced by a trade-off
+between the need for precautionary savings and the opportunities for
+productive investment.
+Notably, corporate financialization can have mixed implications for
+firm performance and the broader economy. On one hand, moderate
+levels of financial asset holdings can improve capital allocation efficiency
+by allowing firms to dynamically allocate surplus funds and earn
+additional income. Such financial investments might also relax future
+financing constraints by generating liquid returns. On the other hand,
+excessive financialization is often criticized for crowding out real investment
+and innovation (Demir, 2009; Orhangazi, 2008). High financial
+asset accumulation may indicate that management is prioritizing
+short-term financial gains or risk-aversion over long-term growth,
+which could dampen the firm’s innovation capacity and economic
+growth prospects. For Chinese manufacturing firms, recent evidence
+even suggests a non-linear effect: low to moderate financialization can
+provide a “reservoir” of funds supporting innovation, but beyond a
+threshold it begins to inhibit R&D expenditure, forming an inverted U-
+shaped relationship. These findings underscore that the causes and
+consequences of financialization are complex and context-dependent.
+In summary, the literature indicates two key motivations behind
+corporate financialization that are pertinent to our study: (1) a search for
+higher returns in the face of declining productive opportunities, and (2)
+a response to financing constraints and uncertainty by holding liquid
+reserves. The balance between these motives can determine a firm’s
+optimal financial asset holdings. We next consider how the adoption of
+AI technology might alter this balance, drawing on theoretical perspectives
+and emerging empirical insights.
+2.2. AI adoption, firm performance, and financing environment
+The diffusion of AI and related digital technologies represents a
+significant technological shift with potential to impact firm behavior
+broadly. The resource-based view (RBV) of the firm provides a useful
+framework for understanding how AI capabilities translate into performance
+outcomes. According to RBV, firms gain competitive advantage
+by developing unique resources and capabilities that are valuable, rare,
+and hard to imitate. AI systems, including machine learning algorithms,
+intelligent automation, and big data analytics, can be regarded as
+advanced organizational capabilities that improve information processing
+and operational efficiency. When effectively implemented, AI
+enables firms to optimize processes, reduce costs, enhance product
+quality, and respond rapidly to market changes. These efficiencies
+manifest in improved financial metrics. Empirical evidence is accumulating
+that AI adoption boosts firm performance: for example, a recent
+large-scale study finds that firms investing in AI experience significant
+increases in sales growth and profitability relative to non-adopters
+(Babina et al., 2024). Similarly, case studies in sectors like e-commerce
+show AI-driven improvements in customer targeting and inventory
+management that lead to higher revenue and profit margins
+(Chen et al., 2022). In addition to raising the level of performance, AI
+may also stabilize it; Lui, Lee, and Ngai (2022) report that firms with
+greater AI investment see reduced volatility in sales and earnings,
+indicating that AI can make operations more resilient and predictable.
+International Review of Financial Analysis 110 (2026) 104906
+Overall, these findings suggest that AI adoption often strengthens a
+firm’s financial position, yielding more robust cash flows and profits.
+Beyond internal performance, AI adoption can influence a firm’s
+external financing conditions. A company at the forefront of AI may be
+perceived as more innovative and future-oriented, potentially
+improving its valuation and attractiveness to investors and lenders. In
+China, government initiatives and capital markets have increasingly
+favored high-tech and digitally transforming firms, providing them with
+funding advantages such as easier access to equity financing and lower-
+cost bank loans. Additionally, firms that successfully deploy AI could
+accumulate intellectual assets and data advantages that serve as
+collateral or signals of creditworthiness. Recent research highlights a
+link between AI adoption and financing constraints: Zhong and Song
+(2025) show that Chinese listed companies adopting AI technologies
+saw a significant reduction in their financing constraints index (a lower
+SA index, per Hadlock & Pierce, 2010). This implies that those firms
+either had improved access to external finance or became less dependent
+on external funds (e.g. due to stronger internal cash generation), or both.
+In another study, Chen, Chu, and Zhao (2024) find that AI-adopting
+firms in China increased their risk-taking in investment and strategy,
+with the effect being more pronounced for firms facing lower financing
+constraints, suggesting that access to finance complements the risk-
+mitigating benefits of AI. These pieces of evidence align with the
+notion that AI can alter the financial ecosystem of the firm: by boosting
+profitability and investor confidence, AI adopters may find it easier to
+raise capital and thus operate with less financial stress.
+It is important to recognize that implementing AI often requires
+substantial upfront investment in software, hardware, and talent. Firms
+with limited financial slack or financing options might struggle to adopt
+AI at scale. Therefore, there could be a selection effect where firms that
+are already financially stronger (or less constrained) are more likely to
+invest in AI. Our analysis will account for this by controlling for firm
+size, leverage, and other factors, as well as using fixed-effects to mitigate
+time-invariant differences. Assuming AI adoption can be treated as at
+least partially exogenous or instrumented by certain drivers (though a
+full treatment of endogeneity is beyond the scope of this section), its
+subsequent effects on firm financial behavior remain an open question.
+2.3. Linking AI adoption to corporate Financialization
+Integrating the above discussions, we propose that AI adoption has a
+significant impact on corporate financialization through its effects on
+profitability and financing constraints. First, consider the profitability
+channel. A firm that achieves higher profits and cash flow from AI-
+driven improvements has more discretionary resources at hand. Managers
+then face decisions on how to utilize these funds. If the firm has
+abundant profitable investment opportunities (for instance, further
+expansion, R&D, or capacity building), one would expect it to reinvest
+the cash into the business, which could reduce the relative share of
+financial assets (since total assets grow via real investment). However, if
+the firm’s growth opportunities are limited or if managers are risk-
+averse, they might allocate a significant portion of the surplus funds
+into financial assets. Holding financial assets can generate passive income
+and offer flexibility for future investments. In many large companies,
+substantial profits are often parked in short-term investments or
+cash equivalents before deployment (Bates et al., 2009). Thus, higher
+profitability could lead to higher financial asset ratios if immediate
+reinvestment needs are met or if management prefers the liquidity and
+lower risk of financial investments. In the context of AI adopters, if these
+firms enjoy profit windfalls from efficiency gains, a part of those
+windfalls may flow into financial portfolios (time deposits, bonds, equity
+stakes, etc.), thereby increasing corporate financialization. This is
+sometimes referred to as the “reservoir effect,” where excess capital is
+stored in financial form. On the other hand, we acknowledge the possibility
+that some AI-driven firms, especially those oriented toward
+innovation, might aggressively reinvest profits into new projects (e.g.
+3
+X. Deng and C. Qin developing more AI capabilities), which would counteract financialization.
+The net effect of profitability on financial asset holding is
+therefore empirical, but we lean on the precautionary and reservoir
+motive literature to expect a positive link in aggregate.
+Second, the financing constraint channel likely works in the opposite
+direction. When AI adoption eases a firm’s financing constraints, the
+firm no longer needs to retain as much liquid wealth for precautionary
+motives. In other words, if a company knows it can raise debt or equity
+capital relatively easily when needed (because it has proven AI strengths
+and investor backing), it might choose to deploy its cash more confidently,
+rather than keeping it idle in low-yield financial instruments.
+This scenario would result in lower levels of financial asset holdings than
+otherwise, as funds are redirected to productive uses or returned to
+shareholders. Empirical evidence suggests that firms with improved
+financing access reduce their cash ratios and financial investments. In
+our case, AI-adopting firms that become less financially constrained
+might draw down previously accumulated cash reserves or be less inclined
+to build them up, thus dampening financialization. Additionally,
+if AI adoption reduces earnings volatility (Lui et al., 2022; Yang, 2025),
+firms may perceive less need for precautionary liquidity, further
+reducing the motive to hold financial assets. Therefore, the financing
+constraint relief brought by AI is expected to have a negative influence
+on corporate financialization.
+In summary, theory and prior findings indicate two countervailing
+mechanisms: (a) AI adoption → higher profitability → higher financialization,
+and (b) AI adoption → lower constraints → lower financialization.
+The overall impact of AI on a firm’s financial asset ratio will
+depend on the relative strength of these mechanisms. It is conceivable
+that the profitability effect dominates in some contexts (leading to a net
+positive effect on financialization), or conversely, the reduction in precautionary
+needs dominates (leading to a net negative effect). This
+nuanced outcome is an empirical matter that our study will resolve.
+Beyond these average effects, we also expect heterogeneity based on
+firm and regional characteristics, which we outline in our hypotheses
+below.
+2.4. Hypotheses development
+AI Adoption and Corporate Financialization. Given the discussion
+above, we first posit a direct relationship between AI implementation
+and the degree of corporate financialization. Firms that actively adopt AI
+technologies are likely to undergo changes in their financial profiles. On
+one side, efficiency gains and cost reductions from AI can increase
+profitability and generate surplus cash, part of which might be invested
+in financial assets if not immediately needed for expansion. On the other
+side, the improved credit standing and reduced uncertainty associated
+with AI adoption can lessen the need to hold precautionary financial
+buffers. Which effect prevails is ambiguous a priori. However, considering
+the context of many publicly listed firms that face pressures to
+show returns on idle cash, it is plausible that a significant portion of the
+gains from AI adoption is temporarily placed into financial investments,
+at least until compelling strategic uses arise. Indeed, early research
+suggests that the application of AI technology tends to enhance the level
+of financialization in enterprises (Chen et al., 2023). We thus propose
+our first hypothesis:
+H1. Ceteris paribus, a higher level of AI adoption in a firm is associated
+with a higher degree of corporate financialization (financial assets as a
+proportion of total assets).
+Mediating Role of Profitability Improvement. AI-driven improvements
+in firm profitability are expected to be a key mediator in the
+AI–financialization relationship. As argued, AI adoption can raise net
+profit margins by increasing revenue and reducing operating costs. This
+improved profitability (measured, for example, by net profit to sales)
+increases the pool of internal funds available to management. According
+to the free cash flow theory, excess internal funds can sometimes lead to
+International Review of Financial Analysis 110 (2026) 104906
+suboptimal uses if not disciplined, one such use can be accumulating
+financial investments or cash beyond what is needed. Even absent
+agency problems, prudent management may choose to hold a portion of
+newfound profits in liquid form to maintain flexibility. Therefore, we
+expect that AI adoption contributes to higher financial asset holdings
+partly through its positive impact on profitability. Formally:
+H2. The positive effect of AI adoption on corporate financialization is
+mediated by an improvement in firm profitability. (AI adoption →
+higher profitability → higher financialization.)
+Mediating Role of Financing Constraint Alleviation. The second
+mediating mechanism relates to the firm’s financing constraints. As
+discussed, firms adopting AI may experience relaxed financing frictions
+due to better performance signals and greater investor confidence
+(Zhong & Song, 2025). We measure financing constraints via the SA
+index (size-age index from Hadlock & Pierce, 2010), where a lower
+value indicates easier access to finance. AI adoption is hypothesized to
+reduce this index. When financing constraints are alleviated, the firm’s
+reliance on self-financing and precautionary cash is reduced, which
+should logically lead to a decrease in financial asset holdings relative to
+total assets. This is because the firm can deploy funds more freely into
+long-term investments or pay them out, knowing that external finance is
+attainable if needed. We thus expect a negative mediation effect through
+financing constraints:
+H3. AI adoption alleviates firms’ financing constraints, which in turn
+reduces the level of corporate financialization. (AI adoption → lower
+financing constraints → lower financialization.)
+It should be noted that H2 and H3 describe two competing pathways.
+In our empirical analysis, we will test the significance of each mediation
+path to understand their relative magnitudes. It is possible that both
+operate simultaneously, partially offsetting each other. For instance, AI
+might increase financialization through profitability (supporting H2)
+while also decreasing it through lowered constraints (supporting H3). A
+finding that H2 dominates would align with an overall positive effect of
+AI on financialization (consistent with H1), whereas a stronger H3 could
+dampen or even overturn the direct effect.
+Moderating Role of Digital Transformation Foundation. Not all firms
+benefit equally from AI adoption; the existing digital infrastructure and
+capabilities of a firm can moderate the outcomes. We define a firm’s
+digital transformation foundation (DIG) as the proportion of intangible
+assets related to digital technology (software, data platforms, etc.) in its
+total intangible assets. A higher DIG indicates that the firm has already
+invested in digital resources and is more digitally mature. Such a
+foundation likely complements AI implementation – a digitally mature
+firm can integrate AI tools more effectively into its operations, yielding
+greater performance improvements. Consequently, we expect that in
+firms with a strong digital foundation, the effects of AI adoption (on
+profitability and on easing finance frictions) are amplified. This means
+the eventual impact on financialization could also be stronger. If H1
+holds (AI increases financialization), a strong digital base would
+magnify that increase by enabling AI to generate even more surplus
+funds or returns. Alternatively, if AI mainly reduces precautionary motives,
+a strong digital base might amplify that reduction. In either case,
+the interaction is expected to be significant. We hypothesize:
+H4. The firm’s digital transformation foundation positively moderates
+the effect of AI adoption on corporate financialization. The influence of
+AI on financialization is stronger for firms with greater digital intangible
+asset bases.
+Moderating Role of Top Management Team’s Technology Cognition.
+Effective adoption of AI often requires visionary leadership and understanding
+at the top management level. We consider the technology
+cognition of the top management team (TMTECH) as an ordinal indicator
+of digital expertise among executives. A higher TMTECH score
+(where, for example, 3 indicates a CEO or Chair with tech background)
+4
+X. Deng and C. Qin signals that leadership is technologically savvy. Such leaders are more
+likely to successfully implement AI initiatives and also to strategically
+manage the resulting financial outcomes. A tech-oriented management
+might, for instance, be more inclined to reinvest AI-generated earnings
+into further tech innovation rather than purely financial investments, or
+vice versa, they might better recognize lucrative fintech opportunities
+for excess cash. Overall, we posit that management’s tech cognition will
+intensify the impact (directionally) of AI on financialization. If AI tends
+to increase financialization, tech-savvy managers will enable an even
+greater increase by fully capitalizing on AI-related financial gains.
+Conversely, they might also make more efficient use of slack, possibly
+tempering pure financial hoarding. On balance, we expect an enhancing
+effect on whatever direction AI pushes financialization. Formally:
+H5. The positive relationship between AI adoption and corporate
+financialization (H1) is stronger when the top management team has
+higher technology cognition. In other words, firms led by tech-savvy
+management exhibit a more pronounced change in financial asset
+holdings in response to AI adoption.
+Moderating Role of Regional Digital Infrastructure. Finally, the
+broader environment in which a firm operates can shape the returns to
+its AI investments. We consider the regional digital infrastructure (INF),
+measured by the emphasis on new digital infrastructure in the local
+government’s reports (frequency of keywords indicating digital infrastructure
+development). Regions with better digital infrastructure (such
+as widespread high-speed internet, data centers, 5G networks, smart city
+initiatives) provide a supportive context for companies to implement AI
+solutions effectively. In such regions, AI adoption by firms is likely to
+yield greater performance benefits due to external spillovers and
+network effects (e.g., availability of skilled workforce, suppliers, and
+complementary services). This should again magnify the impact of AI on
+firm financial outcomes. We hypothesize a similar moderating effect at
+the regional level:
+H6. The effect of AI adoption on corporate financialization is more
+pronounced for firms located in regions with more advanced digital
+infrastructure. A conducive digital environment strengthens the link
+between AI implementation and firms’ financial asset allocation
+changes.
+By testing H4, H5, and H6, we aim to paint a clearer picture of the
+contexts under which AI adoption most strongly affects financialization.
+These moderators will be examined through interaction terms in our
+regression models, as described in the methodology.
+3. Methodology
+3.1. Data and sample
+We construct a panel dataset of Chinese A-share listed non-financial
+companies from 2010 to 2023 to empirically test the above hypotheses.
+The initial sample is drawn from financial statement data and supplemental
+disclosures available in the China Stock Market & Accounting
+Research (CSMAR) and China Research Data Services (CNRDS) databases.
+We focus on the 2010–2023 period, during which AI-related investments
+by firms became increasingly prevalent and detailed data on
+such investments can be obtained from annual report notes. The sample
+consists of 4719 firms and a total of 30,070 firm-year observations after
+applying the following filtering criteria for data reliability and
+consistency:
+•We exclude firms with special treatment status (ST, *ST) or particular
+transfer (PT) status, as these companies are under financial
+distress or restructuring, which could skew their financial asset
+holdings and technology investment behavior.
+•We exclude firms in the financial industry (such as banks, insurers,
+securities companies) because their asset structures and regulatory
+International Review of Financial Analysis 110 (2026) 104906
+environments are entirely different (financial assets are part of core
+operations for them, not an indicator of “financialization” in the
+same sense).
+•We drop any firm-year observations with missing values for key
+variables used in our analysis (AI investment measures, financial
+assets, control variables, etc.), ensuring a balanced panel where
+possible.
+•All continuous variables are winsorized at the 1 % level at both tails
+to mitigate the influence of outliers. This standard procedure prevents
+extreme values from unduly affecting the regression results,
+particularly pertinent given the skewness often observed in financial
+ratios.
+•For our main independent variable (AI adoption level), we apply a
+data transformation to address high skewness and heteroscedasticity.
+Specifically, because the AI adoption proxy (explained below) exhibits
+a large standard deviation across firms, we add 1 to the raw
+measure, take the natural logarithm, and then divide by 10. This log-
+scaling smooths extreme differences and helps linearize the relationship
+without altering the ordinal information (a similar approach
+is taken in prior literature where investment variables are highly
+skewed).
+After these preprocessing steps, our final sample is a panel well-
+suited for fixed-effects regression analysis. The panel structure allows
+us to control for unobserved firm-specific factors (via firm fixed effects)
+and for macroeconomic or systemic shocks common to all firms in a
+given year (via year fixed effects). By leveraging within-firm variation
+over time, we aim to isolate the impact of changes in AI adoption on
+changes in financialization, while holding constant time-invariant firm
+characteristics.
+3.2. Variable definitions and measurement
+Corporate Financialization (FIN). The dependent variable is the
+degree of corporate financialization, denoted as FIN, measured as the
+proportion of a firm’s financial assets to its total assets. Financial assets
+are defined to include cash and cash equivalents, short-term investments
+in securities (stocks, bonds, wealth management products), other receivable
+investments, and any other financial asset items reported on the
+balance sheet. This ratio captures the extent to which a firm’s assets are
+tied up in financial forms as opposed to real economy assets (like inventory,
+fixed assets, etc.). A higher FIN indicates a greater orientation
+toward financial holdings. In robustness checks, we also construct an
+alternative measure FIN_dum, a dummy variable equal to 1 if the firm
+holds any significant financial assets (e.g., non-zero holdings in particular
+categories like trading securities or wealth management products)
+and 0 otherwise. While most listed firms do hold some financial assets,
+this dummy is more relevant when focusing on the extensive margin of
+financialization (whether to financialize or not). Our main analysis,
+however, concentrates on the continuous ratio FIN.
+AI Adoption (AI). The primary independent variable is the firm’s AI
+adoption level (AI). Following recent literature in the Chinese context,
+we proxy AI adoption by a firm using information from annual report
+notes about investments in intelligent machinery and equipment. Specifically,
+we take the total value of purchases of machinery and equipment
+related to automation or AI (as disclosed in the fixed asset notes)
+and scale it by the number of employees. This per-employee machinery
+investment serves as a proxy for the intensity of AI and automation
+technology adoption in the firm’s operations. The data for this is gathered
+via text analysis of financial statement footnotes, using keywords to
+identify AI-related equipment (e.g., industrial robots, smart
+manufacturing systems). The ratio is then log-transformed (log(1 +
+value/employee)/10) as noted above. A larger value of AI indicates a
+higher degree of AI integration in the firm relative to its labor size,
+reflecting more extensive adoption of AI tools and machinery. We
+acknowledge that this is an indirect measure – it captures automation
+5
+X. Deng and C. Qin capital deepening, which correlates with AI use – but it has been used in
+prior studies and leverages the only available firm-level data on AI investment
+in our context.
+To ensure robustness, we introduce an alternative independent variable
+AI_replace, representing the firm’s AI investment level based on
+both software and hardware related to AI. The construction of AI_replace
+is as follows: we parse the notes to financial statements for mentions of
+intangible assets related to digital and intelligent technologies (keywords
+including “software”
+,
+“intelligent system”
+,
+“information platform”
+,
+“cloud computing”
+,
+“big data”
+“AI”
+,
+,
+“internet of things”
+, etc.) to
+capture AI-related intangible asset investment. Similarly, we scan for AI-
+related fixed asset investments (keywords like “computer equipment”
+,
+“electronic device”
+,
+“automation equipment”
+“server”
+“smart termi,
+,
+nal”
+“data center”
+,
+,
+“chip”
+, etc.). Summing these two components gives
+the total AI-related investment in assets. We then scale this by total
+assets to obtain AI_replace, the ratio of AI-specific assets to total assets.
+This alternative measure captures a broader range of AI expenditures
+(both tangible and intangible) and is expressed as a percentage of total
+assets. It serves as a proxy for the firm’s commitment to AI technology in
+its asset structure. We will use AI_replace in supplementary analyses to
+check if our results are consistent under this definition.
+Mediators: We examine two mediating variables. The first is Profitability
+Improvement (NetProfit), measured as the net profit divided by
+operating revenue (net profit margin). This captures the firm’s profit
+efficiency – how much profit is generated per unit of sales – and reflects
+improvements in cost management or value addition potentially
+brought by AI. We denote this ratio by NetProfit and expect AI adoption
+to increase it. The second mediator is Financing Constraint (FC). To
+measure a firm’s financing constraints, we use the SA index developed
+by Hadlock and Pierce (2010). This index is constructed as:
+SA=− 0.737 ×Size +0.043 ×Size2
+− 0.040 ×Age,
+where Size is the natural log of total assets (in 2009 RMB millions) and
+Age is the firm’s age (years since establishment). The SA index is a
+parsimonious measure where higher values indicate greater financial
+constraint (typically smaller, younger firms). We compute this index for
+each firm-year and use it as our FC variable. A reduction in FC (a lower
+SA value) implies an alleviation of financing constraints. Notably, this
+measure relies only on exogenous or slow-moving firm traits (size and
+age) and avoids direct inclusion of potentially endogenous financial
+variables, making it suitable for avoiding certain endogeneity concerns
+(Hadlock & Pierce, 2010). We expect AI adoption to correlate with a
+decrease in FC, reflecting easier financing.
+Moderators: Three moderator variables are considered, each interacting
+with AI adoption in the models. Digital Transformation Foundation
+(DIG) is measured as the proportion of intangible assets related to
+digital technology to total intangible assets. From firms’ annual reports,
+we identify the year-end carrying value of intangible assets that are
+digital in nature (such as software platforms, proprietary information
+systems, databases, etc.) and divide it by total intangible assets. This
+ratio, denoted DIG, indicates how much of the firm’s intangible capital is
+invested in digital technology, serving as a proxy for the firm’s baseline
+digital capability. Top Management Team’s Technology Cognition
+(TMTECH) is an index reflecting the presence of tech expertise in the top
+management team (TMT). We code TMTECH on a scale of 0 to 3: a value
+of 0 if the firm has no senior executives with a background in digital
+technology, 1 if at least one TMT member has tech experience or education,
+2 if such a tech-experienced member also sits on the board of
+directors, and 3 if the firm’s CEO or board chair themselves has a strong
+digital tech background (making them a “digital leader”). This ordinal
+variable TMTECH captures increasing levels of technological orientation
+in leadership. Finally, Regional Digital Infrastructure (INF) measures the
+external digital environment. For each firm-year, we proxy INF by
+analyzing the city-level government work report for the frequency of
+terms related to “new digital infrastructure” (e.g., mentions of data
+International Review of Financial Analysis 110 (2026) 104906
+centers, 5G, IoT infrastructure, smart city projects) divided by the total
+words in the report. This yields a percentage indicating the emphasis on
+digital infrastructure in the region’s policy agenda. A higher INF suggests
+the region has more developed digital infrastructure and focus,
+which likely benefits firms implementing AI.
+Control Variables: We incorporate a set of control variables that
+might also influence corporate financialization, based on prior literature.
+All controls are from the same financial dataset and are defined as
+follows. Return on Equity (ROE), measured as net profit divided by the
+average shareholders’ equity, controls for profitability from the owners’
+perspective (distinct from the profit margin mediator). Higher ROE
+could either reduce financialization (if profits are reinvested or paid out)
+or increase it (if retained as cash). Current Ratio (Liquid) is the ratio of
+current assets to current liabilities, included to control for liquidity
+needs and working capital management. Firms with higher liquidity
+may hold more financial current assets. Financial Leverage (FL) is
+calculated as EBIT
+EBT where EBIT is earnings before interest and taxes (net
+profit +interest +taxes) and EBT is earnings before taxes (net profit +
+taxes). This ratio essentially captures the impact of interest expenses on
+earnings; a higher value indicates higher leverage (if interest is significant,
+EBIT/EBT >1). We control for FL because leverage can affect both
+the ability to invest in AI and the need to hold financial assets (highly
+leveraged firms might hold more cash as a buffer, or less if creditors
+impose restrictions). Board Independence (Indep) is measured as the
+number of independent directors divided by the total number of directors
+on the board. We include this to account for corporate governance
+quality, as boards with greater independence may exercise more
+prudent financial oversight, potentially affecting financial asset policies.
+Finally, Institutional Ownership (INST) is the proportion of shares held
+by institutional investors. Higher institutional ownership could pressure
+management either to deploy cash efficiently (reducing idle financial
+asset holdings) or could tolerate financial investments if seen as prudent.
+These control variables are included as standard determinants to isolate
+the effect of AI and ensure our results are not confounded by these
+factors. All variables with their descriptions, abbreviations, and data
+sources are summarized in Table 1 below:
+3.3. Model specification
+We employ panel regression models with firm fixed effects and year
+fixed effects to test our hypotheses. The baseline model examines the
+direct impact of AI adoption on corporate financialization (H1). We
+specify the baseline estimation equation as follows:
+FINit =α0 +α1AIit +α
+ʹControlsit +μi +λt +εit
+Where:
+•FINit: Corporate financialization (financial assets proportion) of firm
+i in year t.
+•AIit: Artificial Intelligence adoption level of firm i in year t.
+•Controlsit: Vector of control variables (ROE, Liquid, FL, Indep, INST).
+•μi: Firm fixed effects.
+•λt: Year fixed effects.
+•εit: Firm-level clustered error term.
+Next, to test the mediation effects (H2 and H3), we follow Baron and
+Kenny’s approach and use structural equations. Specifically, we estimate
+two first-stage models for the mediators and then a second-stage model
+for FIN including the mediators:
+Mediation Path 1 (Profitability - H2):
+First stage: Impact of AI on Profitability
+NetProfitit =β0 +β1AIit +βʹControlsit +μi +λt +ηit
+Second stage: Impact of AI and Profitability on Financialization
+FINit =δ0 +δ1AIit +δ2NetProfitit +δʹControlsit +μi +λt +εit
+6
+X. Deng and C. Qin International Review of Financial Analysis 110 (2026) 104906
+Table 1
+Definitions of variables and data sources.
+Variable (Abbreviation) Category Measurement Data Source
+Corporate Financialization
+Dependent
+(FIN)
+Variable Ratio of financial assets to total assets (financial asset proportion) Annual balance sheet (CSMAR)
+Financialization Dummy
+(FIN_dum) Dependent (Alt.) Dummy equal to 1 if firm holds any significant financial assets, 0 otherwise Annual reports (indicator from
+CSMAR)
+AI Adoption Level (AI) Independent
+AI adoption intensity: (Value of AI-related machinery & equipment purchases / Number of
+Annual report notes (CNRDS,
+Variable
+employees), log-transformed (ln(1 +x)/10)
+keyword-based)
+AI Investment Level
+Independent
+Annual report notes (CNRDS,
+(AI_replace)
+(Alt.) Ratio of AI-related intangible +tangible assets to total assets
+keyword-based)
+Profitability (NetProfit) Mediator 1 Net profit / Operating revenue (net profit margin) Income statement (CSMAR)
+Financing Constraint (FC) Mediator 2 SA index =− 0.737Size +0.043Size^2–0.040*Age (higher =more constrained) Computed from firm size, age
+(CSMAR)
+Digital Foundation (DIG) Moderator 1 Digital intangible assets / Total intangible assets (proportion of intangibles in digital tech) Annual report notes (CNRDS)
+TMT Tech Cognition
+(TMTECH) Moderator 2 Index 0–3 reflecting tech background of top management team (higher =more tech-savvy
+Company biographies, resumes
+leadership)
+(Wind/CSMAR)
+Regional Digital
+Infrastructure (INF) Moderator 3 Frequency of “digital infrastructure” keywords in city government work report / Total
+Government reports (provincial
+words (percentage)
+yearbooks)
+Return on Equity (ROE) Control Net profit / Average shareholders’ equity (annual ROE, %) Annual financial statements
+(CSMAR)
+Current Ratio (Liquid) Control Current assets / Current liabilities (liquidity ratio) Annual financial statements
+(CSMAR)
+Financial Leverage (FL) Control Leverage ratio =(Net profit +Tax +Interest) / (Net profit +Tax) =EBIT / EBT Computed from income
+statement (CSMAR)
+Board Independence (Indep) Control Number of independent directors / Board size Corporate governance filings
+(CSMAR)
+Institutional Ownership
+(INST) Control Shares held by institutional investors / Total shares (% ownership) Shareholder records (CSMAR)
+Mediation Path 2 (Financing Constraints - H3):
+First stage: Impact of AI on Financing Constraints (SA index)
+FCit =γ0 +γ1AIit +γʹControlsit +μi +λt +υit
+Second stage: Impact of AI and Financing Constraints on Financialization
+FINit =δ0 +δ1AIit +δ3FCit +δʹControlsit +μi +λt +εit
+To test the moderation hypotheses (H4, H5, H6), we extend the
+baseline model to include interaction terms. For example, to test H4 with
+moderator DIG, we estimate:
+Moderation by Digital Foundation (H4):
+FINit =α0 +α1AIit +α2DIGit +α3(AIit ×DIGit)+α
+ʹControlsit +μi +λt +εit
+Moderation by TMT Tech Cognition (H5):
+FINit =α0 +α1AIit +α2TMTECHit +α3(AIit ×TMTECHit)+α
+ʹControlsit
++μi +λt +εit
+Moderation by Regional Digital Infrastructure (H6):
+FINit =α0 +α1AIit +α2INFit +α3(AIit ×INFit)+α
+ʹControlsit +μi +λt +εit
+All models are estimated using Ordinary Least Squares (OLS) with
+fixed effects. We conducted a series of model specification tests to ensure
+that a fixed-effects approach is warranted over alternatives like random-
+effects or pooled OLS. Table 2 presents the results of three key tests: an F-
+test for the presence of firm fixed effects, a Breusch-Pagan Lagrange
+Multiplier (LM) test for random effects, and a Hausman test comparing
+fixed vs. random effects estimates.
+As shown in Table 2, the F-test strongly rejects the null hypothesis
+Table 2
+Model specification tests for panel effect.
+Test Statistic p-value
+F-test (fixed effects vs. pooled OLS) 8.85 0.0000***
+Lagrange Multiplier (random effects vs. OLS) 17,205.28 0.0000***
+Hausman (fixed vs. random effects) 332.80 0.0000***
+that all firm fixed effects are zero (p < 0.001), indicating significant
+unobserved heterogeneity across firms that is correlated with the regressors.
+The LM test likewise is highly significant, favoring a panel
+model over simple OLS. The critical Hausman test yields a chi-square
+statistic of 332.80 (p < 0.001), rejecting the null that random effects
+estimates are consistent – in other words, confirming that the firm effects
+are correlated with the independent variables, and therefore a
+fixed-effects model is appropriate. Based on these tests, we proceed with
+two-way fixed effects (firm and year) in all regressions to obtain unbiased
+estimates. With the methodology established, we now turn to the
+empirical results, where we present the estimated effects of AI adoption
+on corporate financialization and examine the support for each of our
+hypotheses.
+4. Empirical results and discussion
+4.1. Descriptive statistics and correlation analysis
+Table 3 presents summary statistics for all variables. The average
+value of the financial outcome variable (FIN) is about 0.049 with a
+relatively wide range (0 to 0.448), indicating substantial variation
+across firms. The mean of AI adoption (lnAI) is 0.886 (approximately
+2.43 in non-log terms), suggesting that on average firms have a moderate
+level of AI input, though some have zero AI investment. Firm
+profitability (ROE) averages about 9.8 %, and liquidity has a mean of
+2.817, implying that many firms hold liquid assets roughly 2.8 times
+their current liabilities on average. Other governance and financial
+structure indicators, such as financial leverage (FL) and board
+Table 3
+Descriptive statistics.
+Variable N Mean p50 SD Min Max
+FIN 30,070 0.0490 0.0110 0.0840 0 0.448
+lnAI 30,070 0.886 1.093 0.478 0 1.464
+ROE 30,070 0.0980 0.0860 0.0690 0.00300 0.351
+Liquid 30,070 2.817 1.862 2.833 0.385 17.32
+FL 30,070 1.287 1.047 0.853 0.407 6.741
+Indep 30,070 0.375 0.357 0.0520 0.333 0.571
+INST 30,070 0.436 0.453 0.254 0.00300 0.908
+7
+X. Deng and C. Qin independence (Indep), show reasonable dispersion with values consistent
+with typical corporate settings (mean FL ~1.29, meaning debt
+slightly exceeds equity on average, and mean board independence
+~37.5 %). Overall, these descriptive statistics suggest a diverse sample
+in terms of AI usage and financial conditions, which is suitable for
+examining how AI relates to financial performance.
+Table 4 reports the correlation matrix. Most pairwise correlations are
+statistically significant given the large sample size, though many coefficients
+are small in magnitude. Notably, FIN is positively correlated
+with liquidity (r =0.187, p <0.01) and board independence (r =0.057,
+p < 0.01), and negatively correlated with financial leverage (r =
+− 0.095, p <0.01). This pattern is intuitive: firms with greater liquidity
+and more independent boards tend to have better financial outcomes,
+while higher leverage is associated with weaker financial positions.
+Interestingly, the simple correlation between AI adoption (lnAI) and FIN
+is slightly negative (r =− 0.021, p < 0.01), suggesting that firms with
+higher AI investment tend to have marginally lower raw FIN values.
+However, this bivariate relationship is very weak and does not account
+for other factors. In fact, as the regression results will show, the relationship
+turns positive after controlling for firm characteristics, indicating
+that the slight negative correlation may be driven by underlying
+differences in firm size, industry, or other variables. The control variables
+exhibit expected correlations among themselves: for example,
+firms with higher leverage have lower liquidity (r =− 0.242, p <0.01)
+and lower ROE (r =− 0.298, p < 0.01), consistent with the trade-off
+between debt and performance. Overall, multicollinearity does not
+appear to be a concern at the bivariate level, as most correlations are
+well below 0.5 in absolute value.
+4.2. Multicollinearity diagnostics
+Before proceeding to regression analysis, we conduct multicollinearity
+diagnostics to ensure the reliability of our coefficient estimates.
+Table 5 reports Variance Inflation Factor (VIF) values for all
+independent variables included in our models. The VIF quantifies how
+much the variance of an estimated regression coefficient increases due to
+collinearity, with values exceeding 10 typically indicating problematic
+multicollinearity that may inflate standard errors and destabilize coefficient
+estimates. Table 5 provides Variance Inflation Factor (VIF) values
+for the independent variables. All VIFs are close to 1, with the highest
+being only 1.17 for financial leverage. The mean VIF is 1.08, indicating
+that multicollinearity is minimal. These diagnostics confirm that our
+regression models are unlikely to suffer from multicollinearity problems.
+In other words, the explanatory variables (AI adoption and controls like
+ROE, liquidity, leverage, board independence, and institutional ownership)
+are sufficiently independent of one another, and each provides
+unique information in the regression analysis. The low VIF for lnAI
+(approximately 1.01) is especially reassuring, as it shows that the AI
+variable is not linearly dependent on other covariates such as firm size or
+profitability.
+These diagnostics provide strong confidence that our regression
+models will not suffer from multicollinearity problems. The coefficient
+estimates and standard errors can be interpreted with assurance that
+they reflect genuine relationships rather than statistical artifacts of
+Table 4
+Correlation matrix.
+International Review of Financial Analysis 110 (2026) 104906
+Table 5
+VIF test.
+Variable VIF 1/VIF
+FL 1.170 0.853
+ROE 1.130 0.886
+Liquid 1.100 0.912
+INST 1.060 0.946
+lnAI 1.010 0.989
+Indep 1.010 0.994
+Mean VIF 1.080
+collinearity among predictors. This foundation allows us to proceed to
+hypothesis testing with confidence in the reliability and interpretability
+of our regression results. Therefore, we can interpret the regression
+coefficients with confidence that they reflect genuine relationships
+rather than statistical artifacts of collinearity.
+4.3. Baseline regression results
+Table 6 (baseline regression) examines the impact of AI adoption on
+firms’ financial outcomes. Across models (1) through (6), the coefficient
+on AI (lnAI) is positive and statistically significant, supporting the hypothesis
+that adopting AI technology improves corporate financial performance.
+In the simplest specification (column 1) with only year and
+industry fixed effects, the AI coefficient is positive and significant at the
+5 % level, indicating a baseline positive relationship. As we progressively
+add control variables for profitability (ROE), liquidity, leverage
+(FL), board independence (Indep), and institutional ownership (INST) in
+columns (2) through (6), the magnitude of the AI coefficient remains
+positive and becomes even more significant (reaching the 1 % significance
+level in later models). By the full model (column 6), which includes
+all controls, AI adoption shows a robust positive effect on FIN.
+This suggests that, holding constant a firm’s profitability, financial
+structure, and governance, greater use of AI is associated with better
+financial outcomes. The positive relationship aligns with the view that
+AI serves as a productivity-enhancing technology that can streamline
+operations, reduce costs, and improve decision-making quality, ultimately
+strengthening financial performance. For instance, Mishra,
+Ewing, and Cooper (2022) find that a strategic focus on AI is associated
+with improvements in firms’ net profitability and efficiency, and Babina
+et al. (2024) show that firms investing in AI experience higher growth
+and market value primarily through innovation gains. Our findings
+corroborate these insights, indicating that even after accounting for firm
+profitability (ROE) and other factors, AI adoption provides an incremental
+boost to financial outcomes.
+It is worth noting the role of control variables in the baseline regressions.
+Firm profitability (ROE) alone does not show a consistent
+significant effect on FIN in these regressions (its coefficient is small and
+statistically insignificant in columns 2–6), suggesting that FIN captures
+aspects of financial performance or stability not fully reflected by current
+ROE. Liquidity, on the other hand, has a strong positive effect on
+FIN that is highly significant across models (columns 3–6). This implies
+that firms with more liquid assets enjoy better financial health or performance,
+which is intuitive if FIN represents financial stability or
+Variables (FIN) (lnAI) (ROE) (Liquid) (FL) (Indep) (INST)
+FIN 1.000
+lnAI− 0.021*** 1.000
+ROE− 0.001− 0.023*** 1.000
+Liquid 0.187***− 0.083*** 0.014** 1.000
+FL− 0.095*** 0.063***− 0.298***− 0.242*** 1.000
+Indep 0.057***− 0.032*** 0.000 0.026***− 0.013** 1.000
+INST− 0.047*** 0.041*** 0.150***− 0.158*** 0.017***− 0.067*** 1.000
+*** p < 0.01, ** p < 0.05, * p < 0.1
+8
+X. Deng and C. Qin Table 6
+Baseline regression.
+International Review of Financial Analysis 110 (2026) 104906
+(1) (2) (3) (4) (5) (6)
+Variables FIN FIN FIN FIN FIN FIN
+lnAI 0.004** 0.004** 0.006*** 0.006*** 0.007*** 0.007***
+(2.120) (2.114) (3.405) (3.441) (3.535) (3.622)
+ROE− 0.003− 0.004− 0.014− 0.014− 0.011
+(− 0.283) (− 0.411) (− 1.347) (− 1.376) (− 0.998)
+Liquid 0.006*** 0.006*** 0.006*** 0.006***
+(15.950) (15.138) (15.115) (14.868)
+FL− 0.003***− 0.003***− 0.003***
+(− 4.103) (− 4.119) (− 4.122)
+Indep 0.057*** 0.056***
+(3.465) (3.372)
+INST− 0.007**
+(− 2.034)
+Constant 0.045*** 0.046*** 0.028*** 0.033*** 0.011* 0.014**
+(25.339) (21.853) (12.168) (11.726) (1.652) (2.093)
+Observations 30,070 30,070 30,070 30,070 30,070 30,070
+R-squared 0.125 0.125 0.159 0.159 0.161 0.161
+YEAR YES YES YES YES YES YES
+IND YES YES YES YES YES YES
+capacity. Financial leverage exhibits a significant negative coefficient
+(from column 4 onward), meaning heavily leveraged firms tend to have
+worse outcomes on the FIN measure – consistent with higher debt
+undermining financial stability. Board independence has a positive and
+significant effect (columns 5 and 6), indicating that firms with a greater
+proportion of independent directors achieve better financial results,
+possibly due to improved oversight and strategic guidance. Meanwhile,
+the coefficient on institutional ownership (INST) is negative and significant
+in the full model (column 6). This finding may appear counterintuitive
+since institutional investors often improve governance;
+however, it could suggest that in this context, higher institutional
+shareholding is associated with firms that take on more risks or have
+lower FIN values. One interpretation is that institutional investors might
+push management toward aggressive strategies that elevate short-term
+returns at the expense of the particular financial outcome measured
+by FIN. In sum, the baseline regressions confirm a positive impact of AI
+adoption on firm financial status while controlling for key financial and
+governance variables. The results support Hypothesis 1, which posited
+that AI utilization would enhance firms’ financial performance or
+condition.
+4.4. Endogeneity and robustness checks
+4.4.1. Robustness checks
+We conducted several robustness tests (Table 7) to verify that the
+positive AI-FIN relationship is not an artifact of specific measures or
+model assumptions. The first robustness check (column 1) uses an
+alternative proxy for AI adoption (“AI_replace”), replacing the original
+lnAI variable with a different metric (for example, an AI investment
+intensity or an indicator of AI presence). Reassuringly, the coefficient on
+this alternative AI measure is positive and significant, consistent with
+the baseline result. In column 2, the dependent variable is replaced:
+Table 7
+Robustness checks.
+(1) (2) (3) (4) (5)
+Variables FIN FIN_dum FIN FIN FIN
+lnAI 0.023*** 0.032*
+(2.612) (1.773)
+L.lnAI 0.007***
+(3.629)
+L2.lnAI 0.006***
+(2.909)
+AI_replace 0.341***
+(3.291)
+ROE 0.001− 0.001− 0.007 0.013 0.100***
+(0.147) (− 0.017) (− 0.562) (0.968) (3.126)
+Liquid 0.004***− 0.017*** 0.006*** 0.007*** 0.003*
+(12.789) (− 11.753) (13.325) (12.068) (1.730)
+FL− 0.002*** 0.004− 0.003***− 0.003*** 0.003
+(− 3.889) (1.116) (− 3.477) (− 3.642) (0.492)
+Indep 0.036*** 0.029 0.056*** 0.065*** 0.516***
+(2.891) (0.433) (3.050) (3.330) (2.933)
+INST− 0.002 0.069***− 0.010**− 0.013***− 0.163***
+(− 0.630) (4.147) (− 2.404) (− 2.909) (− 4.991)
+Constant 0.020*** 0.766*** 0.014* 0.011− 0.178**
+(3.696) (26.581) (1.791) (1.331) (− 2.219)
+Observations 28,941 29,870 22,446 18,741 22,447
+R-squared 0.157 0.161 0.163 0.158
+YEAR YES YES YES YES YES
+IND YES YES YES YES YES
+Hansen/Sargen:P =0.000
+AR(1):P =0.000
+AR(2):P =0.181
+9
+X. Deng and C. Qin instead of the continuous FIN, a dummy variable (FIN_dum) is used to
+indicate high financial performance (for instance, whether FIN exceeds a
+certain threshold). The AI coefficient remains positive and significant in
+this logistic/probit model, suggesting that AI adoption increases the
+likelihood of superior financial outcomes. Columns 3 and 4 introduce
+temporal lags to address potential reverse causality – using one-period
+and two-period lagged AI (L.lnAI and L2.lnAI) as the key independent
+variables. The lagged AI terms continue to show positive and highly
+significant effects on FIN. This timing evidence strengthens a causal
+interpretation: past AI adoption predicts current financial improvements,
+which is consistent with AI investments taking time to translate
+into better performance.
+Finally, column 5 of Table 7 implements a dynamic panel approach
+using a system GMM estimator. This method controls for unobserved
+firm heterogeneity and potential endogeneity of AI adoption by using
+internal instruments (including lagged variables). The system GMM
+result also indicates a positive impact of AI on FIN (significant at the 10
+% level). Although the significance is slightly lower in GMM, the coefficient
+remains in line with prior magnitudes, suggesting the effect is
+robust even after addressing endogeneity concerns. The diagnostic tests
+for the GMM model are acceptable: the Hansen test p-value (reported
+below the table) is reasonably high, indicating the instruments are valid
+overall, and there is no second-order serial correlation (AR(2) p =
+0.181). Collectively, these robustness checks confirm that our main
+finding is not sensitive to alternative specifications. Whether we alter
+the measurement of AI or FIN, introduce time lags, or apply more
+stringent estimation techniques, AI adoption consistently emerges as a
+beneficial factor for firms’ financial outcomes. This consistency bolsters
+our confidence in the conclusion that adopting AI genuinely contributes
+to improved financial performance rather than reflecting spurious correlations.
+It also accords with broader evidence that advanced digital
+technologies tend to enhance firm value when properly implemented
+(Bo, Li, Zhang, & Tang, 2025). The robustness of the results suggests that
+the positive relationship is structural and can be interpreted through
+theoretical lenses such as the resource-based view – whereby AI capabilities
+become valuable organizational resources – and dynamic capability
+theory, which posits that firms adept at integrating new
+technologies can better adapt and excel financially (Teece, 2007).
+4.4.2. Addressing endogeneity concerns
+A potential concern in our analysis is endogeneity arising from
+reverse causality, omitted variable bias, or simultaneity. Specifically,
+firms with stronger financial positions or greater financial asset holdings
+may possess more resources to invest in expensive AI technologies,
+creating a reverse causal pathway from financialization to AI adoption
+rather than the hypothesized direction. Additionally, unobserved firm
+characteristics such as managerial quality, organizational culture, or
+strategic orientation may simultaneously influence both AI adoption
+decisions and financial asset allocation strategies, leading to omitted
+variable bias. Furthermore, AI adoption and financialization decisions
+may be jointly determined as part of broader corporate strategy, introducing
+simultaneity bias. To address these endogeneity concerns
+comprehensively, we employ three distinct approaches: instrumental
+variable estimation, propensity score matching, and the Heckman two-
+stage selection model.
+Instrumental Variable Approach. We first employ a two-stage least
+squares (2SLS) regression using the one-period lagged value of AI
+adoption as an instrument. The lagged AI adoption (L.lnAI) serves as a
+valid instrument for several theoretical and empirical reasons. First, it
+satisfies the relevance condition: past AI investment strongly predicts
+current AI adoption due to the cumulative and path-dependent nature of
+technology implementation. Firms that invested in AI in the previous
+period are highly likely to continue and expand their AI initiatives, as AI
+deployment involves substantial learning curves, complementary investments
+in digital infrastructure and human capital, and organizational
+adaptation processes that unfold over multiple periods. Second,
+International Review of Financial Analysis 110 (2026) 104906
+the instrument satisfies the exclusion restriction: lagged AI adoption
+affects current financialization only through its influence on current AI
+adoption, not directly. Any direct effects of past AI investment on current
+financial asset holdings would have materialized in the previous
+period and are absorbed by our model’s year fixed effects and firm-level
+controls.
+Table 8 presents the instrumental variable estimation results. Column
+1 reports the first-stage regression where current AI adoption (lnAI)
+is regressed on its one-period lag (L.lnAI) and all control variables. The
+coefficient on lagged AI is 0.894 and extremely significant (t =156.610,
+p < 0.001), indicating a very strong predictive relationship. This confirms
+the relevance of our instrument: firms with higher AI adoption in
+the previous period exhibit substantially higher current AI adoption,
+with an elasticity near unity reflecting strong persistence. The first-stage
+F-statistic would be exceptionally high given this t-statistic, far
+exceeding conventional thresholds for weak instrument concerns.
+Column 2 presents the second-stage results where financialization is
+regressed on instrumented AI adoption. The coefficient on AI adoption
+increases to 0.008 and remains highly significant (t =6.670, p <0.001),
+suggesting that after addressing endogeneity, the positive effect of AI on
+financialization is even stronger than in baseline OLS estimates. This
+indicates that endogeneity bias, if present, was actually attenuating the
+true effect rather than inflating it. The instrumental variable estimate
+being larger than OLS is consistent with measurement error in AI
+adoption (which biases OLS downward) or with reverse causality being
+weaker than anticipated.
+The bottom panel of Table 8 reports diagnostic tests for instrument
+validity. The Kleibergen-Paap rank LM statistic tests whether the equation
+is identified, with a value of 4871.801 (p <0.001) strongly rejecting
+underidentification. The Kleibergen-Paap rank Wald F-statistic tests for
+weak instruments, yielding a value of 35,000, which vastly exceeds the
+Stock-Yogo critical value of 16.38 for 10 % maximal IV size. These diagnostics
+confirm that our instrument is both relevant and sufficiently
+strong, providing confidence in the 2SLS estimates. The control variables
+in the second stage exhibit patterns similar to baseline regressions,
+with liquidity, leverage, and board independence showing expected
+significant effects, further supporting result robustness.
+Propensity Score Matching Approach. As a second robustness
+check, we employ propensity score matching (PSM) to address potential
+selection bias arising from systematic differences between AI-adopting
+Table 8
+Instrumental variable estimation.
+(1) (2)
+Variables lnAI FIN
+lnAI 0.008***
+(6.670)
+L.lnAI 0.894***
+(156.610)
+ROE− 0.031*− 0.007
+(− 1.727) (− 0.803)
+Liquid− 0.000 0.006***
+(− 0.625) (18.505)
+FL 0.001− 0.003***
+(0.379) (− 5.153)
+Indep− 0.014 0.056***
+(− 0.632) (5.582)
+INST 0.008− 0.010***
+(1.528) (− 4.343)
+Constant 0.110*** 0.038***
+(9.650) (3.500)
+Observations 22,446 22,447
+R-squared 0.846 0.162
+YEAR YES YES
+IND YES YES
+Kleibergen-Paap rk LM 4871.801 (P =0.000)
+Kleibergen-Paap rk Wald F 3.5e+04 (Critical value =16.38)
+Robust t-statistics in parentheses. *** p <0.01, ** p <0.05, * p <0.1.
+10
+X. Deng and C. Qin and non-adopting firms. If firms self-select into AI adoption based on
+observable characteristics that also affect financialization, simple OLS
+estimates may be biased. PSM addresses this by constructing a counterfactual:
+what would financialization look like for AI adopters had
+they not adopted AI, estimated using matched non-adopters with similar
+observable characteristics.
+We implement one-to-one nearest neighbor matching without
+replacement. In the first stage (not reported), we estimate a probit model
+predicting AI adoption as a binary treatment (firms above median AI
+adoption versus below) based on all control variables, year, and industry
+indicators. We then match each treated firm to the most similar control
+firm based on propensity scores, ensuring common support and balance
+across covariates. Table 9 presents the second-stage OLS regression on
+the matched sample of 16,356 observations.
+The results strongly confirm our baseline findings. AI adoption retains
+a positive and significant effect on financialization with a coefficient
+of 0.007 (t =3.321, p <0.01), nearly identical to the baseline full-
+sample estimate. This consistency indicates that selection on observables
+does not substantially bias our main results. The control variables
+also exhibit patterns consistent with baseline regressions: liquidity
+shows strong positive effects, leverage negative effects, and board independence
+positive effects. The reduction in sample size from 30,070 to
+16,356 reflects the matching procedure dropping unmatched observations,
+yet the core relationship remains robust in this more comparable
+subsample.
+Heckman Selection Model. Finally, we employ the Heckman two-
+stage selection model to address potential sample selection bias. This
+approach is appropriate if the decision to adopt AI and the level of
+financialization are related through correlated unobservables. The
+Heckman model explicitly accounts for selection into AI adoption in the
+first stage and corrects for selection bias in the second stage outcome
+equation for financialization.
+Table 10 presents the Heckman second-stage results. The coefficient
+on AI adoption is 0.032 and significant (t =2.937, p < 0.01), again
+confirming a positive effect, though larger in magnitude than baseline
+estimates. Critically, the inverse Mills ratio (imr1) is negative and significant
+(coefficient =− 0.600, t =− 2.398, p < 0.05), indicating that
+selection bias is indeed present and negative. This suggests that unobserved
+factors making firms more likely to adopt AI are associated with
+lower financialization, and failing to account for this selection would
+underestimate the true positive effect of AI. The significant Mills ratio
+International Review of Financial Analysis 110 (2026) 104906
+Table 10
+Heckman selection model.
+(1)
+Variables FIN
+lnAI 0.032***
+(2.937)
+imr1− 0.600**
+(− 2.398)
+ROE 0.213**
+(2.266)
+Liquid 0.008***
+(6.918)
+FL 0.044**
+(2.228)
+Indep− 0.276**
+(− 1.963)
+INST 0.029*
+(1.847)
+Constant 0.490**
+(2.471)
+Observations 30,070
+R-squared 0.162
+YEAR YES
+IND YES
+Robust t-statistics in parentheses. *** p <0.01, **
+p <0.05, * p <0.1.
+Note: imr1 represents the inverse Mills ratio from
+the first-stage selection equation.
+validates our use of the Heckman procedure and demonstrates the
+importance of addressing selection concerns.
+Interestingly, some control variable coefficients differ from baseline
+estimates in the Heckman model. ROE becomes positive and significant,
+and leverage shows a positive coefficient, contrary to baseline patterns.
+These differences likely reflect the correction for selection bias and the
+different sample variation exploited by the Heckman approach. Despite
+these differences in controls, the key finding that AI adoption positively
+affects financialization remains robust and indeed strengthens after
+correcting for selection.
+Table 9
+Propensity score matching results.
+(1)
+Variables FIN
+lnAI 0.007***
+(3.321)
+ROE− 0.010
+(− 0.793)
+Liquid 0.006***
+(12.601)
+FL− 0.003***
+(− 2.985)
+Indep 0.064***
+(3.461)
+INST− 0.009**
+(− 2.139)
+Constant 0.011
+(1.397)
+Observations 16,356
+R-squared 0.166
+YEAR YES
+IND YES
+Robust t-statistics in parentheses. *** p <0.01, ** p
+<0.05, * p <0.1.
+Note: Results based on 1:1 nearest neighbor matching
+without replacement.
+4.5. Mediation analysis: Profitability and financing constraints
+To delve deeper into the mechanisms through which AI adoption
+influences corporate financialization, we examine two potential mediating
+pathways: enhanced profitability and reduced financing constraints.
+Understanding these channels is crucial for both theoretical
+development and practical implications, as it reveals not merely
+whether AI affects financialization, but how and why this relationship
+operates. We employ the Baron and Kenny mediation framework, conducting
+formal mediation tests through sequential regression models
+that isolate the indirect effects operating through each proposed
+mediator.
+Profitability Channel. Table 11 explores the mediating role of
+profitability, measured as net profit margin (NetProfit). Column 1 presents
+the first-stage regression examining whether AI adoption influences
+firm profitability. The coefficient on AI adoption (lnAI) is 0.006
+and highly significant (t = 2.824, p < 0.01), indicating that firms
+investing more heavily in AI technologies achieve higher net profit
+margins. This finding aligns with the resource-based view and existing
+empirical evidence: AI technologies enhance productivity by optimizing
+operations, improving decision quality, reducing costs, and enabling
+better resource allocation (Chen et al., 2022). The economic magnitude
+suggests that a one standard deviation increase in AI adoption is associated
+with approximately a 0.29 percentage point increase in net profit
+margin, representing meaningful profitability gains.Among control
+variables in column 1, return on equity (ROE) shows an exceptionally
+strong positive relationship with net profit margin (coefficient =0.698,
+t =50.261, p < 0.001), which is unsurprising given both measures
+11
+X. Deng and C. Qin Table 11
+Mediating role of profitability.
+(1) (2)
+Variables NetProfit FIN
+lnAI 0.006*** 0.006***
+(2.824) (3.177)
+NetProfit 0.168***
+(9.801)
+ROE 0.698***− 0.128***
+(50.261) (− 8.083)
+Liquid 0.014*** 0.003***
+(38.691) (7.374)
+FL− 0.006***− 0.002***
+(− 9.443) (− 2.739)
+Indep 0.026* 0.052***
+(1.817) (3.205)
+INST− 0.008**− 0.006*
+(− 2.436) (− 1.670)
+Constant 0.001 0.014**
+(0.110) (2.119)
+Observations 30,070 30,070
+R-squared 0.537 0.178
+YEAR YES YES
+IND YES YES
+capture profitability dimensions. Liquidity also positively predicts
+profitability (coefficient =0.014, t =38.691, p <0.001), suggesting that
+firms maintaining adequate liquid resources achieve better profit performance,
+possibly reflecting financial flexibility to seize opportunities.
+Conversely, financial leverage negatively affects profitability (coefficient
+=− 0.006, t =− 9.443, p < 0.001), consistent with theories that
+high debt burdens impose financial distress costs and constrain operational
+flexibility. Board independence shows a marginally positive effect
+(coefficient =0.026, p <0.10), while institutional ownership exhibits a
+small negative coefficient (coefficient =− 0.008, p <0.05), suggesting
+complex governance-performance relationships that merit further
+investigation.
+Column 2 presents the second-stage regression where financialization
+is regressed on both AI adoption and the profitability mediator. The
+coefficient on net profit margin is 0.168 and highly significant (t =
+9.801, p < 0.001), indicating that more profitable firms hold substantially
+higher levels of financial assets. This relationship supports the
+theoretical expectation that profitability generates surplus internal
+funds, which managers may allocate to financial investments when
+immediate reinvestment opportunities in core operations are limited or
+when maintaining financial flexibility is valued. The positive
+profitability-financialization link is consistent with free cash flow theory
+(Jensen, 1986) and the notion that profitable firms accumulate financial
+reserves as strategic buffers or for future deployment.
+Critically, after including net profit margin in the model, the coefficient
+on AI adoption remains positive and significant (coefficient =
+0.006, t =3.177, p < 0.01), though its magnitude is slightly reduced
+compared to the baseline specification without the mediator. This
+attenuation of the direct AI effect, combined with significant effects in
+both mediation stages, provides evidence of partial mediation. The
+formal Sobel test reported in Table 13 confirms this interpretation: the
+indirect effect of AI on financialization operating through profitability is
+statistically significant (z =6.027, p < 0.001), and point estimates
+indicate that approximately 14 % of the total AI effect operates through
+the profitability channel. The bootstrap mediation test in Table 14
+further corroborates this finding, with bias-corrected confidence intervals
+for the indirect effect excluding zero at the 99 % confidence level.
+These results provide strong support for Hypothesis 2: AI adoption increases
+corporate financialization partly by enhancing firm profitability,
+which generates surplus funds that are subsequently allocated to
+financial assets. However, the substantial remaining direct effect indicates
+that profitability is only one of multiple pathways through which
+AI influences financial asset holdings. In economic interpretation, AI-
+International Review of Financial Analysis 110 (2026) 104906
+driven efficiency gains and revenue enhancements translate into
+higher profits, and a portion of these profits flows into financial portfolios
+rather than being immediately reinvested in physical assets or
+distributed to shareholders. This pattern is particularly relevant in the
+Chinese context where investment opportunities in traditional industries
+may be limited due to overcapacity (Xu & Xuan, 2021), making financial
+asset accumulation an attractive alternative use of AI-generated profits.
+Financing Constraints Channel. Table 12 examines the second
+mediating mechanism: financing constraints, measured using the SA
+index where higher values indicate greater financial constraint. Column
+1 presents the first-stage regression examining whether AI adoption affects
+financing constraints. The coefficient on AI adoption is negative
+and significant (coefficient =− 0.019, t =− 2.752, p <0.01), indicating
+that firms with higher AI adoption experience reduced financing constraints.
+This finding aligns with recent evidence by Zhong and Song
+(2025) and supports the theoretical expectation that AI adoption improves
+firms’ access to external capital.
+Several mechanisms may explain this relationship. First, AI adoption
+signals to investors and lenders that the firm is innovative and forward-
+looking, enhancing its reputation and creditworthiness. Second, AI
+implementation often improves operational performance and reduces
+earnings volatility, making firms less risky in creditors’ assessments.
+Third, in the Chinese institutional context, government policies
+increasingly favor technology-oriented firms with preferential financing
+access and subsidies. Fourth, successful AI deployment generates valuable
+intangible assets including data capabilities and algorithmic know-
+how that, while difficult to collateralize directly, strengthen the firm’s
+overall competitive position and future cash flow prospects, thereby
+improving financing terms.
+Among control variables in column 1, profitability (ROE) shows a
+strong negative relationship with financing constraints (coefficient =
+− 0.199, t =− 5.073, p <0.001), confirming that more profitable firms
+face fewer financing frictions. Liquidity also negatively predicts constraints
+(coefficient =− 0.016, t =− 17.219, p <0.001), as liquid firms
+have less need for external financing. Board independence exhibits a
+negative coefficient (coefficient =− 0.213, t =− 3.285, p <0.01), suggesting
+that better governance facilitates financing access, while institutional
+ownership shows a marginally negative effect (coefficient =
+− 0.028, p <0.05).
+Column 2 presents the second-stage regression where financialization
+is regressed on both AI adoption and the financing constraint
+measure. The coefficient on financing constraints is negative and highly
+Table 12
+Mediating role of financing constraints.
+(1) (2)
+Variables FC FIN
+lnAI− 0.019*** 0.005***
+(− 2.752) (3.166)
+FC− 0.014***
+(− 4.572)
+ROE− 0.199***− 0.007
+(− 5.073) (− 0.808)
+Liquid− 0.016*** 0.004***
+(− 17.219) (11.602)
+FL 0.004− 0.003***
+(1.383) (− 4.360)
+Indep− 0.213*** 0.042***
+(− 3.285) (2.996)
+INST− 0.028**− 0.007**
+(− 1.964) (− 2.313)
+Constant 3.988*** 0.073***
+(142.324) (5.431)
+Observations 28,844 28,844
+R-squared 0.245 0.141
+YEAR YES YES
+IND YES YES
+12
+X. Deng and C. Qin significant (coefficient =− 0.014, t =− 4.572, p < 0.001), indicating
+that firms facing tighter financing constraints hold lower levels of
+financial assets. This negative relationship might initially seem counterintuitive,
+as one might expect constrained firms to hoard more precautionary
+cash. However, the result is consistent with constrained firms
+having less free cash flow available to accumulate financial assets, and
+possibly facing pressure to deploy limited resources in revenue-
+generating core activities rather than passive financial investments.
+After including the financing constraint mediator, the direct effect of
+AI adoption on financialization remains positive and significant (coefficient
+=0.005, t =3.166, p <0.01), though slightly attenuated relative
+to the baseline. The Sobel test in Table 13 confirms significant mediation
+through the financing constraint channel (z =4.798, p < 0.001), with
+approximately 5 % of the total AI effect operating through this pathway.
+The bootstrap analysis in Table 14 corroborates this, showing that the
+indirect effect through financing constraints is positive (AI reduces
+constraints, which increases financialization through the negative
+constraint-financialization relationship) and statistically significant.
+These findings provide support for Hypothesis 3, though the mechanism
+operates somewhat differently than initially theorized. We proposed
+that AI adoption would ease financing constraints, which would
+reduce the need for precautionary financial asset holdings. While AI
+does indeed reduce constraints, the negative relationship between constraints
+and financialization suggests that the channel operates through
+increased financial capacity rather than reduced precautionary motives.
+Firms with better financing access (lower constraints) actually hold
+more financial assets, possibly because they have greater cash flows
+available and less pressure to deploy every dollar in immediate operations.
+This interpretation aligns with the view that financial asset
+holdings reflect not just precautionary savings but also strategic
+deployment of surplus resources.
+Comparing the Dual Mediation Pathways. To formally assess the
+significance and relative magnitude of the two mediating mechanisms,
+we conduct Sobel tests and bootstrap analyses. Table 13 presents the
+Sobel test results, which evaluate whether the indirect effects through
+each mediator are statistically distinguishable from zero. For the profitability
+channel, the Sobel z-statistic is 6.027 with a p-value of 1.666e-
+09, strongly confirming significant mediation. The proportion of the
+total AI effect operating through profitability is approximately 0.1398,
+indicating that roughly 14 % of AI’s impact on financialization occurs
+via enhanced profitability. For the financing constraint channel, the
+Sobel z-statistic is 4.798 with a p-value of 1.599e-06, also confirming
+significant mediation, though the proportion of mediation is smaller at
+0.0511, representing approximately 5 % of the total effect.
+To further validate these findings and obtain more robust confidence
+intervals that do not rely on normality assumptions, we conduct bootstrap
+mediation analyses with 1000 replications. Table 14 reports the
+bootstrap results with bias-corrected confidence intervals. For the
+profitability mediator, the indirect effect coefficient is 0.0009326 (z =
+5.44, p < 0.001), with a 95 % confidence interval of [0.0006146,
+0.0013131] that clearly excludes zero, confirming significant positive
+mediation. The direct effect of AI on financialization after accounting for
+profitability mediation remains 0.0057384 (z =5.93, p <0.001), indicating
+substantial direct pathways beyond profitability. For the
+financing constraint mediator, the indirect effect is 0.0002702 (z =4.84,
+p <0.001), with a confidence interval of [0.0001728, 0.0003933], again
+excluding zero and confirming significant mediation. The direct effect
+after accounting for financing constraint mediation is 0.0050148 (z =
+5.43, p <0.001).
+Table 13
+Mediation test: Sobel statistics.
+Mediators statistics P value Proportion of mediating effect
+NetProfit 6.027 1.666e-09 0.1397964
+FC 4.798 1.599e-06 0.05112784
+International Review of Financial Analysis 110 (2026) 104906
+4.6. Moderating effects of digital environment and technology
+Having established that AI adoption positively influences corporate
+financialization through profitability enhancement and financing
+constraint alleviation, we now examine the boundary conditions of this
+relationship. Not all firms benefit equally from AI adoption; the effectiveness
+of AI in reshaping financial asset allocation likely depends on
+complementary organizational capabilities and environmental conditions.
+We investigate three moderating factors operating at different
+levels: firm-level digital transformation foundation, managerial-level
+top management team technological cognition, and regional-level digital
+infrastructure. These analyses test Hypotheses 4, 5, and 6, respectively,
+and provide insights into when and where AI adoption most
+strongly influences corporate financialization.
+Digital Transformation Foundation. Table 15 examines whether a
+firm’s existing digital transformation foundation moderates the AI-
+financialization relationship. We measure digital transformation foundation
+(DIG) as the proportion of intangible assets related to digital
+technology relative to total intangible assets, reflecting the firm’s
+baseline digital capability and infrastructure. Column 1 presents a model
+including both AI adoption and DIG as main effects. The coefficient on
+AI remains positive and significant (coefficient =0.006, t =3.463, p <
+0.01), consistent with baseline findings. The coefficient on DIG itself is
+negative but statistically insignificant (coefficient = − 0.004, t =
+− 0.768), suggesting that digital foundation alone does not directly
+predict financialization levels after controlling for other factors.
+Column 2 introduces the critical interaction term between AI adoption
+and digital foundation (DIG ×lnAI). The interaction coefficient is
+positive and highly significant (coefficient =0.024, t =3.056, p <0.01),
+providing strong support for Hypothesis 4. This positive interaction indicates
+that the effect of AI adoption on financialization is significantly
+amplified in firms with stronger digital transformation foundations. In
+economic terms, firms that have already invested substantially in digital
+infrastructure, software platforms, data management systems, and
+related intangible assets derive greater financial benefits from AI
+adoption than firms with weaker digital foundations. The main effect of
+AI remains significant (coefficient =0.006, t =3.494, p <0.01), while
+the DIG main effect becomes positive though remains insignificant
+(coefficient = 0.006, t = 0.990).This moderating effect aligns with
+theories of technological complementarity and absorptive capacity. AI
+technologies do not operate in isolation but require supporting digital
+infrastructure to function effectively. Firms with robust digital foundations
+possess the necessary data systems, connectivity, and digital skills
+that enable AI tools to be implemented seamlessly and deliver maximum
+value. For instance, machine learning algorithms require quality data,
+which depends on existing data collection and management systems. AI-
+driven analytics need integration with enterprise resource planning
+systems and business intelligence platforms. Cloud-based AI applications
+demand adequate network infrastructure and cybersecurity capabilities.
+Firms lacking these complementary digital assets struggle to
+fully exploit AI’s potential, resulting in weaker impacts on performance
+and consequently on financial outcomes.
+The finding that digital foundation moderates rather than directly
+affects financialization is theoretically informative. It suggests that
+digital capabilities matter primarily in conjunction with AI adoption
+rather than independently. Simply possessing digital infrastructure
+without deploying advanced AI applications does not substantially alter
+financial asset strategies. However, when AI is introduced into an
+already digitally mature organization, a synergistic effect emerges that
+magnifies AI’s impact on generating surplus funds and improving
+financial positions, ultimately leading to greater financialization. This
+highlights the importance of sequential technology investments: firms
+should build digital foundations before or concurrent with AI adoption
+to maximize returns.
+Control variables in Table 15 exhibit patterns consistent with prior
+specifications. Liquidity shows strong positive effects, leverage negative
+13
+X. Deng and C. Qin International Review of Financial Analysis 110 (2026) 104906
+Table 14
+Mediation test: Bootstrap analysis.
+Moderators Effect Coefficient Standard error Z value P value 95 % confidence interval(Bias-corrected)
+NetProfit Indirect 0.0009326 0.0001716 5.44 0.000 0.0006146 0.0013131
+Direct 0.0057384 0.0009671 5.93 0.000 0.0038139 0.007734
+FC Indirect 0.0002702 0.0000559 4.84 0.000 0.0001728 0.0003933
+Direct 0.0050148 0.0009229 5.43 0.000 0.003002 0.0067397
+Table 15
+Moderating effect of DIG.
+(1) (2)
+Variables FIN FIN
+lnAI 0.006*** 0.006***
+(3.463) (3.494)
+DIG− 0.004 0.006
+(− 0.768) (0.990)
+DIG x lnAI 0.024***
+(3.056)
+ROE− 0.010− 0.010
+(− 0.985) (− 0.951)
+Liquid 0.006*** 0.006***
+(14.883) (14.902)
+FL− 0.003***− 0.003***
+(− 4.135) (− 4.056)
+Indep 0.056*** 0.056***
+(3.355) (3.374)
+INST− 0.007**− 0.008**
+(− 2.059) (− 2.140)
+Constant 0.015** 0.014**
+(2.161) (2.094)
+Observations 30,018 30,018
+R-squared 0.161 0.162
+YEAR YES YES
+IND YES YES
+effects, and board independence positive effects on financialization
+across both columns. These stable relationships across various model
+specifications reinforce confidence in our findings.
+Top Management Team Technological Cognition. Table 16 explores
+whether the technological expertise and digital awareness of top
+management moderate the AI-financialization relationship. We measure
+top management team technological cognition (TMTECH) as an ordinal
+index ranging from 0 to 3, where higher values indicate greater
+Table 16
+Moderating effect of TMTECH.
+(1) (2)
+Variables FIN FIN
+lnAI 0.007*** 0.007***
+(3.600) (3.577)
+TMTECH− 0.001**− 0.002***
+(− 2.540) (− 2.666)
+TMTECH x lnAI 0.003**
+(2.302)
+ROE− 0.010− 0.010
+(− 0.984) (− 0.958)
+Liquid 0.006*** 0.006***
+(14.922) (14.937)
+FL− 0.003***− 0.003***
+(− 4.151) (− 4.149)
+Indep 0.055*** 0.055***
+(3.297) (3.305)
+INST− 0.007**− 0.007**
+(− 2.086) (− 2.104)
+Constant 0.017** 0.017**
+(2.449) (2.470)
+Observations 30,070 30,070
+R-squared 0.162 0.162
+YEAR YES YES
+IND YES YES
+technology orientation in leadership, with 3 representing firms where
+the CEO or board chair possesses strong digital technology background.
+Column 1 presents main effects of both AI adoption and TMTECH. The
+AI coefficient remains positive and significant (coefficient =0.007, t =
+3.600, p < 0.01). Interestingly, TMTECH shows a negative and
+marginally significant main effect (coefficient =− 0.001, t =− 2.540, p
+< 0.05), suggesting that in the absence of AI adoption, technology-
+oriented management is associated with slightly lower financialization,
+possibly reflecting a preference for reinvesting in technological
+innovation rather than accumulating financial assets.
+Column 2 introduces the interaction term (TMTECH ×lnAI). The
+interaction coefficient is positive and significant (coefficient =0.003, t
+=2.302, p < 0.05), supporting Hypothesis 5. This indicates that the
+positive effect of AI adoption on financialization is more pronounced in
+firms led by technologically savvy management teams. The economic
+interpretation is that leaders with strong technology backgrounds are
+better positioned to successfully implement AI initiatives, extract value
+from AI investments, and strategically manage the resulting financial
+outcomes. The TMTECH main effect becomes slightly more negative
+(coefficient =− 0.002, t =− 2.666, p <0.01) after including the interaction,
+reinforcing that technology cognition matters primarily through
+its interaction with AI adoption rather than as a standalone factor.
+Several mechanisms may explain this moderating effect. First,
+technologically literate managers possess deeper understanding of AI
+capabilities and limitations, enabling them to make better decisions
+about where and how to deploy AI within the organization. This leads to
+more effective AI implementation and greater performance gains. Second,
+tech-savvy leaders may be more adept at interpreting AI-generated
+insights and integrating them into strategic decision-making, including
+financial asset management decisions. Third, top managers with technology
+backgrounds likely champion AI initiatives more effectively
+within the organization, securing necessary resources and overcoming
+resistance to change. Fourth, such leaders may have better networks in
+technology ecosystems, facilitating access to cutting-edge AI tools,
+talent, and best practices.The finding aligns with upper echelons theory,
+which posits that organizational outcomes reflect top managers’
+cognitive bases and values. In the context of emerging technologies like
+AI, managerial cognition becomes particularly critical because AI
+implementation involves substantial uncertainty, requires significant
+organizational change, and demands strategic choices about resource
+allocation. Leaders lacking technological understanding may underinvest
+in AI, misallocate AI resources, or fail to capture AI-generated
+value, resulting in weaker impacts on firm outcomes including
+financialization.
+Importantly, the negative main effect of TMTECH suggests nuanced
+relationships. Technology-oriented managers, when not deploying AI,
+may actually pursue strategies that reduce financialization, perhaps by
+channeling resources into R&D and innovation rather than financial
+investments. However, when these same managers adopt AI technologies,
+the combination proves powerful, yielding amplified effects on
+financial asset accumulation. This pattern underscores that managerial
+orientation and technological capability are complementary: maximum
+benefits emerge when both are present.
+Regional Digital Infrastructure. Table 17 examines whether
+regional digital infrastructure moderates the AI-financialization relationship.
+We measure regional digital infrastructure (INF) based on the
+frequency of digital infrastructure-related keywords in city-level
+14
+X. Deng and C. Qin Table 17
+Moderating effect of INF.
+(1) (2)
+Variables FIN FIN
+lnAI 0.007*** 0.007***
+(3.451) (3.503)
+INF 0.017− 0.087
+(0.023) (− 0.121)
+INF x lnAI 2.294***
+(2.612)
+ROE 0.003 0.003
+(0.240) (0.257)
+Liquid 0.006*** 0.006***
+(12.930) (12.943)
+FL− 0.002***− 0.002***
+(− 3.124) (− 3.070)
+Indep 0.055*** 0.054***
+(3.105) (3.070)
+INST− 0.010**− 0.010**
+(− 2.554) (− 2.561)
+Constant 0.012 0.012
+(1.547) (1.605)
+Observations 21,098 21,098
+R-squared 0.172 0.172
+YEAR YES YES
+IND YES YES
+government work reports, reflecting the emphasis on and quality of
+digital infrastructure development in the firm’s operating region. Column
+1 presents main effects of AI adoption and INF. The AI coefficient
+remains positive and significant (coefficient =0.007, t =3.451, p <
+0.01). The INF main effect is positive but statistically insignificant (coefficient
+=0.017, t =0.023), indicating that regional infrastructure
+alone does not directly predict firm-level financialization after controlling
+for firm characteristics.
+Column 2 introduces the interaction term (INF ×lnAI). The interaction
+coefficient is positive and highly significant (coefficient =2.294,
+t =2.612, p < 0.01), providing strong support for Hypothesis 6. This
+substantial positive interaction indicates that AI adoption’s effect on
+financialization is dramatically stronger in regions with superior digital
+infrastructure. The magnitude of this interaction coefficient is notably
+larger than the previous moderators, suggesting that regional infrastructure
+may be a particularly powerful enabling condition. The INF
+main effect becomes negative after including the interaction but remains
+insignificant (coefficient =− 0.087, t =− 0.121).
+This finding carries important theoretical and practical implications.
+Regional digital infrastructure encompasses physical assets like broadband
+networks, data centers, and telecommunications systems, as well
+as institutional support including government policies favoring digitalization,
+availability of technology talent, and presence of technology
+service providers. These environmental factors create positive externalities
+that amplify individual firms’ AI investments. For instance, in
+regions with widespread high-speed internet and 5G networks, AI applications
+requiring real-time data processing and cloud connectivity
+perform more effectively. In regions with concentrations of AI talent and
+service providers, firms can more easily recruit skilled personnel and
+access technical support. In regions where government prioritizes digital
+economy development, firms may receive subsidies, preferential policies,
+and infrastructural support that enhance AI implementation
+success.
+The result aligns with economic geography and regional innovation
+systems literature, which emphasize that firm-level innovation outcomes
+depend heavily on regional contexts. AI adoption is not merely a
+firm-level decision but occurs within and is shaped by regional ecosystems.
+Firms in digitally advanced regions enjoy spillover benefits from
+neighboring firms’ digitalization efforts, shared infrastructure, and
+knowledge flows that collectively enhance AI effectiveness. Conversely,
+International Review of Financial Analysis 110 (2026) 104906
+firms attempting AI adoption in regions lacking digital infrastructure
+face higher costs, implementation challenges, and reduced performance
+gains, resulting in weaker impacts on financialization.
+From a policy perspective, this finding underscores the importance of
+regional digital infrastructure investment as a public good that amplifies
+private sector AI returns. Governments seeking to promote AI-driven
+economic development should prioritize building robust digital infrastructure
+that creates favorable conditions for firm-level AI adoption.
+The large magnitude of the interaction effect suggests that infrastructure
+improvements could yield substantial benefits by enabling firms to fully
+realize AI’s potential.
+Collectively, the three moderation analyses reveal that AI adoption’s
+impact on corporate financialization is highly context-dependent. All
+three moderators, operating at firm, managerial, and regional levels,
+significantly and positively moderate the AI-financialization relationship,
+supporting Hypotheses 4, 5, and 6. The consistent pattern across
+these diverse contextual factors underscores a fundamental insight: AI is
+not a plug-and-play technology whose benefits materialize automatically.
+Rather, AI’s value realization depends critically on complementary
+assets, capabilities, and environmental conditions.
+The findings align with and extend theories of technological
+complementarity and dynamic capabilities (Teece, 2007). AI represents
+a general-purpose technology whose productivity gains emerge only
+when combined with appropriate organizational capabilities and infrastructure.
+Firms with strong digital foundations, technologically savvy
+leadership, and favorable regional environments can effectively integrate
+AI into operations, leading to substantial performance improvements
+and consequent increases in financial asset holdings. In contrast,
+firms lacking these complementary factors struggle to extract value from
+AI investments, resulting in minimal or no effects on financialization.
+From a practical standpoint, these results provide actionable guidance
+for managers and policymakers. Managers considering AI adoption
+should first assess and strengthen their organizations’ digital readiness,
+cultivate technological expertise in leadership teams, and consider
+location decisions in relation to regional digital infrastructure. Piecemeal
+AI adoption without these complementary investments is unlikely
+to yield maximum returns. Policymakers seeking to promote AI-driven
+economic growth should invest in public digital infrastructure, support
+executive education programs enhancing technological literacy,
+and create regional innovation ecosystems that provide supportive environments
+for AI adoption. The substantial interaction effects documented
+here suggest that such complementary investments could
+generate significant returns by enabling firms to fully capture AI’s
+transformative potential.
+4.7. Heterogeneity analysis
+To further explore the boundary conditions of the AI-financialization
+relationship, we conduct heterogeneity analyses examining whether the
+effect varies across different firm and industry characteristics. Specifically,
+we investigate three dimensions of heterogeneity: firm size, industry
+digital intensity, and market competition intensity. These
+analyses provide additional insights into which types of firms and
+competitive contexts exhibit stronger AI-driven financialization effects,
+enriching our understanding of when AI adoption most substantially
+influences financial asset allocation decisions.
+Firm Size Heterogeneity. Table 18, Panel A presents subsample
+analyses comparing large-scale enterprises with non-large-scale enterprises,
+where large-scale firms are defined as those above the median
+total assets in each year. The results reveal striking differences between
+the two groups. For large-scale enterprises (column 1), the AI adoption
+coefficient is 0.012 and highly significant (t =5.551, p < 0.01), indicating
+a strong positive effect on financialization. In contrast, for non-
+large-scale enterprises (column 2), the AI coefficient is substantially
+smaller at 0.005 and only marginally significant (t =1.719, p <0.10).
+The magnitude difference suggests that the AI-financialization
+15
+X. Deng and C. Qin Table 18
+Heterogeneity analysis.
+Panel A: Firm Size
+Large-scale Firms Non-large-scale Firms
+Variables FIN FIN
+lnAI 0.012*** 0.005*
+(5.551) (1.719)
+ROE− 0.005− 0.011
+(− 0.401) (− 0.678)
+Liquid 0.007*** 0.005***
+(8.445) (11.659)
+FL− 0.003***− 0.003**
+(− 3.304) (− 2.521)
+Indep 0.077*** 0.037
+(3.363) (1.642)
+INST− 0.016***− 0.000
+(− 3.236) (− 0.061)
+Constant 0.001 0.023**
+(0.142) (2.400)
+Observations 15,234 14,835
+R-squared 0.170 0.182
+YEAR YES YES
+IND YES YES
+Panel B: Industry Digital Intensity
+Digital Economy Industries Non-digital Economy Industries
+Variables FIN FIN
+lnAI 0.011*** 0.002
+(4.214) (0.727)
+ROE− 0.007− 0.015
+(− 0.502) (− 0.991)
+Liquid 0.006*** 0.005***
+(12.896) (7.856)
+FL− 0.004***− 0.002**
+(− 4.505) (− 2.053)
+Indep 0.057*** 0.057*
+(2.980) (1.892)
+INST− 0.006− 0.010*
+(− 1.301) (− 1.689)
+Constant 0.010 0.021*
+(1.144) (1.816)
+Observations 17,608 12,462
+R-squared 0.157 0.173
+YEAR YES YES
+IND YES YES
+Panel C: Market Competition Intensity
+Competitive Industries Non-competitive Industries
+Variables FIN FIN
+lnAI 0.008*** 0.002
+(3.969) (0.610)
+ROE− 0.010− 0.036*
+(− 0.792) (− 1.787)
+Liquid 0.006*** 0.001*
+(15.053) (1.726)
+FL− 0.003***− 0.003***
+(− 4.081) (− 3.025)
+Indep 0.038** 0.121***
+(2.199) (2.931)
+INST− 0.007− 0.012*
+(− 1.636) (− 1.747)
+Constant 0.018** 0.009
+(2.399) (0.596)
+Observations 23,242 6828
+R-squared 0.166 0.173
+YEAR YES YES
+IND YES YES
+Robust t-statistics in parentheses. *** p <0.01, ** p <0.05, * p <0.1.
+International Review of Financial Analysis 110 (2026) 104906
+relationship is more than twice as strong in large firms compared to
+smaller firms.
+This heterogeneity can be explained by several mechanisms. First,
+large firms typically possess greater financial resources, technological
+capabilities, and organizational slack necessary for successful AI
+implementation. They can afford substantial upfront investments in AI
+infrastructure, talent acquisition, and system integration that smaller
+firms struggle to finance. Second, large firms often operate at scale
+where AI applications yield greater marginal benefits through economies
+of scale in data collection, processing, and algorithm deployment.
+Third, large enterprises may have more complex operations spanning
+multiple business units and geographies, creating more opportunities to
+apply AI across diverse functions and capture efficiency gains. Fourth,
+large firms’ AI initiatives may generate larger absolute increases in
+profits and cash flows due to their revenue base, providing more substantial
+resources available for financial asset accumulation.
+The control variables also exhibit interesting patterns across subsamples.
+Board independence shows a strong positive effect on financialization
+in large firms (coefficient = 0.077, p < 0.01) but an
+insignificant effect in smaller firms, suggesting that governance mechanisms
+operate differently across firm sizes. Institutional ownership
+exhibits a significant negative coefficient in large firms (coefficient =
+− 0.016, p <0.01) but no effect in smaller firms, possibly indicating that
+institutional investors in large companies exert stronger pressure against
+excessive financial asset accumulation. These differential patterns underscore
+the importance of considering firm size when examining
+financial strategies.
+Industry Digital Intensity Heterogeneity. Panel B of Table 18
+compares firms in digital economy industries with those in traditional
+non-digital industries. Digital economy industries include information
+technology, telecommunications, e-commerce, digital media, and other
+sectors where digital technologies constitute core business activities.
+The results demonstrate substantial heterogeneity across industry types.
+For firms in digital economy industries (column 1), AI adoption shows a
+strong positive coefficient of 0.011 (t =4.214, p <0.01). In contrast, for
+firms in non-digital economy industries (column 2), the AI coefficient is
+small at 0.002 and statistically insignificant (t =0.727).
+This pronounced difference suggests that AI’s impact on financialization
+is concentrated in digitally intensive sectors. Several factors
+explain this pattern. First, digital economy firms possess inherent advantages
+in AI adoption due to existing digital infrastructure, data assets,
+and technical expertise. Their core competencies align closely with
+AI requirements, enabling more effective implementation and value
+extraction. Second, AI applications in digital industries may be more
+directly revenue-generating, such as recommendation algorithms in e-
+commerce, targeted advertising in digital media, or predictive analytics
+in fintech, leading to more immediate and substantial profitability improvements.
+Third, digital economy firms operate in rapidly evolving
+markets where AI provides competitive advantages that translate
+quickly into financial performance, generating surplus funds for financial
+asset accumulation.
+Fourth, digital firms may face greater pressure or opportunity to
+deploy AI-generated profits into financial investments rather than
+physical assets, given that their business models require relatively less
+capital-intensive infrastructure compared to traditional manufacturing.
+The control variables show generally consistent patterns across both
+subsamples, with liquidity and leverage exhibiting expected significant
+effects. However, institutional ownership shows a negative effect only in
+non-digital industries, suggesting differential investor preferences or
+monitoring intensity across sectors.
+Market Competition Intensity Heterogeneity. Panel C of Table 18
+examines whether the AI-financialization relationship varies with market
+competition intensity. We classify industries as competitive based on
+the Herfindahl-Hirschman Index (HHI), with lower HHI values indicating
+more competitive markets. For firms in competitive industries
+(column 1), AI adoption exhibits a significant positive coefficient of
+16
+X. Deng and C. Qin 0.008 (t =3.969, p < 0.01). For firms in less competitive industries
+(column 2), the AI coefficient is small at 0.002 and statistically insignificant
+(t =0.610).
+This heterogeneity reveals that AI’s impact on financialization is
+stronger in competitive market environments. Several theoretical explanations
+account for this pattern. First, in competitive markets, firms
+face greater pressure to innovate and improve efficiency to maintain
+market position. AI adoption in such contexts may be more intensive and
+strategically important, yielding larger performance gains that translate
+into increased financialization. Second, competitive environments may
+force firms to more aggressively deploy AI to reduce costs and improve
+margins, as failure to do so risks competitive disadvantage. The resulting
+efficiency gains in competitive settings may be more substantial than in
+protected or monopolistic markets where innovation urgency is lower.
+Third, firms in competitive industries may have fewer opportunities
+for monopoly rents from real sector activities, making financial investments
+relatively more attractive as alternative revenue sources. AI-
+enhanced profitability in such contexts might flow more readily into
+financial assets rather than being reinvested in capacity expansion that
+would intensify competition. Fourth, competitive pressure may drive
+firms to maintain greater financial flexibility through liquid asset
+holdings, allowing rapid responses to competitive threats or opportunities.
+AI-generated cash flows in competitive environments might thus
+be strategically allocated to financial assets as buffers.
+The control variables reveal some interesting differences across
+competition intensity. Return on equity (ROE) shows a significant
+negative coefficient in non-competitive industries (coefficient =
+− 0.036, p < 0.10) but no effect in competitive industries, suggesting
+complex profitability-financialization dynamics that vary with market
+structure. Board independence exhibits stronger positive effects in non-
+competitive industries (coefficient =0.121, p < 0.01) compared to
+competitive ones (coefficient =0.038, p < 0.05), possibly reflecting
+differential governance needs across market structures. Liquidity shows
+strong positive effects in both subsamples, though the magnitude is
+larger in competitive industries, consistent with greater liquidity preferences
+amid competitive pressure.
+The heterogeneity analyses reveal that AI adoption’s impact on
+corporate financialization is not uniform but varies systematically across
+firm and industry characteristics. The effect is significantly stronger in
+large firms, digital economy industries, and competitive markets. These
+patterns suggest that AI’s influence on financial asset allocation depends
+on organizational capacity (firm size), technological context (digital
+intensity), and market conditions (competition).
+From a theoretical perspective, these findings align with contingency
+theory and resource-based view extensions emphasizing that technology
+benefits depend on fit between technology characteristics and organizational
+context. AI adoption yields greater financialization effects when
+firms possess resources for effective implementation (large firms),
+operate in environments aligned with AI capabilities (digital industries),
+and face market conditions that intensify innovation pressures and
+returns (competitive markets).
+Practically, these results imply that the financial implications of AI
+adoption should be evaluated with attention to firm and industry
+context. Large firms in digitally intensive, competitive sectors are most
+likely to experience substantial AI-driven increases in financial asset
+holdings. Smaller firms in traditional, less competitive industries may
+see minimal financialization effects from AI adoption, suggesting either
+that AI implementation is less successful in such contexts or that any
+benefits are deployed differently. Policymakers and managers should
+recognize these differential impacts when designing AI promotion policies
+or corporate AI strategies, tailoring approaches to specific organizational
+and market contexts rather than applying one-size-fits-all
+frameworks.
+International Review of Financial Analysis 110 (2026) 104906
+5. Conclusion
+5.1. Summary of key findings
+This study provides comprehensive empirical evidence on how
+artificial intelligence adoption influences corporate financial asset
+allocation decisions. Using panel data of Chinese listed firms with
+30,070 observations covering 2010 to 2023, we establish several key
+findings that advance understanding of the AI-financialization nexus.
+First, we find robust evidence that AI adoption significantly increases
+corporate financial asset holdings. This positive relationship persists
+across multiple model specifications, alternative measures, and rigorous
+endogeneity tests including instrumental variable estimation, propensity
+score matching, and Heckman selection models. The economic
+magnitude is substantial: AI adoption explains meaningful variation in
+financial asset ratios beyond traditional determinants, suggesting that
+technological innovation has become an important driver of corporate
+financial strategies.
+Second, we identify and empirically validate two competing mediating
+mechanisms through which AI influences financialization. AI
+adoption enhances firm profitability by improving operational efficiency,
+decision quality, and competitive positioning, generating surplus
+internal funds that flow into financial asset accumulation. This profitability
+channel accounts for approximately 14 % of the total AI effect.
+Simultaneously, AI adoption alleviates financing constraints by
+improving firm performance signals, enhancing creditworthiness, and
+increasing investor confidence, which affects financial asset holdings
+through improved financial capacity. This financing constraint channel
+contributes approximately 5 % of the total effect. The dominance of the
+profitability mechanism over the financing constraint mechanism explains
+the net positive impact of AI on financialization, supporting our
+theoretical framework that surplus generation outweighs reduced precautionary
+motives in determining financial asset strategies.
+Third, we demonstrate that AI’s impact on financialization is highly
+context-dependent, contingent on complementary capabilities and
+environmental conditions at multiple levels. At the firm level, organizations
+with stronger digital transformation foundations experience
+significantly amplified AI effects, reflecting technological complementarities
+where AI requires supporting digital infrastructure to deliver
+maximum value. At the managerial level, top management teams with
+greater technological cognition more effectively leverage AI investments,
+resulting in stronger financialization impacts through better
+implementation and strategic deployment of AI-generated resources. At
+the regional level, superior digital infrastructure dramatically enhances
+AI’s effectiveness, with the interaction magnitude suggesting that
+environmental conditions may be particularly powerful enablers of AI
+value realization.
+Fourth, heterogeneity analyses reveal that AI-driven financialization
+effects vary systematically across organizational and market contexts.
+Large firms exhibit substantially stronger relationships between AI
+adoption and financial asset holdings compared to smaller firms,
+reflecting resource advantages, scale economies, and implementation
+capabilities. Firms in digital economy industries show pronounced AI-
+financialization relationships while traditional industry firms exhibit
+minimal effects, indicating that technological alignment and existing
+digital capabilities shape AI’s financial implications. Companies operating
+in competitive markets demonstrate stronger AI effects than those
+in less competitive environments, suggesting that competitive pressure
+intensifies both AI deployment urgency and the strategic value of AI-
+generated financial flexibility.
+Collectively, these findings paint a nuanced picture of how emerging
+technologies reshape corporate finance. AI adoption is neither uniformly
+beneficial nor operates through simple direct pathways. Rather, its influence
+on financial asset allocation emerges through multiple mechanisms,
+depends critically on complementary organizational and
+environmental factors, and varies substantially across firm and industry
+17
+X. Deng and C. Qin contexts. This complexity underscores the importance of moving beyond
+simplistic technology adoption models toward richer frameworks
+recognizing contingencies and complementarities.
+5.2. Theoretical implications
+This research makes several important theoretical contributions that
+advance multiple literature streams. First, we extend the resource-based
+view (RBV) by demonstrating that AI capabilities function as strategic
+resources with implications beyond operational performance to include
+financial strategy outcomes. While traditional RBV applications focus on
+how valuable, rare, and inimitable resources generate competitive advantages,
+we show that these advantages manifest not only in market
+performance but also in financial asset allocation decisions. AI capabilities
+represent knowledge-based resources that enhance organizational
+information processing, decision-making efficiency, and adaptive
+capacity. Our findings that AI’s value depends on complementary resources
+including digital infrastructure, managerial cognition, and
+regional ecosystems directly support and extend RBV’s emphasis on
+resource complementarities and bundles. This integration of RBV with
+corporate finance contributes to both fields by revealing how strategic
+resources shape financial structures beyond traditional capital structure
+considerations.
+Second, we contribute to corporate finance theory by identifying
+technological innovation as a novel determinant of financial asset
+accumulation, expanding beyond conventional drivers emphasized in
+existing literature. Prior research focuses primarily on declining investment
+opportunities in real sectors (Demir, 2009), financing frictions,
+and agency problems (Jensen, 1986) as explanations for corporate
+financialization. We introduce AI adoption as an additional mechanism
+operating through distinct pathways. Our dual-mediation framework
+reconciles and integrates two foundational finance theories: free cash
+flow theory and pecking order theory. AI generates surplus cash flows
+consistent with the view that firms may allocate to financial investments
+when agency problems or limited growth opportunities constrain productive
+deployment. Simultaneously, AI alleviates information asymmetries
+and financing constraints, affecting financial asset decisions
+through improved external financing access. By demonstrating that both
+mechanisms operate concurrently with differential magnitudes, we
+provide a more complete theoretical account of how technology-driven
+financial performance improvements translate into asset allocation
+outcomes.
+Third, our study advances technology management and innovation
+literature by empirically validating contingency perspectives on AI
+value realization. We provide evidence supporting theories of technological
+complementarity and general-purpose technology diffusion in
+the specific context of AI adoption. The significant three-level moderating
+effects across firm digital foundations, managerial cognition, and
+regional infrastructure demonstrate that AI benefits emerge only when
+embedded in supportive organizational and environmental contexts.
+This finding helps explain persistent productivity paradoxes and heterogeneous
+AI returns documented in prior research: variation in complementary
+investments and contextual conditions generates differential
+outcomes even when firms nominally adopt similar AI technologies. Our
+framework integrating internal capabilities, leadership characteristics,
+and external infrastructure provides a template for future research
+examining conditions under which emerging technologies deliver
+promised benefits.
+Fourth, we contribute methodologically by employing a comprehensive
+empirical approach addressing multiple endogeneity concerns
+and testing complex mediation and moderation relationships simultaneously.
+Our triangulation across instrumental variables, propensity
+score matching, and selection models provides robust causal evidence
+strengthening confidence in findings. The formal mediation tests with
+Sobel statistics and bootstrap confidence intervals offer rigorous validation
+of theoretical mechanisms. The multi-level moderation analyses
+International Review of Financial Analysis 110 (2026) 104906
+demonstrate how to examine contingencies operating at different
+organizational levels within a unified framework. This methodological
+rigor sets standards for future empirical research on technology-finance
+relationships.
+Finally, our findings speak to emerging debates about financialization
+consequences in the context of technological change. While extensive
+literature debates whether corporate financialization represents
+efficient capital allocation or problematic diversion from productive
+investment (Orhangazi, 2008), we show that technological innovation
+introduces additional complexity. AI-driven financialization may differ
+fundamentally from financialization driven by declining real sector
+opportunities or short-term financial market pressures. When financialization
+results from technology-enhanced profitability generating
+legitimate surplus resources, normative assessments may differ from
+cases where financialization reflects rent-seeking or strategic stagnation.
+Our research suggests that the welfare implications of financialization
+cannot be evaluated independently of its underlying drivers, opening
+avenues for future theoretical development distinguishing between
+productive and unproductive forms of financial asset accumulation.
+5.3. Managerial implications
+Our findings offer actionable insights for multiple stakeholder groups
+including corporate managers, investors, and policymakers, with implications
+for strategic decision-making, investment evaluation, and
+policy design.
+Implications for Corporate Managers. Executives should recognize AI
+adoption as a strategic initiative with significant financial implications
+extending beyond operational improvements. Our evidence demonstrates
+that AI investments generate not only efficiency gains and
+competitive advantages but also reshape corporate financial profiles by
+increasing financial asset holdings. Managers should therefore integrate
+AI strategy with financial planning, anticipating that successful AI
+implementation will generate surplus resources requiring strategic
+allocation decisions. Rather than viewing AI purely as an operational
+technology, leadership should understand its role in enhancing financial
+flexibility and resource availability.
+However, managers must also recognize that capturing AI’s full
+financial benefits requires complementary investments and capabilities.
+Organizations should assess and strengthen their digital transformation
+foundations before or concurrent with AI adoption, ensuring adequate
+data infrastructure, information systems, and digital skill bases exist to
+support AI implementation. Piecemeal AI investments without supporting
+digital capabilities are unlikely to yield maximum returns.
+Additionally, firms should invest in developing technological cognition
+at the leadership level through executive education, strategic hires
+bringing technology expertise to top management teams, and cultivation
+of digital literacy across the organization. Our findings suggest that
+technology-oriented leadership significantly amplifies AI’s financial
+impacts, making human capital development in technological domains a
+high-priority complement to AI technology investments.
+Furthermore, managers should carefully evaluate organizational and
+environmental contexts when formulating AI strategies. Large firms,
+those in digital economy sectors, and companies facing competitive
+pressure appear particularly well-positioned to benefit financially from
+AI adoption. Smaller firms in traditional industries may need to adjust
+expectations, pursue focused AI applications aligned with specific capabilities,
+or consider collaborative approaches pooling resources with
+partners to overcome scale and capability disadvantages. Location decisions
+should also consider regional digital infrastructure quality, as our
+evidence suggests environmental factors substantially moderate AI
+benefits. Firms in regions with limited digital infrastructure may need to
+invest more heavily in self-sufficient technological capabilities or
+engage with policymakers to improve local conditions.
+Implications for Investors and Financial Analysts. Our findings provide
+investors with new frameworks for evaluating corporate AI
+18
+X. Deng and C. Qin initiatives and their financial implications. Rather than viewing AI
+adoption as a pure cost or speculative investment, investors should
+recognize that AI can materially affect firms’ financial asset positions
+and overall financial health through profitability improvements and
+financing constraint alleviation. When assessing firms’ AI strategies,
+investors should examine not just the technology investments themselves
+but also the complementary capabilities and contextual factors
+determining likely success. Firms with strong digital foundations, technologically
+sophisticated management, and operations in digitally
+advanced regions merit higher valuations for AI initiatives due to
+greater probability of successful implementation and financial value
+creation.
+Additionally, investors should consider AI adoption patterns when
+evaluating financial asset holdings. Increases in financial assets among
+AI-adopting firms may reflect prudent management of technology-
+generated surpluses rather than concerning over-financialization.
+Context matters: AI-driven financial asset accumulation in firms with
+strong growth prospects and continued innovation investment likely
+differs from financially motivated asset accumulation by stagnant firms
+avoiding productive investment. Investors should thus assess whether
+financial asset increases accompany or substitute for innovation and real
+investment when interpreting corporate strategies.
+Implications for Policymakers. Government officials and regulators
+should view digital infrastructure as critical public goods warranting
+substantial investment. Our findings demonstrate that regional digital
+infrastructure dramatically amplifies firm-level AI returns, suggesting
+that public infrastructure provision generates significant positive externalities
+for private sector innovation and performance. Policies
+should prioritize expanding broadband access, supporting data center
+development, promoting 5G network deployment, and fostering digital
+technology service ecosystems. These investments create enabling environments
+allowing firms to maximize AI adoption benefits, ultimately
+supporting economic growth, productivity improvements, and competitive
+advantages.
+Beyond infrastructure, policymakers should consider targeted support
+for AI adoption, particularly for firms facing resource constraints or
+operating in less digitally intensive sectors. Subsidies, tax incentives,
+low-cost financing, and technical assistance programs could help smaller
+firms and traditional industry companies overcome barriers to AI
+implementation, reducing disparities in technology access and benefits.
+However, such support should be coupled with requirements or incentives
+for complementary investments in digital foundations and
+human capital development, ensuring that subsidized AI adoption occurs
+in contexts supporting successful implementation.
+Educational and workforce development policies should emphasize
+technological literacy and digital skills at all levels, from basic digital
+competence in the general workforce to advanced technical capabilities
+among specialists and strategic technology understanding among business
+leaders. Our finding that managerial technological cognition
+significantly moderates AI benefits underscores the importance of executive
+education programs, university curricula emphasizing technology
+management, and professional development opportunities helping
+current leaders develop digital fluency. Broader workforce digital skill
+development ensures adequate talent supply supporting widespread AI
+adoption across industries.
+Finally, policymakers should monitor AI-driven financialization
+patterns to ensure they reflect productive resource allocation rather than
+problematic diversion from real economic activities. While our evidence
+suggests AI-driven financial asset accumulation stems from legitimate
+surplus generation, regulators should remain vigilant for excessive
+financialization that might undermine long-term productive investment,
+innovation capacity, or employment. Balanced policies encouraging AI
+adoption while maintaining incentives for continued real sector investment
+and innovation can help optimize economic outcomes from
+technological transformation.
+International Review of Financial Analysis 110 (2026) 104906
+5.4. Limitations and future research directions
+Despite its contributions, this study has important limitations that
+suggest avenues for future research. First, measurement and methodological
+challenges constrain our ability to draw definitive conclusions.
+Our AI adoption proxies, while grounded in objective financial data,
+capture AI-related capital expenditures rather than actual deployment
+intensity, utilization patterns, or value generation from AI systems.
+Firms may purchase AI equipment or software without effectively
+implementing or integrating it into operations, introducing measurement
+error that likely attenuates estimated effects toward zero, implying
+our findings may understate true relationships. Similarly, our dependent
+variable measuring financial assets as a proportion of total assets aggregates
+diverse asset types including operational cash, short-term investments,
+and longer-term financial holdings. This broad definition
+may conflate precautionary liquidity management with strategic
+financial investment, limiting our ability to distinguish between
+different motives for financial asset accumulation.
+Despite our multiple robustness checks including instrumental variables,
+propensity score matching, and Heckman selection models
+addressing different endogeneity sources, causal identification challenges
+persist. Reverse causality remains plausible: financially strong
+firms with substantial financial assets may possess greater capacity to
+undertake expensive AI investments, creating feedback loops our models
+cannot fully disentangle. Omitted variables such as unobserved managerial
+quality, organizational culture, or strategic orientation may
+simultaneously influence AI adoption decisions and financial asset
+strategies.
+Future research should address these limitations through several
+approaches. Studies should leverage richer firm-level data on AI projects,
+AI talent composition, AI-generated outputs, or AI system utilization
+metrics to measure adoption more accurately. Financial assets
+should be disaggregated into subcategories such as cash and equivalents,
+trading securities, available-for-sale investments, and equity stakes in
+other firms, examining whether AI adoption affects these components
+differentially. Research should exploit quasi-natural experiments such
+as exogenous shocks to AI adoption costs, regional AI policy variations,
+or technological breakthroughs enabling difference-in-differences or
+regression discontinuity designs that strengthen causal inference.
+Mixed-methods approaches combining econometric analysis with
+qualitative case evidence would provide more comprehensive understanding
+of how AI causally affects financial strategies.
+Future research should conduct cross-country comparative studies
+examining whether our findings replicate in diverse institutional contexts.
+Multi-country samples could test whether the AI-financialization
+relationship is universal or context-specific, identifying institutional
+factors that amplify or dampen effects. Country-specific studies in
+developed economies, other emerging markets, or frontier markets
+would reveal how economic development levels, financial market sophistication,
+and regulatory frameworks shape AI’s financial implications.
+Longer time horizons using extended panels or longitudinal
+tracking of cohorts over decades could illuminate dynamic patterns and
+long-term consequences. Research should examine downstream outcomes
+including how AI-adopting firms with higher financial assets
+subsequently perform on innovation output, R&D investment, employment
+growth, productivity improvements, and long-term market value
+compared to AI adopters maintaining lower financial asset ratios. Such
+analyses would reveal whether AI-driven financialization supports or
+hinders firms’ real economic contributions.
+Finally, our study identifies that substantial portions of AI’s total
+effect on financialization operate through unmeasured mechanisms
+beyond profitability and financing constraints. Future research should
+investigate additional mediating pathways including AI’s effects on risk
+management capabilities, information processing efficiency, organizational
+learning, strategic flexibility, and competitive positioning. Qualitative
+research exploring managers’ decision-making processes
+19
+X. Deng and C. Qin regarding AI-generated resources could uncover mechanisms not easily
+captured in quantitative models. Attention to behavioral factors, organizational
+routines, and institutional pressures shaping financial asset
+allocation decisions would enrich understanding of the AI-
+financialization relationship’s microfoundations.
+In conclusion, while this study advances knowledge significantly,
+substantial opportunities remain for deeper exploration of how
+emerging technologies reshape corporate finance. Future research
+addressing these limitations through improved measurement, stronger
+causal designs, cross-context comparisons, long-term analyses, and
+investigation of additional mechanisms will further illuminate the
+complex interplay between technological innovation and financial
+strategy in modern corporations.
+Acknowledgement
+This study was supported by the Fundamental Research Funds for the
+Central Universities (Grant No. FRF-TP-22-064A1)
+Data availability
+Data will be made available on request.
+References
+Babina, T., Fedyk, A., He, A., & Hodson, J. (2024). Artificial intelligence, firm growth,
+and product innovation. Journal of Financial Economics, 151, Article 103745.
+Bahoo, S., Cucculelli, M., & Qamar, D. (2023). Artificial intelligence and corporate
+innovation: A review and research agenda. Technological Forecasting and Social
+Change, 188, Article 122264.
+Bates, T. W., Kahle, K. M., & Stulz, R. M. (2009). Why do US firms hold so much more
+cash than they used to? The Journal of Finance, 64(5), 1985–2021.
+Bo, L., Li, H., Zhang, S., & Tang, R. (2025). Digital transformation and financing
+constraints: Evidence from Chinese manufacturing multinational enterprises. Digital
+Economy and Sustainable Development, 3(1), 6.
+Chen, D., Esperança, J. P., & Wang, S. (2022). The impact of artificial intelligence on firm
+performance: An application of the resource-based view to e-commerce firms.
+Frontiers in Psychology, 13, Article 884830.
+Chen, P., Chu, Z., & Zhao, M. (2024). The road to corporate sustainability: The
+importance of artificial intelligence. Technology in Society, 76, Article 102440.
+Dai, J. (2025). Technology-Finance Integration Pilot Policy and the Value of Technology-
+Based SMEs: The Moderating Role of Corporate Governance Structure. The Singapore
+Economic Review. Early View.
+Dai, J., Zhou, B., & Meng, W. (2025). The impact of digitization on environmental
+sustainability: New insights from G20 nations. Journal of Environmental Management,
+394, 127225.
+International Review of Financial Analysis 110 (2026) 104906
+Demir, F. (2009). Financial liberalization, private investment and portfolio choice:
+Financialization of real sectors in emerging markets. Journal of Development
+Economics, 88(2), 314–324.
+Dong, Z., Xin, Z., Liu, D., & Yu, F. (2024). The impact of artificial intelligence application
+on company environmental investment in Chinese manufacturing companies.
+International Review of Financial Analysis, 95, Article 103403.
+Durongkadej, I., Hu, W., & Wang, H. E. (2024). How artificial intelligence incidents affect
+banks and financial services firms? A study of five firms. Finance Research Letters, 70,
+Article 106279.
+Hadlock, C. J., & Pierce, J. R. (2010). New evidence on measuring financial constraints:
+Moving beyond the KZ index. The Review of Financial Studies, 23(5), 1909–1940.
+Li, J., Wu, T., Hu, B., Pan, D., & Zhou, Y. (2025). Artificial intelligence and corporate ESG
+performance. International Review of Financial Analysis, 102, Article 104036.
+Li, Y., Zhong, H., & Tong, Q. (2024). Artificial intelligence, dynamic capabilities, and
+corporate financial asset allocation. International Review of Financial Analysis, 96,
+Article 103773.
+Lui, A. K., Lee, M. C., & Ngai, E. W. (2022). Impact of artificial intelligence investment on
+firm value. Annals of Operations Research, 308(1), 373–388.
+Mishra, S., Ewing, M. T., & Cooper, H. B. (2022). Artificial intelligence focus and firm
+performance. Journal of the Academy of Marketing Science, 50(6), 1176–1197.
+Orhangazi, ¨
+O. (2008). Financialisation and capital accumulation in the non-financial
+corporate sector: A theoretical and empirical investigation on the US economy:
+1973–2003. Cambridge Journal of Economics, 32(6), 863–886.
+Qu, G., & Jing, H. (2025). Is new technology always good? Artificial intelligence and
+corporate tax avoidance: Evidence from China. International Review of Economics and
+Finance, 98, Article 103949.
+Teece, D. J. (2007). Explicating dynamic capabilities: The nature and microfoundations
+of (sustainable) enterprise performance. Strategic Management Journal, 28(13),
+1319–1350.
+Wang, Z., & Liu, H. (2025). Can intelligent transformation enhance corporate green
+innovation performance? Finance Research Letters, 107426.
+Xin, W. (2025). The impact of corporate artificial intelligence on financial risk: Evidence
+from China. Finance Research Letters, 107435.
+Xu, X., & Xuan, C. (2021). A study on the motivation of financialization in emerging
+markets: The case of Chinese nonfinancial corporations. International Review of
+Economics and Finance, 72, 606–623.
+Yang, X. (2025). AI competition and firm value: Evidence from DeepSeek’s disruption.
+Finance Research Letters, 107447.
+Zhang, C., & Yang, J. (2024). Artificial intelligence and corporate ESG performance.
+International Review of Economics and Finance, 96, Article 103713.
+Zhang, J., & Piao, M. (2025). The impact of artificial intelligence on the Financialization
+of enterprises: Research on the mediating effects based on Enterprise labor
+productivity. International Review of Economics and Finance, 104322.
+Zhong, K., & Song, L. (2025). Artificial intelligence adoption and corporate green
+innovation capability. Finance Research Letters, 72, Article 106480.
+Zhou, B., Gao, K., Ning, J., Zhang, A., & Dai, J. (2024). Does Air Pollution Change the
+Business Strategy for Investment? A Strategic Role of National Governance. Finance
+Research Letters, 63, 105302.
+Zhou, X., Li, G., Wang, Q., Li, Y., & Zhou, D. (2025). Artificial intelligence, corporate
+information governance and ESG performance: Quasi-experimental evidence from
+China. International Review of Financial Analysis, 102, Article 104087.
+20
