@@ -1,0 +1,486 @@
+Finance Research Letters 90 (2026) 109366
+Contents lists available at ScienceDirect
+Finance Research Letters
+journal homepage: www.elsevier.com/locate/frl
+Does artificial intelligence enhance bank profitability? Evidence
+from China
+Zhen Li
+Digital Economy Lab, Beijing Institute of Mathematical Sciences and Applications, Beijing 101408, China
+A R T I C L E I N F O
+JEL classifications:
+G21
+O33
+C55
+Keywords:
+Artificial intelligence
+AI adoption
+Bank profitability
+Textual analysis
+A B S T R A C T
+This study investigates how artificial intelligence (AI) adoption affects bank profitability in China.
+We develop a novel AI lexicon using Large Language Models (LLMs) and construct comprehensive
+AI adoption indicators from annual reports and patent filings, capturing both strategic orientation
+and innovation activities. Using a panel of 430 Chinese commercial banks from 2007 to 2022, we
+find that AI adoption enhances bank profitability. Mechanism tests reveal that AI adoption drives
+profitability by reducing operational costs, diversifying income sources, and promoting mobile
+banking development. Moreover, the profitability gains from AI adoption are more pronounced
+for systemically important banks, banks with concentrated ownership structures, and banks
+located in regions with mature FinTech ecosystems. Our findings provide novel insights into the
+value creation of AI in emerging banking markets.
+1. Introduction
+The rapid development of artificial intelligence (AI) technology is reshaping the global financial industry, with the banking sector
+undergoing structural shifts driven by digitalization. Over the past decade, AI technologies such as machine learning, deep learning,
+natural language processing, and robotics have been widely applied in credit risk management (Fraisse and Laporte, 2022; Lessmann
+et al., 2015), asset risk premium measurement (Gu et al., 2020), profitability prediction (Anand et al., 2019), default risk assessment
+(Khandani et al., 2010), and systemic banking crisis early warning (Beutel et al., 2019; Khandani et al., 2010; R¨ onnqvist and Sarlin,
+2017). These applications have not only achieved remarkable results but have also generated tangible economic value for banks and
+investors. However, amidst intensifying competition and narrowing margins, technological innovation has emerged as a critical lever
+for sustaining bank performance (Baffour Gyau et al., 2024). Consequently, determining whether AI adoption effectively translates
+into enhanced bank profitability remains a critical empirical question.
+AI is rapidly changing the operating models of financial institutions by reducing costs and enhancing operational efficiency
+(Daníelsson et al., 2022). Relevant research indicates that AI adoption can help banks reduce lending losses and optimize business
+processes and customer interactions (Ebrahimitorki and Kim, 2025; K¨ onigstorfer and Thalmann, 2020). The prevailing view is that AI
+adoption can increase revenue and reduce costs (Baffour Gyau et al., 2024; Shiyyab et al., 2023). For example, Shiyyab et al. (2023)
+analyze data from 15 Jordanian banks between 2014 and 2021 and find that disclosing AI adoption in annual reports positively affects
+bank performance. Similarly, Baffour Gyau et al. (2024) examine banks from 20 countries and confirm that AI technological innovation
+positively affects bank return on assets, with ICT development playing a significant mediating role. Despite the potential
+benefits, AI adoption entails significant risks (Durongkadej et al., 2024). Issues such as data privacy breaches, algorithmic bias, and
+E-mail address: lizhen@bimsa.cn.
+https://doi.org/10.1016/j.frl.2025.109366
+Received 30 May 2025; Received in revised form 9 December 2025; Accepted 9 December 2025
+Available online 11 December 2025
+1544-6123/© 2025 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Z. Li Finance Research Letters 90 (2026) 109366
+regulatory compliance have accompanied AI adoption. Therefore, a rigorous empirical assessment of the net impact of AI adoption on
+bank profitability is warranted.
+The main innovations of this study are twofold. First, it utilizes LLMs to develop an AI lexicon for commercial banks. Based on this
+lexicon, this study mines information from bank annual reports and patent texts to construct indicators of bank AI adoption from two
+perspectives: strategic orientation and innovation actions. This approach provides a comprehensive depiction of banks’ strategic
+planning and practical application in the AI field. Second, this study thoroughly examines the potential impact of AI adoption on bank
+profitability, not only investigating the direct effects and underlying mechanisms but also fully considering the differences among
+various types of banks and across different regions, aiming to reveal the heterogeneous effects of AI adoption on bank profitability.
+2. Hypothesis development
+This study examines how AI adoption affects bank profitability through three mediating mechanisms: operating costs, income
+diversity, and mobile banking development.
+First, AI adoption directly reduces labor costs and enhances operational efficiency by optimizing bank processes, such as automating
+core business segments like customer service, loan approval, and risk management (Fraisse and Laporte, 2022; Gomber et al.,
+2018; K¨ onigstorfer and Thalmann, 2020; Lessmann et al., 2015; Manser Payne et al., 2021). Meanwhile, AI-driven data analytics
+enable banks to achieve precise marketing and deliver personalized customer service, thereby effectively improving customer satisfaction
+and loyalty (Gomber et al., 2018; Tong and Yang, 2025), which in turn expands the scale of low-cost funds such as demand
+deposits and reduces bank deposit funding costs.
+Second, AI adoption drives banks to continuously innovate financial products and services, such as launching robo-advisors and
+personalized wealth management products (Gomber et al., 2018; Northey et al., 2022). These innovations help banks expand
+non-interest income channels and diversify revenue sources, thereby enhancing overall bank profitability. By providing diversified
+financial products and services, banks can reduce over-reliance on traditional interest income, enhance the stability and sustainability
+of their income, and reduce operational risks while improving long-term returns.
+Finally, AI adoption enhances mobile banking user experience, thereby boosting user adoption and engagement (Lee and Chen,
+2022). For example, intelligent customer service can provide instant and efficient responses to user inquiries, and personalized recommendations
+can enhance the accuracy of service matching. As the quality of mobile banking services improves, increases in the
+number of active users, launch count, and usage duration can encourage greater engagement in activities like payments, fund transfers,
+and investment management, thereby generating additional revenue opportunities for banks.
+H1. AI adoption enhances bank profitability.
+H2. development.
+AI adoption enhances bank profitability by reducing operating costs, increasing income diversity, and promoting mobile banking
+3. Study design
+3.1. Sample selection
+This study uses panel data from 430 Chinese commercial banks from 2007 to 2022. The primary data source is the Wind database,
+supplemented by the CSMAR database, the CNRDS database, and individual bank annual reports to address missing values. The mobile
+banking data is sourced from Analysys Qianfan, a leading third-party data analytics platform specializing in the Chinese digital
+economy. The initial sample is processed as follows: (1) Banks with fewer than three years of observations for key variables are
+excluded. (2) All continuous variables are winsorized at the 1st and 99th percentiles. By the end of 2022, the total assets of the sample
+banks represented 92.56 % of the total assets of Chinese commercial banks.
+3.2. Definition of key variables
+This study employs a text analysis methodology to construct a specialized lexicon for AI adoption in commercial banks, leveraging
+the LLMs Claude 3.5 Sonnet and GPT-4o (see Appendix A for details). Through a series of systematic filtering, identification, and
+integration steps, the final lexicon contains 136 representative AI-related terms. Based on this lexicon, the proportion of AI terms in the
+full text of bank annual reports is used as a proxy variable for banks’ AI strategic orientation. Meanwhile, to capture banks’ innovation
+actions in the AI field, the number of AI patents applied for by banks in the same year (processed by adding 1 and taking the natural
+logarithm) is used as another proxy variable.
+Return on assets (ROA) and return on equity (ROE) are the primary financial indicators for assessing bank profitability. ROA
+measures the efficiency of bank asset management and the ability to generate profits from assets. ROE directly reflects the bank’s
+ability to generate profits for shareholders and serves as a key metric for shareholders to assess investment returns. This study employs
+both indicators to comprehensively assess bank profitability and financial health from the perspectives of asset management and
+shareholder returns.
+Detailed definitions of all variables are provided in Table 1, and Appendix Table B presents the descriptive statistical analysis.
+2
+Z. Li 3.3. Model specification
+Finance Research Letters 90 (2026) 109366
+To examine the impact of AI adoption on bank profitability, this study constructs the following baseline regression equation,
+estimated using ordinary least squares (OLS):
+Profitabilityi,t =α +β ×AIi,t +γ ×Xi,t +θt +θi +εi,t (1)
+where Profitabilityi,t is the dependent variable, representing the profitability of bank i in year t, specifically measured by ROA and ROE.
+AIi,t is the independent variable, indicating the level of AI adoption of bank i in year t, comprehensively measured from the two dimensions:
+strategic orientation and innovation actions. Xi,t denotes control variables, included to account for other factors that may
+affect bank profitability. α is the constant intercept term, θt denotes year fixed effects, θi denotes bank fixed effects, and εi,t is the
+random error term.
+4. Empirical results
+4.1. Baseline regression
+This study aims to examine the impact of AI adoption on bank profitability. The regression results in Table 2 show that the coefficients
+for AI adoption strategic orientation (AIRatio) and AI adoption innovation actions (lnAIApply) are positive and statistically
+significant at the 1 % level. This indicates that both strategic orientation and practical technological application in AI significantly
+contribute to enhancing bank profitability, thereby supporting research hypothesis H1. Regarding the control variables, higher asset
+size (lnTotalAssets), deposits-to-assets ratio (DepositToAsset), and GDP growth rate (CityGDPG) generally have a significant positive
+impact on bank profitability.
+Table 1
+Variable definitions.
+Variable Definition Source
+ROA ROE NIM NIS AIRatio Return on assets=100 ×Net profit / Average total assets Return on equity=100 ×Net profit / Average total equity Net interest margin=100 ×Net interest income / Average balance of interest-earning assets Net interest spread=100 ×(Yield on interest-earning assets - Cost of interest-bearing liabilities) The percentage of AI-related terms in annual reports=100 ×(number of AI-related terms in annual reports / total
+word count in annual report). The bank AI lexicon comprises terms generated by Claude 3.5 Sonnet and GPT-4o
+models. This metric proxies for banks’ strategic commitment to artificial intelligence.
+lnAIApply The natural logarithm of (number of AI-related patent applications +1). A patent is considered AI-related if its title,
+abstract, main claims, or technical keywords include any term from the bank AI lexicon. This variable serves as a proxy
+for banks’ innovation activities in the field of artificial intelligence.
+AIMDARatio The percentage of AI-related terms in the Management Discussion and Analysis (MD&A) section=100 ×(number of
+AI-related terms in MD&A / total word count in MD&A). The bank AI lexicon comprises terms generated by Claude 3.5
+Sonnet and GPT-4o models.
+lnAIGrant The natural logarithm of (number of AI-related patents granted +1). A patent is considered AI-related if its title,
+abstract, main claims, or technical keywords include any term from the bank AI lexicon.
+lnTotalAssets Bank size=The natural logarithm of (Total assets in million RMB). EquityToAsset Equity-to-assets ratio=100 ×Total equity / Total assets DepositToAsset Deposits-to-assets ratio=100 ×Gross deposits / Total assets LoanToAsset Loans-to-assets ratio=100 ×Gross loans / Total assets CityGDPG 100 ×Regional GDP growth rate: local banks use city-specific rates; national banks use national rates OtherAIRatio Average AIRatio of other banks of the same institution type in the same year CostToIncome Cost-to-income ratio=100 ×Operating expenses / Total operating income DepositFundingCost Deposit interest expense ratio=100 ×Interest expense on deposits / Gross deposits DemDepositToAsset NIIRatio NIIToAsset IncomeDiversity lnUsers lnLaunches lnDuration isGSIB isHighConcentration isHighFinTech Demand deposits-to-assets ratio=100 ×Demand deposits / Total assets Non-interest income ratio=100 ×Non-interest income / Operating income Non-interest income-to-assets ratio=100 ×Non-interest income / Total assets Income diversity=100 ×(1 - |(Net interest income - Non-interest income) / Operating income|) The natural logarithm of (Mobile banking app annual active users in millions+1) The natural logarithm of (Mobile banking app annual launch count in millions+1) The natural logarithm of (Mobile banking app annual usage duration in million hours+1) GSIBs dummy variable: equals 1 if the bank is a global systemically important bank, and 0 otherwise Equity concentration dummy variable: equals 1 if the shareholding ratio of the top ten shareholders exceeds the upper
+quartile of the sample in the same year, and 0 otherwise
+FinTech dummy variable: equals 1 if the Digital Inclusive Finance Index from Peking University exceeds the upper
+quartile of the sample in the same year, and 0 otherwise. For local banks, the index of the city where the bank is located
+is used; for national banks, the average of this index across all cities is used
+Wind
+Wind
+Wind
+Wind
+Annual Report
+Innojoy
+Annual Report
+Innojoy
+Wind
+Wind
+Wind
+Wind
+CEIC
+Annual Report
+Wind
+Annual Report,
+Wind
+Wind
+Wind
+Wind
+Wind
+Analysys Qianfan
+Analysys Qianfan
+Analysys Qianfan
+FSB
+Wind
+Peking University
+3
+Z. Li Finance Research Letters 90 (2026) 109366
+Table 2
+Baseline results: the impact of AI adoption on bank profitability.
+(1) (2) (3) (4)
+Variable ROA ROA ROE ROE
+AIRatio 0.5345*** 4.3648***
+(5.3758) (3.3365)
+lnAIApply 0.0809*** 0.7205***
+(8.9224) (3.9108)
+lnTotalAssets 0.0867** 0.1036*** 1.0089* 1.1590**
+(2.2645) (2.6940) (1.7116) (1.9834)
+EquityToAsset 0.0119*** 0.0114*** -0.4350*** -0.4394***
+(2.7321) (2.6288) (-8.0694) (-8.1905)
+DepositToAsset 0.0036*** 0.0037*** 0.0466** 0.0483**
+(2.6700) (2.8020) (2.3754) (2.4892)
+LoanToAsset -0.0016 -0.0019 -0.0726*** -0.0752***
+(-1.1396) (-1.3380) (-3.9417) (-4.1072)
+CityGDPG 0.0092** 0.0080* 0.1036* 0.0921
+(2.0950) (1.7996) (1.7697) (1.5649)
+Constant -0.5534 -0.9825 6.3422 2.5230
+(-0.8451) (-1.4822) (0.6353) (0.2530)
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 3185 3185 3185 3185
+Adj. R2 0.6520 0.6536 0.6981 0.6990
+Note: t-statistics are reported in parentheses. *, ** and *** denote the 10 %, 5 % and 1 % significance level, respectively.
+4.2. Robustness checks
+This study employs the two-stage least squares (2SLS) instrumental variable method for estimation. Following Banker et al. (2019),
+we use the average AIRatio of other banks within the same institution type and year (OtherAIRatio) as an instrumental variable for bank
+AI adoption. The instrument satisfies the relevance condition, as banks of the same institutional type operate under similar regulatory
+frameworks and operational constraints, which fosters peer learning incentives. Regarding the exclusion restriction, several factors
+support its validity. First, AI diffusion effects operate primarily through knowledge spillovers rather than direct profit channels.
+Second, for regional banks that constitute the vast majority of our sample, institutions of the same type typically operate in distinct
+geographic markets, thereby limiting competitive effects on individual profitability. The results in Table 3 further confirm the validity
+of OtherAIRatio as an instrumental variable. To address potential endogeneity concerns more comprehensively, we employ a lagged
+independent variable approach (Appendix Table C) and implement the two-step system GMM estimator (Arellano and Bover, 1995;
+Blundell and Bond, 1998) to address multiple endogeneity sources (Appendix Table D).
+This study conducts three additional robustness checks. In Panel A of Table 4, the proportion of AI terms in the MD&A section of
+bank annual reports (AIMDARatio) and the number of AI patents granted to a bank in the same year (lnAIGrant) are used as alternative
+variables for AI adoption. In Panel B of Table 4, net interest margin (NIM) and net interest spread (NIS) reflect a bank’s interest income
+and cost management capabilities and serve as important indicators of financial health. NIM and NIS are used as alternative measures
+of bank profitability. In Panel C of Table 4, we perform a robustness check using a balanced panel dataset spanning 2015 to 2022, a
+period during which Chinese commercial banks began large-scale practical adoption of AI technologies after 2015. Across all
+Table 3
+Robustness check: instrumental variable approach.
+(1) (2) (3) (4) (5) (6)
+First-stage Second-stage Second-stage First-stage Second-stage Second-stage
+Variable AIRatio ROA ROE lnAIApply ROA ROE
+OtherAIRatio 0.3795*** 4.6395***
+(8.1326) (9.9658)
+AIRatio 3.3964*** 24.6312***
+(6.2078) (3.8715)
+lnAIApply 0.2778*** 2.0147***
+(6.7826) (3.9069)
+Controls Yes Yes Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes Yes Yes
+Kleibergen-Paap rk LM statistic (P value) 73.8355 115.3332
+(0.0000) (0.0000)
+Kleibergen-Paap rk Wald F statistic 66.1398 99.3179
+Observations 3122 3122 3122 3122 3122 3122
+Adj. R2 0.7011 / / 0.6436 / /
+Note: t-statistics are reported in parentheses. *, ** and *** denote the 10 %, 5 % and 1 % significance level, respectively.
+4
+Z. Li Finance Research Letters 90 (2026) 109366
+Table 4
+Additional robustness checks.
+(1) (2) (3) (4)
+Panel A: Replacing the measurement of the independent variable
+Variable ROA ROA ROE ROE
+AIMDARatio 0.0280*** 0.2618***
+(6.0037) (4.1474)
+lnAIGrant 0.1005*** 1.3731***
+(5.8657) (3.8858)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 2064 3185 2064 3185
+Adj. R2 0.6888 0.6505 0.7167 0.6994
+Panel B: Replacing the measurement of the dependent variable
+Variable NIM NIM NIS NIS
+AIRatio 0.7089*** 0.5318**
+(2.8419) (2.0944)
+lnAIApply 0.1538*** 0.1213***
+(5.2652) (4.3068)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 2998 2998 2982 2982
+Adj. R2 0.6954 0.6980 0.6572 0.6588
+Panel C: Using balanced panel data (2015–2022)
+Variable ROA ROA ROE ROE
+AIRatio 0.3170*** 3.1246**
+(3.2354) (2.4965)
+lnAIApply 0.0438*** 0.2344**
+(4.8038) (2.0798)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 1096 1096 1096 1096
+Adj. R2 0.6800 0.6811 0.7413 0.7406
+Note: t-statistics are reported in parentheses. *, ** and *** denote the 10 %, 5 % and 1 % significance level, respectively.
+specifications, the results remain robust and consistent with our main findings.
+4.3. Mechanism analysis
+This section explores the specific pathways through which AI adoption affects bank profitability, focusing on three mechanisms:
+operating costs, income diversity, and mobile banking development.
+To assess how AI adoption influences profitability through operating costs, this study employs the cost-to-income ratio (CostToIncome),
+deposit interest expense ratio (DepositFundingCost), and demand deposits-to-assets ratio (DemDepositToAsset) as proxy
+variables for bank operating costs. The results in Panel A of Table 5 show that AI adoption significantly reduces banks’ cost-to-income
+ratio and deposit interest expense ratio, and increases the demand deposits-to-assets ratio. This indicates that AI adoption enhances
+bank profitability by improving cost efficiency, reducing deposit funding costs, and increasing the share of low-cost funding.
+To examine whether AI adoption affects bank profitability by broadening income sources, this study uses the non-interest income
+ratio (NIIRatio), non-interest income to total assets ratio (NIIToAsset), and an income diversity index (IncomeDiversity) as proxy variables
+for the degree of bank income diversity. The results in Panel B of Table 5 indicate that AI adoption helps increase banks’ non-
+interest income and income diversity, thereby positively affecting profitability.
+To analyze the role of AI adoption in developing mobile banking services, this study uses mobile banking app annual active users
+(lnUsers), launch count (lnLaunches), and usage duration (lnDuration) as proxy variables for mobile banking development. The results in
+Panel C of Table 5 show that AI adoption significantly promotes the development of mobile banking services and enhances bank
+profitability through this channel.
+We mitigate endogeneity via lagged regressors and 2SLS (using peer banks’ AI adoption as IV), confirming causal interpretations
+across three channels.
+In summary, the results of the mechanism analysis support research hypothesis H2.
+5
+Z. Li Finance Research Letters 90 (2026) 109366
+Table 5
+Mechanism analysis: operating costs, income diversity, and mobile banking.
+(1) (2) (3) (4) (5) (6)
+Panel A: Operating costs
+Variable CostToIncome CostToIncome DepositFundingCost DepositFundingCost DemDepositToAsset DemDepositToAsset
+AIRatio -12.5582*** -0.4350*** 6.8060***
+(-4.4338) (-3.5271) (3.0442)
+lnAIApply -2.5571*** -0.0722*** 1.0878***
+(-8.5343) (-5.4893) (4.5121)
+Controls Yes Yes Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes Yes Yes
+Observations 3169 3169 2318 2318 2768 2768
+Adj. R2 0.7046 0.7096 0.7223 0.7242 0.8150 0.8158
+Panel B: Income diversity
+Variable NIIRatio NIIRatio NIIToAsset NIIToAsset IncomeDiversity IncomeDiversity
+AIRatio 17.3414*** 0.6964*** 18.1731**
+(3.0309) (4.0097) (2.1413)
+lnAIApply 2.0198*** 0.0875*** 2.7666***
+(4.3702) (6.1701) (3.8100)
+Controls Yes Yes Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes Yes Yes
+Observations 3153 3153 3153 3153 3152 3152
+Adj. R2 0.5488 0.5485 0.6424 0.6423 0.4434 0.4439
+Panel C: Mobile banking development
+Variable lnUsers lnUsers lnLaunches lnLaunches lnDuration lnDuration
+AIRatio 1.6000*** 1.3082*** 1.3927***
+(4.0285) (2.8290) (3.8637)
+lnAIApply 0.2746*** 0.1962*** 0.2084***
+(7.5367) (4.9392) (6.5752)
+Controls Yes Yes Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes Yes Yes
+Observations 822 822 822 822 822 822
+Adj. R2 0.8948 0.9051 0.9260 0.9278 0.9265 0.9315
+Note: The sample size in Panel C is reduced due to data availability from the Analysys Qianfan platform. t-statistics are reported in parentheses. *, **
+and *** denote the 10 %, 5 % and 1 % significance level, respectively.
+4.4. Heterogeneity analysis
+This section explores the heterogeneity in the impact of AI adoption on bank profitability.
+First, this study introduces a dummy variable for global systemically important banks (isGSIB) and its interaction term with AI
+adoption. The results in Panel A of Table 6 indicate that the positive effect of AI adoption on the profitability of systemically important
+banks is more pronounced. This heterogeneity stems from three theoretical mechanisms rooted in economies of scale and scope (Berger
+and Humphrey, 1997). First, these banks can amortize AI infrastructure investments across larger customer bases and transaction
+volumes, reducing unit costs. Second, their superior financial capacity enables investments in cutting-edge AI technologies and
+specialized talent, facilitating sophisticated applications in credit risk assessment, fraud detection, and customer relationship management.
+Third, their operational complexity creates greater optimization potential through AI-driven process automation and
+enhanced decision-making, yielding proportionally larger efficiency gains.
+Second, this study introduces a dummy variable for banks with high ownership concentration (isHighConcentration) and its
+interaction term with AI adoption. The results in Panel B of Table 6 show that AI adoption has a more pronounced effect on improving
+the profitability of banks with high ownership concentration. This finding aligns with agency theory and corporate governance
+literature (Jensen and Meckling, 1976; Shleifer and Vishny, 1997). Concentrated ownership mitigates principal-agent conflicts and
+information asymmetry, enabling decisive technology investment decisions. Major shareholders possess greater incentives and
+monitoring capabilities to ensure AI expenditures target value-creating applications rather than managerial objectives. Additionally,
+concentrated ownership accelerates consensus-building and implementation, enhancing integration with existing processes. This
+governance efficiency enables superior resource allocation, rigorous performance monitoring, and stronger alignment between AI
+capabilities and strategic priorities, thereby extracting greater value from AI investments.
+Finally, this study introduces a dummy variable for banks located in regions with advanced FinTech (isHighFinTech) and its
+interaction term with AI adoption. The results in Panel C of Table 6 show that for banks in regions with advanced FinTech, the positive
+effect of AI adoption on profitability is more pronounced. This finding supports endogenous growth theory and innovation spillover
+6
+Z. Li Finance Research Letters 90 (2026) 109366
+Table 6
+Heterogeneity analysis.
+(1) (2) (3) (4)
+Variable ROA ROA ROE ROE
+Panel A: Global systemically important banks
+AIRatio 0.5078*** 4.0421***
+(5.0813) (3.0642)
+lnAIApply 0.0788*** 0.4871***
+(8.0265) (2.9242)
+AI×isGSIB 1.2636*** 0.0107 15.2780*** 1.1590**
+(3.9991) (0.6489) (2.8932) (2.1016)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 3185 3185 3185 3185
+Adj. R2 0.6527 0.6535 0.6986 0.6999
+Panel B: Banks with high ownership concentration
+AIRatio 0.3461*** 2.7846**
+(3.4387) (1.9630)
+lnAIApply 0.0638*** 0.0907
+(5.5962) (0.4718)
+isHighConcentration -0.0414 -0.0021 -0.4812 -0.2577
+(-1.2376) (-0.0693) (-1.0184) (-0.6231)
+AI×isHighConcentration 0.5422*** 0.0254* 3.9791* 0.8968***
+(3.1666) (1.7627) (1.7763) (3.6768)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 2833 2833 2833 2833
+Adj. R2 0.6572 0.6575 0.7176 0.7184
+Panel C: Banks located in regions with advanced FinTech
+AIRatio 0.3845*** 1.6093
+(3.3280) (1.2066)
+lnAIApply 0.0796*** 0.4901***
+(8.5563) (3.9043)
+isHighFinTech 0.0053 0.0460* 0.2903 0.8489**
+(0.1705) (1.7757) (0.6251) (2.0823)
+AI×isHighFinTech 0.5110** 0.0231 8.2874*** 0.9842***
+(2.5194) (0.9459) (2.9755) (2.6185)
+Controls Yes Yes Yes Yes
+Year fixed effects Yes Yes Yes Yes
+Bank fixed effects Yes Yes Yes Yes
+Observations 2983 2983 2983 2983
+Adj. R2 0.6730 0.6742 0.7231 0.7232
+Note: t-statistics are reported in parentheses. *, ** and *** denote the 10 %, 5 % and 1 % significance level, respectively.
+literature (Jaffe et al., 1993; Romer, 1990). Advanced FinTech ecosystems provide four competitive advantages: developed digital
+infrastructure reducing AI implementation costs, abundant specialized human capital facilitating knowledge transfer and rapid
+adoption, positive externalities from neighboring institutions’ AI innovations, and intensified competition compelling AI-driven differentiation.
+FinTech clustering generates knowledge spillovers through labor mobility, inter-firm collaboration, and demonstration
+effects, enabling banks to learn from peers’ experiences, shortening learning curves and enhancing implementation effectiveness.
+5. Conclusion
+While AI adoption in the financial sector has garnered significant attention, its potential impact on bank profitability still requires
+further exploration. Based on the AI lexicon of commercial banks compiled using LLMs Claude 3.5 Sonnet and GPT-4o, this study
+constructs indicators to measure the strategic orientation and innovation actions of AI adoption. Utilizing panel data from 430 Chinese
+commercial banks from 2007 to 2022, this study comprehensively examines the relationship between AI adoption and bank profitability.
+The research findings indicate that AI adoption has a significant positive effect on bank profitability. Further mechanism
+analysis reveals that this positive impact is primarily achieved through three channels: reducing operating costs, increasing income
+diversity, and promoting mobile banking development. Furthermore, heterogeneity analysis finds that the positive effect of AI
+adoption on profitability is more pronounced among global systemically important banks, banks with high ownership concentration,
+and banks located in regions with advanced FinTech.
+7
+Z. Li Finance Research Letters 90 (2026) 109366
+Declaration of generative AI and AI-assisted technologies in the writing process
+During the preparation of this work the author used ChatGPT in order to improve the readability of the paper. After using this tool/
+service, the author reviewed and edited the content as needed and takes full responsibility for the content of the publication.
+CRediT authorship contribution statement
+Zhen Li: Writing – review & editing, Writing – original draft, Validation, Software, Resources, Project administration, Methodology,
+Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization.
+Declaration of competing interest
+There is no competing interest to declare.
+Acknowledgment
+This research was supported by the National Natural Science Foundation of China (Grant No.72342008 and 72473013).
+Supplementary materials
+Supplementary material associated with this article can be found, in the online version, at doi:10.1016/j.frl.2025.109366.
+Data availability
+Data will be made available on request.
+References
+Anand, V., Brunner, R., Ikegwu, K., Sougiannis, T., 2019. Predicting profitability using machine learning. SSRN Electron. J. https://doi.org/10.2139/ssrn.3466478.
+Arellano, M., Bover, O., 1995. Another look at the instrumental variable estimation of error-components models. J. Econom. 68 (1), 29–51. https://doi.org/10.1016/
+0304-4076(94)01642-D.
+Baffour Gyau, E., Appiah, M., Gyamfi, B.A., Achie, T., Naeem, M.A., 2024. Transforming banking: examining the role of AI technology innovation in boosting banks
+financial performance. Int. Rev. Financ. Anal. 96, 103700. https://doi.org/10.1016/j.irfa.2024.103700.
+Banker, R.D., Huang, R., Natarajan, R., Zhao, S., 2019. Market valuation of intangible asset: evidence on SG&A expenditure. Account. Rev. 94 (6), 61–90. https://doi.
+org/10.2308/accr-52468.
+Berger, A.N., Humphrey, D.B., 1997. Efficiency of financial institutions: international survey and directions for future research. Eur. J. Oper. Res. 98 (2), 175–212.
+https://doi.org/10.1016/S0377-2217(96)00342-6.
+Beutel, J., List, S., von Schweinitz, G., 2019. Does machine learning help us predict banking crises? J. Financ. Stab. 45, 100693. https://doi.org/10.1016/j.
+jfs.2019.100693.
+Blundell, R., Bond, S., 1998. Initial conditions and moment restrictions in dynamic panel data models. J. Econom. 87 (1), 115–143. https://doi.org/10.1016/S0304-
+4076(98)00009-8.
+Daníelsson, J., Macrae, R., Uthemann, A., 2022. Artificial intelligence and systemic risk. J. Bank. Finance 140, 106290. https://doi.org/10.1016/j.
+jbankfin.2021.106290.
+Durongkadej, I., Hu, W., Wang, H.E., 2024. How artificial intelligence incidents affect banks and financial services firms? A study of five firms. Finance Res. Lett. 70,
+106279. https://doi.org/10.1016/j.frl.2024.106279.
+Ebrahimitorki, M., Kim, H.H., 2025. Harnessing artificial intelligence: impact of AI adoption on bank loan performance. SSRN Electron. J. https://doi.org/10.2139/
+ssrn.5226964.
+Fraisse, H., Laporte, M., 2022. Return on investment on artificial intelligence: the case of bank capital requirement. J. Bank. Finance 138, 106401. https://doi.org/
+10.1016/j.jbankfin.2022.106401.
+Gomber, P., Kauffman, R.J., Parker, C., Weber, B.W., 2018. On the Fintech revolution: interpreting the forces of innovation, disruption, and transformation in
+financial services. J. Manag. Inf. Syst. 35 (1), 220–265. https://doi.org/10.1080/07421222.2018.1440766.
+Gu, S., Kelly, B., Xiu, D., 2020. Empirical asset pricing via machine learning. Rev. Financ. Stud. 33 (5), 2223–2273. https://doi.org/10.1093/rfs/hhaa009.
+Jaffe, A.B., Trajtenberg, M., Henderson, R., 1993. Geographic localization of knowledge spillovers as evidenced by patent citations. Q. J. Econ. 108 (3), 577–598.
+https://doi.org/10.2307/2118401.
+Jensen, M.C., Meckling, W.H., 1976. Theory of the firm: managerial behavior, agency costs and ownership structure. J. Financ. Econ. 3 (4), 305–360. https://doi.org/
+10.1016/0304-405X(76)90026-X.
+Khandani, A.E., Kim, A.J., Lo, A.W., 2010. Consumer credit-risk models via machine-learning algorithms. J. Bank. Finance 34 (11), 2767–2787. https://doi.org/
+10.1016/j.jbankfin.2010.06.001.
+K¨ onigstorfer, F., Thalmann, S., 2020. Applications of artificial intelligence in commercial banks – a research agenda for behavioral finance. J. Behav. Exp. Finance 27,
+100352. https://doi.org/10.1016/j.jbef.2020.100352.
+Lee, J.-C., Chen, X., 2022. Exploring users’ adoption intentions in the evolution of artificial intelligence mobile banking applications: the intelligent and
+anthropomorphic perspectives. Int. J. Bank Mark. 40 (4), 631–658. https://doi.org/10.1108/IJBM-08-2021-0394.
+Lessmann, S., Baesens, B., Seow, H.-V., Thomas, L.C., 2015. Benchmarking state-of-the-art classification algorithms for credit scoring: an update of research. Eur. J.
+Oper. Res. 247 (1), 124–136. https://doi.org/10.1016/j.ejor.2015.05.030.
+Manser Payne, E.H., Peltier, J., Barger, V.A., 2021. Enhancing the value co-creation process: artificial intelligence and mobile banking service platforms. J. Res.
+Interact. Mark. 15 (1), 68–85. https://doi.org/10.1108/JRIM-10-2020-0214.
+Northey, G., Hunter, V., Mulcahy, R., Choong, K., Mehmet, M., 2022. Man vs machine: how artificial intelligence in banking influences consumer belief in financial
+advice. Int. J. Bank Mark. 40 (6), 1182–1199. https://doi.org/10.1108/IJBM-09-2021-0439.
+8
+Z. Li Finance Research Letters 90 (2026) 109366
+Romer, P.M., 1990. Endogenous technological change. J. Polit. Econ. 98 (5), S71–S102. https://doi.org/10.1086/261725.
+R¨ onnqvist, S., Sarlin, P., 2017. Bank distress in the news: describing events through deep learning. Neurocomputing 264, 57–70. https://doi.org/10.1016/j.
+neucom.2016.12.110.
+Shiyyab, F.S., Alzoubi, A.B., Obidat, Q.M., Alshurafat, H., 2023. The impact of artificial intelligence disclosure on financial performance. Int. J. Financ. Stud. 11 (3),
+115. https://doi.org/10.3390/ijfs11030115.
+Shleifer, A., Vishny, R.W., 1997. A survey of corporate governance. J. Finance 52 (2), 737–783. https://doi.org/10.1111/j.1540-6261.1997.tb04820.x.
+Tong, X., Yang, W., 2025. Empirical analysis of the impact of financial technology on the profitability of listed banks. Int. Rev. Econ. Finance 98, 103788. https://doi.
+org/10.1016/j.iref.2024.103788.
+Zhen Li (1989-), male, Assistant Professor, Doctoral Supervisor, Beijing Institute of Mathematical Sciences and Applications. Research interests in banking, FinTech, and
+big data finance.
+9
