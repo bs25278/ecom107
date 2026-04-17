@@ -1,0 +1,1496 @@
+International Review of Financial Analysis 96 (2024) 103700
+Contents lists available at ScienceDirect
+International Review of Financial Analysis
+journal homepage: www.elsevier.com/locate/irfa
+Transforming banking: Examining the role of AI technology innovation in
+boosting banks financial performance
+Emmanuel Baffour Gyaua
+, Michael Appiah b
+, Bright Akwasi Gyamfic
+, Theodoria Achie d
+,
+*
+Muhammad Abubakr Naeem e,
+a School of Finance and Economics, Jiangsu University, Zhenjiang, Jiangsu, China
+b School of Management, Jiangsu University, Zhenjiang, Jiangsu, China
+c Faculty of Management, Multimedia University, 63100 CyberjayaSelangor, Malaysia
+d Dorstell Consult Ltd, Box Kf 596, Koforidua, Eastern Region, Ghana
+e College of Business and Economics, United Arab Emirates University, Al Ain, United Arab Emirates
+A R T I C L E I N F O
+Keywords:
+Banking artificial intelligence
+Financial performance
+Technology innovation in banking
+Non-performing loans
+Economic growth and banking
+A B S T R A C T
+With the ongoing advancement of technology, artificial intelligence is increasingly being integrated into banking
+and finance, with the transformative potential to reshape the financial performance of economies worldwide.
+This research investigates the dynamic relationship between banking and finance artificial intelligence tech-
+nology innovation and banks’ financial performance across 20 countries using the feasible generalized least
+squares and the generalized method of moments techniques. The results show that banking and finance artificial
+intelligence technology innovation positively impacts banks’ return on assets, highlighting its role in enhancing
+financial performance. The interaction term between artificial intelligence innovation and economic growth
+emphasizes their collaborative positive impact on financial performance. Mediation analysis highlights infor-
+mation and communication technology development’s role in transforming artificial intelligence innovation into
+improved financial outcomes. Considering lagged effects, initial innovation surges correlate with improved
+financial performance, but prolonged exposure leads to diminishing returns. Moreover, the findings indicate that
+non-performing loans negatively affect financial performance, underscoring the importance of asset quality.
+Additionally, regulatory capital and economic growth are positively associated with financial performance, while
+government regulations exhibit a negative impact. This study highlights the essential role of artificial intelligence
+technology innovation in banking and finance, emphasizing the need to consider economic and technological
+factors for maximizing its benefits in enhancing financial performance. Policy recommendations include pro-
+moting an artificial intelligence innovation ecosystem, adapting regulatory frameworks, and investing in in-
+formation and communication technology infrastructure to harness artificial intelligence innovation’s benefits
+while addressing associated challenges.
+1. Introduction
+In the ever-evolving landscape of banking and finance, the integra-
+tion of artificial intelligence (AI) technology has emerged as a game-
+changer, revolutionizing traditional practices and reshaping industry
+dynamics (Subburayan, Sankarkumar, Singh, & Mushi, 2024). As
+financial institutions across the globe navigate the digital trans-
+formation journey, the role of AI innovation in enhancing banks’
+financial performance has become a focal point of research and scrutiny
+(Shiyyab, Alzoubi, Obidat, & Alshurafat, 2023). The finance industry is
+on the verge of a technological transformation, with AI set to revolu-
+tionize traditional banking methods and propel unparalleled efficiency
+improvements and client-focused innovations. The proliferation of AI-
+driven applications, ranging from predictive analytics and risk man-
+agement to customer service and fraud detection, has ushered in a new
+era of opportunity and competition for banks worldwide (Eni,
+Chaudhary, Raparthi, & Reddy, 2023). As banks grapple with evolving
+customer expectations, regulatory demands, competitive pressures, and
+* Corresponding author at: College of Business and Economics, United Arab Emirates University, Al Ain, United Arab Emirates.
+E-mail addresses: papagyau24@gmail.com (E. Baffour Gyau), appiahjunior@yahoo.com (M. Appiah), achie.theo@gmail.com (T. Achie), muhammad.naeem@
+uaeu.ac.ae (M.A. Naeem).
+https://doi.org/10.1016/j.irfa.2024.103700
+Received 2 May 2024; Received in revised form 14 August 2024; Accepted 20 October 2024
+Available online 24 October 2024
+1057-5219/© 2024 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/ ).
+E. Baffour Gyau et al. the strategic adoption of AI technology has emerged as a pivotal driver
+of innovation and performance enhancement (Truby, Brown, & Dahdal,
+2020). However, amidst the fervent enthusiasm surrounding AI’s
+transformative potential, a critical question looms large: What is the true
+impact of banking and finance AI technology innovation on banks’
+financial performance? In an increasingly competitive marketplace,
+banks must leverage AI technology to drive operational efficiency,
+enhance customer experience, and seize new revenue opportunities
+(Dutta, Pramanik, Datta, & Kirtania, 2022). Regulatory authorities are
+grappling with the challenges posed by AI-driven innovation, including
+data privacy, algorithmic bias, and systemic risks (Kreps & Rao, 2023).
+Understanding the impact of AI on financial performance is crucial
+for informing regulatory responses and ensuring a balance between
+innovation and risk mitigation (Sullivan & Wamba, 2024). Financial
+institutions are making significant investments in AI technology to gain
+a competitive edge and adapt to changing market dynamics (Zhao, Tsai,
+& Wang, 2019). Assessing the fiscal ramifications of AI advancement is
+crucial for steering investment choices and enhancing resource distri-
+bution. The policy relevance of this topic is unequivocal, resonating with
+the imperatives of the digital age and the imperatives of the financial
+industry. In an era marked by unprecedented technological disruption
+and rapid digital transformation (Zaki, 2019), policymakers and regu-
+lators face a daunting challenge: how to navigate the evolving landscape
+of AI innovation while safeguarding consumer interests, ensuring
+financial stability, and promoting inclusive growth. At its core, this
+study seeks to empower policymakers, regulators, financial institutions,
+and researchers with the knowledge and evidence base needed to
+harness the full potential of AI for driving sustainable growth, enhancing
+financial stability, and fostering innovation in banking.
+This study aims to investigate the impact of AI technology innovation
+on banks’ financial performance across 20 diverse countries, addressing
+three key questions: how banking and finance AI technology innovation
+influences banks’ financial performance in different economic, regula-
+tory, and technological contexts; the mediating effects of information
+and communication technology (ICT) development and the moderating
+impacts of economic growth on this relationship; and the evolving ef-
+fects of AI technology innovation over time. Employing a longitudinal
+panel data analysis, the research explores both immediate and lagged
+impacts of AI innovation, offering valuable insights for strategic plan-
+ning. This study highlights the need for an empirical assessment of AI’s
+transformative potential in banking, considering the diverse landscapes
+of the selected countries. This research is essential for guiding policy-
+makers, regulators, and financial institutions on leveraging AI for sus-
+tainable growth, financial stability, and innovation in the banking
+sector. Within the framework of the 20 chosen countries, variables such
+as AI technology innovation, banks’ financial performance, ICT devel-
+opment, economic growth, and regulatory environment are investi-
+gated. Understanding the global dynamics of AI integration in banking
+requires an awareness of these elements. Through applications like fraud
+detection and predictive analytics, AI technology innovation improves
+customer service, lowers costs, and increases efficiency. Nations like the
+United States, China, and Japan lead in AI research and development
+due to their significant investments and advanced technological in-
+frastructures. This study offers a thorough analysis with novel insights
+into AI’s impact on banking across all stages of economic growth by
+examining diverse economic, regulatory, and technological contexts.
+Additionally, the selection of countries with varying regulatory frame-
+works and cultural diversity enhances the generalizability of the find-
+ings, providing a comprehensive understanding of AI integration in
+global financial services.
+This study embarks on a pioneering journey to unravel the com-
+plexities of the relationship between banking and finance AI technology
+innovation and banks’ financial performance, offering a fresh perspec-
+tive that sets it apart from existing literature. By venturing into un-
+charted territory, this study makes significant contributions to empirical
+research by advancing the understanding of the impact of AI technology
+International Review of Financial Analysis 96 (2024) 103700
+innovation on banks’ financial performance across diverse global con-
+texts. First, it addresses the gap in existing literature, which has pri-
+marily focused on single-country analyses or firm-level studies, by
+employing a comprehensive panel data analysis of 20 countries. This
+approach provides a broader perspective on the global dynamics of AI
+innovation in the banking sector. Second, the research delves into the
+mechanisms through which AI influences financial performance,
+considering mediating factors like ICT development and moderating
+variables such as economic growth and regulatory environments. This
+novel analysis uncovers the complex pathways through which AI tech-
+nology translates into tangible financial outcomes. Third, the study
+adopts a longitudinal perspective, examining the lagged effects of AI
+innovation over time, thereby capturing the evolving nature of its
+impact on financial performance. This comprehensive approach not only
+enhances the robustness of the findings but also offers valuable insights
+for long-term strategic planning and policymaking in the banking in-
+dustry, highlighting the transformative potential of AI technology in
+driving sustainable growth and competitiveness. The findings indicate
+that AI technology innovation in banking and finance results in an in-
+crease in banks’ financial performance. Additionally, economic growth
+interacts with AI technology innovation, further enhancing banks’
+financial performance. Moreover, ICT development serves as a mediator
+between AI technology innovation in banking and finance and banks’
+financial performance. The impact of AI technology innovation on
+banks’ financial performance also varies across different lag periods.
+These findings highlight that integrating AI into banking and finance not
+only enhances financial performance but also requires a supportive
+economic and technological infrastructure to achieve its full potential.
+Furthermore, the major findings of this study are as follows: 1.
+Banking and finance artificial intelligence technology innovation posi-
+tively impacts banks’ return on assets. 2. The interactive term between
+artificial intelligence innovation and economic growth emphasizes their
+collaborative positive impact on financial performance. 3. Non-
+performing loans negatively affect financial performance, under-
+scoring the importance of asset quality 4. Regulatory capital and eco-
+nomic growth are positively associated with financial performance,
+while government regulations exhibit a negative impact.
+The subsequent sections of this study are organized as follows: Sec-
+tion 2 presents the theoretical background, literature review, and
+research hypotheses. Section 3 details the methodology, model, and
+data. Section 4 outlines the empirical results and their interpretation.
+Finally, Section 5 offers concluding remarks and policy
+recommendations.
+2. Theoretical background, literature review and research
+hypotheses
+This section outlines the theoretical channels and research hypoth-
+eses through which AI technology innovation in banking and finance can
+impact the financial performance of banks. Additionally, it offers a
+synopsis of empirical research exploring the relationship between AI
+technology innovation and banks’ financial performance.
+2.1. Theoretical frameworks
+In the dynamic landscape of global banking, understanding how AI
+technology innovations reshape financial performance requires a
+multifaceted approach: from leveraging unique AI capabilities as stra-
+tegic resources (resource-based view), to tracing their diffusion patterns
+across markets (diffusion of innovation theory), and navigating the
+regulatory, ethical, and cultural landscapes shaping adoption (institu-
+tional theory). The resource-based view (RBV) offers a theoretical lens to
+understand how banking and finance artificial intelligence technology
+innovation can influence banks’ financial performance. According to
+RBV, firms gain competitive advantage and superior performance by
+leveraging unique and valuable resources, such as AI capabilities, that
+2
+E. Baffour Gyau et al. are difficult for competitors to imitate or substitute (Barney, 1991). In
+the context of this study, AI technology innovation represents a strategic
+resource that can enhance banks’ ability to streamline operations,
+improve risk management, and personalize customer experiences,
+thereby contributing to superior financial performance. RBV integrates
+seamlessly with the study’s focus on AI technology innovation in
+banking. By viewing AI as a strategic resource, RBV aligns with the
+argument that effective deployment of AI can lead to competitive ad-
+vantages for banks, thereby improving financial performance (Rahman,
+2023). The study can analyze how different AI capabilities (e.g., ma-
+chine learning for credit risk assessment, and chatbots for customer
+service) contribute to enhancing specific aspects of financial perfor-
+mance metrics like return on assets (ROA) and return on equity (ROE).
+RBV may conflict if the study finds that the adoption of AI technologies
+by banks does not result in sustained competitive advantage or superior
+financial performance. This conflict could surface if the implementation
+of AI is not aligned with strategic objectives or if competitors quickly
+replicate AI innovations, diminishing their strategic value over time.
+Diffusion of innovation theory (Dol) provides a theoretical frame-
+work for examining the adoption and diffusion of AI technology inno-
+vation within the banking sector and its subsequent impact on financial
+performance (Rogers, Singhal, & Quinlan, 2014). Dol posits that inno-
+vation adoption follows a predictable pattern, starting with early
+adopters and gradually spreading to the mainstream market. By
+applying Dol, this study can analyze the factors influencing the adoption
+of AI innovation by banks across different countries, the rate of diffusion
+over time, and its implications for financial performance. Dol integrates
+with the study by framing AI technology adoption as a process influ-
+enced by factors such as technological complexity, organizational
+readiness, and market demand. Understanding these adoption dynamics
+is crucial for assessing how quickly AI innovations can contribute to
+improving financial performance metrics like profitability and efficiency
+ratios (Shiyyab et al., 2023). Dol may conflict if the study finds that AI
+adoption rates are inconsistent or if certain banks experience barriers to
+adopting AI technologies despite their potential benefits. Conflicting
+results could occur if cultural or regulatory factors slow down the
+diffusion of AI innovations, limiting their impact on financial perfor-
+mance outcomes.
+Institutional theory offers a theoretical framework to explore how
+regulatory, cultural, and institutional factors influence the adoption and
+impact of AI technology innovation in the banking sector across
+different countries (Scott, 1995). Institutional pressures, such as regu-
+latory mandates, industry norms, and societal expectations, shape
+banks’ decisions regarding AI adoption and their subsequent financial
+performance (Engvall, 2024). By applying Institutional theory, this
+study can analyze how institutional factors interact with AI innovation
+to influence banks’ financial performance in diverse national contexts.
+Institutional theory integrates with the study by highlighting the role of
+regulatory frameworks and industry norms in shaping AI adoption
+strategies and practices in banking. By understanding these institutional
+pressures, the study can analyze how compliance with regulations and
+alignment with industry standards influence the effectiveness of AI
+implementations on financial metrics. Institutional theory may conflict
+if the study finds that regulatory barriers or cultural resistance impede
+banks’ ability to adopt AI technologies effectively. Conflicting outcomes
+could arise if varying regulatory environments across countries create
+uneven playing fields for AI adoption or if societal expectations
+discourage banks from fully leveraging AI’s potential benefits.
+2.2. Literature review
+Several studies have examined various factors contributing to the
+financial performance of banks. These factors include non-performing
+loans in banks (Takahashi & Vasconcelos, 2024), regulatory capital in
+banks (De Bandt, Camara, Maitre, & Pessarossi, 2018), economic growth
+(Alam, Rabbani, Tausif, & Abey, 2021), government regulations (B˘ atae,
+International Review of Financial Analysis 96 (2024) 103700
+Dragomir, & Feleag˘
+a, 2021), and ICT development (Al-Busaidi &
+Al-Muharrami, 2021). These studies provide a rich context for under-
+standing how banking and finance AI technology innovation (BFAITI)
+might influence financial outcomes. Takahashi and Vasconcelos (2024)
+identified non-performing loans (NPLs) as a critical determinant of
+banks’ financial performance. They demonstrated that NPLs negatively
+affect return on assets (ROA), thereby reducing overall profitability. This
+finding was echoed by (Duong, Tran, Nguyen, & Pham, 2023), who
+found that NPLs diminish ROA by 0.075 across 37 Vietnamese banks
+from 2005 to 2020 using fixed effect and two-step system generalized
+method of moments models. Regulatory capital’s impact on bank prof-
+itability is complex. Tran, Lin, and Nguyen (2016) revealed that regu-
+latory capital exerts a dual effect: it negatively impacts banks with lower
+capital but positively influences those with higher capital. Their study,
+spanning U.S. banks from 1996 to 2013, utilized quarterly panel data to
+uncover these dynamics. Economic growth has been shown to positively
+correlate with bank profitability. Ledhem and Mekidiche (2020),
+employing the generalized method of moments, identified a positive
+relationship between economic growth and return on equity (ROE) in
+Islamic banks across Malaysia, Indonesia, Brunei, Turkey, and Saudi
+Arabia from 2014 to 2018. Regulatory frameworks can boost or pose
+challenges to bank performance. (Nasreen, Gulzar, Afzal, & Farooq,
+2024) found a negative correlation between government regulations,
+corruption, and bank performance in an analysis of 309 banks across 15
+Asian countries from 2010 to 2020. This study highlights the complex-
+ities regulatory environments introduce to banking operations. ICT de-
+velopment’s role in bank performance is complex and
+context-dependent. Aguegboh, Agu, and Nnetu-Okolieuwa (2023)
+discovered that while ICT adoption negatively correlates with ROA, it
+positively impacts return on earnings and net interest margin across 35
+sub-Saharan African countries. This novel finding highlights ICT’s
+multifaceted impact on bank performance.
+With the increasing integration of artificial intelligence in banking,
+recent studies have focused on its socioeconomic, economic, and
+financial impacts. Shiyyab et al. (2023) analyzed 15 Jordanian banks
+listed on the Amman stock exchange from 2014 to 2021 and found that
+AI significantly enhances financial performance, boosting both ROA and
+ROE. Similarly, K¨ onigstorfer and Thalmann (2020) reported that AI
+reduces losses in lending, enhances payment security, automates
+compliance tasks, and refines customer targeting, all of which bolster
+overall performance. Ris, Stankovic, and Avramovic (2020) showed that
+integrating AI technologies, such as virtual assistants and machine
+learning algorithms, improves bank profitability and performance while
+reducing dependence on human labor. These technologies also aid in
+fraud prevention and facilitate more informed decision-making pro-
+cesses. This demonstrates the AI-driven operational enhancements in
+banks’ performance. (Umamaheswari & Valarmathi, 2023) emphasized
+the role of AI-powered virtual assistants in enhancing profitability,
+improving performance, and reducing human resource dependency,
+particularly in the banking sector. This shows AI’s virtual assistants and
+performance in the banking sector. (Chhaidar, Abdelhedi, & Abdelkafi,
+2023) highlighted the positive impact of fintech innovations, including
+the Internet of Things, big data, and AI, on bank profitability. Their
+study of 23 European banks from 2010 to 2019, using the fully modified
+ordinary least squares model, found a significant correlation between
+these technologies and enhanced financial performance. According to
+Abrokwah-Larbi and Awuku-Larbi (2024), artificial intelligence in
+marketing markedly boosts financial outcomes, customer satisfaction,
+internal operational efficiency, and developmental progress by
+leveraging artificial intelligence in marketing components such as the
+Internet of Things (IoT), collaborative decision-making platforms
+(CDMP), virtual and augmented reality (VAR), and personalization
+techniques. Their research is grounded in an analysis of 225 small and
+medium enterprises (SMEs) in Ghana, utilizing the resource-based view
+framework. Madhura, Panakaje, Kambali, and Parvin (2024) asserted
+that AI technologies hold immense promise for reducing expenses across
+3
+E. Baffour Gyau et al. numerous banks, thereby boosting financial performance. Additionally,
+they help avert fraudulent transactions, enhance anti-money laundering
+efforts, improve client identification and verification processes, deliver
+tailored insights and recommendations, strengthen customer relation-
+ships via chatbots and voice assistants, and emulate human interactions
+through AI technologies.
+Despite the growing prominence of artificial intelligence technology
+in banking and finance, empirical research specifically examining its
+direct impact on banks’ financial performance across multiple countries
+remains scarce. Existing studies often focus on single-country analyses
+or overlook the complex interactions between AI innovation, ICT
+development, economic growth, and regulatory environments in
+shaping financial outcomes. This study aims to fill this gap by investi-
+gating how AI technology innovation influences the financial perfor-
+mance of banks across a diverse panel dataset encompassing 20
+countries by utilizing a novel variable for measuring banking AI tech-
+nology innovation. By leveraging cross-country panel data analysis, the
+research seeks to provide empirical evidence on the pathways through
+which AI innovations enhance banks’ operational efficiencies, risk
+management practices, and customer engagement strategies. This
+approach not only addresses the gap in empirical literature but also
+contributes to strategic decision-making within the banking sector by
+revealing the conditions under which AI adoption leads to measurable
+improvements in financial metrics like return on assets and return on
+equity. Through its exploration of mediating factors such as ICT devel-
+opment and moderating variables including economic growth, the study
+aims to uncover innovative pathways that translate AI innovation into
+tangible financial outcomes for banks, thereby advancing knowledge in
+both academic and practical spheres of banking and finance.
+2.3. Research hypotheses
+In the era of digital transformation in banking, the integration of AI
+technologies promises to revolutionize financial performance through
+enhanced operational efficiencies, strategic decision-making, and
+customer-centric innovations. How exactly does banking and finance AI
+technology innovation influence banks’ financial performance across
+global markets, and what role do economic growth and ICT development
+play in shaping this relationship? Banking and finance AI technology
+International Review of Financial Analysis 96 (2024) 103700
+innovation (BFAITI) encompasses a range of applications, including
+automated decision-making, predictive analytics, and personalized
+customer services, which can streamline operations, optimize resource
+allocation, and mitigate risks within financial institutions (Polak,
+Nelischer, Guo, & Robertson, 2020). By leveraging AI-driven insights
+and automation, banks can enhance efficiency, reduce costs, and
+improve profitability, ultimately leading to improved financial perfor-
+mance (see Fig. 1).
+Hypothesis 1. BFAITI positively influences banks’ financial
+performance.
+Economic growth creates a conducive environment for the adoption
+and implementation of AI technology innovation within the banking
+sector (Reis Mour˜
+ao & Popescu, 2023). As economies expand, banks
+have greater financial resources, technological infrastructure, and
+market demand to invest in AI-driven solutions. Additionally, economic
+growth may stimulate innovation ecosystems, fostering collaboration
+between financial institutions, technology firms, and research in-
+stitutions, thereby accelerating the development and diffusion of AI
+innovations in banking. Economic expansion facilitates the growth of
+BFAITI to improve banks’ financial performance.
+Hypothesis 2. Economic growth moderates the positive relationship
+between BFAITI and banks’ financial performance.
+BFAITI contributes to the development and adoption of ICT infra-
+structure within financial institutions (Rahman, Ming, Baigh, & Sarker,
+2023). As banks invest in AI-driven technologies, they often need to
+upgrade their ICT infrastructure, such as data storage, processing ca-
+pabilities, and connectivity, to support the implementation and inte-
+gration of AI systems. AI innovations enhance ICT development enabling
+banks to harness the full potential of AI, leading to improvements in
+operational efficiency, decision-making processes, and customer expe-
+riences, ultimately translating into enhanced financial performance. In
+brief, BFAITI enhances banks’ financial performance by advancing ICT
+development.
+Hypothesis 3. ICT development mediates the relationship between
+BFAITI and banks’ financial performance.
+Fig. 1. Theoretical mechanisms.
+4
+E. Baffour Gyau et al. 3. Methodology, model, and data
+3.1. Methodology
+In this section, the investigation outlines the econometric techniques
+employed to scrutinize the influence of banking and finance AI in-
+novations on the financial performance of banks. Moreover, it explores
+the moderating impact of economic expansion and the intermediary role
+of information and communication technology advancement, identified
+as notable factors affecting bank financial performance. The segment
+begins with preliminary examinations, which include assessments for
+slope heterogeneity (SH), heteroscedasticity, serial correlation, cross-
+sectional interdependence (CSD), and tests for stationarity. Subse-
+quently, the analysis advances to assess the impact coefficients using the
+feasible generalized least squares methodology.
+First, the study employs the CSD test based on the methodology
+outlined by Pesaran (2021) to identify any interdependence among
+cross-sectional units. In panel data analyses, assessing for CSD before
+selecting the optimal estimator has become a conventional practice.
+Researchers have employed CSD to determine the appropriate estimator
+in their panel analyses over the years (Appiah, Ashraf, Tiwari, Gyamfi, &
+Onifade, 2023). Panel studies involving countries with similar trends
+have a high likelihood of spillover effects, where events in one nation
+influence the economies of others due to growing economic interde-
+pendence (Gyamfi, Ozturk, Bein, & Bekun, 2021).
+Next, the study utilizes the SH test developed by Pesaran and
+Yamagata (2008) to determine whether there are heterogeneous slope
+coefficients present in the panel data. The issue of slope heterogeneity,
+stemming from diverse economic and demographic structures, is also
+pivotal in panel data econometrics. Heterogeneity illustrates that pa-
+rameters of interest vary across cross-sectional units. For instance, in this
+analysis, assuming uniform slope parameters in panel data comprising
+both extensive and limited panels is inappropriate. To prevent erroneous
+results from estimations, the assumption of homogeneity must be vali-
+dated (Breitung & Das, 2005).
+Subsequently, the study conducts a modified heteroscedasticity test
+following the approach proposed by Lütkepohl and Burda (1997) to
+check for the presence of heteroscedasticity, which refers to the non-
+constant variance of the error terms in the regression model. Hetero-
+scedasticity can lead to inefficient estimates and affect the validity of
+statistical inferences (Papadopoulos, 2024). By applying this test, the
+study ensures the reliability and consistency of the estimated co-
+efficients. Serial correlation tests based on the method outlined by Born
+and Breitung (2016), is used to explore any evidence of these phenom-
+ena within the dataset. This test is employed to detect serial correlation,
+which occurs when the residuals of a model are correlated across pe-
+riods. Serial correlation can indicate model misspecification and lead to
+biased standard errors, resulting in misleading statistical inferences.
+Conducting this test helps to identify and address any autocorrelation in
+the dataset, ensuring robust and accurate model results.
+Moving forward, the econometric methodology proceeds with a
+panel stationarity test using cross-sectional augmented Dickey-Fuller
+(CADF) and cross-sectional Im Pesaran & Shin (CIPS) tests, introduced
+by Pesaran (2007) which are second-generation panel stationarity tests
+specifically designed to address the issue of CSD. The results of the CSD
+assessment will dictate the type of examination to be conducted. If the
+variables are not interdependent across sections, the first-generation
+stationarity test is utilized. Conversely, if cross-sectional dependence
+exists, the second-generation stationarity test is warranted (Appiah,
+Karim, Naeem, & Lucey, 2022). The panel stationarity test is to deter-
+mine whether the time series data used in the panel dataset are sta-
+tionary, meaning their statistical properties such as mean and variance
+do not change over time (To, H. K and Chan, 2024). Stationarity is a
+crucial assumption in many econometric models, especially when
+dealing with panel data, to ensure valid and reliable inference.
+Following the assessment of variable stationarity, we employed
+International Review of Financial Analysis 96 (2024) 103700
+feasible generalized least squares (FGLS) to analyze the impact elastic-
+ities of banking and finance AI technological innovation (BFAITI) on
+banks’ financial performance. According to Bai, Choi, and Liao (2021),
+FGLS assumes that the residuals follow a first-order autoregressive
+process AR (1). By explicitly modeling the autoregressive process, FGLS
+effectively eliminates residual autocorrelation, resulting in more effi-
+cient estimates. This feature is crucial in panel data analysis where ob-
+servations across time may exhibit temporal dependencies, ensuring
+that the estimates of BFAITI’s effects on financial performance are not
+biased due to autocorrelation. Compared to ordinary least squares
+(OLS), FGLS provides more efficient and consistent parameter estimates,
+especially when the assumptions of homoscedasticity and independence
+of errors are violated (Ghaemi & Hosseinlou, 2023). This is particularly
+relevant in dynamic settings like banking where the effects of BFAITI
+may evolve. Moreover, FGLS is adaptable and capable of accommoda-
+ting various forms of error structure, including heteroscedasticity, serial
+correlation, and CSD in panel data analysis (Imran et al., 2024). These
+capabilities ensure that the model accurately captures the diverse im-
+pacts of BFAITI on banks’ financial performance across the studied
+economies while handling longitudinal study issues such as hetero-
+scedasticity (varying levels of variance across observations) and serial
+correlation (correlation between error terms over time). In summary,
+FGLS is not only technically robust but also methodologically advanced,
+making it an ideal choice for this study to produce accurate, reliable, and
+policy-relevant insights into how BFAITI influences banks’ financial
+performance across diverse economic contexts. According to Fomby
+et al. (1984), the generalized least squares framework adopts the
+structure
+y=Xβ +e (1)
+Here, X is T ×K matrix of non-stochastic elements of rank K satis-
+fying the limit condition
+lim
+n→∞(XʹΩ− 1X
+T )=ΩΩ (2)
+ΩΩ being a K ×K finite and nonsingular matrix. The error vector ϵ
+satisfies the properties
+Ee=0 (3)
+and
+Eeeʹ
+=σ2Ω (4)
+Suppose, for instance, that instead of being independently and
+identically distributed with a mean of zero and variance of σ2
+, the errors
+e, adhere to the first-order autoregressive process.
+et =ρet− 1 +ut ,∣ρ∣ <1, (5)
+with ut independently and identically dispersed and have a zero average
+and finite variance σ2
+.
+The research model employing linear FGLS can be represented as:
+Yit =β0 +β1Xʹ
+it +B2Zit +ϵit (6)
+In this study, Yit denotes the dependent variable (banks’ financial
+performance), Xit represents the independent variable (banking and
+finance AI technological innovation), Zit indicates the control variables,
+and ϵit is the error term adjusted for potential autocorrelation using the
+AR (1) process.
+3.2. Model
+Apart from artificial intelligence, various other factors influence
+banks’ financial performance, such as bank non-performing loans
+(Partovi & Matousek, 2019), bank regulatory capital to risk-weighted
+assets (Nsanyan Sandow, Duodu, & Oteng-Abayie, 2021), economic
+5
+E. Baffour Gyau et al. growth (Alam, Rabbani, Tausif, & Abey, 2021), and government regu-
+lations (Shen & Chang, 2006). To thoroughly investigate the effects of
+banking and finance AI technological innovation on banks’ financial
+performance, we incorporate these factors as control variables in our
+measurement model, which is outlined as follows:
+BROAit =β0 +δ1BFAITIit +γXit +εit (7)
+In Eq. (7), the subscripts i and t denote specific countries and years,
+respectively. BFAITIit stands for banking and finance AI technological
+innovation, Xit control variables including banks non-performing loans
+(BNPL), bank regulatory capital (BRC), economic growth (GDPG) and
+regulations (REG). The symbol β0 represents the constant term, while δ1
+and γ are the coefficients associated with each control variable to be
+estimated. Finally, εit represents the error term.
+Furthermore, we explore whether the impact of banking and finance
+AI technological innovation on banks’ financial performance is influ-
+enced by economic growth and verify Hypothesis 2. Additionally, we
+introduce an interaction term between banking and finance AI techno-
+logical innovation and economic growth. As a result, the Eq. (7) is
+modified as follows:
+BROAit =β0 +δ1BFAITIit +γXit +ψ(BFAITIit
+*GDPGit )+εit (8)
+In this equation, ψ denotes the coefficient of the moderating variable
+that requires estimation.
+Furthermore, the paper delves into the mechanism by which BFAITI
+influences the financial performance of banks and validates Hypothesis
+3. Drawing on the study by Li and Zhang (2023) on mediating effects,
+the subsequent equation for assessing the mediating effect is formulated:
+MVit =β0 +δ2 BFAITIit +γXit +εit (9)
+BROAit =β0 +δ3BFAITIit +φMVit +γXit +εit (10)
+Here, the term MVit denotes the mediating variable, which represents
+ICT development (ICTD) and φ represent the coefficient of the mediating
+variable to be estimated.
+To evaluate the lagged effects of banking and finance AI technology
+innovation on banks financial performance, this study integrates the
+strength of banking and finance AI technology innovation from the first
+to fifth lag periods as independent variables into Eq. (7), resulting in Eq.
+(11) as expressed below:
+BROAit =β0 +δ1BFAITIit− k +γXit +εit
+k=1,2,3,4,5 (11)
+where k=1,2,3,4,and 5 are the lagged periods. The rest of the vari-
+ables remain unchanged.
+3.3. Data and variables declaration
+From 2010 to 2020, this research investigates the connection among
+various factors, including bank return on assets (BROA), banking and
+finance artificial intelligence technology innovation (BFAITI), bank non-
+performing loans (BNPL), bank regulatory capital (BRC), economic
+growth (GDPG), and government regulations (REG) across 20 econo-
+mies. Additionally, the study delves into the moderating impact of
+economic growth and the mediating role of ICT development (ICTD) on
+the relationship between banking and finance AI technological innova-
+tion (BFAITI) and banks’ financial performance (BROA). The chosen
+sample and time frame were determined based on data availability for
+the independent variable. Data related to all variables were extracted
+from the Global Financial Development (GFD) and World Development
+Indicators (WDI) within the World Bank database, as well as the Center
+for Security and Emerging Technology (CSET) (Center for Security and
+Emerging Technology, 2023a; World Bank, 2024). Table 1 presents a
+description of the variables, including their measurement and source.
+International Review of Financial Analysis 96 (2024) 103700
+Table 1
+Variables, measurement and source.
+Variable Symbol Unit measurement Source
+Banks financial
+BROA performance
+Banking and finance AI
+BFAITI technology
+Bank return on assets percentage,
+after tax
+Patent applications granted - field:
+banking and finance
+GFD
+CSET
+innovation
+Bank non-performing
+BNPL Percentage GFD
+loans
+Bank regulatory capital BRC Percentage GFD
+Economic growth GDPG GDP growth (annual %) WDI
+Government regulation REG Regulatory quality: estimate WDI
+ICT Development ICTD Composite of mobile cellular
+WDI
+subscriptions (per 100 people) and
+individuals using the internet (% of
+population)
+All variables are transformed to their natural lag.
+3.3.1. Dependent variable
+Bank financial performance is measured by bank return on assets
+(BROA), expressed as a percentage after tax. ROA is a key metric used to
+evaluate a bank’s profitability by indicating how efficiently it utilizes its
+assets to generate profits. A higher ROA signifies better financial per-
+formance. This variable serves as the primary outcome measure to assess
+the impact of AI technology innovation on banks’ financial success
+(Haibo & Manu, 2022). Previous studies have employed BROA as a
+measure of financial performance (Adu, Abedin, Saa, & Boateng, 2024).
+The yearly ROA of banks in the sampled countries is depicted in Fig. 2.
+3.3.2. Independent variable
+Banking and finance AI technology innovation (BFAITI) measured by
+patent applications granted in the field of banking and finance reflects
+the level of innovation within the banking and finance sector specifically
+related to AI technology. This variable represents the innovative efforts
+and investments made by banks in adopting AI technology to enhance
+their operations, products, and services (Kaya, Schildbach, AG, &
+Schneider, 2019). Fig. 3 shows the sampled countries annually granted
+patents in the banking and finance sector. Numerous studies have uti-
+lized different proxies to represent AI technology including patents and
+keywords for AI-related terms (Shiyyab et al., 2023). This study uses AI
+patents specifically granted in the banking and finance sector which
+makes it different and novel from previous studies on AI and banks’
+performance.
+3.3.3. Control variables
+Bank non-performing loans to gross loans (BNPL) measures the pro-
+portion of non-performing loans relative to total gross loans and helps
+control for the risk associated with asset quality in banks’ financial
+performance analysis (Galariotis, Kosmidou, Kousenidis, Lazaridou, &
+Papapanagiotou, 2021). Zeqiraj, Gurdgiev, Sohag, and Hammoudeh
+(2024) used this variable in their studies on bank performance and
+economic uncertainty.
+Bank regulatory capital to risk-weighted assets (BRC) represents regu-
+latory capital adequacy which is essential for ensuring the stability and
+solvency of banks. This variable assesses the capital reserves held by
+banks to cover potential losses, thus controlling for the impact of capital
+strength on financial performance (Athanasoglou, Brissimis, & Delis,
+2008). Several researchers have incorporated this variable in their
+studies relating to banking and finance (Siddika & Haron, 2020).
+Economic growth (GDPG) measured by GDP growth reflects the
+overall macroeconomic environment in which banks operate. It serves as
+a control variable to account for external economic factors that may
+influence banks’ financial performance (Hakimi, Hamdi, & Khemiri,
+2023). This variable has been utilized in numerous research to measure
+economic growth (Asongu & Biekpe, 2018).
+6
+E. Baffour Gyau et al. International Review of Financial Analysis 96 (2024) 103700
+Fig. 2. Annual banks return on assets from 2010 to 2020. Source: (International Monetary Fund, 2023).
+Fig. 3. Annual AI patents granted in the field of banking and finance from 2010 to 2020. Source: Center for Security and Emerging Technology (2023).
+Government regulation (REG) measured by regulatory quality plays a
+crucial role in shaping the operating environment for banks. Regulatory
+quality serves as a control variable to capture the effect of regulatory
+frameworks on banks’ financial performance (Anginer, Demirguc-Kunt,
+& Zhu, 2014). According to Ferrari, Masetti, and Ren (2018), regulatory
+policies imposed by the government, including limitations on interest
+rates or constraints on lending procedures, can affect the interest earn-
+ings and net interest margins of banks.
+3.3.4. Moderating variable
+Economic growth (GDPG) measured by GDP growth can also moder-
+ate the relationship between AI technology innovation and banks’
+financial performance. Higher economic growth may amplify the posi-
+tive impact of AI technology innovation on banks’ profitability, while
+lower economic growth may dampen its effects (Banna & Alam, 2021).
+3.3.5. Mediating variable
+ICT Development (ICTD) measured by a composite of mobile cellular
+subscriptions and individuals using the internet acts as a mediating
+variable that explains the mechanism through which AI technology
+innovation influences banks’ financial performance. Implementation of
+AI technologies enhances ICT infrastructure development, leading to
+improved operational efficiency and customer service quality, ulti-
+mately affecting banks’ profitability (Shao, Lou, Wang, Mao, & Ye,
+2022). The use of ICT variables including internet usage, mobile sub-
+scriptions, and fixed telephone subscriptions have been employed in
+several studies, especially banking and finance (Del Gaudio, Porzio,
+Sampagnaro, & Verdoliva, 2021).
+4. Results and discussion
+4.1. Preliminary tests
+The summary statistics of the variables are provided in Table 2.
+Notably, the average for BROA is 0.65, with a standard deviation of
+0.536. The range of BROA varies from a minimum of− 1.526 to a
+maximum of 2.901. In contrast, BFAITI has a relatively high mean of
+18.586, accompanied by a substantial standard deviation of 61.197. Its
+range spans from a minimum of 0 to a maximum of 445. Other variables
+such as BNPL, BRC, GDPG, REG, and ICTD exhibit mean values of 3.143,
+15.885, 2.201, 0.999, and 191.418, respectively. The correlation co-
+efficients among these variables, as displayed in Table 2, are all below
+0.5, indicating the absence of multicollinearity concerns. Moreover,
+there is statistically significant evidence of a correlation between the
+dependent variable and all other factors, except for bank regulatory
+capital, at least at the 10 % significance level based on the correlation
+coefficients. Lastly, BRAITI and GDPG show a positive correlation with
+BROA, while BNPL, BRC, and REG display a negative correlation with
+BROA, as depicted in Table 2.
+The Pesaran and Yamagata (2008) SH, Lütkepohl and Burda (1997)
+heteroscedasticity, and Born and Breitung (2016) serial correlation tests
+are summarized in Table 3. These tests reveal statistical significance at
+the 1 % level, indicating the presence of slope heterogeneity, hetero-
+scedasticity, and serial correlation within the model.
+Table 4 presents the results of the CSD, CIPS, and CADF tests. The
+results indicate that all variables demonstrate CSD within the panel data,
+signifying interdependence among countries in the panel data.
+7
+E. Baffour Gyau et al. International Review of Financial Analysis 96 (2024) 103700
+Table 2
+Descriptive and correlation statistics.
+Variable BROA BFAITI BNL BRC GDPG REG ICTD
+Mean 0.65 18.586 3.143 15.885 2.201 0.999 191.418
+Std. Dev. 0.536 61.197 3.269 2.824 3.315 0.788 35.142
+Minimum− 1.526 0 0.236 11.397− 11.167− 0.58 68.13
+Maximum 2.901 445 18.064 26.884 14.52 2.252 248.584
+Correlation statistics
+BROA 1
+BFAITI 0.141* 1
+BNL− 0.341***− 0.171* 1
+BRC− 0.0476− 0.0970− 0.259*** 1
+GDPG 0.328*** 0.0159− 0.135*− 0.229*** 1
+REG− 0.247*** 0.0160− 0.400*** 0.364***− 0.156* 1
+ICTD− 0.138* 0.0242− 0.0370 0.343***− 0.353*** 0.516*** 1
+Note: * p <0.10, ** p <0.05, *** p <0.01.
+Table 3
+SH, heteroscedasticity and serial correlation tests.
+Test Statistics P-value
+Slope Homogeneity 2.475** 0.013
+Slope Homogeneity (Adjusted) 4.739*** 0.001
+Modified Wald test for groupwise heteroskedasticity 2821.43*** 0.0000
+Born and Breitung serial correlation LM(k)-test 2.02** 0.044
+Note: ** p <0.05, *** p <0.01.
+Additionally, the Pesaran (2007) CIPS and CADF unit root tests show
+that the variables exhibit both level and first difference stationarity.
+Specifically, BFAITI, GDPG, and REG are stationary at the level in the
+CIPS test, while BFAITI and BRC are stationary at the level in the CADF
+test. However, all variables are stationary in both tests at the first dif-
+ference, as demonstrated in Table 4.
+cross-selling opportunities, and improve overall customer satisfaction
+and loyalty (Rane, 2023). This can lead to increased customer retention,
+expanded market share, and ultimately higher profitability. Investing in
+AI technology innovation allows banks to stay ahead of the curve and
+gain a competitive advantage in the rapidly evolving financial landscape
+(Hu & Wu, 2023). By developing proprietary AI algorithms, partnering
+with fintech startups, or adopting cutting-edge AI solutions, banks can
+differentiate themselves, attract new customers, and capture new reve-
+nue streams (Moro-Visconti, 2024). This innovation-driven growth can
+drive higher returns on assets over time. This outcome conforms to the
+findings of Shiyyab et al. (2023), showing that AI disclosures positively
+impact financial performance metrics like ROA and ROE and reduce
+total expenses, thus supporting the prevailing notion that AI enhances
+revenue and curtails costs. Their integrated analysis reveals a consistent
+4.2. Baseline estimations
+Table 5 presents both the baseline and moderation results. According
+to column (1) of Table 4, BFAITI demonstrates a significant positive
+impact on BROA at the 5 % level. This suggests that a 1 % increase in
+banking and finance AI technology innovation leads to a 0.000899 in-
+crease in banks’ financial performance. AI-driven predictive analytics
+and risk modeling tools allow banks to better assess and manage credit,
+market, and operational risks. By analyzing vast amounts of data and
+identifying patterns and correlations, AI systems can enhance credit
+underwriting, detect fraudulent activities, and improve portfolio man-
+agement (Hassan, Aziz, & Andriansyah, 2023). This helps mitigate risks
+and reduces the likelihood of loan defaults or financial losses, ultimately
+contributing to higher returns on assets. AI-powered chatbots, virtual
+assistants, and recommendation engines enable banks to deliver
+personalized services, anticipate customer needs, and provide timely
+assistance (Patial, 2023). By leveraging customer data and behavioral
+insights, banks can offer tailored product recommendations, enhance
+Table 5
+Baseline regression and moderating effect results.
+Variables (1) (2)
+BROA BROA
+BFAITI 0.000899**− 0.00216**
+(2.36) (− 2.21)
+BNL− 0.0703***− 0.0720***
+(− 6.84) (− 7.00)
+BRC 0.0146** 0.0163**
+(2.17) (2.40)
+GDPG 0.0327*** 0.0333***
+(4.39) (4.50)
+REG− 0.208***− 0.256***
+(− 5.51) (− 6.70)
+BFAITI*GDPG 0.00181**
+(2.35)
+Constant 0.729*** 0.769***
+(5.86) (6.15)
+Observations 220 220
+Wald chi2 105.25*** 127.06***
+Note: * p <0.10, ** p <0.05, *** p <0.01; z statistics in parentheses.
+Table 4
+CSD, CIPS, and CADF tests.
+Variables CSD test CIPS CADF
+BROA BFAITI BNL BRC GDPG REG ICTD Level 1st Difference Level 1st Difference
+25.568245***− 2.121− 3.457***− 1.803− 2.364**
+25.950219***− 4.053***− 4.320***− 3.006***− 3.505***
+38.3998***− 1.957− 2.673***− 1.716− 2.207**
+41.136116***− 1.991− 2.590**− 2.356***− 3.005***
+27.991821***− 2.373**− 3.461***− 1.982− 2.114*
+14.594454***− 1.917− 3.085***− 1.405− 2.286**
+41.253054***− 2.435**− 3.369***− 1.776− 2.144*
+Note: * p <0.10, ** p <0.05, *** p <0.01.
+8
+E. Baffour Gyau et al. trend toward AI utilization among Jordanian banks, underscoring its
+transformative potential.
+Conversely, BNPL shows a negative effect on BROA at the 1 % sig-
+nificance level, indicating that banks’ non-performing loans reduce
+financial performance by− 0.0703. Non-performing loans indicate that a
+portion of the bank’s loan portfolio is not generating income, as bor-
+rowers are unable to repay their loans. This suggests a deterioration in
+asset quality and an increase in credit risk for the bank (Yurttadur,
+Celiktas, & Celiktas, 2019). As non-performing loans accumulate, the
+bank may need to allocate more resources to provisions for loan losses,
+reducing its net income and profitability (Thornton & Di Tommaso,
+2021). This, in turn, lowers the return on assets, as assets are not
+generating sufficient returns to cover the associated risks and costs. Non-
+performing loans can erode a bank’s capital base, as they may need to set
+aside more capital to cover potential losses from defaults (Rahaman &
+Sur, 2021). This reduces the bank’s capital adequacy ratio, which is a
+measure of its ability to absorb losses and maintain financial stability
+(Ozili, 2020). A lower capital adequacy ratio may lead to regulatory
+penalties or constraints on the bank’s lending activities, constraining its
+ability to generate returns on its assets (Buchak, Matvos, Piskorski, &
+Seru, 2024). High levels of non-performing loans can signal financial
+distress and poor management practices to investors and stakeholders,
+leading to a loss of confidence in the bank’s ability to generate profits
+and maintain solvency. This can result in a decline in the bank’s stock
+price and market valuation, further impacting its financial performance.
+This finding aligns seamlessly with previous literature, such as (Duong,
+Tran, Nguyen, & Pham, 2023), underscoring the adverse impact of
+non-performing loans on financial performance, as evidenced by the
+0.075 percentage point reduction in ROA per percentage point increase
+in NPLs in Vietnamese banks. This study’s findings further resonate with
+the research by Takahashi and Vasconcelos (2024), which also indicates
+that NPLs diminish financial performance in the Brazilian banking
+sector. The agreement between these studies highlights the critical need
+for effective NPL management to enhance bank efficiency and
+profitability.
+Moreover, the findings indicate that BRC positively influences BROA,
+with banks’ regulatory capital enhancing financial performance by
+0.0146 at the 5 % significance level. Regulatory capital represents the
+buffer or cushion that banks maintain to absorb potential losses from
+unexpected events, such as loan defaults or economic downturns. A
+higher level of regulatory capital indicates that banks are better equip-
+ped to withstand adverse shocks without jeopardizing their solvency
+(Saadaoui & Mokdadi, 2023). By maintaining higher regulatory capital
+levels, banks can reduce the probability of default and credit losses
+associated with their loan portfolios. This, in turn, leads to lower pro-
+visioning for loan losses and higher net income, thereby enhancing their
+return on assets. This finding is consistent with prior research conducted
+by De Bandt et al. (2018), who also identified a positive relationship
+between regulatory capital and financial performance in France. Their
+findings suggest that voluntary capital, not constrained by regulatory
+mandates, is the sole driver of enhanced performance, while regulatory
+capital has an insignificant impact on profitability. This integrated
+analysis highlights the importance of understanding the different roles
+that voluntary and regulatory capital play in shaping bank performance,
+highlighting both the agreement with prior research and the novel
+insight into the unique contribution of voluntary capital.
+Similarly, economic growth is associated with increased banks’
+financial performance by 0.0327 at the 1 % significance level, as
+depicted in column (1) of Table 5. Economic growth stimulates demand
+for loans as businesses seek financing for expansion, investment, and
+working capital needs (Wang, Yang, Tang, & Wei, 2024). Similarly, in-
+dividuals may borrow more for consumption purposes, such as pur-
+chasing homes or vehicles. As loan demand increases, banks can
+generate higher interest income from lending activities, thereby
+improving their financial performance (Kar & Swain, 2014). Economic
+growth creates a favorable environment for investment in various
+International Review of Financial Analysis 96 (2024) 103700
+sectors of the economy (Reis Mour˜
+ao & Popescu, 2023). Banks can
+capitalize on these opportunities by providing financing for infrastruc-
+ture projects, business expansions, and innovation initiatives. By
+participating in economic development activities, banks can generate
+additional revenue streams and diversify their income sources. Rising
+economic prosperity enhances consumer confidence and increases
+discretionary spending (Jonkman, Boukes, & Vliegenthart, 2020). This
+can lead to higher demand for retail banking products and services, such
+as mortgages, credit cards, and wealth management services. Banks can
+capitalize on this trend by expanding their customer base and cross-
+selling additional products, thereby boosting their financial perfor-
+mance. This discovery aligns with the research inquiry conducted by
+reinforcing the notion that economic growth enhances banks’ financial
+performance. It particularly highlights the positive association between
+interest margins, return on assets, and GDP. However, the outcome is
+contrary to the results of Robin, Salim, and Bloch (2018) which highlight
+a significant negative relationship between GDP growth rate and net
+interest margin as a measure of financial performance, indicating a
+counterintuitive dynamic where economic expansion might constrain
+interest margins. This contradiction suggests that while economic
+growth benefits overall financial health, it may exert pressure on banks’
+profitability margins through competitive lending practices or regula-
+tory effects. Furthermore, government regulations have a negative
+impact on BROA at the 1 % significance level, suggesting that such
+regulations decrease banks’ financial performance by 0.208 %. Gov-
+ernment regulations, such as interest rate caps or restrictions on lending
+practices, can influence banks’ interest income and net interest margins
+(Ferrari et al., 2018). If regulatory measures limit banks’ ability to adjust
+interest rates or engage in profitable lending activities, it can depress
+overall profitability and reduce BROA. Regulatory restrictions may limit
+the range of products and services that banks can offer, impose con-
+straints on risk-taking behavior, or restrict entry into new markets
+(Haque, 2019). These limitations can hinder banks’ ability to generate
+profits and optimize their asset utilization, leading to a decrease in
+BROA. This finding corresponds to the investigation conducted by B˘ atae
+et al. (2021), which unveiled that an enhancement in the efficacy of a
+bank’s corporate governance framework was observed to detrimentally
+impact the financial outcomes of European banks, underscoring a
+pivotal external element influencing these dynamics.
+Introducing the interactive term, BRAITI*GDPG, into the main
+equation (see Eq. (7)) in column (2) of Table 5, reveals a positive and
+significant coefficient for the interaction between BRAITI and GDPG on
+banks’ financial performance at the 1 % level. However, the level co-
+efficients of BRAITI and GDPG are negative and positive, respectively.
+This implies that the application of banking and finance AI technology
+innovation should be coupled with economic growth rather than being
+implemented alone. The negative coefficient for BRAITI could be due to
+factors such as initial investment costs, implementation challenges, or
+disruptions to existing business processes associated with AI adoption.
+Conversely, the positive coefficient for GDPG aligns with economic
+theory, as stronger economic growth typically leads to increased de-
+mand for financial services, higher investment opportunities, and
+improved credit quality, all of which can boost banks’ profitability
+(Salike & Ao, 2018). The positive and significant coefficient for the
+interaction term BRAITI*GDPG indicates that the combined effect of
+banking and finance AI technology innovation (BRAITI) and economic
+growth on banks’ financial performance is greater than the sum of their
+individual effects. This suggests that when AI technology innovation is
+coupled with favorable economic growth conditions, the positive impact
+on banks’ financial performance is amplified.
+4.3. Mediation effect
+Table 6 illustrates the outcomes of the intermediary role of ICT
+development in the nexus between BFAITI and banks’ financial perfor-
+mance. In column (1), the primary regression results are displayed.
+9
+E. Baffour Gyau et al. Table 6
+Mediating effect results.
+Variables (1) (2) (3)
+BROA ICTD BROA
+BFAITI 0.000899** 0.0443* 0.000713*
+(2.36) (1.76) (1.62)
+ICTD 0.00123
+(1.23)
+Constant 0.729*** 127.8*** 0.601***
+(5.86) (21.33) (2.99)
+Control variables YES YES YES
+Observations 220 220 220
+Wald chi2 105.25*** 333.27*** 114.71***
+Note: * p <0.10, ** p <0.05, *** p <0.01; z statistics in parentheses.
+Upon examination of column (2), derived from Eqs. (9), it is evident that
+BFAITI positively influences ICTD at a significance level of 10 %, indi-
+cating that BFAITI contributes to ICT development. This can be attrib-
+uted to the need for advanced ICT systems to support the integration and
+utilization of AI technologies in banking operations, such as data ana-
+lytics, automation, and customer interaction platforms (Naimi-Sadigh,
+Asgari, & Rabiei, 2022).
+Moving on to column (3), we observe a positive coefficient for ICTD
+at the 10 % significance level, suggesting substantial direct effects of
+ICTD on BROA. Moreover, the positive and significant coefficients for
+BFAITI indicate that ICTD completely mediates the enhancement of
+banks’ financial performance. This can be explained by the role of ICT in
+improving operational efficiency, reducing costs, enhancing customer
+experience, and facilitating innovation in financial products and services
+(Abdurrahman, Gustomo, & Prasetio, 2024). For example, advanced ICT
+systems enable banks to streamline processes, deliver personalized ser-
+vices, and adapt quickly to changing market conditions, ultimately
+leading to improved profitability and financial outcomes. The signifi-
+cant coefficients for BROA suggest that ICTD completely mediates the
+enhancement of banks’ financial performance. This implies that the
+positive effects of BFAITI on financial performance are fully transmitted
+through improvements in ICT infrastructure. As banks invest in and
+leverage AI technologies to innovate and optimize their operations, the
+resulting improvements in ICT infrastructure enable them to realize the
+full potential of AI-driven initiatives, leading to enhanced financial
+performance (Thowfeek, Samsudeen, & Sanjeetha, 2020). This media-
+tion effect highlights the critical role of ICT development as a channel
+for translating AI innovation into tangible financial benefits for banks.
+International Review of Financial Analysis 96 (2024) 103700
+4.4. Lagged effects
+Banks’ financial performance is a dynamic and ongoing process that
+unfolds over time. When assessing the influence of AI technology
+innovation in banking and finance on shifts in bank financial perfor-
+mance, it is crucial to account for its lagged effects. The impact of AI
+innovations introduced in the banking and finance sector during a
+particular year may not be immediately apparent; instead, it might
+manifest several years later. Selecting the initial lag as the timeframe for
+the lagged effects of AI technology innovation in banking and finance to
+manifest could potentially lead to inaccuracies in estimating the effects
+of such innovations on changes in bank financial performance. Recog-
+nizing the issue of lagged effects associated with AI technology inno-
+vation in banking and finance, this study incorporates the strength of AI
+technology innovation in banking and finance from the first, second,
+third, fourth, and fifth lag periods as independent variables into Eq. (7),
+yielding Eq. (11). The regression outcomes are presented in Table 7. The
+results presented in Table 7 illustrate the varying impact of banking and
+finance AI technology innovations on banks’ financial performance
+across different lag periods. Eq. (11) estimation outcomes reveal that the
+coefficients in the table signify the influence of BFAITI on banks’
+financial performance, considering lag periods ranging from 1 to 5. In
+the initial four periods, an upsurge in banking and finance AI technology
+innovation corresponds with an improvement in banks’ financial per-
+formance, albeit with diminishing effect sizes and significance levels
+over time. This suggests that the immediate response to banking and
+finance AI technology innovation is an enhancement in banks’ financial
+performance. However, from lag 5 onward, there is a transition to a
+negative relationship, indicating that prolonged exposure to the costs of
+banking and finance AI technology innovation or the erosion of initial
+benefits may result in a decline in banks’ financial performance.
+Similarly, these coefficients also reflect the impacts of banking and
+finance AI technology innovation on banks’ financial performances,
+with corresponding increases observed over four lag periods. Although
+statistically significant at lags 1 and 2, this increase, ranging from a
+0.000898 (lag 1) to a 0.000901 (lag 2) rise in banks’ financial perfor-
+mances, is potentially modest. The diminishing effect sizes and signifi-
+cance levels observed over time indicate potential diminishing returns to
+AI technology innovation in banking and finance. Initially, the adoption
+of AI technologies may yield substantial improvements in financial
+performance. However, as AI technologies mature and become more
+widely adopted across the industry, the competitive advantage gained
+from early adoption may diminish, resulting in a leveling off of financial
+performance improvements. The transition to a negative relationship
+between AI technology innovation and financial performance observed
+after a certain lag period suggests that banks may reach a point where
+Table 7
+Lagged effects results.
+Variables (1) (2) (3) (4) (5)
+BROA BROA BROA BROA BROA
+BFAITI-1 0.000898**
+(2.50)
+BFAITI-2 0.000901*
+(1.94)
+BFAITI-3 0.000839
+(1.35)
+BFAITI-4 0.000488
+(0.61)
+BFAITI-5 − 0.000342
+(− 0.40)
+Constant 0.648*** 0.646*** 0.644*** 0.645*** 0.648***
+(39.72) (39.59) (39.33) (39.08) (39.29)
+Control variables YES YES YES YES YES
+Observations 219 218 217 216 215
+Wald chi2 6.23** 3.77* 1.83 0.37 0.16
+Note: * p <0.10, ** p <0.05, *** p <0.01; z statistics in parentheses.
+10
+E. Baffour Gyau et al. the costs associated with sustaining or scaling AI initiatives outweigh the
+benefits. This could be due to factors such as escalating implementation
+costs, ongoing maintenance expenses, or diminishing competitive ad-
+vantages as AI becomes more ubiquitous in the industry.
+4.5. Robustness tests
+Table 8 below displays the results of the robustness tests conducted
+by altering the methodology and substituting the dependent variable. In
+this study, the two-step system generalized method of moments (GMM)
+technique was employed to evaluate the validity of the baseline model.
+This method is particularly suitable for datasets exhibiting cross-
+sectional dependence, heterogeneity, and individual time effects, and
+it effectively addresses endogeneity issues (Baffour Gyau, Li, & Adu,
+2024). The results obtained using this method are consistently reliable.
+In column (1), there is a sustained positive association between banking
+and finance AI technology innovations and banks’ financial perfor-
+mance, indicating that a 1 % increase in banking and finance AI tech-
+nology innovation corresponds to a similar increase in banks’ financial
+performance. Additionally, to further corroborate the baseline findings,
+the dependent variable was replaced. The banks’ financial performance
+variable was substituted with banks’ return on equity (BROE), as
+depicted in column (2). The results in column (2) demonstrate that, even
+with this modification in measurement methodology, the coefficient for
+BFAITI remains significantly positive at 10 %, thus ensuring the
+continued validity of the results. The analysis presented above indicates
+that the empirical findings from the main estimations remain consistent
+and reliable.
+5. Conclusion, policy recommendations, limitations, and
+directions for future research
+This study delves into the complex relationship between banking and
+finance AI technology innovation and the financial performance of
+banks. It analyzes panel data from 20 economies, employing the FGLS
+method for primary estimations and the two-step system GMM tech-
+nique for conducting robustness checks. This study seeks to explore the
+following research questions: Does AI technology innovation enhance
+the financial performance of banks? What mechanisms drive this rela-
+tionship? Additionally, does AI technology innovation impact banks’
+financial performance across different lag periods? The findings show
+that banking and finance AI technology innovation has a positive impact
+on banks’ return on assets, indicating that increased innovation in
+banking and finance AI technology enhances banks financial perfor-
+mance. Conversely, non-performing loans have a negative effect on
+BROA, emphasizing the detrimental impact of asset quality on banks’
+Table 8
+Robustness tests results.
+Variables (1) (2)
+2-step system GMM BROE
+L.BROA 0.120*
+(1.85)
+BFAITI 0.000411*** 0.00273*
+(3.68) (1.90)
+Constant 0.663*** 12.58***
+(3.40) (6.20)
+Control variables YES YES
+Observations 200 220
+F statistics/ Wald chi2 295.6*** 58.29***
+Instruments 18
+Groups 20
+AR (1)− 1.79*
+AR (2) 1.19
+Sargan test 116.37***
+Hansen test 12.94
+Note: * p <0.10, ** p <0.05, *** p <0.01; z statistics in parentheses.
+International Review of Financial Analysis 96 (2024) 103700
+profitability. Additionally, regulatory capital and economic growth
+show positive associations with BROA, suggesting that stronger regu-
+latory capital and a conducive economic environment contribute to
+improved financial performance. However, government regulations
+exhibit a negative impact on BROA, highlighting the challenges imposed
+by regulatory frameworks on banks’ profitability. Moreover, the inter-
+action between BFAITI and economic growth highlights the importance
+of coupling AI technology innovation with economic growth to maxi-
+mize its positive impact on banks’ financial performance. Furthermore,
+the mediation analysis illustrates that ICT development plays a crucial
+role in mediating the relationship between BFAITI and banks’ financial
+performance, indicating that the enhancement of ICT infrastructure fa-
+cilitates the translation of AI technology innovation into improved
+financial outcomes for banks. Considering the lagged effects of AI
+technology innovation, the study reveals a dynamic relationship be-
+tween BFAITI and banks’ financial performance over time. While an
+initial surge in innovation leads to an immediate improvement in
+financial performance, prolonged exposure to innovation costs or
+diminishing benefits may result in a decline in performance over time.
+Finally, the robustness analysis confirms the consistency and reliability
+of the baseline findings, reinforcing the positive association between
+BFAITI and banks’ financial performance across different methodologies
+and measurement variables. This study highlights the significant role of
+banking and finance AI technology innovation in boosting banks’
+financial performance, while also emphasizing the necessity of inte-
+grating contextual factors such as economic growth, regulatory frame-
+works, and ICT development to fully leverage AI’s benefits. Notably, it
+highlights a significant gap in the literature regarding the complex in-
+teractions between these factors and AI adoption, calling for deeper
+exploration to optimize strategic implementation in the banking sector.
+Drawing from the findings outlined above, several policy implica-
+tions can be suggested to harness the potential benefits of banking and
+finance AI technology innovation while addressing associated chal-
+lenges. First, there should be the promotion of AI innovation ecosystem.
+Governments and regulatory bodies in the 20 countries should incen-
+tivize and support the development of an AI innovation ecosystem
+within the banking and finance sector. This includes funding research
+and development initiatives, providing tax incentives for AI investment,
+and fostering collaboration between financial institutions, technology
+firms, and academic institutions. By doing so, policymakers can stimu-
+late innovation, enhance the competitiveness of the banking sector, and
+create an environment conducive to AI-driven growth. Second, regula-
+tors need to update and adapt regulatory frameworks to accommodate
+the rapid advancements in AI technology while ensuring consumer
+protection, data privacy, and financial stability. This involves estab-
+lishing clear guidelines for AI implementation in banking, conducting
+regular audits of AI systems, and promoting transparency and explain-
+able AI-driven decision-making processes. Such measures will help build
+trust in AI systems, safeguard against potential risks, and ensure that AI
+adoption aligns with regulatory standards. Third, policymakers should
+prioritize investment in ICT infrastructure to support the adoption and
+implementation of AI technologies in the banking sector. This includes
+expanding broadband access, enhancing cybersecurity measures, and
+promoting digital literacy among the population. Strengthening ICT
+infrastructure is crucial for maximizing the benefits of AI technology and
+ensuring that all stakeholders can effectively leverage AI capabilities.
+Fourth, financial institutions should focus on improving risk manage-
+ment practices and asset quality to mitigate the negative impact of non-
+performing loans on financial performance. This may involve imple-
+menting stricter lending standards, enhancing credit risk assessment
+models using AI, and diversifying loan portfolios to reduce concentra-
+tion risk. By adopting robust risk management strategies, banks can
+enhance their resilience and stability in the face of economic fluctua-
+tions. Fifth, governments should implement policies aimed at fostering
+economic growth and promoting innovation synergy. This includes
+promoting entrepreneurship, investing in education and skills
+11
+E. Baffour Gyau et al. development in STEM fields, and facilitating collaboration between the
+public and private sectors to leverage AI technology for economic
+development. By aligning AI innovation with economic growth strate-
+gies, countries can create a sustainable environment for AI adoption and
+utilization. Sixth, financial institutions should adopt long-term strategic
+planning approaches that account for the dynamic nature of AI tech-
+nology innovation and its potential lagged effects on financial perfor-
+mance. This involves conducting regular assessments of AI
+implementation strategies, monitoring industry trends, and adjusting
+business models accordingly. Strategic planning will enable banks to
+stay ahead of technological advancements and continuously optimize
+their AI-driven initiatives. Seventh, policymakers and regulators should
+establish mechanisms for continuous monitoring and evaluation of AI
+adoption in the banking sector. This ensures compliance with regula-
+tions, assesses potential risks, and measures the effectiveness of AI-
+driven initiatives in improving financial performance and customer
+outcomes. Continuous monitoring will help maintain the integrity and
+reliability of AI systems while fostering innovation. Lastly, international
+collaboration and knowledge-sharing initiatives should be encouraged
+to facilitate the exchange of best practices, lessons learned, and regu-
+latory experiences related to AI adoption in the banking and finance
+sector. Promoting global standards and frameworks for responsible AI
+governance will foster innovation, enhance competitiveness, and ensure
+that AI technology contributes to sustainable development goals. By
+implementing these policy recommendations, stakeholders can effec-
+tively leverage banking and finance AI technology innovation to drive
+sustainable economic growth, enhance financial stability, and improve
+the overall well-being of society. This study not only informs policy-
+making in the 20 countries but also provides actionable insights for
+practitioners, researchers, and global efforts toward achieving sustain-
+able development goals.
+The research has few limitations despite the valuable empirical dis-
+coveries. Firstly, the investigation is confined to the period from 2010 to
+2020, primarily due to constraints related to the dataset. Future research
+endeavors could enhance comprehensiveness by extending the dataset
+to incorporate more recent years. Secondly, this study focuses on the
+moderating influence of economic growth; however, forthcoming
+research should contemplate additional factors that might play a
+moderating role. Thirdly, expanding the scope to encompass a more
+extensive array of countries, provided there is available data, could
+provide a more detailed understanding of the connections. Lastly, up-
+coming research endeavors could derive benefits from undertaking
+heterogeneous analyses, taking into account factors like the income
+levels or developmental statuses of countries.
+Data availability
+Data will be made available on request.
+References
+Abdurrahman, A., Gustomo, A., & Prasetio, E. A. (2024). Impact of dynamic capabilities
+on digital transformation and innovation to improve banking performance: A TOE
+framework study. Journal of Open Innovation: Technology, Market, and Complexity,
+100215.
+Abrokwah-Larbi, K., & Awuku-Larbi, Y. (2024). The impact of artificial intelligence in
+marketing on the performance of business organizations: Evidence from SMEs in an
+emerging economy. Journal of Entrepreneurship in Emerging Economies, 16(4),
+1090–1117.
+Adu, D. A., Abedin, M. Z., Saa, V. Y., & Boateng, F. (2024). Bank sustainability, climate
+change initiatives and financial performance: The role of corporate governance.
+International Review of Financial Analysis, 103438.
+Aguegboh, E. S., Agu, C. V., & Nnetu-Okolieuwa, V. I. (2023). ICT adoption, bank
+performance & development in sub-Saharan Africa: A dynamic panel analysis.
+Information Technology for Development, 29(2–3), 406–422.
+Alam, M. S., Rabbani, M. R., Tausif, M. R., & Abey, J. (2021). Banks’ performance and
+economic growth in India: A panel cointegration analysis. Economies, 9(1), 38.
+Al-Busaidi, K. A., & Al-Muharrami, S. (2021). Beyond profitability: ICT investments and
+financial institutions performance measures in developing economies. Journal of
+Enterprise Information Management, 34(3), 900–921.
+International Review of Financial Analysis 96 (2024) 103700
+Anginer, D., Demirguc-Kunt, A., & Zhu, M. (2014). How does competition affect bank
+systemic risk? Journal of Financial Intermediation, 23(1), 1–26.
+Appiah, M., Ashraf, S., Tiwari, A. K., Gyamfi, B. A., & Onifade, S. T. (2023). Does
+financialization enhance renewable energy development in sub-Saharan African
+countries? Energy Economics, 125, Article 106898.
+Appiah, M., Karim, S., Naeem, M. A., & Lucey, B. M. (2022). Do institutional affiliation
+affect the renewable energy-growth nexus in the sub-Saharan Africa: Evidence from
+a multi-quantitative approach. Renewable Energy, 191, 785–795.
+Asongu, S. A., & Biekpe, N. (2018). ICT, information asymmetry and market power in
+African banking industry. Research in International Business and Finance, 44, 518–531.
+Athanasoglou, P. P., Brissimis, S. N., & Delis, M. D. (2008). Bank-specific, industry-
+specific and macroeconomic determinants of bank profitability. Journal of
+international financial Markets, Institutions and Money, 18(2), 121–136.
+Baffour Gyau, E., Li, Y., & Adu, D. (2024). Investigating the impact of ICT on transport-
+based CO2 emissions: empirical evidence from a quantile cointegration regression
+analysis. Environmental Science and Pollution Research, 31(3), 4606–4629.
+Bai, J., Choi, S. H., & Liao, Y. (2021). Feasible generalized least squares for panel data
+with cross-sectional and serial correlations. Empirical Economics, 60, 309–326.
+Banna, H., & Alam, M. R. (2021). Impact of digital financial inclusion on ASEAN banking
+stability: Implications for the post-Covid-19 era. Studies in Economics and Finance, 38
+(2), 504–523.
+Barney, J. (1991). Firm resources and sustained competitive advantage. Journal of
+Management, 17(1), 99–120.
+B˘ atae, O. M., Dragomir, V. D., & Feleag˘
+a, L. (2021). The relationship between
+environmental, social, and financial performance in the banking sector: A European
+study. Journal of Cleaner Production, 290, Article 125791.
+Born, B., & Breitung, J. (2016). Testing for serial correlation in fixed-effects panel data
+models. Econometric Reviews, 35(7), 1290–1316.
+Breitung, J., & Das, S. (2005). Panel unit root tests under cross-sectional dependence.
+Statistica Neerlandica, 59(4), 414–433.
+Buchak, G., Matvos, G., Piskorski, T., & Seru, A. (2024). Beyond the balance sheet model
+of banking: Implications for bank regulation and monetary policy. Journal of Political
+Economy, 132(2), 616–693.
+Center for Security and Emerging Technology. (2023). Annual granted patents related to
+artificial intelligence, by industry. Our world in data. Retrieved February 22, 2024
+from https://ourworldindata.org/artificial-intelligence.
+Center for Security and Emerging Technology (2023). Country Activity Tracker (CAT):
+Artificial Intelligence“Banking and Finance”
+. Our World in Data. Retrieved February
+21, 2024 from https://cat.eto.tech/?expanded=Summary+metrics&dataset=Pate
+nt&patentField=Banking+and+Finance.
+Chhaidar, A., Abdelhedi, M., & Abdelkafi, I. (2023). The effect of financial technology
+investment level on European banks’ profitability. Journal of the Knowledge Economy,
+14(3), 2959–2981.
+De Bandt, O., Camara, B., Maitre, A., & Pessarossi, P. (2018). Optimal capital, regulatory
+requirements and bank performance in times of crisis: Evidence from France. Journal
+of Financial Stability, 39, 175–186.
+Del Gaudio, B. L., Porzio, C., Sampagnaro, G., & Verdoliva, V. (2021). How do mobile,
+internet and ICT diffusion affect the banking industry? An empirical analysis.
+European Management Journal, 39(3), 327–332.
+Duong, K. D., Tran, P. M. D., Nguyen, P. Y. N., & Pham, H. (2023). How do funding
+diversity and non-performing loans affect bank performance in different economic
+cycles? Cogent Business & Management, 10(2), 2215076.
+Dutta, S., Pramanik, H. S., Datta, S., & Kirtania, M. (2022). Imperatives, Trends and
+Dynamics of Digital Transformation as Banks Adopt Technology and Intelligent Systems.
+In Intelligent Systems in Digital Transformation: Theory and Applications (pp. 323–348).
+Cham: Springer International Publishing.
+Engvall, N. (2024). The Influence of Institutional Factors on AI adoption in EU banking
+cybersecurity: A narrative literature review.
+Eni, L. N., Chaudhary, K., Raparthi, M., & Reddy, R. (2023). Evaluating the role of
+artificial intelligence and big data analytics in Indian Bank marketing. Tuijin Jishu/
+Journal of Propulsion Technology, 44.
+Ferrari, A., Masetti, O., & Ren, J. (2018). Interest rate caps: The theory and the practice.
+In , 8398. World Bank Policy research working paper.
+Fomby, T. B., Johnson, S. R., Hill, R. C., Fomby, T. B., Johnson, S. R., & Hill, R. C. (1984).
+Feasible generalized least squares estimation. Advanced econometric methods,
+147–169.
+Galariotis, E., Kosmidou, K., Kousenidis, D., Lazaridou, E., & Papapanagiotou, T. (2021).
+Measuring the effects of M&As on Eurozone bank efficiency: An innovative approach
+on concentration and credibility impacts. Annals of Operations Research, 306,
+343–368.
+Ghaemi, S., & Hosseinlou, M. H. (2023). Modeling construction freight using OLS, robust
+inference and FGLS. Iranian Journal of Science and Technology, Transactions of Civil
+Engineering, 1–18.
+Gyamfi, B. A., Ozturk, I., Bein, M. A., & Bekun, F. V. (2021). An investigation into the
+anthropogenic effect of biomass energy utilization and economic sustainability on
+environmental degradation in E7 economies. Biofuels, Bioproducts and Biorefining, 15
+(3), 840–851.
+Haibo, C., & Manu, E. K. (2022). The impact of banks’ financial performance on
+environmental performance in Africa. Environmental Science and Pollution Research,
+29(32), 49214–49233.
+Hakimi, A., Hamdi, H., & Khemiri, M. A. (2023). Banking in the MENA region: The pro-
+active role of financial and economic freedom. Journal of Policy Modeling, 45(5),
+1058–1076.
+Haque, F. (2019). Ownership, regulation and bank risk-taking: Evidence from the Middle
+East and North Africa (MENA) region. Corporate Governance: The international journal
+of business in society, 19(1), 23–43.
+12
+E. Baffour Gyau et al. Hassan, M., Aziz, L. A.-R., & Andriansyah, Y. (2023). The role artificial intelligence in
+modern banking: An exploration of AI-driven approaches for enhanced fraud
+prevention, risk management, and regulatory compliance. Reviews of Contemporary
+Business Analytics, 6(1), 110–132.
+Hu, B., & Wu, Y. (2023). AI-based compliance automation in commercial bank: How the
+silicon valley bank provided a cautionary tale for future integration. International
+Research in Economics and Finance, 7(1), 13.
+Imran, M., Khan, M. K., Alam, S., Wahab, S., Tufail, M., & Jijian, Z. (2024). The
+implications of the ecological footprint and renewable energy usage on the financial
+stability of south Asian countries. Financial Innovation, 10(1), 102.
+International Monetary Fund. (2023). Return on assets. Our World in Data. Retrieved
+February 21, 2024 from https://ourworldindata.org/graph
+er/regulation-financial-markets?
+time=2010..2020&country=AUS~BRA~CAN~CHN~DNK~FRA~DEU~IND
+~ISR~ITA~KOR~MYS~MEX~RUS~SGP~ESP~SWE~GBR~USA.
+Jonkman, J., Boukes, M., & Vliegenthart, R. (2020). When do media matter most? A
+study on the relationship between negative economic news and consumer confidence
+across the twenty-eight EU states. The International Journal of Press/Politics, 25(1),
+76–95.
+Kar, A. K., & Swain, R. B. (2014). Interest rates and financial performance of
+microfinance institutions: Recent global evidence. The European Journal of
+Development Research, 26, 87–106.
+Kaya, O., Schildbach, J., AG, D. B., & Schneider, S. (2019). Artificial intelligence in
+banking. Artificial. https://www.dbresearch.com/PROD/RPS_EN-PROD/P
+ROD0000000000495172/Artificial_intelligence_in_banking:_A_lever_for_pr.pdf?un
+defined&realload=8ZyKXL9MauITRfzilKybIDVyLrVM4H8AEQdpXen
+TZjzm2AJyaFlhr4dktmULaWzu.
+K¨ onigstorfer, F., & Thalmann, S. (2020). Applications of artificial intelligence in
+commercial banks–a research agenda for behavioral finance. Journal of Behavioral
+and Experimental Finance, 27, Article 100352.
+Kreps, S., & Rao, A. (2023). AI and the Regulatory Challenge: A New Framework Using the
+Seto Loop. Available at SSRN.
+Ledhem, M. A., & Mekidiche, M. (2020). Economic growth and financial performance of
+Islamic banks: A CAMELS approach. Islamic Economic Studies, 28(1), 47–62.
+Li, Y., & Zhang, Y. (2023). What is the role of green ICT innovation in lowering carbon
+emissions in China? A provincial-level analysis. Energy Economics, 127, Article
+107112.
+Lütkepohl, H., & Burda, M. M. (1997). Modified Wald tests under nonregular conditions.
+Journal of Econometrics, 78(2), 315–332.
+Madhura, K., Panakaje, N., Kambali, U., & Parvin, S. R. (2024). Unveiling the Progress of
+artificial intelligence in the banking landscape of India. In , Vol. 2. The AI revolution:
+Driving business innovation and research (pp. 497–510). Springer.
+Moro-Visconti, R. (2024). The Valuation of Artificial Intelligence-Driven Startups. In
+Artificial Intelligence Valuation: The Impact on Automation, BioTech, ChatBots, FinTech,
+B2B2C, and Other Industries (pp. 293–344). Springer.
+Naimi-Sadigh, A., Asgari, T., & Rabiei, M. (2022). Digital transformation in the value
+chain disruption of banking services. Journal of the Knowledge Economy, 13(2),
+1212–1242.
+Nasreen, S., Gulzar, M., Afzal, M., & Farooq, M. U. (2024). The role of corruption,
+transparency, and regulations on Asian banks’ performance: an empirical analysis.
+Journal of the Knowledge Economy, 15(2), 6475–6506.
+Nsanyan Sandow, J., Duodu, E., & Oteng-Abayie, E. F. (2021). Regulatory capital
+requirements and bank performance in Ghana: evidence from panel corrected
+standard error. Cogent Economics & Finance, 9(1), 2003503.
+Ozili, P. K. (2020). Non-performing loans in European systemic and non-systemic banks.
+Journal of Financial Economic Policy, 12(3), 409–424.
+Papadopoulos, A. (2024). Some notes on the asymmetry of the regression error. Journal
+of Productivity Analysis, 61(1), 37–42.
+Partovi, E., & Matousek, R. (2019). Bank efficiency and non-performing loans: Evidence
+from Turkey. Research in International Business and Finance, 48, 287–309.
+Patial, A. (2023). AI-powered banking: From customer service to risk management.
+Pesaran, M. H. (2007). A simple panel unit root test in the presence of cross-section
+dependence. Journal of Applied Econometrics, 22(2), 265–312.
+Pesaran, M. H. (2021). General diagnostic tests for cross-sectional dependence in panels.
+Empirical Economics, 60(1), 13–50.
+Pesaran, M. H., & Yamagata, T. (2008). Testing slope homogeneity in large panels.
+Journal of Econometrics, 142(1), 50–93.
+Polak, P., Nelischer, C., Guo, H., & Robertson, D. C. (2020). Intelligent” finance and
+treasury management: what we can expect. Ai & Society, 35(3), 715–726.
+Rahaman, S. M., & Sur, D. (2021). Identifying Key Drivers of Non-Performing Assets in
+Indian Public Sector Banks: A Panel Data Analysis. IIM Kozhikode Society &
+Management Review, 0(0). https://doi.org/10.1177/22779752211000146
+Rahman, M., Ming, T. H., Baigh, T. A., & Sarker, M. (2023). Adoption of artificial
+intelligence in banking services: An empirical analysis. International Journal of
+Emerging Markets, 18(10), 4270–4300.
+International Review of Financial Analysis 96 (2024) 103700
+Rahman, M. M. (2023). The effect of business intelligence on bank operational efficiency
+and perceptions of profitability. FinTech, 2(1), 99–119.
+Rane, N.. Enhancing customer loyalty through Artificial Intelligence (AI), Internet of
+Things (IoT), and Big Data technologies: improving customer satisfaction,
+engagement, relationship, and experience. Internet of Things (IoT), and Big Data
+Technologies: Improving Customer Satisfaction, Engagement, Relationship, and
+Experience. https://doi.org/10.2139/ssrn.4616051.
+Reis Mour˜
+ao, P. J., & Popescu, I. A. (2023). Investment, growth and competitiveness: The
+multiplier-accelerator in the 21st century. Journal of Competitiveness, 15(3).
+Ris, K., Stankovic, Z., & Avramovic, Z. (2020). Implications of implementation of
+artificial intelligence in the banking business with correlation to the human factor.
+Journal of Computer and Communications, 8(11), 130.
+Robin, I., Salim, R., & Bloch, H. (2018). Financial performance of commercial banks in
+the post-reform era: Further evidence from Bangladesh. Economic Analysis and Policy,
+58, 43–54.
+Rogers, E. M., Singhal, A., & Quinlan, M. M. (2014). Diffusion of innovations. In An
+integrated approach to communication theory and research (pp. 432–448). Routledge.
+Saadaoui, Z., & Mokdadi, S. (2023). Capital buffers, business models and the probability
+of bank distress: A dynamic panel investigation. Journal of Financial Regulation and,
+31(5), 663–695.
+Salike, N., & Ao, B. (2018). Determinants of bank’s profitability: Role of poor asset
+quality in Asia. China Finance Review International, 8(2), 216–231.
+Scott, R. (1995). Institutions and organizations. Thousand Oaks: SAGE Publications.
+Shao, J., Lou, Z., Wang, C., Mao, J., & Ye, A. (2022). The impact of artificial intelligence
+(AI) finance on financing constraints of non-SOE firms in emerging markets.
+International Journal of Emerging Markets, 17(4), 930–944.
+Shen, C. H., & Chang, Y. H. (2006). Do regulations affect banking performance?
+Government governance may matter. Contemporary Economic Policy, 24(1), 92–105.
+Shiyyab, F. S., Alzoubi, A. B., Obidat, Q. M., & Alshurafat, H. (2023). The impact of
+artificial intelligence disclosure on financial performance. International Journal of
+Financial Studies, 11(3), 115.
+Siddika, A., & Haron, R. (2020). Capital regulation and ownership structure on bank risk.
+Journal of Financial Regulation and Compliance, 28(1), 39–56.
+Subburayan, B., Sankarkumar, A. V., Singh, R., & Mushi, H. M. (2024). Transforming of
+the financial landscape from 4.0 to 5.0: Exploring the integration of Blockchain, and
+artificial intelligence. Applications of Block Chain Technology and Artificial Intelligence,
+137–161.
+Sullivan, Y., & Wamba, S. F. (2024). Artificial intelligence and adaptive response to
+market changes: A strategy to enhance firm performance and innovation. Journal of
+Business Research, 174, Article 114500.
+Takahashi, F. L., & Vasconcelos, M. R. (2024). Bank efficiency and undesirable output:
+An analysis of non-performing loans in the Brazilian banking sector. Finance Research
+Letters, 59, Article 104651.
+Thornton, J., & Di Tommaso, C. (2021). The effect of non-performing loans on credit
+expansion: Do capital and profitability matter? Evidence from European banks.
+International journal of finance & economics, 26(3), 4822–4839.
+Thowfeek, M. H., Samsudeen, S., & Sanjeetha, M. B. F. (2020). Drivers of artificial
+intelligence in banking service sectors. Solid State Technology, 63(5), 6400–6411.
+To, H. K, & Chan, K. W. (2024). Mean stationarity test in time series: A signal variance-
+based approach. Bernoulli, 30(2), 1231–1256.
+Tran, V. T., Lin, C.-T., & Nguyen, H. (2016). Liquidity creation, regulatory capital, and
+bank profitability. International Review of Financial Analysis, 48, 98–109.
+Truby, J., Brown, R., & Dahdal, A. (2020). Banking on AI: Mandating a proactive
+approach to AI regulation in the financial sector. Law and Financial Markets Review,
+14(2), 110–120.
+Umamaheswari, S., & Valarmathi, A. (2023). Role of artificial intelligence in the banking
+sector. Journal of Survey in Fisheries Sciences, 10(4), 2841–2849.
+Wang, Y., Yang, S., Tang, W., & Wei, L. (2024). Government GDP targets and corporate
+capacity expansion–empirical evidence based on A-share listed companies.
+International Review of Financial Analysis, 91, Article 103048.
+World Bank. (2024). World Development Indicators. Retrieved February 21, 2024 from
+https://databank.worldbank.org/source/world-development-indicators.
+Yurttadur, M., Celiktas, E., & Celiktas, E. (2019). The place of non-performing loans in
+the Turkish banking sector. Procedia Computer Science, 158, 766–771.
+Zaki, M. (2019). Digital transformation: Harnessing digital technologies for the next
+generation of services. Journal of Services Marketing, 33(4), 429–435.
+Zeqiraj, V., Gurdgiev, C., Sohag, K., & Hammoudeh, S. (2024). Economic uncertainty,
+public debt and non-performing loans in the Eurozone: Three systemic crises.
+International Review of Financial Analysis, 93, Article 103208.
+Zhao, Q., Tsai, P.-H., & Wang, J.-L. (2019). Improving financial service innovation
+strategies for enhancing china’s banking industry competitive advantage during the
+fintech revolution: A Hybrid MCDM model. Sustainability, 11(5), 1419.
+13
