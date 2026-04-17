@@ -1,0 +1,141 @@
+DISSERTATION GUIDELINES (ECOM107)
+1. Aim and Objectives
+• Enable students to advance their knowledge of the field covered by their degree
+program.
+• Independent dissertation project.
+• Ability to evaluate, challenge, modify and develop theory and practice.
+• Offer synthetic and coherent solutions.
+2. Requirements
+• Well-defined research question.
+• Logically developed argument supported by evidence.
+• Element of your own independent research.
+• Relate existing literature in the field to your work.
+3. Timetable
+• 6th February 2026: deadline to choose one of the following modules:
+o ECOM107 – Dissertation (45 credits).
+o ECOM218 – Applied Project in Valuation (30 credits) alongside the taught module,
+ECOM154 Further Topics in Valuation (15 credits). This option is NOT available for
+MSc Finance and Machine Learning
+o ECOM200 - Research project plus two elective modules (all three worth 15 credits
+each).
+• Friday 20th February 2026: Deadline for selecting your topic on QMPlus.
+• Early March 2026: You will receive an email with the details of your supervisor.
+• End of March/Early April 2026: First meeting with your supervisor. Students should
+bring a draft of their dissertation abstract to this meeting. The draft should specify the
+research idea, techniques to be used and data sources required as well as references to
+1
+a few articles that look at the same issue or use similar techniques. After this meeting
+students can update their abstract before submission.
+• Friday 17th April 2026 at 23.55: Deadline for proposal submission
+• 8th June to 7th August 2026: Progress meetings with supervisor. Students have three
+compulsory meetings with their supervisor over this period to discuss progress on their
+dissertation and other issues.
+• 15th June to 7th August 2026: Meetings with TA supervisors. Students can arrange
+meetings with TA supervisors to discuss issues such as data sources, software issues,
+estimation techniques etc. You will receive an email with the name of your TA
+supervisor.
+• Monday 17th August 2026 at 23.55: Deadline for dissertation submission
+• Monday 24th August – Sunday 6th September 2026: Dissertation Reflection Session
+(Viva Voce). The reflection session is a short interview between the student and the
+supervisor.
+• Dissertations that are submitted late will be penalized at the rate of 5 marks deduction
+for each 24-hour period after the set submission time. Work submitted seven calendar
+days or more after the deadline will be awarded zero (check your handbook). This rule
+applies for all days including weekends. Students are advised to submit at least a day
+before the deadline in case of unforeseen technical problems etc.
+4. Dissertation Assessment Components:
+ECOM107 modules has two assessment components:
+• Dissertation submission – 80% of the module mark
+• Dissertation reflection session (Viva Voce) – 20% of the module mark.
+2
+5. Plagiarism
+• Your dissertation should be the output of your own work. University of London and
+Queen Mary University take plagiarism very seriously.
+• For detecting plagiarism, the School uses Turnitin. Turnitin checks your dissertation
+against 24+ billion web pages, 300+ million student papers and 110,000+ publications
+and provides a similarity index. Once you will have completed your dissertation, you
+can test it on Turnitin to verify that the similarity index is acceptable (green light)
+before your official submission.
+• Important: An acceptable similarity index could be anything below 20%. What does
+this mean in practice? An originality report from Turnitin may have a similarity index
+of 24% with the similarity coming from hundreds of different sources, each making up
+less than 1% of the student’s work, other originality reports with an index of 15% may
+have the similarity coming from just one or two web pages or published sources,
+potentially a much more serious matter.
+• More info on how to avoid plagiarism and maintain academic integrity will be provided
+in the summer (June/July 2026).
+6. Style and Format
+• Front page: You must indicate the following:
+▪ your programme of study
+▪ your full name
+▪ your student ID number
+▪ the title of your dissertation
+▪ the full name of your supervisor
+• Use 1.5 spacing
+• Number your pages
+• Use 2.5 or 3cm on all margins
+7. Dissertation Length
+• 7,000 words excluding references, tables, and appendices. Lower or higher than this
+may lead to a penalty in your overall mark, and this is under the discretion of your
+supervisor.
+3
+8. Citing and References
+There are deferent refencing style. The one suggested for your dissertation is the Harvard
+Refencing Style. The QMPlus page (Academic Skills Centre) provides you with the needed
+information on how to find, use and refence your sources.
+Incorrect referencing and citations may be considered plagiarism.
+Here you can find the link: Follow the link and use Harvard Style criteria:
+https://qmplus.qmul.ac.uk/course/view.php?id=24311
+Additional information about the referencing process can be found in this page:
+https://www.qmul.ac.uk/library/academic-skills/referencing-hub/referencing-guides-and-
+resources/
+9. The role of the supervisor
+• Number of meetings with the supervisor: 1 meeting before the proposal submission
+and up to 3 meetings during the period of supervision in summer (see above for dates).
+• The dissertation is intended to provide an opportunity for students to pursue a
+research project independently, so students are entirely responsible for the work for
+their dissertation.
+• The role of the supervisor is to offer advice and guidance, not to direct the research.
+• Your supervisor will help you to identify a topic, to draw up a suitable preliminary
+bibliography and to plan the primary and secondary research you will need to do for
+the dissertation. He/she will be available to advise you on approach, coverage,
+questions to be asked and the outline structure and research design.
+More specifically, the supervisor is expected to:
+▪ assist you in the definition and organization of your project in the early stages
+of preparation;
+▪ offer you advice about sources;
+▪ advise you on the feasibility of what you plan to do; and
+▪ approve your dissertation proposal.
+4
+10. The role of the Teaching Assistant (TA)
+▪ 4 meetings in total during the supervision period.
+▪ You must not expect the TAs to do the work for you, the role of the TA is to help at
+various stages of your dissertation.
+▪ For empirical projects, the TA will assist you on how to download data and use library
+resources. If you also need help with the statistical package (R and Eviews) you use,
+TA will give you guidance.
+▪ The TA will not give you suggestions about your research approach and will not
+recommend research methods and literature. The TA has a supportive role only.
+11. Structure for an empirical dissertation.
+Introduction: It should state the topic and the general aim of the dissertation. You must
+define your research topic and give the reasons why you chose this one (interesting
+topic, very high in the research agenda etc.). In that part you can also include apart from
+the main research question any other sub-questions that may help structuring your
+dissertation. It should also describe the structure of the dissertation (i.e., how you
+organize your dissertation in the various sections)
+Literature Review: should review the literature on the topic and clarify how your
+dissertation fits within this literature. You can give any title to this section as long as, at
+the beginning of the section, you state clearly that the objective of this section is to review
+the literature on the topic under investigation. This part can be divided into several
+sections and/or chapters depending on how you wish to address your research question.
+Empirical Framework and Data Description: it is important that you summarize the
+method you use and that you describe the data used in your dissertation. You can give
+any title to this section as long as, at the beginning of the section, you state clearly that
+the objective of the section is give a description of your method and of the data you use.
+Empirical Analysis: this section is dedicated to the illustration of your analysis and of your
+findings. You can give any relevant title to this section as long as, at the beginning of the
+section, you state clearly the objective of the section.
+Conclusion: this section presents a summary of the findings of the dissertation, relates
+these to the argument outlined in the introductory chapter and states precisely what has
+been demonstrated.
+5
