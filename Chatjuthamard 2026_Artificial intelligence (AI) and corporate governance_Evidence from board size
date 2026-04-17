@@ -1,0 +1,2064 @@
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Contents lists available at ScienceDirect
+Journal of Behavioral and Experimental Finance
+journal homepage: www.elsevier.com/locate/jbef
+Full length article
+Artificial intelligence (AI) and corporate governance: Evidence from
+board size
+*
+Pattanaporn Chatjuthamarda,
+, Pornsit Jiraporn b
+, Sang Mook Lee b
+a Center of Excellence in Management Research for Corporate Governance and Behavioral Finance, Sasin School of Management, Chulalongkorn University, Bangkok,
+Thailand
+b Penn State Great Valley School of Graduate Professional Studies, Pennsylvania State University, Malvern, PA, USA
+A R T I C L E I N F O
+JEL Classifications:
+G34 (Corporate Governance)
+O33 (Technological Change: Choices and
+Consequences: Diffusion Processes)
+M15 (IT Management)
+J24 (Human Capital: Skills: Occupational
+Choice: Labor Productivity)
+C52 (Model Evaluation, Validation, and
+Selection)
+L86 (Information and Internet Services:
+Computer Software)
+Keywords:
+Board size
+Artificial intelligence
+AI workforce
+Corporate governance
+Technological adoption
+Decision-making
+Innovation
+Firm adaptability
+Human capital
+A B S T R A C T
+We examine the effect of board size on the adoption of artificial intelligence (AI)-skilled employees, a critical
+determinant of firms’ ability to leverage AI technologies. Board size, a crucial dimension of board governance,
+plays a pivotal role in shaping strategic decision-making and a firm’s adaptability to technological change. Using
+a novel dataset by Babina et al. (2024) that identifies AI-related roles through advanced textual analysis of re-
+sumes, we utilize the share of AI workers in firms over time. Our findings reveal that smaller boards significantly
+enhance the integration of AI-skilled employees. Specifically, a reduction in board size by one standard deviation
+increases the share of AI workers by 8.4 %. Interaction analyses show that smaller boards are particularly ad-
+vantageous in R&D-intensive firms and those with substantial cash reserves. Smaller boards also result in greater
+variability in AI workforce integration, reflecting their capacity to foster flexibility, and adaptive learning in
+dynamic environments.
+1. Introduction
+The rapid advancement of artificial intelligence (AI) has revolu-
+tionized how businesses operate, innovate, and compete. AI enables
+firms to harness vast amounts of data, automate processes, and develop
+innovative products, driving competitive advantages across industries
+(Agrawal et al., 2019; Babina et al., 2024; Cockburn et al., 2018). At the
+heart of this transformation is the AI workforce—skilled employees such
+as data scientists, machine learning engineers, and AI architects—who
+serve as the critical link between AI technologies and their successful
+implementation (Babina et al., 2024). The growing importance of
+AI-skilled employees necessitates an understanding of the factors that
+influence their integration into firms.
+Corporate governance, particularly the board of directors, plays a
+vital role in shaping firm strategy and innovation outcomes (Bhagat
+et al., 2015; Oehmichen, Heyden, et al., 2017; Oehmichen, Schrapp,
+et al., 2017;). Board size, a widely studied dimension of governance,
+influences decision-making, resource allocation, and strategic agility
+(Boone et al., 2007; Chatjuthamard and Jiraporn, 2023; Eisenberg et al.,
+1998; Lipton and Lorsch, 1992; Raheja, 2005; Treepongkaruna et al.,
+2024; Yermack, 1996). Larger boards provide access to diverse resources
+and expertise but may encounter coordination challenges and slower
+decision-making, while smaller boards excel in agility and focus (Adams
+et al., 2010;Hermalin and Weisbach, 1988; Treepongkaruna et al., 2024;
+Yermack, 1996). Understanding how board size impacts the adoption of
+AI employees is critical, as effective governance structures can enhance
+* Corresponding author.
+E-mail addresses: pattanaporn.chatjuthamard@sasin.edu (P. Chatjuthamard), pjiraporn@psu.edu (P. Jiraporn), sxl65@psu.edu (S.M. Lee).
+https://doi.org/10.1016/j.jbef.2026.101144
+Received 23 October 2025; Received in revised form 8 December 2025; Accepted 10 January 2026Available online 14 January 2026
+2214-6350/© 2026 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+P. Chatjuthamard et al.
+a firm's capacity to integrate cutting-edge technologies.
+We explore the effect of board size on the adoption of AI-skilled
+employees, addressing a significant gap in the literature. While much
+is known about board size and its effect on firm performance, little
+attention has been given to its influence on AI workforce integration. We
+address how governance structures shape the ability of firms to adopt
+transformative technologies. This is especially important as firms navi-
+gate the rapidly changing technological landscape, where agility and
+innovation are paramount.
+To address the challenge of understanding firms' investments in AI,
+we employ data on AI-skilled employees recently developed by Babina
+et al. (2024). This dataset leverages cutting-edge textual analysis tech-
+niques to identify AI-related roles from resume data, providing a
+groundbreaking and precise measure of the AI workforce. Historically,
+measuring the extent of AI workforce integration has been challenging
+due to the absence of standardized metrics. This novel approach repre-
+sents a significant advancement, enabling robust analysis of the factors
+influencing AI adoption and shedding light on the dynamics of AI inte-
+gration at the firm level.
+According to Babina et al. (2024), AI workers are a strong indicator
+of a firm’s exposure to and investment in AI, as AI-skilled labor serves as
+a critical input for effective AI implementation. While other inputs, such
+as data and computing infrastructure, complement AI-skilled human
+capital, a human-capital-based measure allows us to assess the relative
+intensity of AI investments across firms more effectively. By focusing on
+AI-skilled employees, we gain a clearer understanding of the strategic
+role human capital plays in driving AI adoption (Babina et al., 2024).
+Our results demonstrate that smaller boards play a crucial role in
+driving the adoption of AI-skilled employees, a finding that emphasizes
+the agility and streamlined decision-making processes inherent to lean
+governance structures. Specifically, a reduction in board size by one
+standard deviation leads to an 8.4 % increase in the share of AI workers.
+This finding highlights that the effect is not only statistically significant
+but also carries substantial economic relevance, demonstrating the
+meaningful role of board size in shaping AI workforce integration.
+Smaller boards are less encumbered by the coordination challenges
+and inefficiencies that often arise in larger boards, allowing them to act
+swiftly and decisively in dynamic environments. This agility is partic-
+ularly important in the context of adopting transformative technologies
+like AI, where the ability to integrate specialized talent quickly can be a
+key determinant of success. The findings align with prior research
+highlighting the strategic advantages of smaller boards in fostering rapid
+decision-making and reducing coordination costs (Lipton and Lorsch,
+1992; Raheja, 2005; Chatjuthamard et al., 2022; Eisenberg et al., 1998;
+Treepongkaruna et al., 2024; Yermack, 1996). Smaller boards are better
+equipped to align organizational strategies with the fast-paced demands
+of technological innovation, making them an essential element of
+effective corporate governance in an AI-driven economy.
+The robustness of these findings is reinforced by a suite of rigorous
+validation methods. Propensity score matching ensures that the
+observed effects are not biased by differences in firm characteristics,
+creating comparable treatment and control groups (Lennox et al., 2012;
+Rosenbaum and Rubin, 1983). Entropy balancing further strengthens
+the analysis by weighting the dataset to achieve near-perfect balance
+across covariates, thus eliminating residual biases (Hainmueller, 2012;
+Hainmueller and Xu, 2013). Instrumental-variable analysis addresses
+endogeneity concerns, confirming that the effect of smaller boards on
+increased AI adoption is probably causal rather than correlational. These
+methods collectively provide compelling evidence that smaller boards
+are a decisive factor in the successful integration of AI talent, consistent
+with Babina et al.’s (2024) analysis showing the transformative role of
+human capital in AI adoption.
+We also explore interactions between board size and firm-specific
+attributes, offering deeper insights into the contextual factors that
+enhance the effectiveness of smaller boards. For firms with high R&D
+intensity, smaller boards excel in fostering innovation by facilitating
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+quick resource allocation and cohesive strategic direction. Similarly, in
+firms with substantial cash reserves, smaller boards demonstrate a su-
+perior ability to deploy liquidity toward strategic initiatives. Their
+streamlined structure minimizes internal conflicts and delays, ensuring
+that financial resources are directed to high-impact areas such as AI
+workforce expansion, which is critical for maintaining competitive
+advantage (Raheja, 2005; Lipton and Lorsch, 1992;Eisenberg et al.,
+1998).
+Interactions with board characteristics reveal that while diversity
+and independence in corporate boardrooms enhance governance qual-
+ity, they do not significantly offset the structural advantages of smaller
+boards. The findings suggest that the core benefits of smaller board-
+s—agility, accountability, and strategic clarity—are paramount in
+driving the adoption of AI-skilled employees. Diversity and indepen-
+dence contribute to improved oversight and broader perspectives but
+cannot fully mitigate the inefficiencies associated with larger boards
+(Adams and Ferreira, 2007, 2009).
+To further understand the impact of board governance, we also
+examine how board size affects the variability of AI workforce integra-
+tion. Using the standard deviation and range of AI workforce shares from
+2010 to 2018, we find that smaller boards are associated with greater
+fluctuations in AI workforce composition. This aligns with the strategic
+agility hypothesis, suggesting that smaller boards foster adaptability,
+experimentation, and iterative learning in dynamic environments.
+The contributions of this paper extend significantly beyond the im-
+mediate domains of corporate governance and AI adoption. First, our
+study advances the literature on the strategic role of boards in navi-
+gating technological disruption by providing empirical evidence that
+smaller boards enhance the adoption of AI-skilled employees. This
+supports the strategic agility hypothesis (Lipton and Lorsch, 1992;
+Raheja, 2005; Eisenberg et al., 1998; Yermack, 1996), which highlights
+the capacity of smaller boards to make swift, cohesive decisions, a
+critical capability in the era of rapid technological change.
+Second, this research contributes to understanding the determinants
+of AI workforce integration at the firm level by emphasizing governance
+structures, particularly board size, as a key driver of human capital
+strategies. While prior studies focus on investments in data infrastruc-
+ture or R&D (Cockburn et al., 2018; Babina et al., 2024), this study
+uniquely links board attributes to AI workforce adoption, providing new
+insights into the role of governance in AI-driven economies.
+Furthermore, our study showcases the power of advanced textual
+analysis as a research tool. Using Babina et al.’s (2024) innovative
+dataset, which identifies AI-specific roles from resume data, this paper
+addresses a critical challenge in capturing firm-level AI adoption. This
+methodological innovation enhances the precision and scalability of
+analyzing human capital’s role in technological adoption. We contribute
+to the growing body of literature that leverages textual analysis to
+extract variables that are otherwise challenging to obtain. Although this
+field is relatively new, it has been expanding rapidly and gaining sig-
+nificant prominence (Buehlmaier and Whited, 2018; Chatjuthamard
+et al., 2024; Florackis et al., 2022; Li, 2010; Loughran and Mcdonald,
+2016; Loughran and McDonald, 2020; Ongsakul et al., 2024; Trinh,
+2023; Wongsinhirun et al., 2023)
+Moreover, the findings contribute to the literature on board diversity
+and independence, demonstrating that while these attributes improve
+governance quality, they do not fully offset the inefficiencies of larger
+boards (Adams and Ferreira, 2009; Armstrong et al., 2014; Jenwit-
+tayaroje and Jiraporn, 2019; Konadu et al., 2022; Nguyen and Nielsen,
+2010; Wongsinhirun et al., 2023). This demonstrates the structural ad-
+vantages of smaller boards in fostering accountability, agility, and
+strategic clarity.
+Finally, this research provides actionable insights for AI investment
+strategies and long-term firm performance. Smaller boards prove
+particularly effective for firms with high R&D intensity or substantial
+cash reserves, emphasizing the importance of aligning governance
+structures with strategic priorities. By linking governance, innovation,
+2
+P. Chatjuthamard et al.
+and AI adoption, this study offers a comprehensive framework for firms
+to adapt to technological transformation and maintain competitiveness
+in the AI-driven economy.
+2. Background information and relevant research
+2.1. Board size
+The study of board size and its impact on corporate governance is
+deeply rooted in several theoretical perspectives. Agency theory argues
+that larger boards, with more individuals to help monitor and control
+management, can better oversee management, mitigating agency costs
+and ensuring alignment between managerial actions and shareholder
+interests (Raheja, 2005; Lipton and Lorsch, 1992; Adams et al., 2010).
+However, this theory also highlights potential inefficiencies associated
+with large boards, such as slower decision-making and diminished
+accountability due to the diffusion of responsibility (Lipton and Lorsch,
+1992; Jensen, 1993). Resource dependence theory suggests that larger
+boards enhance access to critical resources and external networks,
+making them particularly valuable in industries where external knowl-
+edge and connections are pivotal (Pfeffer and Salancik, 1978; Lu et al.,
+2022). This aligns with empirical findings that emphasize the strategic
+advantages of resource-rich boards in facilitating innovation and resil-
+ience during economic shocks (Cuomo et al., 2016; Hillman and Dalziel,
+2003).
+From a behavioral standpoint, the upper echelons theory posits that
+diverse boards—often a feature of larger boards—foster varied per-
+spectives, leading to more innovative and balanced decision-making
+(Hambrick and Mason, 1984; Lu et al., 2022). However, such diversity
+can also lead to conflict and slower decision processes, particularly
+when board size exceeds a manageable threshold (Lipton and Lorsch,
+1992; Eisenhardt and Zbaracki, 1992). The trade-off between diversity
+and cohesion is a central theme in discussions about board size, sug-
+gesting that firms must balance these factors to optimize governance
+outcomes (Raheja, 2005; Hermalin and Weisbach, 2001).
+Empirical studies offer mixed evidence on the effects of board size on
+corporate outcomes, reflecting the complexity of this issue. Lipton and
+Lorsch (1992) argue that smaller boards are more cohesive and effective
+in decision-making, particularly in firms operating in fast-paced or
+competitive industries. This view is supported by Raheja (2005), who
+argues that smaller boards minimize coordination costs and enhance the
+effectiveness of monitoring mechanisms.
+Conversely, studies like those by Hillman and Dalziel (2003) high-
+light that larger boards provide firms with broader expertise and access
+to external resources, which can enhance financial performance in
+resource-intensive or heavily regulated industries. For example, larger
+boards in the financial sector are associated with improved risk man-
+agement and compliance with regulatory requirements (Lu et al., 2022).
+This aligns with earlier findings by Pfeffer and Salancik (1978), which
+stress the importance of board size in securing external legitimacy and
+resources.
+Further, larger boards are more likely to incorporate diverse per-
+spectives, which can enhance corporate social responsibility (CSR) ini-
+tiatives and stakeholder engagement (Cuomo et al., 2016). However, it
+should be noted that, beyond a certain size, the benefits of diversity may
+be outweighed by inefficiencies, such as communication barriers and
+slower decision-making processes (Dalton et al., 1999). Similarly, while
+board size positively correlates with resource acquisition, the marginal
+benefits diminish as boards grow excessively large (Adams and Ferreira,
+2007).
+Lipton and Lorsch (1992) propose that the optimal board size is
+context-dependent, influenced by industry characteristics and
+firm-specific factors. For instance, firms in industries requiring complex
+oversight, such as healthcare or finance, benefit from larger boards,
+whereas technology firms may prefer smaller boards for agility and
+innovation. Empirical findings support this claim, showing that board
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+size tends to increase with firm size and complexity, reflecting the need
+for broader oversight and expertise (Boone et al., 2007).1
+2.2. Artificial intelligence in business
+Artificial Intelligence (AI) is revolutionizing business through its
+capacity to transform innovation, streamline operations, and drive
+strategic decision-making. Defined as a machine-based system capable
+of making predictions, recommendations, or decisions for human-
+defined objectives, AI’s applications have expanded across industries,
+from manufacturing to financial services. By enabling businesses to
+harness vast quantities of data for predictive insights, AI is becoming an
+indispensable general-purpose technology (Babina et al., 2024; Loureiro
+et al., 2021).
+AI’s role in fostering innovation is profound. Firms adopting AI
+report significant advancements in product development, as seen in
+examples like AI-driven drug discovery, which has dramatically reduced
+development times (Babina et al., 2024). AI also enables more person-
+alized and adaptive product features, improving consumer experiences
+and market competitiveness (Agrawal et al., 2019). Beyond product
+innovation, AI optimizes operations by improving forecasting,
+enhancing supply chains, and automating routine tasks, allowing firms
+to allocate resources more efficiently (Babina et al., 2024; Cockburn
+et al., 2018).
+The rise of AI technologies has spurred investments in human capital,
+particularly AI-skilled professionals such as data scientists, machine
+learning engineers, and AI architects. Firms that prioritize these roles
+experience marked improvements in performance metrics, including
+growth in sales, employment, and market valuation (Babina et al.,
+2024). This workforce evolution highlights the critical role of human
+expertise in complementing AI systems (Acemoglu and Restrepo, 2020).
+Despite its benefits, AI adoption raises challenges, particularly con-
+cerning equity and ethics. Larger firms with more resources dominate AI
+investment, which exacerbates market concentration and inequality
+(Babina et al., 2024). Additionally, ethical concerns, such as bias in AI
+systems and its impact on employment, necessitate robust governance
+frameworks to ensure responsible use (Cath et al., 2018). Proactive
+strategies addressing these issues are essential to fully realize AI’s po-
+tential while minimizing risks.
+In summary, AI is reshaping the business landscape by driving
+innovation and operational efficiency while reshaping workforce dy-
+namics. However, to leverage its transformative potential responsibly,
+businesses must navigate the ethical, regulatory, and societal challenges
+posed by this powerful technology.2
+3. Hypothesis development
+3.1. The resource advantage hypothesis
+Larger boards provide firms with access to a wider pool of resources
+and expertise, which is critical for managing the complexities of AI
+integration. Resource dependence theory (Pfeffer and Salancik, 1978)
+explains that organizations rely on external expertise to navigate un-
+certainty, and larger boards fulfill this role by drawing on diverse net-
+works and connections. This enhanced resource access ensures that
+firms can attract and integrate AI talent effectively. In addition, the di-
+versity inherent in larger boards improves their capacity to manage
+1 Additional recent research on board size can be found in the following
+studies (Ali and Ayoko, 2020; Chindasombatcharoen et al., 2022; Jenter et al.,
+2023; Kalbuana et al., 2022; Rouf and Hossan, 2020; Sharma et al., 2023;
+Tampakoudis et al., 2022)
+2 Recent research on artificial intelligence in business is available in these
+studies (Di Vaio et al., 2020; Enholm et al., 2022; Han et al., 2021; Loureiro
+et al., 2021; Ruiz-Real et al., 2020; Sestino and De Mauro, 2022)
+3
+P. Chatjuthamard et al.
+innovative and uncertain projects, such as those involving AI (Zahra and
+Pearce, 1989).
+Larger boards often include directors with expertise in various do-
+mains, ensuring that multiple perspectives—spanning technology,
+ethics, and business strategy—are represented. This diversity is essential
+for addressing the ethical and operational complexities of AI adoption.
+Prior research supports the view that larger boards incorporate a broad
+range of expertise, enhancing decision-making in technology adoption
+processes. These boards are better positioned to navigate the interdis-
+ciplinary demands of AI integration (Johnson et al., 1996; Terjesen
+et al., 2009).
+In addition to their resource and diversity advantages, larger boards
+excel in fostering innovation. They create an environment conducive to
+brainstorming and exploring new ideas, which is critical for the suc-
+cessful implementation of AI strategies. Larger boards drive innovation
+by leveraging varied perspectives (Zahra and Pearce, 1989), while
+emphasize the value of input from diverse stakeholders (Klette and
+Kortum, 2004). From an agency theory perspective, larger boards also
+strengthen oversight and monitoring, ensuring that resources allocated
+to AI initiatives are used effectively. This improved governance miti-
+gates risks and aligns AI projects with organizational goals. In summary,
+this hypothesis argues that firms with larger board size are better at AI
+integration.
+3.2. The strategic agility hypothesis
+Smaller boards enhance decision-making efficiency and strategic
+focus, both of which are crucial in the rapidly evolving field of AI. Co-
+ordination challenges often plague larger boards, slowing down de-
+cisions and creating inefficiencies. Smaller boards overcome these
+barriers, allowing firms to act quickly and decisively (Lipton and Lorsch,
+1992). This agility is particularly advantageous in the context of AI,
+where firms must respond rapidly to technological advancements and
+competitive pressures.
+Smaller boards also maintain a sharper focus on aligning AI initia-
+tives with the firm’s strategic objectives. Yermack (1996) finds that
+smaller boards are more effective in ensuring that decisions remain
+closely tied to organizational priorities. This alignment minimizes
+resource misallocation and ensures that investments in AI workers
+directly contribute to achieving business goals.
+In addition, smaller boards mitigate free-rider problems by ensuring
+that each director actively participates in discussions and decision-
+making. Smaller boards encourage greater engagement from their
+members (Raheja, 2005), which is essential for effectively managing
+AI-related investments. Smaller boards also create a heightened sense of
+accountability among members, as fewer participants mean greater in-
+dividual responsibility for outcomes. This accountability leads to better
+governance, which is critical for managing high-stakes projects like AI
+integration. In conclusion, this view suggests that smaller board size
+leads to better AI adoption.
+4. Sample selection and data description
+4.1. Sample selection
+We draw on a dataset developed by Babina et al. (2024), which
+provides detailed insights into the AI workforce. Firm-specific charac-
+teristics are extracted from the COMPUSTAT database, with outliers
+managed through winsorization at the 1st and 99th percentiles. Infor-
+mation on board characteristics is obtained from the Institutional
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Shareholder Services (ISS). Utilizing the empirical strategy outlined by
+Babina et al. (2024), the final dataset encompasses 644 distinct firms
+operating over the entire period from 2010 to 2018.3 Consistent with the
+literature, we define board size as the natural log of the total number of
+directors on the board (Chatjuthamard and Jiraporn, 2023; Eisenberg
+et al., 1998; Treepongkaruna et al., 2024; Yermack, 1996).4
+Our sample period is motivated by Babina et al. (2024), who focus on
+the period from 2010 to 2018 for their study for several key reasons.
+First, the study relies on resume data from Cognism, which is used to
+measure firm-level AI investments. This dataset extends until 2018,
+making it essential to focus on this timeframe to ensure consistency and
+robustness in the analysis. Second, the chosen period beginning in 2010
+represents a significant phase when AI technologies began moving from
+academic exploration to widespread commercial use. This early adop-
+tion period allows the authors to analyze the foundational impacts of AI
+on firm performance, including its effects on sales, employment, and
+market valuation.
+Furthermore, during this period, universities markedly increased the
+production of AI-skilled graduates, meeting the rising demand from
+firms adopting AI technologies. The convergence of talent supply and
+business needs provides a unique opportunity to examine how human
+capital influences AI integration.
+4.2. Measuring the AI workforce
+The dataset used to measure the AI workforce integrates data from
+employee resumes, offering a comprehensive view of AI-skilled talent.
+AI-skilled employees emerge as a pivotal factor for firms' engagement
+with and investment in AI, serving as the foundation for successful
+implementation. While data infrastructure and computational resources
+complement AI initiatives, the human capital specific to AI remains
+central to effectively leveraging these assets.
+The primary data source is the Cognism resume database, which
+compiles extensive information on job histories, roles, and accom-
+plishments for millions of individuals worldwide. This dataset facilitates
+the identification of AI-skilled workers through analysis of job titles,
+listed skills, and achievements such as patents, publications, and
+awards. For example, resumes mentioning skills like "TensorFlow" or job
+titles such as "Machine Learning Engineer" are classified as AI-related.
+The methodology calculates an "AI-relatedness" score for each skill by
+assessing its frequency alongside core AI competencies, such as machine
+learning, computer vision, and natural language processing. Specialized
+terms like "deep learning" receive high scores, while general terms like
+"Microsoft Office" score low. Jobs are classified as AI-related when their
+average AI-relatedness score surpasses a set threshold, ensuring accurate
+identification of roles directly focused on AI.
+These AI-related roles are then aggregated at the firm level, calcu-
+lating the share of AI-skilled employees as a proportion of the total
+workforce using Cognism data. To ensure accuracy, classifications un-
+dergo rigorous validation, including manual inspections and correlation
+checks with logical patterns such as increased R&D spending. The
+method distinguishes roles involving specific AI competencies from
+3 Since ISS coverage is primarily focused on S&P 1500 companies, it is
+relatively limited compared to the broader dataset developed by Babina et al.
+(2024). As a result, the number of distinct firms in our sample is smaller than
+that reported by Babina et al. (2024).
+4 We use the 2010–2018 sample period to maintain consistency with the
+empirical design of Babina et al. (2024), which facilitates comparability across
+studies and ensures that differences in findings are not driven by differences in
+sample construction. Extending the sample beyond 2018 would also introduce
+complications associated with the COVID-19 pandemic, which substantially
+altered labor markets, organizational structures, and technology adoption in
+ways unrelated to board governance. Focusing on the pre-pandemic period
+helps avoid these confounding influences and preserves the interpretability of
+the results.
+4
+P. Chatjuthamard et al.
+generic data-related tasks, ensuring a focus on the core elements of AI
+integration.
+Key trends in AI workforce adoption reveal that between 2010 and
+2018, the share of AI-related roles increased sevenfold, showing the
+rapid expansion of AI integration across industries. Larger firms with
+greater financial resources are more likely to invest in AI, emphasizing
+the importance of scale and capital in adopting advanced technologies.
+High-tech industries, such as information services, display the highest
+concentration of AI-skilled employees.
+This methodology's strengths lie in its empirical, data-driven
+approach to identifying AI-related roles. By calculating AI-relatedness
+scores based on the co-occurrence of skills with key AI competencies,
+the method avoids the arbitrary classifications that often arise from
+keyword-based approaches. This ensures a precise focus on roles genu-
+inely tied to AI while excluding generic positions. The approach is also
+highly scalable and applicable across diverse industries beyond tradi-
+tional technology sectors. By emphasizing skills rather than predefined
+industry categories, it captures AI adoption trends in fields like
+manufacturing, retail, and finance. Moreover, its ability to track changes
+over time, such as the significant increase in AI workforce shares from
+2010 to 2018, makes it a valuable tool for understanding the evolution
+of AI integration. This approach serves as a robust framework for
+analyzing how AI talent drives firm-level success and contributes to
+larger economic transformations.
+4.3. Empirical strategy and additional variables
+We follow the methodology in Babina et al. (2024) and estimate the
+following regression analysis:
+Δ (Share of AI Workers)2010–2018 =α +β1 (Board Size)2010 +β2 (Con-
+trols)2010 +Industry Fixed Effects +ε
+To examine the effect of board size on changes in AI workforce
+integration, we adopt the empirical approach utilized by Babina et al.
+(2024). This method analyzes changes in the dependent variable—the
+share of AI workers—from 2010 to 2018, as a function of firm-specific
+characteristics measured in 2010. The approach leverages long-term
+changes as dependent variables to capture gradual processes like AI
+adoption and technological integration, which are not immediately
+evident in short-term analyses.
+The dependent variable, Δ (Share of AI Workers)2010–2018, represents
+the growth in the proportion of AI-skilled employees in a firm over the
+eight-year period. Independent variables include firm-level character-
+istics such as board size, financial resources, and governance attributes
+from 2010. These baseline measures are critical for understanding how
+initial conditions influence subsequent adoption of AI technologies and
+workforce integration.
+This approach offers several distinct advantages. First, it provides a
+robust framework for studying long-term effects by focusing on
+extended time horizons, which are essential for understanding slow-
+moving processes like AI adoption.5 By smoothing out short-term fluc-
+tuations, this method isolates enduring trends and reduces noise,
+enhancing the clarity and reliability of results (Babina et al., 2024).
+Second, the use of initial levels as independent variables mitigates issues
+of reverse causality. For instance, changes in the share of AI workers
+from 2010 to 2018 cannot influence board size or financial character-
+istics of the firm as recorded in 2010, allowing for a clearer causal
+interpretation of the relationships. This temporal separation aligns with
+theoretical frameworks emphasizing the role of initial resources and
+governance structures in shaping long-term strategic outcomes (Babina
+5 Panel regressions are not ideal for this study because AI investments and
+their effects accrue gradually over time and may not be immediately observ-
+able. Babina et al. (2024) observe that 70 % of firms onboard AI workers over
+several years, reflecting a steady accumulation of these investments.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+et al., 2024).
+Third, the long-difference design adjusts for firm-specific fixed ef-
+fects that could bias cross-sectional analyses. By analyzing changes
+rather than levels, the model effectively controls for unobserved het-
+erogeneity across firms, such as industry norms or regional factors,
+which may influence both baseline characteristics and outcomes (Babina
+et al., 2024).
+Our empirical strategy incorporates a robust set of control variables
+to ensure that the observed effect of board size on changes in the AI
+workforce is not confounded by other firm-specific characteristics.
+These controls address key factors identified in prior research as influ-
+ential in technological adoption and organizational decision-making,
+aligning the model with well-established theoretical frameworks.
+One key control variable is the percentage of female directors on the
+board. Gender diversity has been shown to enhance decision-making
+and creativity within boards, which can positively influence strategic
+investments such as AI adoption (Adams and Ferreira, 2009; Adams and
+Funk, 2012; Almor, Bazel-Shoham and Lee, 2022; Bazel-Shoham et al.,
+2024). Diverse boards are often more inclusive and innovative, fostering
+a governance environment conducive to exploring emerging technolo-
+gies. Similarly, the percentage of independent directors is included to
+account for the role of board independence in reducing agency conflicts
+and ensuring accountability (Jenwittayaroje and Jiraporn, 2019;
+Masulis and Mobbs, 2023; Rosenstein and Wyatt, 1990). Independent
+directors, who are less influenced by management, are more likely to
+prioritize strategic growth opportunities, such as expanding the AI
+workforce.
+Firm size is another critical control variable, reflecting the greater
+financial and managerial resources available to larger firms. Larger
+firms benefit from economies of scale, which often enable them to invest
+more readily in cutting-edge technologies like AI (Agrawal et al., 2019).
+Profitability captures a firm’s financial health and its capacity to allocate
+resources toward high-cost, high-return projects such as AI. Profitable
+firms are more likely to take risks on transformative technologies, as
+they have the flexibility to pursue long-term innovation strategies
+(Cockburn et al., 2018).
+Our analysis also includes leverage, measured as the firm’s debt-to-
+assets ratio. Firms with higher leverage may face financial constraints,
+limiting their ability to invest in AI workforce expansion. Controlling for
+leverage ensures that the results are not biased by differences in firms’
+financial obligations. Similarly, capital expenditures reflect firms’ in-
+vestment priorities, with higher expenditures often indicating a focus on
+traditional infrastructure rather than intangible assets like AI-related
+human capital (Mihet and Philippon, 2019).
+R&D intensity, or research and development expenditures as a per-
+centage of assets, is a key indicator of a firm’s commitment to innova-
+tion. Firms with higher R&D intensity are typically more inclined to
+adopt cutting-edge technologies, making this variable essential for
+capturing baseline differences in firms’ innovation capabilities. Adver-
+tising spending is included as a control to account for firms that focus
+more on market-oriented strategies rather than technological innova-
+tion, ensuring that the model distinguishes between different strategic
+priorities.
+Additional control variables include dividends, which represent cash
+outflows to shareholders that could otherwise be allocated to reinvest-
+ment in AI, and cash reserves, which indicate a firm’s liquidity and its
+ability to fund long-term projects without external financing (Loureiro
+et al., 2021). Asset tangibility, measured as the proportion of physical
+assets, reflects a firm’s focus on tangible versus intangible investments.
+Firms with lower asset tangibility are more likely to prioritize digital
+transformation efforts, such as AI integration.
+Moreover, the effective tax rate captures the impact of taxation on
+firms’ available capital for investment, while the current ratio reflects
+short-term liquidity and a firm’s capacity to meet immediate obligations
+while investing in AI. Finally, we include industry fixed effects to ac-
+count for variation across industries. Together, these control variables
+5
+P. Chatjuthamard et al.
+ensure that the regression analysis accounts for a comprehensive range
+of firm-specific factors, isolating the effects of board size on changes in
+the AI workforce. The variable definitions are shown in Table A1 in the
+Appendix and the summary statistics are shown in Table 1.
+5. Results
+5.1. Baseline regression analysis
+Table 2 examines the effect of board size in 2010 on the subsequent
+change in the share of AI-skilled workers from 2010 to 2018, providing
+insights into how governance structures influence the adoption of AI
+talent. The dependent variable, Δ (Share of AI Workers)2010–2018, mea-
+sures the growth in the proportion of AI-skilled employees during the
+study period. The independent variable of interest is the natural log of
+board size in 2010, with industry-fixed effects included to control for
+unobserved heterogeneity across sectors. Standard errors are clustered
+by industry to account for correlations within industry-level observa-
+tions, ensuring robust inference.
+The results reveal a significant negative effect of board size on the
+change in AI workforce share. In Model 1, the coefficient for board size is
+− 0.105 (p < 0.05), while in Model 2, it is− 0.182 (p < 0.01). These
+findings suggest that firms with larger boards in 2010 were slower to
+adopt AI talent compared to those with smaller boards. These findings
+align with the strategic agility hypothesis, which posits that smaller
+boards, by reducing coordination challenges and fostering quicker
+decision-making, enable firms to adapt more effectively to technological
+innovations like AI. The agility and focused governance associated with
+smaller boards appear to be a key factor in the proactive integration of
+AI talent, as evidenced by the stronger growth in AI workforce share
+among firms with smaller boards.
+Conversely, the results challenge the resource advantage hypothesis,
+which argues that larger boards provide greater access to expertise and
+external networks, facilitating complex transitions like AI adoption.
+While larger boards may offer resource benefits in other contexts, their
+inefficiencies—such as slower decision-making and difficulty aligning
+diverse perspectives—may hinder their ability to respond effectively to
+the rapidly evolving demands of AI integration. This demonstrates the
+importance of agility in governance structures for technological
+adaptation.
+The results notably align with Babina et al. (2024), who highlight
+that investments in an AI-skilled workforce significantly enhance firm Table 1
+Descriptive statistics.
+Mean SD 25th Median 75th
+AI Workforce
+Δ (Share of AI
+0.147 0.451 0.000 0.038 0.144
+Workers)2010–2018
+Board Characteristics
+Ln (Board Size)2010 2.327 0.209 2.197 2.303 2.485
+% Independent Directors2010 79.189 10.891 72.727 81.818 88.889
+% Female Directors2010 12.518 10.022 0.000 11.111 20.000
+Firm-Specific Attributes
+Firm Size2010 8.069 1.579 6.879 7.904 9.053
+Profitability2010 0.113 0.076 0.067 0.101 0.149
+Leverage2010 0.192 0.160 0.044 0.180 0.302
+Capital Expenditures2010 0.042 0.041 0.017 0.031 0.051
+R&D Intensity2010 0.025 0.045 0.000 0.000 0.030
+Advertising Spending2010 0.014 0.035 0.000 0.000 0.010
+Dividends2010 0.017 0.035 0.000 0.008 0.022
+Cash Reserves2010 0.163 0.149 0.047 0.120 0.236
+Asset Tangibility2010 0.526 0.371 0.225 0.427 0.788
+Effective Tax Rate2010 0.272 1.439 0.245 0.323 0.371
+Current Ratio2010 2.333 1.516 1.342 1.970 2.855
+This table presents the summary statistics. The variable definitions are shown in
+Table A1 in the Appendix. The firm-specific share of AI workers is developed by
+Babina et al. (2024).
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Table 2
+The effect of board size on AI worker adoption.
+(1) (2)
+Δ (Share of AI
+Workers)2010–2018
+Δ (Share of AI Workers)
+2010–2018
+Ln (Board Size)2010 -0.105** -0.182***
+(-2.017) (-2.886)
+% Female Directors2010 0.000
+(0.405)
+-0.000
+% Independent
+Directors2010
+Firm Size2010 0.064**
+Profitability2010 0.524**
+Leverage2010 0.173*
+Capital Expenditures2010 -0.007
+R&D Intensity2010 2.651**
+(-0.175)
+(2.473)
+(2.636)
+(1.986)
+(-0.015)
+(2.682)
+0.387
+Advertising
+Spending2010
+(1.073)
+Dividends2010 -1.022**
+(-2.071)
+Cash Reserves2010 0.436***
+(2.972)
+Asset Tangibility2010 -0.051
+(-0.927)
+Effective Tax Rate2010 -0.005***
+(-3.484)
+Current Ratio2010 0.053
+(1.408)
+Constant 0.392*** -0.252
+(3.244) (-0.995)
+Industry Fixed Effects Yes Yes
+Observations 636 636
+Adjusted R-squared 0.037 0.170
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the baseline regression results. The variable definitions are
+shown in Table A1 in the Appendix. The firm-specific share of AI workers is
+developed by Babina et al. (2024).
+value through channels such as product innovation, increased sales, and
+employment growth. By facilitating the integration of AI talent, smaller
+boards indirectly contribute to these advantages, reinforcing the argu-
+ment that streamlined board structures are beneficial for firm value. This
+builds on foundational governance literature, which emphasizes the
+strategic edge provided by leaner boards in driving organizational per-
+formance (Eisenberg et al., 1998; Yermack, 1996). Our findings further
+suggest that one key mechanism through which smaller boards enhance
+firm value is their ability to enable the faster and more effective inte-
+gration of AI-skilled employees. This underscores the critical need to
+align board structures with the specific strategic and technological
+challenges firms face, particularly in the era of transformative
+6
+P. Chatjuthamard et al.
+general-purpose technologies like AI.6
+To evaluate the economic significance of board size, we calculate the
+standardized coefficient of board size from Model 2 in Table 2. The
+analysis reveals that a one-standard-deviation decrease in board size
+increases the share of AI workers by 8.4 %. This finding highlights the
+substantial economic advantages of maintaining smaller boards. These
+results demonstrate that the benefits of smaller board size are not only
+statistically significant but also economically impactful.7
+Our results are unlikely to suffer from significant endogeneity, as we
+examine the change in the share of AI workers over time, accounting for
+time-invariant characteristics, and use board size levels from an earlier
+year, which reduces concerns about reverse causality. Nonetheless, as a
+precaution, we conduct additional analyses to further mitigate potential
+endogeneity and ensure the robustness of our findings.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Table 3
+Propensity score matching (PSM).
+Panel A: Diagnostic testing
+5.2. Propensity score matching (PSM)
+To ensure robustness and address endogeneity concerns, propensity
+score matching (PSM) is employed in the analysis presented in Table 3.
+PSM is a powerful statistical method that creates a comparison group
+closely resembling the treatment group in terms of observable charac-
+teristics (Lennox et al., 2012; Rosenbaum and Rubin, 1983). By
+matching firms with large board sizes (treatment group) to similar firms
+with smaller board sizes (control group) based on 13 firm-specific
+characteristics (i.e., the 13 control variables in the regression anal-
+ysis), PSM enables a robust evaluation of the causal effects of board size
+on corporate outcomes. This approach eliminates biases introduced by
+differences in observable variables, ensuring that the treatment and
+control groups differ only in the factor of interest—board size.8
+Table 3 Panel A focuses on comparing the treatment and control
+groups before and after matching. Before matching, significant differ-
+ences exist between the two groups. Firms with large boards (treatment
+group) are generally larger in terms of total assets. These firms also
+display greater advertising intensity and yet lower cash reserves
+6 To shed further light on the mechanisms behind the effect of board size, we
+examine whether variation in technological expertise on the board plays a role.
+We use two proxies that plausibly capture this dimension. First, we include an
+indicator for whether the firm has a board-level technology subcommittee, as
+the existence of such a subcommittee suggests that the board formally allocates
+attention and expertise to technology-related issues. Second, we incorporate the
+average age of directors, based on the notion that younger directors may be
+more familiar with recent technological developments and digital tools than
+older directors. We also interact each proxy with board size. However, none of
+these variables or interaction terms are statistically significant, and their in-
+clusion does not alter the main results.
+7 Our empirical design follows the long-difference framework used in Babina
+et al. (2024), who relate baseline firm characteristics in 2010 to changes in
+corporate outcomes between 2010 and 2018. The logic of this approach is that
+many governance attributes—such as board size—adjust slowly over time, so
+exploiting cross-sectional heterogeneity in the initial period provides a cleaner
+identification strategy and mitigates concerns about reverse causality. Consis-
+tent with this reasoning, board size in our sample is highly persistent: the mean
+natural log of board size is 2.327 in 2010 and 2.355 in 2018. Even after eight
+years, the average changes only minimally, demonstrating the stability of board
+size and supporting the appropriateness of the long-difference specification.
+8 PSM offers several critical advantages. First, it reduces selection bias by
+balancing covariates between the treatment and control groups, replicating the
+conditions of a randomized controlled trial. This ensures that differences in
+outcomes are attributable to board size rather than other firm characteristics.
+Second, PSM enhances the interpretability of results by controlling for con-
+founding variables, such as firm size, profitability, leverage, and market dy-
+namics, which might otherwise obscure the relationship between board size and
+outcomes. By improving the comparability of treatment and control groups,
+PSM strengthens the reliability and validity of the findings, making it an
+invaluable tool in observational research (Lennox et al., 2012; Rosenbaum and
+Rubin, 1983).
+(1) (2)
+Pre-Match Post-Match
+Treatment (Large Board
+Size)
+Size)
+% Female Directors2010 0.012 0.006
+(0.849) (0.352)
+-0.003 -0.014
+Treatment (Large Board
+% Independent
+Directors2010
+(-0.302) (-0.709)
+Firm Size2010 0.833*** -0.011
+(12.388) (-0.107)
+Profitability2010 0.999 -2.816
+(0.419) (-0.955)
+Leverage2010 0.801 -0.011
+(0.808) (-0.008)
+Capital Expenditures2010 -6.566 2.834
+(-1.097) (0.312)
+R&D Intensity2010 -2.958 -0.772
+(-0.825) (-0.070)
+Advertising Spending2010 11.480*** -1.063
+(2.800) (-0.393)
+Dividends2010 0.919 13.754
+(0.189) (0.883)
+Cash Reserves2010 -3.356*** 0.064
+(-2.979) (0.034)
+Asset Tangibility2010 0.278 -0.597
+(0.595) (-0.736)
+Effective Tax Rate2010 -0.043 0.008
+(-0.401) (0.148)
+Current Ratio2010 0.088 -0.034
+(0.855) (-0.137)
+Constant -8.728*** 1.569
+(-9.510) (0.774)
+Pseudo R-squared 0.259 0.012
+Observations 644 234
+Panel B: Regression analysis
+(1)
+Δ (Share of AI Workers)
+2010–2018
+Ln (Board Size)2010 -0.291***
+(-2.812)
+% Female Directors2010 0.002***
+(2.810)
+-0.003***
+% Independent
+Directors2010
+(-4.548)
+Firm Size2010 0.046***
+(4.345)
+Profitability2010 0.256
+(0.732)
+Leverage2010 0.053
+(0.528)
+Capital Expenditures2010 0.452
+(0.732)
+R&D Intensity2010 2.345
+(1.436)
+Advertising Spending2010 0.272
+(0.583)
+Dividends2010 0.559
+(0.467)
+Cash Reserves2010 0.907***
+(4.171)
+Asset Tangibility2010 -0.027
+(-0.365)
+Effective Tax Rate2010 -0.007***
+(-3.115)
+Current Ratio2010 -0.011
+(-0.753)
+Constant 0.479**
+(2.446)
+Industry Fixed Effects Yes
+Observations 218
+Adjusted R-squared 0.583
+7
+P. Chatjuthamard et al.
+Robust z-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the results for propensity score matching (PSM). The variable
+definitions are shown in Table A1 in the Appendix. The firm-specific share of AI
+workers is developed by Babina et al. (2024).
+compared to the rest of the sample. These disparities highlight the need
+for PSM to ensure meaningful comparisons.
+After matching, these differences disappear. The matching process
+creates a control group that is statistically indistinguishable from the
+treatment group across the 13 firm-specific characteristics. For example,
+differences in average asset size and cash reserves observed before
+matching are no longer significant after matching. This alignment en-
+sures that the matched sample reflects the treatment group’s charac-
+teristics, enabling the analysis to isolate the effects of board size from
+other variables.9 By eliminating these pre-existing disparities, PSM
+demonstrates its effectiveness in creating a reliable basis for causal
+inference.
+In Panel B, the analysis leverages the balanced sample from Panel A
+to assess the impact of board size on corporate outcomes. The results
+reveal that board size significantly influences the integration of AI em-
+ployees into the workforce, with smaller board size leading to a larger
+share of AI workers, corroborating our results in the baseline regression
+analysis discussed earlier. By using PSM, our study achieves a high de-
+gree of rigor and clarity. The matched sample eliminates biases and
+ensures that any differences in outcomes are likely attributable to board
+size alone. This methodological strength allows for a credible analysis of
+the effects of board size, making the findings robust and reliable.
+5.3. Entropy balancing
+For further robustness, we implement entropy balancing in Table 4.
+Unlike propensity score matching (PSM), which creates a matched
+sample by selecting comparable observations, entropy balancing
+weights the dataset such that the treatment (large board size) and con-
+trol groups are balanced across all observed covariates. This method
+ensures that the weighted means of covariates in the treatment and
+control groups are identical, addressing any pre-existing differences.
+The benefits of entropy balancing are significant. First, it minimizes
+data loss, as no observations are discarded during the reweighting pro-
+cess, unlike in matching techniques where unmatched units are
+excluded. Second, entropy balancing ensures near-perfect covariate
+balance, reducing residual bias in the estimates. Third, it avoids the
+arbitrariness of selecting matching criteria or thresholds, providing a
+more robust and transparent method of achieving balance. This makes
+entropy balancing especially useful in cases where sample sizes are
+limited or the distributions of covariates differ widely between groups
+(Hainmueller, 2012; Hainmueller and Xu, 2013; Tübbicke, 2022).
+The results in Table 4 indicate a statistically significant negative
+effect of board size on the change in the share of AI-skilled workers. The
+coefficient for ln (Board Size) is− 0.158 (p <0.01), suggesting that firms
+9 Notably, the R-squared value represents the proportion of variation in the
+treatment variable (board size in this case) that can be explained by the
+observable characteristics used in the matching process. Before matching, the
+R-squared is relatively high because the large differences between the treatment
+and control groups allow observable characteristics to explain much of the
+variation. After matching, the R-squared drops because the matching process
+balances the treatment and control groups, ensuring that the observable vari-
+ables no longer systematically explain differences in board size. In effect, the
+treatment and control groups become statistically similar, leaving less variation
+in board size to be explained by the covariates. This reduction in R-squared is a
+natural outcome of a successful matching process, indicating that the model has
+eliminated observable imbalances and created comparable groups.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Table 4
+Entropy balancing.
+(1)
+Δ (Share of AI Workers) 2010–2018
+Ln (Board Size)2010 -0.158***
+% Female Directors2010 0.002**
+% Independent Directors2010 -0.002***
+Firm Size2010 0.044***
+Profitability2010 0.460**
+Leverage2010 0.104
+Capital Expenditures2010 0.644*
+R&D Intensity2010 2.478*
+Advertising Spending2010 0.287
+Dividends2010 -0.458
+Cash Reserves2010 0.415***
+Asset Tangibility2010 -0.030
+Effective Tax Rate2010 -0.006***
+Current Ratio2010 0.011
+Constant 0.044
+(-3.019)
+(2.515)
+(-2.703)
+(3.217)
+(2.220)
+(1.503)
+(1.890)
+(1.827)
+(0.927)
+(-1.093)
+(3.351)
+(-0.595)
+(-3.453)
+(0.678)
+(0.377)
+Industry Fixed Effects Yes
+Observations 636
+Adjusted R-squared 0.425
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the results for entropy balancing. The variable definitions are
+shown in Table A1 in the Appendix. The firm-specific share of AI workers is
+developed by Babina et al. (2024).
+with larger boards are slower to adopt AI talent compared to those with
+smaller boards. These findings once again align with the strategic agility
+hypothesis, which posits that smaller boards facilitate quicker decision-
+making and are better suited for navigating fast-moving technological
+changes like AI integration.
+5.4. Instrumental-variable analysis (IV)
+Table 5 employs instrumental-variable (IV) analysis to further
+address potential endogeneity issues in estimating the impact of board
+size on changes in the share of AI-skilled workers. Endogeneity may
+arise from omitted variable bias, measurement errors, or reverse cau-
+sality, which could lead to biased and inconsistent estimations in ordi-
+nary least squares (OLS) regressions. IV analysis mitigates these
+concerns by using external instruments that are correlated with the
+endogenous variable (board size) but uncorrelated with the error term in
+the second-stage regression (Angrist and Krueger, 1991). The IV
+approach ensures that the estimated effect of board size on AI workforce
+adoption reflects a causal effect, not spurious correlations driven by
+confounding factors. By leveraging instruments that are plausibly
+exogenous, this method strengthens the validity and reliability of the
+findings.
+Our first instrument is the average board size of firms located in the
+same zip code. This choice is justified based on the findings of Knyazeva
+et al. (2013), which show that the local supply of directors is critically
+important. Firms in close proximity tend to share access to the same pool
+of directors, leading to similar board size characteristics. For instance,
+8
+P. Chatjuthamard et al.
+Table 5
+Instrumental-variable analysis.
+(1) (2) (3) (4)
+First Stage Second Stage First Stage Second Stage
+Ln (Board
+Δ (Share of
+Ln (Board
+Δ (Share of
+Size)2010
+AI Workers)
+Size)2010
+AI Workers)
+2010–2018
+2010–2018
+Ln (Board Size)
+(Instrumented)
+-0.088* -0.808*
+(-1.687) (-1.693)
+Ln (Board Size)
+(Zip Code
+Average)
+0.935***
+(62.990)
+Ln (Board Size)
+(Industry
+Average)
+0.489***
+(7.908)
+% Female
+Directors2010
+0.000 0.000 0.002** 0.001
+(1.407) (0.233) (2.464) (0.710)
+0.000 -0.000 0.001** 0.000
+% Independent
+Directors2010
+(0.010) (-0.306) (2.464) (0.279)
+Firm Size2010 0.012*** 0.058** 0.062*** 0.104**
+(3.856) (2.488) (17.100) (2.525)
+Profitability2010 -0.073 0.521** 0.027 0.313
+(-1.353) (2.541) (0.275) (1.599)
+Leverage2010 0.006 0.166* 0.042 0.194**
+(0.259) (1.969) (0.717) (2.275)
+Capital
+-0.153 0.031 -0.493** 0.080
+Expenditures2010
+(-1.360) (0.068) (-2.143) (0.191)
+R&D Intensity2010 0.030 2.652** 0.018 2.386**
+(0.468) (2.661) (0.090) (2.409)
+0.035 0.347 0.431** 0.254
+Advertising
+Spending2010
+(0.830) (0.945) (2.494) (0.709)
+Dividends2010 0.040 -1.040** 0.194 -0.957**
+(0.843) (-2.038) (0.818) (-2.015)
+Cash Reserves2010 0.021 0.450*** -0.108* 0.521***
+(0.607) (2.909) (-1.912) (3.519)
+Asset
+0.021 -0.053 -0.001 -0.066
+Tangibility2010
+(1.113) (-0.921) (-0.041) (-1.652)
+Effective Tax
+-0.000 -0.005*** -0.003 -0.006***
+Rate2010
+(-0.121) (-3.335) (-0.709) (-3.427)
+Current Ratio2010 0.002 0.053 -0.000 0.039
+(0.792) (1.407) (-0.027) (1.036)
+Constant -0.415 0.597*** 0.890
+(-1.219) (3.857) (1.080)
+Yes Yes No No
+Industry Fixed
+Effects
+Observations 636 636 644 644
+Adjusted R-squared 0.885 0.167 0.444 0.185
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the results for an instrumental variable analysis (IV). The
+variable definitions are shown in Table A1 in the Appendix. The firm-specific
+share of AI workers is developed by Babina et al. (2024).
+regions with a limited supply of qualified directors often exhibit smaller
+board sizes, while areas with a rich director pool tend to have larger
+boards. Zip codes serve as a logical geographic unit for this analysis
+because they are designed to optimize mail delivery efficiency and are
+therefore exogenous to firm-specific characteristics (Chintrakarn et al.,
+2017, 2015; Jiraporn et al., 2014)). This exogeneity strengthens the
+validity of this instrument.
+In Table 5, Model 1 represents the first stage regression examining
+the effect of the average board size in the zip code and the firm’s own
+board size. The coefficient for the zip code average board size is 0.935
+(p < 0.01), indicating a strong and positive correlation. This demon-
+strates that the local director supply significantly influences individual
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+firm board sizes, satisfying the relevance criterion for a valid instrument.
+Model 2 is the second stage using the instrumented values of board size
+from Model 1 to estimate its impact on the change in the share of AI
+workers. The coefficient for the instrumented board size is− 0.088
+(p <0.1), suggesting that larger boards lead to slower AI adoption. This
+finding aligns with the strategic agility hypothesis, which posits that
+smaller boards enable quicker decision-making and adaptation to
+technological changes.
+For further robustness, we also use an alternative instrumental var-
+iable. The second instrument is the average board size of firms within
+the same industry, defined by the first two digits of the SIC code. This
+instrument is justified by the notion that industry norms and regulatory
+environments influence board size independently of individual firm
+characteristics. For example, industries requiring extensive oversight
+may systematically have larger boards, while more agile industries like
+technology may have smaller boards. Since these averages are calcu-
+lated across many firms, they are likely exogenous to any single firm's
+specific outcomes (Chatjuthamard et al., 2022)
+In Table 5, in the first stage (Model 3), the average industry board
+size is strongly correlated with individual firm board size, as evidenced
+by the coefficient of 0.489 (p < 0.01). This reinforces the relevance of
+the instrument, showing that industry norms play a significant role in
+shaping board size. The second stage, Model 4, uses the instrumented
+board size from Model 3 to estimate its causal impact on AI workforce
+adoption. The coefficient for the instrumented board size is− 0.808
+(p < 0.1), providing further evidence that larger boards hinder the
+integration of AI talent. This result highlights the challenges larger
+boards face in responding swiftly to innovation demands.
+To further ensure robustness, Table 6 presents an instrumental-
+variable (IV) analysis that employs two instruments—board size in
+2005 and the average board size within the same industry—to address
+endogeneity concerns more comprehensively. The two-instrument
+approach provides stronger identification, mitigating potential biases
+from omitted variables, reverse causality, and measurement errors that
+might otherwise compromise the validity of the results.
+The first instrument, board size in 2005, is justified on the grounds of
+historical persistence in governance structures. Firms rarely make
+drastic changes to their board size over short periods, and board size in
+2005 is strongly predictive of board size in 2010. However, this his-
+torical measure is unlikely to directly influence AI workforce adoption
+during the 2010–2018 period, given the long lag and the unrelated na-
+ture of these variables. The second instrument, the average board size
+within the same industry (as defined by the first two digits of the SIC
+code), is based on the premise that industry norms and regulatory en-
+vironments significantly shape board size, as discussed earlier.
+In the first stage of the analysis (Model 1), the two instruments are
+used to predict a firm’s board size in 2010. Both instruments demon-
+strate strong predictive power. Board size in 2005 has a coefficient of
+0.529 (p <0.01), indicating a robust correlation between historical and
+current board size. Similarly, the coefficient for the industry average
+board size is 0.279 (p <0.01), reflecting the influence of industry norms
+on board size decisions. These results confirm that the instruments are
+relevant, meaning they are strongly correlated with the endogenous
+variable, board size.
+The second stage (Model 2) leverages the instrumented values of
+board size from the first stage to estimate its causal effect on AI work-
+force adoption. The coefficient for board size in this stage is− 0.212
+(p <0.05), indicating a statistically significant negative effect of board
+size on the change in the share of AI-skilled workers. This finding once
+again reinforces the strategic agility hypothesis, which suggests that
+smaller boards are better equipped to make timely and effective de-
+cisions in response to technological advancements. The Hansen J-sta-
+tistic in Model 2 is not significant, indicating that our instrumental
+variables are acceptable. To further enhance robustness, we apply pro-
+pensity score matching and entropy balancing in Models 3 and 4, as
+presented in Table 6, building on the instrumental variable analysis. The
+9
+P. Chatjuthamard et al.
+Table 6
+Instrumental-variable analysis with two instruments.
+(1) (2) (3) (4)
+PSM Entropy
+Balancing
+First Stage Second
+Second
+Second
+Stage
+Stage
+Stage
+Ln (Board
+Δ (Share of
+Δ (Share of
+Δ (Share of
+Size)2010
+AI Workers)
+AI Workers)
+AI Workers)
+2010–2018
+2010–2018
+2010–2018
+-0.212** -0.289** -0.295**
+(-2.237) (-2.484) (-2.561)
+Ln (Board Size)
+(Instrumented)
+Ln (Board
+Size)2005
+0.529***
+(15.869)
+0.279***
+Ln (Board Size)
+(Industry
+Average)
+(4.056)
+% Female
+Directors2010
+-0.000 -0.001 0.002*** 0.002*
+(-0.627) (-0.454) (3.130) (1.709)
+0.001 -0.000 -0.004*** -0.003**
+% Independent
+Directors2010
+(1.398) (-0.109) (-3.364) (-2.560)
+Firm Size2010 0.028*** 0.051*** 0.041*** 0.036***
+(7.410) (3.065) (3.494) (4.003)
+Profitability2010 0.005 0.582** 0.010 0.159
+(0.060) (2.601) (0.033) (0.977)
+Leverage2010 0.051 0.074 -0.048 -0.005
+(1.064) (0.830) (-0.622) (-0.069)
+Capital
+-0.134 0.357 0.670 0.955**
+Expenditures2010
+(-0.722) (1.436) (1.301) (2.399)
+R&D Intensity2010 0.175 2.486** 1.930 2.393*
+(1.185) (2.432) (1.508) (1.765)
+0.493** -0.432* -0.548* -0.607**
+Advertising
+Spending2010
+(2.440) (-1.741) (-1.801) (-2.526)
+Dividends2010 0.028 -1.428*** 0.825 -0.155
+(0.129) (-3.635) (0.817) (-0.309)
+Cash Reserves2010 -0.164*** 0.646** 0.969*** 0.744***
+(-3.142) (2.090) (3.908) (3.494)
+Asset
+-0.033 -0.071 -0.042 -0.046
+Tangibility2010
+(-1.542) (-1.636) (-0.691) (-0.871)
+Effective Tax
+0.003 -0.004 -0.005** -0.005**
+Rate2010
+(0.799) (-1.400) (-2.494) (-1.969)
+Current Ratio2010 0.007** -0.014* -0.031* -0.014
+(2.134) (-1.780) (-1.722) (-1.368)
+Constant 0.209 0.080 0.664** 0.615**
+(1.469) (0.227) (2.251) (2.157)
+Observations 472 472 205 472
+Adjusted R-squared 0.624 0.168 0.375 0.305
+F-Statistics 195.58***
+Hansen J-Statistics 2.101 0.007 0.522
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the results for an instrumental variable analysis (IV) with two
+instruments. The variable definitions are shown in Table A1 in the Appendix.
+The firm-specific share of AI workers is developed by Babina et al. (2024).
+results remain consistent across these approaches. With consistent
+findings across multiple model specifications, our results demonstrate
+strong robustness.
+5.5. Oster’s (2019) approach for testing coefficient stability and ITCV
+To further assess the robustness of our findings, we employ Oster's
+(2019) method for testing coefficient stability, which evaluates the po-
+tential impact of unobserved factors on the estimated relationships. This
+analysis reveals that for the observed effect of board size on the share of
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+AI workers to be nullified, the influence of unobservable factors would
+need to be 1.74 times greater than that of the observed covariates. This
+result demonstrates the strong robustness of our conclusions, as it is
+highly improbable that unobservable variables would have such an
+overwhelmingly greater effect than the variables included in our
+analysis.
+Alongside Oster's (2019) technique, we also apply the Impact
+Threshold for a Confounding Variable (ITCV) to further evaluate the
+robustness of our findings. The ITCV analysis indicates that for the
+conclusions to be invalidated, 28.81 % of the current effect estimate
+would need to be attributed to bias. In practical terms, this would
+require substituting 28.81 % of the sample with observations showing
+no association between board size and the share of AI workers. This high
+threshold underscores the robustness of our results, as it is unlikely that
+such a significant portion of the observed effect is due to confounding
+factors. These findings reinforce the reliability of our conclusion that
+board size has a meaningful impact on AI workforce adoption, providing
+strong evidence against potential biases.
+5.6. Interactions with firm-specific attributes
+Table 7 examines how firm-specific characteristics influence the
+relationship between board size and the adoption of AI-skilled workers.
+By including interaction terms, this analysis shows how profitability,
+leverage, R&D intensity, and cash reserves impact the effect of board
+size on AI workforce adoption.
+Profitability is included because it reflects a firm’s financial health
+and capacity to invest in long-term technologies like AI. Leverage
+measures the extent to which a firm’s financial constraints affect its
+strategic decisions. R&D intensity captures a firm’s focus on innovation
+and technological development, while cash reserves represent liquidity
+and the ability to fund initiatives without relying on external financing.
+These characteristics are chosen because they are widely recognized in
+the literature as determinants of a firm’s ability to adopt cutting-edge
+technologies like AI (Babina et al., 2024; Cockburn et al., 2018).
+In Model 1, the interaction between board size and profitability
+shows no significant effect, indicating that while profitability enhances a
+firm’s overall investment capacity, it does not significantly alter the
+effect of board size on AI workforce adoption. Similarly, the interaction
+between board size and leverage in Model 2 is not significant, suggesting
+that financial constraints from leverage do not meaningfully impact the
+relationship between board size and AI adoption.
+In Model 3, the interaction between board size and R&D intensity is
+highly significant and negative, with a coefficient of− 5.460. This
+demonstrates that larger boards significantly hinder AI workforce
+adoption in R&D-intensive firms. R&D-driven firms operate in dynamic
+and competitive environments that demand agility, quick decision-
+making, and the capacity to navigate uncertainty effectively. Larger
+boards, however, are inherently less nimble due to coordination chal-
+lenges and the slower consensus-building processes that arise from a
+greater diversity of perspectives and competing interests. These in-
+efficiencies reduce the board’s ability to respond quickly to the needs of
+R&D-intensive environments, where rapid adaptation is essential for
+sustaining innovation and maintaining competitiveness. This finding
+aligns with the strategic agility hypothesis, which stresses the impor-
+tance of smaller boards in industries characterized by fast-paced tech-
+nological advancements and complex innovation processes (Raheja,
+2005; Yermack, 1996; Eisenberg et al., 1998).
+Furthermore, R&D investments typically involve higher risk and
+longer time horizons, requiring governance structures that can deci-
+sively support bold strategic decisions. Larger boards, with their ten-
+dency for risk aversion and prolonged deliberations, may struggle to
+provide the necessary support for such initiatives. This inability to act
+swiftly and decisively can be detrimental to firms attempting to scale
+their AI capabilities, particularly when innovation cycles are short and
+the window of opportunity to leverage new technologies is limited.
+10
+P. Chatjuthamard et al.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Table 7
+Interactions with firm-specific attributes.
+(1) (2) (3) (4)
+Δ (Share of AI
+Workers)2010–2018
+Δ (Share of AI
+Workers)2010–2018
+Δ (Share of AI
+Workers)2010–2018
+Δ (Share of AI
+Workers)2010–2018
+Ln (Board Size)2010 £Profitability2010 0.404
+(0.485)
+Ln (Board Size)2010 £Leverage2010 0.269
+(0.836)
+Ln (Board Size)2010 £R&D
+Intensity2010
+-5.460***
+(-3.033)
+Ln (Board Size)2010 £Cash
+Reserves2010
+-1.364***
+(-2.693)
+Ln (Board Size) -0.230 -0.230** -0.063 0.022
+(-1.648) (-2.146) (-0.993) (0.405)
+% Female Directors2010 0.000 0.000 0.001 0.001
+(0.333) (0.498) (0.570) (0.752)
+% Independent Directors2010 -0.000 -0.000 -0.000 -0.000
+(-0.166) (-0.219) (-0.331) (-0.459)
+Firm Size2010 0.065** 0.065** 0.068** 0.065**
+(2.453) (2.463) (2.525) (2.504)
+Profitability2010 -0.410 0.518** 0.471** 0.491**
+(-0.209) (2.568) (2.608) (2.566)
+Leverage2010 0.169* -0.450 0.178** 0.176**
+(1.937) (-0.580) (2.152) (2.172)
+Capital Expenditures2010 -0.010 -0.019 0.133 0.031
+(-0.021) (-0.041) (0.334) (0.068)
+R&D Intensity2010 2.649*** 2.642*** 14.955*** 2.659***
+(2.686) (2.688) (3.323) (2.766)
+Advertising Spending2010 0.373 0.383 0.329 0.400
+(1.068) (1.060) (0.885) (1.094)
+Dividends2010 -1.004** -1.034** -1.072** -1.049**
+(-2.055) (-2.118) (-2.495) (-2.120)
+Cash Reserves2010 0.440*** 0.434*** 0.446*** 3.476***
+(2.895) (2.984) (2.974) (2.823)
+Asset Tangibility2010 -0.051 -0.049 -0.059 -0.052
+(-0.932) (-0.885) (-1.208) (-1.010)
+Effective Tax Rate2010 -0.005*** -0.005*** -0.005*** -0.005***
+(-3.173) (-3.054) (-3.190) (-3.643)
+Current Ratio2010 0.053 0.053 0.051 0.051
+(1.402) (1.406) (1.385) (1.406)
+Constant -0.143 -0.143 -0.540 -0.706*
+(-0.448) (-0.586) (-1.646) (-1.772)
+Industry Fixed Effects Yes Yes Yes Yes
+Observations 636 636 636 636
+Adjusted R-squared 0.169 0.169 0.178 0.175
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the regression results with interactions with firm-specific attributes. The variable definitions are shown in Table A1 in the Appendix. The firm-
+specific share of AI workers is developed by Babina et al. (2024).
+In Model 4, the interaction between board size and cash reserves is
+also significant and negative, with a coefficient of− 1.364. This finding
+highlights the inefficiency of larger boards in deploying liquidity for
+strategic investments, such as AI workforce expansion. Cash reserves
+provide firms with the flexibility to invest in transformative projects
+without the constraints of external financing. However, larger boards,
+due to their slower decision-making processes and potential conflicts
+among directors, often fail to capitalize on this advantage. Governance
+literature has repeatedly noted that larger boards are prone to diffusion
+of responsibility, where decision-making is fragmented and account-
+ability is diluted (Lipton and Lorsch, 1992). This organizational inertia
+can result in missed opportunities to deploy resources effectively,
+particularly in competitive and innovation-driven markets.
+Furthermore, the interaction results help clarify which theoretical
+channels are more or less likely to explain why smaller boards are
+associated with greater AI-workforce adoption. The absence of strong
+differential effects across profitability and leverage suggests that the
+board-size relationship is not primarily driven by firms’ financial
+strength or financial constraints. If the mechanism were largely
+financial—i.e., smaller boards simply enabling firms with more re-
+sources to invest in AI—we would expect the effect of board size to vary
+systematically with these characteristics. Instead, the relatively muted
+interactions point away from a purely financial-capacity explanation.
+In contrast, the interactions involving R&D intensity and cash
+holdings offer insights more consistent with governance-based mecha-
+nisms. These characteristics proxy for environments where strategic
+decisions must be made quickly (R&D-intensive firms) and where the
+firm has the liquidity to act immediately (high-cash firms). The fact that
+these interactions are more informative suggests that the board-size
+effect is likely operating through differences in coordination effi-
+ciency, decisiveness, and responsiveness—key dimensions highlighted
+in governance theory (Raheja, 2005; Yermack, 1996; Lipton and Lorsch,
+1992). Smaller boards may be better able to mobilize resources rapidly
+or support innovation-driven workforce changes, whereas larger boards
+may face internal frictions that slow down organizational adaptation.
+Taken together, the interaction evidence helps narrow the set of
+plausible mechanisms: it indicates that the relationship between board
+size and AI adoption is unlikely to be driven by financing constraints or
+11
+P. Chatjuthamard et al.
+general firm strength, and is more consistent with a strategic-agility
+channel, where smaller boards enable faster decision-making and
+more flexible deployment of resources in response to emerging tech-
+nological opportunities.
+5.7. Interactions with other board characteristics
+Table 8 investigates how specific board characteristics, such as the
+percentage of independent directors and the percentage of female di-
+rectors, influence the relationship between board size and the adoption
+of AI-skilled workers. This analysis builds on the earlier findings by
+examining how these board attributes modify the effectiveness of board
+size in driving technological adoption.
+The focus on these board characteristics is well-founded. Indepen-
+dent directors are expected to enhance oversight and reduce agency
+conflicts, which can improve governance outcomes, particularly in
+strategic areas such as AI adoption (Adams et al., 2010; Hermalin and
+Weisbach, 2001). Meanwhile, gender diversity is associated with
+improved decision-making quality and innovation, as diverse boards are
+more likely to consider a broader range of perspectives and solutions
+(Adams and Ferreira, 2007). These characteristics are critical in
+Table 8
+Interactions with board characteristics.
+(1) (2)
+Δ (Share of AI
+Workers)2010–2018
+Δ (Share of AI
+Workers)2010–2018
+Ln (Board Size)2010 £%
+Independent Directors2010
+-0.004
+(-1.309)
+Ln (Board Size)2010 £%
+Female Directors2010
+0.004
+(1.045)
+Ln (Board Size) 0.147 -0.228***
+(0.582) (-2.870)
+% Female Directors2010 0.000 -0.009
+(0.352) (-0.951)
+% Independent Directors2010 0.010 -0.000
+(1.296) (-0.149)
+Firm Size2010 0.065** 0.064**
+(2.505) (2.445)
+Profitability2010 0.525** 0.522**
+(2.649) (2.631)
+Leverage2010 0.174* 0.173*
+(1.983) (2.006)
+Capital Expenditures2010 0.003 -0.030
+(0.007) (-0.064)
+R&D Intensity2010 2.655** 2.646***
+(2.682) (2.694)
+Advertising Spending2010 0.368 0.355
+(1.038) (0.999)
+Dividends2010 -1.010** -1.037**
+(-2.125) (-2.142)
+Cash Reserves2010 0.431*** 0.434***
+(2.981) (2.927)
+Asset Tangibility2010 -0.051 -0.048
+(-0.923) (-0.873)
+Effective Tax Rate2010 -0.005*** -0.006***
+(-3.877) (-3.869)
+Current Ratio2010 0.054 0.053
+(1.423) (1.399)
+Constant -1.017 -0.147
+(-1.443) (-0.499)
+Industry Fixed Effects Yes Yes
+Observations 636 636
+Adjusted R-squared 0.169 0.169
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the regression results with interactions with board charac-
+teristics. The variable definitions are shown in Table A1 in the Appendix. The
+firm-specific share of AI workers is developed by Babina et al. (2024).
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+determining whether larger boards can overcome their coordination
+challenges to facilitate innovation and strategic investments.
+In Model 1, the interaction between board size and the percentage of
+independent directors is negative but not statistically significant. This
+suggests that while board independence plays a vital role in improving
+governance, it does not significantly alter the relationship between
+board size and AI adoption. Larger boards may struggle to leverage the
+benefits of independent directors due to inherent inefficiencies in
+decision-making processes (Lipton and Lorsch, 1992). In Model 2, the
+interaction between board size and the percentage of female directors is
+positive but not significant. This indicates that while gender diversity is
+generally associated with better governance and innovation, it does not
+meaningfully mitigate the negative effects of larger board size on AI
+adoption. The lack of statistical significance may reflect the broader
+coordination and communication challenges faced by larger boards,
+which may overshadow the benefits brought by gender diversity (Dalton
+et al., 1999).
+5.8. The effect of board size on the variability of the AI workforce
+To gain further insights, we also explore the effect of board size on
+the variability of the AI workforce. Investigating the effect of board size
+on the variability of the AI workforce provides critical insights into how
+governance structures influence not only the level but also the stability
+of AI integration within firms. Understanding this variability is essential,
+as fluctuations in AI workforce composition can reflect a firm's capacity
+for adaptation, risk tolerance, and strategic experimentation in the face
+of technological changes. Variability also highlights how governance
+mechanisms can shape the consistency and predictability of investments
+in AI talent over time.
+To measure variability, we use two distinct metrics. The first is the
+standard deviation of the AI workforce between 2010 and 2018,
+capturing the dispersion of AI workforce shares around their mean. The
+second measure is the range, defined as the difference between the
+maximum and minimum shares of AI workers during the same period.
+These metrics provide complementary perspectives on how governance
+structures impact both the magnitude and extremes of AI workforce
+fluctuations.
+The results in Table 9 reveal a statistically significant negative effect
+of board size on both measures of variability. Specifically, smaller
+boards result in higher standard deviations and wider ranges in AI
+workforce shares, indicating that firms with smaller boards experience
+greater fluctuations in their AI workforce over time. We confirm the
+robustness of the results by employing PSM and entropy balancing in
+Table 10 and still obtain consistent results. This finding aligns with the
+strategic agility hypothesis, which suggests that smaller boards enable
+firms to act more decisively and adaptively in dynamic environments
+(Lipton and Lorsch, 1992; Raheja, 2005). Smaller boards may encourage
+firms to experiment with different levels of AI workforce integration,
+leading to variability as firms refine their strategies and adapt to
+changing technological and market conditions.
+The observed fluctuations may also reflect the iterative nature of AI
+adoption. Babina et al. (2024) highlight that firms often undergo a
+process of learning-by-doing when integrating AI technologies, making
+incremental adjustments to optimize their use of AI-skilled labor.
+Smaller boards, with their streamlined decision-making and greater
+agility, may facilitate this experimental approach, resulting in greater
+workforce volatility as firms explore and recalibrate their AI strategies.
+From this perspective, variability is not inherently negative but may
+signal proactive adaptation and innovation.
+Additionally, resource dependence theory offers further insights into
+these results. Smaller boards, while agile, may also operate with fewer
+resources and less stability in external networks compared to larger
+boards (Pfeffer and Salancik, 1978). This could lead to periodic scaling
+up or down of AI workforce investments as smaller boards respond to
+financial or environmental constraints. In contrast, larger boards, with
+12
+P. Chatjuthamard et al.
+Table 9
+The effect of board size on the variability of the AI workforce.
+(1) (2)
+(S.D. of the AI
+Workforce)2010–2018
+(Range of the AI
+Workforce)2010–2018
+Ln (Board Size)2010 -0.001** -0.001**
+(-2.649) (-2.159)
+% Female
+-0.000 -0.000
+Directors2010
+(-0.381) (-0.296)
+0.000 0.000
+% Independent
+Directors2010
+(0.823) (0.430)
+Firm Size2010 0.000** 0.001**
+(2.152) (2.195)
+Profitability2010 0.002** 0.005**
+(2.336) (2.519)
+Leverage2010 0.001* 0.002*
+(1.877) (1.851)
+Capital
+-0.000 -0.000
+Expenditures2010
+(-0.326) (-0.110)
+R&D Intensity2010 0.010*** 0.026***
+(2.901) (2.808)
+0.001 0.002
+Advertising
+Spending2010
+(0.753) (0.580)
+Dividends2010 -0.004* -0.009*
+(-1.936) (-1.704)
+Cash Reserves2010 0.002*** 0.005***
+(3.003) (3.095)
+Asset Tangibility2010 -0.000 -0.000
+(-0.703) (-0.668)
+Effective Tax Rate2010 0.000 0.000
+(0.469) (0.470)
+Current Ratio2010 0.000* 0.001*
+(1.940) (1.791)
+Constant -0.001 -0.003
+(-0.966) (-1.169)
+Industry Fixed Effects Yes Yes
+Observations 636 636
+Adjusted R-squared 0.170 0.176
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the regression results for the effect of board size on the
+variability of the AI workforce. The variable definitions are shown in Table A1 in
+the Appendix. The firm-specific share of AI workers is developed by Babina et al.
+(2024).
+access to broader resources and diverse expertise, may favor more stable
+and conservative workforce strategies, resulting in lower variability.
+On the other hand, variability may also reflect less favorable dy-
+namics. Smaller boards, while more agile, may occasionally engage in
+strategies that are less stable or more erratic, particularly when rapid
+decision-making is not balanced by sufficient deliberation or oversight.
+Leaner boards may face limitations in cognitive diversity, specialized
+expertise, or internal debate, which can lead to abrupt changes in stra-
+tegic direction as new information arrives or managerial preferences
+shift. In this alternative interpretation, fluctuations in AI-workforce
+composition may stem not from deliberate experimentation but from
+inconsistent prioritization, short-term tactical reactions, or internal
+disagreements that are resolved too quickly. Rather than reflecting
+adaptive learning, such variability could indicate volatility in strategic
+focus, making it harder for firms to sustain coherent long-term plans
+regarding AI integration.
+In conclusion, the results demonstrate the dual role of smaller boards
+in fostering both adaptability and variability. While larger boards may
+promote stability, smaller boards facilitate experimentation and
+responsiveness, which are critical in navigating the uncertainties of AI
+adoption. These findings contribute to a deeper understanding of how
+governance structures influence not only the outcomes but also the
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+dynamics of technological integration, reinforcing the strategic impor-
+tance of board composition in an era of rapid innovation.
+5.9. Practical managerial implications
+The practical managerial implications of this study offer valuable
+guidance for firms navigating the complexities of AI adoption and
+corporate governance. First, our findings highlight the importance of
+board size in fostering agility and strategic focus. Smaller boards enable
+quicker decision-making and more effective resource allocation, making
+them particularly advantageous for firms operating in dynamic and
+innovation-driven industries. Managers should consider optimizing
+board size to enhance responsiveness to technological advancements,
+such as the integration of AI-skilled employees, which is essential for
+maintaining competitiveness in rapidly evolving markets (Lipton and
+Lorsch, 1992; Raheja, 2005).
+Second, firms with significant R&D intensity or substantial cash re-
+serves stand to benefit from smaller boards, as these boards are better
+equipped to direct resources toward transformative investments. This
+suggests that firms should align their governance structures with their
+strategic priorities, ensuring that board configurations support innova-
+tion and long-term growth. Third, the observed variability in AI work-
+force integration under smaller boards underscores their experimental
+and adaptive nature. Managers can leverage this flexibility to foster
+iterative learning and innovation. However, they should also implement
+mechanisms to monitor and manage potential risks associated with
+workforce volatility to ensure stability in critical operations.
+Finally, while smaller boards excel in agility, firms must balance this
+with diversity and independence to enhance oversight and decision-
+making quality. Managers should ensure that streamlined boards
+retain diverse perspectives and independent oversight to maximize their
+effectiveness in fostering innovation while maintaining robust gover-
+nance structures. By tailoring board size to a firm's specific strategic and
+operational needs, managers can create governance frameworks that
+drive technological adaptation and long-term value creation.
+6. Conclusions
+The rise of artificial intelligence (AI) is transforming business oper-
+ations and competitive strategies, with the integration of an AI-skilled
+workforce becoming essential for firms aiming to maintain an edge in
+innovation and efficiency. AI enables businesses to innovate, optimize
+processes, and make better decisions, as highlighted by its role in
+improving product development, operational efficiency, and market
+positioning (Babina et al., 2024; Cockburn et al., 2018). As firms
+embrace AI technologies, the board of directors plays a pivotal role in
+guiding these efforts. Board size, as a critical aspect of corporate
+governance, has been widely studied for its impact on decision-making,
+strategic agility, and adaptability (Lipton and Lorsch, 1992; Raheja,
+2005;Eisenberg et al., 1998).
+We employ a novel measure of AI employees developed by Babina
+et al. (2024), capturing the proportion of AI-skilled workers within
+firms. This metric provides an innovative and precise method to eval-
+uate the influence of governance structures on AI workforce adoption.
+Our findings highlight the advantages of smaller boards in driving AI
+workforce integration. Firms with smaller boards experience faster
+adoption of AI-skilled employees, a result that remains robust across
+multiple checks, including propensity score matching, entropy
+balancing, and instrumental-variable analysis. These methodologies
+reinforce the robustness of our conclusions, emphasizing the benefits of
+smaller board sizes for fostering agility and strategic alignment.
+Notably, these findings align with prior research demonstrating that
+smaller boards enhance accountability, streamline decision-making, and
+improve agility, particularly in dynamic industries (Lipton and Lorsch,
+1992; Yermack, 1996). Smaller boards are more effective at minimizing
+agency costs and ensuring managerial decisions align with shareholder
+13
+P. Chatjuthamard et al.
+Table 10
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+The effect of board size on the variability of the AI workforce with propensity score matching and entropy balancing.
+PSM Entropy Balancing
+(1) (2) (3) (5)
+(S.D. of the AI
+Workforce)2010–2018
+(S.D. of the AI
+Workforce)2010–2018
+(Range of the AI
+Workforce)2010–2018
+(Range of the AI
+Workforce)2010–2018
+Ln (Board Size)2010 -0.001*** -0.001** -0.003** -0.001**
+(-2.807) (-2.385) (-2.651) (-2.385)
+% Female Directors2010 0.000** 0.000* 0.000** 0.000*
+(2.461) (1.959) (2.624) (1.959)
+-0.000*** -0.000*** -0.000*** -0.000***
+% Independent
+Directors2010
+(-4.879) (-2.731) (-5.149) (-2.731)
+Firm Size2010 0.000*** 0.000*** 0.000*** 0.000***
+(4.222) (3.167) (4.282) (3.167)
+Profitability2010 0.001 0.004** 0.002 0.004**
+(0.830) (2.372) (0.723) (2.372)
+Leverage2010 0.000 0.001 -0.000 0.001
+(0.094) (1.055) (-0.024) (1.055)
+Capital Expenditures2010 0.000 0.004 0.001 0.004
+(0.239) (1.569) (0.207) (1.569)
+R&D Intensity2010 0.009 0.027** 0.026 0.027**
+(1.657) (2.044) (1.674) (2.044)
+Advertising Spending2010 0.002 0.004 0.004 0.004
+(0.814) (1.244) (0.789) (1.244)
+Dividends2010 0.002 -0.005 0.006 -0.005
+(0.516) (-1.329) (0.554) (-1.329)
+Cash Reserves2010 0.003*** 0.004*** 0.008*** 0.004***
+(4.110) (3.929) (3.952) (3.929)
+Asset Tangibility2010 0.000 -0.000 0.000 -0.000
+(0.160) (-0.275) (0.157) (-0.275)
+Effective Tax Rate2010 -0.000** -0.000*** -0.000*** -0.000***
+(-2.760) (-4.012) (-2.911) (-4.012)
+Current Ratio2010 -0.000 0.000 -0.000 0.000
+(-1.184) (0.600) (-1.151) (0.600)
+Constant 0.002** 0.000 0.005** 0.000
+(2.645) (0.296) (2.362) (0.296)
+Industry Fixed Effects Yes Yes Yes Yes
+Observations 218 218 636 636
+Adjusted R-squared 0.599 0.443 0.614 0.443
+Robust t-statistics in parentheses
+*** p <0.01, ** p <0.05, * p <0.1
+This table presents the regression results for the effect of board size on the variability of the AI workforce with propensity score matching and entropy balancing. The
+variable definitions are shown in Table A1 in the Appendix. The firm-specific share of AI workers is developed by Babina et al. (2024).
+interests. Their ability to respond swiftly to strategic opportunities is
+critical for AI workforce adoption, reinforcing the benefits of main-
+taining smaller boards.
+The interaction analysis further underscores the effectiveness of
+smaller boards. In R&D-intensive firms, smaller boards outperform
+larger boards in integrating AI talent, as they can navigate dynamic and
+uncertain environments with greater agility and efficiency. Smaller
+boards ensure that decisions regarding resource allocation for R&D and
+AI initiatives are made quickly and cohesively, enhancing the firm's
+ability to innovate. Similarly, in firms with substantial cash reserves,
+smaller boards demonstrate superior resource utilization by effectively
+directing liquidity toward strategic investments like AI workforce
+expansion. This highlights the role of smaller boards in ensuring that
+financial resources are deployed to maximize long-term value creation.
+Interactions with board characteristics, such as gender diversity and
+independence, suggest that while these attributes enhance governance
+quality, they do not significantly alter the relationship between board
+size and AI workforce adoption. This reinforces the structural advan-
+tages of smaller boards, which inherently promote faster decision-
+making and better strategic focus.
+Moreover, to deepen our understanding of governance impacts, we
+analyze the effect of board size on the variability of AI workforce inte-
+gration. Measuring variability through the standard deviation and range
+of AI workforce shares from 2010 to 2018, we discover that smaller
+boards exhibit greater fluctuations in workforce composition. This
+finding supports the strategic agility hypothesis, which posits that
+smaller boards promote flexibility, experimentation, and adaptive
+learning in rapidly changing environments
+From a practical perspective, these findings suggest that firms
+seeking to thrive in dynamic and innovation-driven industries should
+prioritize smaller boards. Smaller boards allow for quicker decision-
+making, clearer accountability, and better alignment with strategic
+priorities, particularly in areas like AI adoption and R&D. Firms with
+significant liquidity can also benefit from smaller boards by ensuring
+that resources are allocated effectively to transformative investments.
+These insights highlight the critical role of board size in shaping a firm’s
+ability to adapt to technological changes and maintain competitiveness.
+Although our sample ends in 2018, the relationship between board
+size and AI-related workforce dynamics may change as AI has advanced
+rapidly in recent years. As AI tools become more capable and reshape a
+wider range of tasks, boards may face more frequent and consequential
+decisions about workforce adjustments. In such an environment, smaller
+boards could respond even more quickly, potentially amplifying the
+patterns we document, though faster adoption may also introduce
+greater uncertainty. These considerations help clarify the external val-
+idity of our findings and point to the value of examining post-2018 data
+in future work.
+Future research could also examine whether board-level technolog-
+ical expertise enhances the strategic-agility role of smaller boards. For
+example, boards with directors who have IT experience or greater
+14
+P. Chatjuthamard et al.
+technological orientation may be particularly effective in guiding AI-
+related workforce adjustments, but such director-level data are not
+available in our setting. More broadly, it would be valuable to explore
+whether the strategic-agility function of smaller boards extends to other
+corporate decisions beyond AI workforce adoption, such as restructuring
+or broader digital transformation. Addressing these questions would
+require similarly granular, task-level or skill-level data that are not yet
+available, but emerging datasets may allow researchers to assess
+whether board-size effects generalize across different strategic margins.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+CRediT authorship contribution statement
+Pattanaporn Chatjuthamard: Writing– review & editing, Valida-
+tion, Resources, Project administration, Conceptualization. Pornsit
+Jiraporn: Writing– original draft, Methodology, Investigation, Formal
+analysis, Conceptualization. Sang Mook Lee: Writing– review & edit-
+ing, Methodology, Investigation, Formal analysis, Conceptualization.
+Declaration of Competing Interest
+The authors have no conflict of interest.
+Appendix
+Table A1
+Variable definitions
+Variable Definition
+AI Workforce
+Share of AI Workers Percent of AI workers developed by Babina et al. (2024)
+Firm-specific Characteristics
+Firm Size Ln (Total Assets)
+Profitability EBIT/Total Assets
+Leverage Total Debt/Total Assets
+Capital Expenditures Capital Expenditures/Total Assets
+Advertising Intensity Advertising Expense/Total Assets
+R&D Investments R&D Expense/Total Assets
+Cash Reserves Cash Holdings/Total Assets
+Dividend Dividends/Total Assets
+Fixed Assets Fixed Assets/Total Assets
+Current Ratio Current Assets/Current Liabilities
+Effective Tax Rate Tax Expense/Pre-tax Income
+Board Attributes
+% of Independent Directors % of Female Directors Ln (Board Size) Percentage of independent directors on the board
+Percentage of female directors on the board
+Natural log of board size
+Data availability
+The authors do not have permission to share data.
+References
+Acemoglu, D., Restrepo, P., 2020. Robots and jobs: evidence from US labor markets.
+J. Political Econ. https://doi.org/10.1086/705716.
+Adams, R.B., Ferreira, D., 2007. A theory of friendly boards. J. Financ. 62 (1), 217–250.
+https://doi.org/10.1111/j.1540-6261.2007.01206.x.
+Adams, R.B., Ferreira, D., 2009. Women in the boardroom and their impact on
+governance and performance. J. Financ. Econ. 94 (2), 291–309. https://doi.org/
+10.1016/j.jfineco.2008.10.007.
+Adams, R.B., Funk, P., 2012. Beyond the glass ceiling: Does gender matter? Manag. Sci.
+58 (2), 219–235. https://doi.org/10.1287/mnsc.1110.1452.
+Adams, R.B., Hermalin, B.E., Weisbach, M.S., 2010. The role of boards of directors in
+corporate governance: A conceptual framework and survey. J. Econ. Lit. 48 (1),
+58–107. https://doi.org/10.1257/jel.48.1.58.
+Agrawal, A., Gans, J., Goldfarb, A., 2019. The economics of artificial intelligence: An
+agenda. University of Chicago Press. 〈https://books.google.com/books?hl=en
+&lr=&id=4GyVDwAAQBAJ&oi=fnd&pg=PR7&dq=%E2%80%A2%09Agrawal,+
+A.,+Gans,+J.,+%26+Goldfarb,+A.+(2019).+The+Economics+of+Artificial+Intell
+igence:+An+Agenda.+University+of+Chicago+Press.&ots=3U4dh7qYtv&sig=uls
+4IxZnW0Z_ZvFQh5-TCMp9JEM〉.
+Ali, M., Ayoko, O.B., 2020. The impact of board size on board demographic faultlines.
+Corp. Gov. 20 (7), 1205–1222. https://doi.org/10.1108/cg-03-2020-0100.
+Almor, T., Bazel-Shoham, O., Lee, S.M., 2022. The dual effect of board gender diversity
+on R&D investments. Long. Range Plan. 55 (2), 101884.
+Angrist, J.D., Krueger, A.B., 1991. Does compulsory school attendance affect schooling
+and earnings? Q. J. Econ. 106 (4), 979–1014. https://doi.org/10.2307/2937954.
+Armstrong, C.S., Core, J.E., Guay, W.R., 2014. Do independent directors cause
+improvements in firm transparency? J. Financ. Econ. 113 (3), 383–403. https://doi.
+org/10.1016/j.jfineco.2014.05.009.
+Babina, T., Fedyk, A., He, A., Hodson, J., 2024. Artificial intelligence, firm growth, and
+product innovation. J. Financ. Econ. 151 (103745), 103745. https://doi.org/
+10.1016/j.jfineco.2023.103745.
+Bazel-Shoham, O., Lee, S.M., Munjal, S., Shoham, A., 2024. Board gender diversity,
+feminine culture, and innovation for environmental sustainability. J. Prod. Innov.
+Manag. 41 (2), 293–322.
+Bhagat, S., Bolton, B., Lu, J., 2015. Size, leverage, and risk-taking of financial
+institutions. J. Bank. Financ. 59, 520–537. https://doi.org/10.1016/j.
+jbankfin.2015.06.018.
+Boone, A.L., Casares Field, L., Karpoff, J.M., Raheja, C.G., 2007. The determinants of
+corporate board size and composition: An empirical analysis. J. Financ. Econ. 85 (1),
+66–101. https://doi.org/10.1016/j.jfineco.2006.05.004.
+Buehlmaier, M.M.M., Whited, T.M., 2018. Are financial constraints priced? Evidence
+from textual analysis. Rev. Financ. Stud. 31 (7), 2693–2728. https://doi.org/
+10.1093/rfs/hhy007.
+Cath, C., Wachter, S., Mittelstadt, B., Taddeo, M., Floridi, L., 2018. Artificial intelligence
+and the“good society”: The US, EU, and UK approach. Sci. Eng. Ethics 24 (2),
+505–528. https://doi.org/10.1007/s11948-017-9901-7.
+Chatjuthamard, P., Jiraporn, P., 2023. Corporate culture, innovation, and board size:
+Recent evidence from machine learning and earnings conference calls. SSRN
+Electron. J. https://doi.org/10.2139/ssrn.4380553.
+Chatjuthamard, P., Ongsakul, V., Jiraporn, P., Uyar, A., 2022. Corporate governance and
+generalist CEOs: evidence from board size. Corp. Gov. 22 (1), 148–158. https://doi.
+org/10.1108/cg-02-2021-0058.
+Chatjuthamard, P., Wongboonsin, K., Ongsakul, V., Jiraporn, P., 2024. Corporate culture,
+staggered boards, and managerial entrenchment: Evidence from textual analysis. Int.
+Rev. Econ. Financ. 93, 404–418. https://doi.org/10.1016/j.iref.2024.03.040.
+Chindasombatcharoen, P., Chatjuthamard, P., Jiraporn, P., Treepongkaruna, S., 2022.
+Achieving sustainable development goals through board size and innovation.
+Sustain. Dev. 30 (4), 664–677. https://doi.org/10.1002/sd.2264.
+Chintrakarn, P., Jiraporn, P., Jiraporn, N., Davidson, T., 2017. Estimating the effect of
+corporate social responsibility on firm value using geographic identification.
+AsiaPac. J. Financ. Stud. 46 (2), 276–304. https://doi.org/10.1111/ajfs.12170.
+15
+P. Chatjuthamard et al.
+Chintrakarn, P., Jiraporn, P., Tong, S., Chatjuthamard, P., 2015. Estimating the effect of
+entrenched boards on firm value using geographic identification. Financ. Res. Lett.
+12, 109–116. https://doi.org/10.1016/j.frl.2014.11.002.
+Cockburn, I.M., Henderson, R., Stern, S., 2018. Impact Artif. Intell. Innov. 24449.
+https://doi.org/10.7208/9780226613475-006.
+Cuomo, F., Mallin, C., Zattoni, A., 2016. Corporate governance codes: A review and
+research agenda. Corp. Gov. Codes Corp. Gov. Int. Rev. 24 (3), 222–241. https://doi.
+org/10.1111/corg.12148.
+Dalton, D.R., Daily, C.M., Johnson, J.L., Ellstrand, A.E., 1999. Number of directors and
+financial performance: A meta-analysis. Acad. Manag. J. 42 (6), 674–686. https://
+doi.org/10.5465/256988.
+Di Vaio, A., Palladino, R., Hassan, R., Escobar, O., 2020. Artificial intelligence and
+business models in the sustainable development goals perspective: A systematic
+literature review. J. Bus. Res. 121, 283–314. https://doi.org/10.1016/j.
+jbusres.2020.08.019.
+Eisenberg, T., Sundgren, S., Wells, M.T., 1998. Larger board size and decreasing firm
+value in small firms. J. Financ. Econ. 〈https://www.sciencedirect.com/science/art
+icle/pii/S0304405X98000038〉.
+Eisenhardt, K.M., Zbaracki, M.J., 1992. Strategic decision making. Strateg. Manag. J. 13
+(S2), 17–37. https://doi.org/10.1002/smj.4250130904.
+Enholm, I.M., Papagiannidis, E., Mikalef, P., Krogstie, J., 2022. Artificial intelligence and
+business value: A literature review. Inf. Syst. Front. A J. Res. Innov. 24 (5),
+1709–1734. https://doi.org/10.1007/s10796-021-10186-w.
+Florackis, C., Louca, C., Michaely, R., Weber, M., 2022. Cybersecurity risk. Rev. Financ.
+Stud. 36 (1), 351–407. https://doi.org/10.1093/rfs/hhac024.
+Hainmueller, J., 2012. Entropy Balancing for Causal Effects: A Multivariate Reweighting
+Method to Produce Balanced Samples in Observational Studies. Political Analysis
+Annual Publication Methodology Section American Political Science Association 20
+(1), 25–46. https://doi.org/10.1093/pan/mpr025.
+Hainmueller, J., & Xu, Y. (2013). Ebalance: A Stata Package for Entropy Balancing. https://
+doi.org/10.2139/ssrn.1943090.
+Hambrick, D.C., Mason, P.A., 1984. Upper echelons: The organization as a reflection of
+its top managers. Acad. Manag. Rev. 9 (2), 193–206. https://doi.org/10.5465/
+amr.1984.4277628.
+Han, R., Lam, H.K.S., Zhan, Y., Wang, Y., Dwivedi, Y.K., Tan, K.H., 2021. Artificial
+intelligence in business-to-business marketing: a bibliometric analysis of current
+research status, development and future directions. Ind. Manag. +Data Syst. 121
+(12), 2467–2497. https://doi.org/10.1108/imds-05-2021-0300.
+Hermalin, B.E., Weisbach, M.S., 1988. The determinants of board composition. Rand J.
+Econ. 19 (4), 589. https://doi.org/10.2307/2555459.
+Hermalin, B., Weisbach, M.S., 2001. Boards Dir. Endog. determined Inst. A Surv. Econ.
+Lit. 〈https://www.nber.org/papers/w8161〉.
+Hillman, A.J., Dalziel, T., 2003. Boards of directors and firm performance: Integrating
+agency and resource dependence perspectives. Acad. Manag. Rev. 28 (3), 383–396.
+https://doi.org/10.5465/amr.2003.10196729.
+Jensen, M.C., 1993. The modern industrial revolution, exit, and the failure of internal
+control systems. J. Finance 48 (3), 831–880.
+Jenter, D., Schmid, T., Urban, D., 2023. Does board size matter? SSRN Electron. J. 916.
+https://doi.org/10.2139/ssrn.4371743.
+Jenwittayaroje, N., Jiraporn, P., 2019. Do independent directors improve firm value?
+Evidence from the great recession. Int. Rev. Financ. 19 (1), 207–222. https://doi.
+org/10.1111/irfi.12163.
+Jiraporn, P., Jiraporn, N., Boeprasert, A., Chang, K., 2014. Does corporate social
+responsibility (CSR) improve credit ratings? Evidence from geographic
+identification. Financ. Manag. 43 (3), 505–531. https://doi.org/10.1111/
+fima.12044.
+Johnson, J.L., Daily, C.M., Ellstrand, A.E., 1996. Boards of directors: A review and
+research agenda. J. Manag. 22 (3), 409–438. https://doi.org/10.1177/
+014920639602200303.
+Kalbuana, N., Taqi, M., Uzliawati, L., Ramdhani, D., 2022. The effect of profitability,
+board size, woman on boards, and political connection on financial distress
+conditions. Cogent Bus. Manag. 9 (1). https://doi.org/10.1080/
+23311975.2022.2142997.
+Klette, T.J., Kortum, S., 2004. Innovating firms and aggregate innovation. J. Political
+Econ. 112 (5), 986–1018. https://doi.org/10.1086/422563.
+Knyazeva, A., Knyazeva, D., Masulis, R.W., 2013. The supply of corporate directors and
+board independence. Rev. Financ. Stud. 26 (6), 1561–1605.
+Konadu, R., Ahinful, G.S., Boakye, D.J., Elbardan, H., 2022. Board gender diversity,
+environmental innovation and corporate carbon emissions. Technol. Forecast. Soc.
+Change 174 (121279), 121279. https://doi.org/10.1016/j.techfore.2021.121279.
+Lennox, C.S., Francis, J.R., Wang, Z., 2012. Selection models in accounting research.
+Account. Rev. 87 (2), 589–616. https://doi.org/10.2308/accr-10195.
+Li, F., 2010. Textual analysis of corporate disclosures: A survey of the literature.
+J. Account. Lit. 29 (1), 143–165. 〈https://www.cuhk.edu.hk/acy2/workshop
+/20110215FengLI/Paper1.pdf〉.
+Lipton, M., Lorsch, J.W., 1992. A Modest Proposal for Improved Corporate Governance.
+Bus. Lawyer 48 (1), 59–77. 〈http://www.jstor.org/stable/40687360〉.
+Loughran, T., Mcdonald, B., 2016. Textual analysis in accounting and finance: A survey.
+J. Account. Res. 54 (4), 1187–1230. https://doi.org/10.1111/1475-679x.12123.
+Journal of Behavioral and Experimental Finance 49 (2026) 101144
+Loughran, T., McDonald, B., 2020. Textual Analysis in Finance. Annu. Rev. Financ.
+https://doi.org/10.1146/annurev-financial-012820-032249.
+Loureiro, S.M.C., Guerreiro, J., Tussyadiah, I., 2021. Artificial intelligence in business:
+State of the art and future research agenda. J. Bus. Res. 129, 911–926. https://doi.
+org/10.1016/j.jbusres.2020.11.001.
+Lu, Y., Ntim, C.G., Zhang, Q., Li, P., 2022. Board of directors’ attributes and corporate
+outcomes: A systematic literature review and future research agenda. Int. Rev.
+Financ. Anal. 84 (102424), 102424. https://doi.org/10.1016/j.irfa.2022.102424.
+Masulis, R.W., Mobbs, S., 2023. Influential independent directors’ reputation incentives:
+Impacts on CEO compensation contracts and financial reporting. J. Corp. Financ. 82,
+102449. https://doi.org/10.1016/j.jcorpfin.2023.102449.
+Mihet, R., Philippon, T., 2019. The economics of big data and artificial intelligence.
+Disruptive Innovation in Business and Finance in the Digital World. Emerald
+Publishing Limited, pp. 29–43. https://doi.org/10.1108/s1569-
+376720190000020006.
+Nguyen, B.D., Nielsen, K.M., 2010. The value of independent directors: Evidence from
+sudden deaths☆. J. Financ. Econ. 98 (3), 550–567. https://doi.org/10.1016/j.
+jfineco.2010.07.004.
+Oehmichen, J., Heyden, M.L.M., Georgakakis, D., Volberda, H.W., 2017. Boards of
+directors and organizational ambidexterity in knowledge-intensive firms. Int. J.
+Hum. Resour. Manag. 28 (2), 283–306. https://doi.org/10.1080/
+09585192.2016.1244904.
+Oehmichen, J., Schrapp, S., Wolff, M., 2017. Who needs experts most? B oard industry
+expertise and strategic change—a contingency perspective: Board Industry Expertise
+and Strategic Change. Strateg. Manag. J. 38 (3), 645–656. https://doi.org/10.1002/
+smj.2513.
+Ongsakul, V., Chintrakarn, P., Jiraporn, P., 2024. Corporate culture and shareholder
+litigation rights: evidence from a quasi-natural experiment and textual analysis. Rev.
+Behav. Financ. https://doi.org/10.1108/rbf-04-2024-0123.
+Oster, E., 2019. Unobservable Selection and Coefficient Stability: Theory and Evidence.
+J. Bus. Econ. Stat. A Publ. Am. Stat. Assoc. 37 (2), 187–204. https://doi.org/
+10.1080/07350015.2016.1227711.
+Pfeffer, J., & Salancik, G.R. (1978). The external control. New York. 〈https://books.
+google.com/books?hl=en&lr=&id=zuZ3HEi4dXIC&oi=fnd&p
+g=PA233&dq=Pfeffer+%26+Salancik,+1978&ots=vGtjIm1yIN&sig=-vU5hdTdE1
+SjlRFT7GXX544Y5t8〉.
+Raheja, C.G., 2005. Determinants of board size and composition: A theory of corporate
+boards. J. Financ. Quant. Anal. 40 (2), 283–306. https://doi.org/10.1017/
+s0022109000002313.
+Rosenbaum, P.R., Rubin, D.B., 1983. The central role of the propensity score in
+observational studies for causal effects. Biometrika 70 (1), 41–55. https://doi.org/
+10.1093/biomet/70.1.41.
+Rosenstein, S., Wyatt, J.G., 1990. Outside directors, board independence, and
+shareholder wealth. J. Financ. Econ. 26 (2), 175–191. https://doi.org/10.1016/
+0304-405X(90)90002-H.
+Rouf, M.A., Hossan, M.A., 2020. The effects of board size and board composition on CSR
+disclosure: a study of banking sectors in Bangladesh. Int. J. Ethics Syst. 37 (1),
+105–121. https://doi.org/10.1108/ijoes-06-2020-0079.
+Ruiz-Real, J.L., Uribe-Toril, J., Torres, J.A., De Pablo, J., 2020. Artificial Intelligence in
+business and economics research: Trends and future. J. Bus. Econ. Manag. 22 (1),
+98–117. https://doi.org/10.3846/jbem.2020.13641.
+Sestino, A., De Mauro, A., 2022. Leveraging artificial intelligence in business:
+Implications, applications and methods. Technol. Anal. Strateg. Manag. 34 (1),
+16–29. https://doi.org/10.1080/09537325.2021.1883583.
+Sharma, R., Mehta, K., Goel, A., 2023. Non-linear relationship between board size and
+performance of Indian companies. J. Manag. Gov. 27 (4), 1277–1301. https://doi.
+org/10.1007/s10997-022-09651-8.
+Tampakoudis, I., Nerantzidis, M., Artikis, P., Kiosses, N., 2022. The effect of board size on
+shareholder value: Evidence from bank mergers and acquisitions. Eur. Manag. J. 40
+(6), 883–894. https://doi.org/10.1016/j.emj.2022.09.002.
+Terjesen, S., Sealy, R., Singh, V., 2009. Women directors on corporate boards: A review
+and research agenda. Corp. Gov. Int. Rev. 17 (3), 320–337. https://doi.org/10.1111/
+j.1467-8683.2009.00742.x.
+Treepongkaruna, S., Kyaw, K., Jiraporn, P., 2024. ESG controversies and corporate
+governance: Evidence from board size. Bus. Strategy Environ. https://doi.org/
+10.1002/bse.3697.
+Trinh, H.H. (2023). Biodiversity Risks and Corporate Investment. Available at SSRN
+4587333. 〈https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4587333〉.
+Tübbicke, S., 2022. Entropy Balancing for continuous treatments. J. Econom. Methods 11
+(1), 71–89. https://doi.org/10.1515/jem-2021-0002.
+Wongsinhirun, N., Chatjuthamard, P., Jiraporn, P., 2023. Corporate culture and board
+gender diversity: Evidence from textual analysis. Int. Rev. Financ. Anal. 86
+(102534), 102534. https://doi.org/10.1016/j.irfa.2023.102534.
+Yermack, D., 1996. Higher market valuation of companies with a small board of
+directors. J. Financ. Econ. 40 (2), 185–211. https://doi.org/10.1016/0304-405X(95)
+00844-5.
+Zahra, S.A., Pearce II., J.A., 1989. Boards of directors and corporate financial
+performance: a review and integrative model. J. Manag. 15 (2), 291–334. https://
+doi.org/10.1177/014920638901500208.
+16
